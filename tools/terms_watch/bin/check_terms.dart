@@ -72,7 +72,13 @@ Future<int> main(List<String> arguments) async {
     return 2;
   }
 
-  final cardNames = _readCardNames('$root/assets/rules.json');
+  // Names from the dataset win; sources.json fills in the cards that are
+  // monitored but not yet researched, so an alert reads "Kotak League
+  // Platinum" rather than "kotak-league-platinum".
+  final cardNames = {
+    ..._readCardNamesFromSources(sourcesFile),
+    ..._readCardNames('$root/assets/rules.json'),
+  };
   final rulesVersion = _readRulesVersion('$root/assets/rules.json');
 
   final store = SnapshotStore('$root/snapshots');
@@ -415,6 +421,18 @@ List<_Document> _readDocuments(File file) {
       knownBlocked: entry['known_blocked'] as bool? ?? false,
     );
   }).toList();
+}
+
+/// Display names for cards that are monitored but not yet in rules.json.
+Map<String, String> _readCardNamesFromSources(File file) {
+  try {
+    final decoded =
+        json.decode(file.readAsStringSync()) as Map<String, dynamic>;
+    final names = decoded['card_names'] as Map<String, dynamic>? ?? {};
+    return names.map((key, value) => MapEntry(key, value.toString()));
+  } catch (_) {
+    return {};
+  }
 }
 
 /// Card id to display name, so alerts can say "Cashback SBI Card" rather than

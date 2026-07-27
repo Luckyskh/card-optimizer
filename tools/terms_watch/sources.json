@@ -2,15 +2,15 @@
   "_readme": [
     "The list of documents the monitor re-reads. This is the file you edit.",
     "",
-    "Each entry needs a doc_id (any short unique name), the card ids from",
-    "assets/rules.json that it covers, a label for humans, and a url.",
+    "Each entry needs a doc_id (any short unique name), the card ids it covers,",
+    "a label for humans, and a url.",
     "",
     "There is deliberately no 'pdf' or 'html' field. The fetcher works out the",
     "type from the response, because some issuers serve a PDF from a URL that",
     "looks like a web page - ICICI's tnc-for-amazon-pay.page is one.",
     "",
     "Set url to null for a document you know exists but have not found a link",
-    "for yet. The monitor will report it as not_configured rather than quietly",
+    "for yet. The monitor reports it as not_configured rather than quietly",
     "watching nothing.",
     "",
     "Set known_blocked to true when the issuer refuses the document to every",
@@ -19,9 +19,67 @@
     "failing and you would stop reading it. If a blocked document ever does",
     "come back, the run says so and you can remove the flag.",
     "",
-    "Every url below was fetched for real on 2026-07-27 and the notes record",
-    "what actually happened, including the failures."
+    "Two kinds of document are listed here, and they do different jobs:",
+    "  scope 'issuer' - one MITC covering every card that bank issues. Catches",
+    "                   fee, interest and surcharge changes across the range.",
+    "  scope 'card'   - the specific card's terms. These carry the reward rates",
+    "                   and caps, so they are the ones that matter most.",
+    "",
+    "EVERY url below was fetched for real on 2026-07-27. Nothing here is",
+    "guessed. The notes record what actually happened, including the failures."
   ],
+
+  "_coverage_note": [
+    "card_ids below include cards that are not yet in assets/rules.json. That is",
+    "deliberate: monitoring a document costs nothing extra, and when you do add",
+    "a card to the dataset its change history is already there waiting.",
+    "",
+    "Until a card exists in rules.json the app cannot rank it, so a user cannot",
+    "own it, so its alerts stay invisible to them. Nothing breaks - the alert is",
+    "written and simply never matches an owned card."
+  ],
+
+  "card_names": {
+    "hdfc-infinia": "HDFC Bank Infinia",
+    "hdfc-diners-privilege": "HDFC Bank Diners Club Privilege",
+    "hdfc-moneyback-plus": "HDFC Bank MoneyBack+",
+    "hdfc-indianoil": "IndianOil HDFC Bank",
+    "hdfc-marriott": "Marriott Bonvoy HDFC Bank",
+    "sbi-simplyclick": "SimplyCLICK SBI Card",
+    "sbi-simplysave": "SimplySAVE SBI Card",
+    "sbi-bpcl-octane": "BPCL SBI Card Octane",
+    "sbi-prime": "SBI Card PRIME",
+    "sbi-elite": "SBI Card ELITE",
+    "sbi-air-india-signature": "Air India SBI Signature",
+    "icici-coral": "ICICI Bank Coral",
+    "icici-sapphiro": "ICICI Bank Sapphiro",
+    "icici-hpcl-super-saver": "HPCL ICICI Bank Super Saver",
+    "icici-makemytrip": "MakeMyTrip ICICI Bank",
+    "axis-airtel": "Airtel Axis Bank",
+    "axis-myzone": "Axis Bank MY ZONE",
+    "axis-select": "Axis Bank SELECT",
+    "axis-magnus": "Axis Bank Magnus",
+    "idfc-first-millennia": "IDFC FIRST Millennia",
+    "idfc-first-wealth": "IDFC FIRST Wealth",
+    "amex-mrcc": "American Express Membership Rewards",
+    "amex-smartearn": "American Express SmartEarn",
+    "amex-platinum-travel": "American Express Platinum Travel",
+    "amex-platinum-charge": "American Express Platinum Charge",
+    "amex-gold-charge": "American Express Gold Charge",
+    "hsbc-cashback": "HSBC Cashback",
+    "hsbc-live-plus": "HSBC Live+",
+    "hsbc-premier": "HSBC Premier",
+    "hsbc-travelone": "HSBC TravelOne",
+    "hsbc-smart-value": "HSBC Smart Value",
+    "onecard-federal": "OneCard (Federal Bank)",
+    "onecard-csb": "OneCard (CSB Bank)",
+    "onecard-sbm": "OneCard (SBM Bank)",
+    "onecard-idbi": "OneCard (IDBI Bank)",
+    "sc-ultimate": "Standard Chartered Ultimate",
+    "sc-smart": "Standard Chartered Smart",
+    "sc-easemytrip": "Standard Chartered EaseMyTrip",
+    "sc-platinum-rewards": "Standard Chartered Platinum Rewards"
+  },
 
   "documents": [
     {
@@ -30,15 +88,43 @@
       "label": "Cashback SBI Card terms booklet",
       "scope": "card",
       "url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/cashback-tnc-booklet.pdf",
-      "note": "Verified reachable. This is the document that carries the reward rates and caps."
+      "note": "Verified, 1.3 MB PDF. Carries the reward rates and caps."
     },
     {
       "doc_id": "sbi-mitc",
-      "card_ids": ["sbi-cashback"],
+      "card_ids": [
+        "sbi-cashback", "sbi-simplyclick", "sbi-simplysave",
+        "sbi-bpcl-octane", "sbi-prime", "sbi-elite",
+        "sbi-air-india-signature"
+      ],
       "label": "SBI Card Most Important Terms and Conditions",
       "scope": "issuer",
-      "url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/english-mitc.pdf",
-      "note": "Verified reachable. Covers fees, interest and surcharges rather than rewards."
+      "url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf",
+      "note": "Verified, 1.5 MB PDF. This is the copy SBI links from its own tnc.page, so it is the canonical one. A second file english-mitc.pdf also resolves but is only 380 KB and appears to be older."
+    },
+    {
+      "doc_id": "sbi-bpcl-octane-tnc",
+      "card_ids": ["sbi-bpcl-octane"],
+      "label": "BPCL SBI Card Octane terms and MITC",
+      "scope": "card",
+      "url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/bpcl-tnc-mitc-booklet-combined.pdf",
+      "note": "Verified, 3.2 MB PDF."
+    },
+    {
+      "doc_id": "sbi-simplyclick-tnc",
+      "card_ids": ["sbi-simplyclick"],
+      "label": "SimplyCLICK SBI Card terms booklet",
+      "scope": "card",
+      "url": null,
+      "note": "NEEDS URL. SBI does publish per-card booklets - cashback-tnc-booklet.pdf and the BPCL one both resolve - but the SimplyCLICK filename is not linked from tnc.page and guessing at it returned 404. High value: SimplyCLICK is one of SBI's highest-volume cards."
+    },
+    {
+      "doc_id": "sbi-simplysave-tnc",
+      "card_ids": ["sbi-simplysave"],
+      "label": "SimplySAVE SBI Card terms booklet",
+      "scope": "card",
+      "url": null,
+      "note": "NEEDS URL. Same situation as SimplyCLICK above."
     },
 
     {
@@ -47,15 +133,26 @@
       "label": "Axis Bank ACE terms and conditions",
       "scope": "card",
       "url": "https://campaign.axisbank.com/generic/axis-bank-ace-credit-card-terms-and-conditions.pdf",
-      "note": "Verified reachable. Note the www.axisbank.com copy of this file 404s; the campaign subdomain is the working one."
+      "note": "Verified. Note the www.axisbank.com copy of this file 404s; the campaign subdomain is the working one."
+    },
+    {
+      "doc_id": "axis-airtel-tnc",
+      "card_ids": ["axis-airtel"],
+      "label": "Airtel Axis Bank card terms and conditions",
+      "scope": "card",
+      "url": "https://campaign.axisbank.com/generic/airtel-axis-bank-credit-card-terms-and-conditions.pdf",
+      "note": "Verified, 450 KB PDF. This card was hit by the April 2026 Axis devaluation, so it is worth watching closely."
     },
     {
       "doc_id": "axis-mitc",
-      "card_ids": ["axis-ace", "flipkart-axis", "axis-atlas"],
+      "card_ids": [
+        "axis-ace", "flipkart-axis", "axis-atlas", "axis-airtel",
+        "axis-myzone", "axis-select", "axis-magnus"
+      ],
       "label": "Axis Bank credit cards MITC",
       "scope": "issuer",
       "url": "https://www.axisbank.com/docs/default-source/ld/soc/credit-cards/mitc-credit-cards",
-      "note": "Verified reachable. Served as a PDF from a URL with no file extension."
+      "note": "Verified. Served as a PDF from a URL with no file extension."
     },
     {
       "doc_id": "flipkart-axis-tnc",
@@ -63,7 +160,7 @@
       "label": "Flipkart Axis Bank card terms",
       "scope": "card",
       "url": null,
-      "note": "NEEDS URL. Not found during setup. Find the card-specific terms PDF on axisbank.com and paste the link here - the issuer MITC above does not carry the Flipkart and Myntra reward caps."
+      "note": "NEEDS URL. The campaign.axisbank.com pattern that works for ACE and Airtel did not resolve for Flipkart. The issuer MITC above does not carry the Flipkart and Myntra reward caps."
     },
     {
       "doc_id": "axis-atlas-tnc",
@@ -71,16 +168,19 @@
       "label": "Axis Bank Atlas terms and transfer partners",
       "scope": "card",
       "url": null,
-      "note": "NEEDS URL. The EDGE Miles transfer partner list is what changes on this card, and it lives on a page we have not located yet."
+      "note": "NEEDS URL. The EDGE Miles transfer partner list is what changes on this card, and it lives on a page we have not located."
     },
 
     {
       "doc_id": "icici-mitc",
-      "card_ids": ["amazon-pay-icici"],
+      "card_ids": [
+        "amazon-pay-icici", "icici-coral", "icici-sapphiro",
+        "icici-hpcl-super-saver", "icici-makemytrip"
+      ],
       "label": "ICICI Bank credit card MITC",
       "scope": "issuer",
       "url": "https://www.icicibank.com/managed-assets/docs/personal/cards/mitc_cc.pdf",
-      "note": "Reachable, but only through the curl fallback in fetch.dart. ICICI returns 403 to Dart's own HTTP client whatever headers it sends, and 200 to curl - the difference is the TLS handshake, not the request."
+      "note": "Reachable only through the curl fallback in fetch.dart. ICICI returns 403 to Dart's own HTTP client whatever headers it sends, and 200 to curl - the difference is the TLS handshake, not the request."
     },
     {
       "doc_id": "icici-amazon-pay-tnc",
@@ -88,54 +188,70 @@
       "label": "Amazon Pay ICICI card terms",
       "scope": "card",
       "url": "https://www.icicibank.com/terms-condition/tnc-for-amazon-pay.page",
-      "note": "Reachable via the curl fallback, as above. Despite the .page ending this returns a PDF, which is why the fetcher sniffs the content type instead of trusting the URL."
+      "note": "Reachable via the curl fallback. Despite the .page ending this returns a PDF, which is why the fetcher sniffs content type instead of trusting the URL."
+    },
+    {
+      "doc_id": "icici-coral-page",
+      "card_ids": ["icici-coral"],
+      "label": "ICICI Bank Coral card page",
+      "scope": "card",
+      "url": "https://www.icicibank.com/personal-banking/cards/credit-card/coral-credit-card",
+      "note": "Verified as HTML, 444 KB."
     },
 
     {
       "doc_id": "idfc-mitc",
-      "card_ids": ["idfc-first-select"],
+      "card_ids": [
+        "idfc-first-select", "idfc-first-millennia", "idfc-first-wealth"
+      ],
       "label": "IDFC FIRST Bank credit card MITC",
       "scope": "issuer",
       "url": "https://www.idfcfirstbank.com/content/dam/IDFCFirstBank/PDF/MITC-Document-Customer.pdf",
-      "note": "Verified reachable. Large file, around 4 MB."
+      "note": "Verified. Large file, around 4 MB."
     },
     {
       "doc_id": "idfc-card-terms",
-      "card_ids": ["idfc-first-select"],
+      "card_ids": ["idfc-first-select", "idfc-first-millennia"],
       "label": "IDFC FIRST credit card documents index",
       "scope": "issuer",
       "url": "https://idfcfirstbank.com/credit-card/terms",
-      "note": "Verified reachable, HTML. Useful because new document links appear here first."
+      "note": "Verified, HTML. Useful because new document links appear here first."
+    },
+    {
+      "doc_id": "idfc-millennia-page",
+      "card_ids": ["idfc-first-millennia"],
+      "label": "IDFC FIRST Millennia card page",
+      "scope": "card",
+      "url": "https://www.idfcfirstbank.com/content/idfcfirstbank/en/credit-card/millennia.html",
+      "note": "Verified as HTML, 1.8 MB."
     },
 
     {
       "doc_id": "hdfc-mitc",
       "card_ids": [
-        "hdfc-millennia",
-        "tata-neu-infinity-hdfc",
-        "swiggy-ornge-hdfc",
-        "swiggy-blck-hdfc",
-        "hdfc-regalia-gold"
+        "hdfc-millennia", "tata-neu-infinity-hdfc", "swiggy-ornge-hdfc",
+        "swiggy-blck-hdfc", "hdfc-regalia-gold", "hdfc-infinia",
+        "hdfc-diners-privilege", "hdfc-moneyback-plus", "hdfc-indianoil",
+        "hdfc-marriott"
       ],
       "label": "HDFC Bank MITC document index",
       "scope": "issuer",
       "url": "https://www.hdfcbank.com/personal/pay/cards/credit-cards/personal-mitc",
-      "note": "Reachable, but it is only a list of links to per-language PDFs - 23 lines with no actual terms in them. Kept because it is how we would notice HDFC republishing or restructuring its MITC. The document with the real content is hdfc-mitc-english below, which is blocked."
+      "note": "Reachable, but it is only a list of links to per-language PDFs - 23 lines with no actual terms. Kept because it is how we would notice HDFC republishing or restructuring its MITC. The document with the real content is hdfc-mitc-english below, which is blocked."
     },
     {
       "doc_id": "hdfc-mitc-english",
       "card_ids": [
-        "hdfc-millennia",
-        "tata-neu-infinity-hdfc",
-        "swiggy-ornge-hdfc",
-        "swiggy-blck-hdfc",
-        "hdfc-regalia-gold"
+        "hdfc-millennia", "tata-neu-infinity-hdfc", "swiggy-ornge-hdfc",
+        "swiggy-blck-hdfc", "hdfc-regalia-gold", "hdfc-infinia",
+        "hdfc-diners-privilege", "hdfc-moneyback-plus", "hdfc-indianoil",
+        "hdfc-marriott"
       ],
       "label": "HDFC Bank credit card MITC (English)",
       "scope": "issuer",
       "url": "https://www.hdfcbank.com/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf",
       "known_blocked": true,
-      "note": "BLOCKED. Returns 403 with an HTML error body to Dart, to curl and to PowerShell alike. This is the document that actually carries HDFC's fees and charges, so until it becomes reachable those need checking by hand. Left in the list because GitHub's runners come from different addresses and may get through."
+      "note": "BLOCKED. Returns 403 with an HTML error body to Dart, curl and PowerShell alike. This is the document that actually carries HDFC's fees and charges, so until it becomes reachable those need checking by hand. Left in the list because GitHub's runners come from different addresses and may get through."
     },
     {
       "doc_id": "hdfc-swiggy",
@@ -143,7 +259,7 @@
       "label": "Swiggy HDFC Bank card page",
       "scope": "card",
       "url": "https://www.hdfcbank.com/personal/pay/cards/credit-cards/swiggy-hdfc-bank-credit-card",
-      "note": "Verified reachable as HTML."
+      "note": "Verified as HTML. Carries the 10%/5%/1% rates and the Rs 249 minimum."
     },
     {
       "doc_id": "hdfc-tata-neu",
@@ -151,7 +267,7 @@
       "label": "Tata Neu Infinity HDFC Bank card page",
       "scope": "card",
       "url": "https://www.hdfcbank.com/personal/pay/cards/credit-cards/tata-neu-infinity-hdfc-bank-credit-card",
-      "note": "Verified reachable as HTML."
+      "note": "Verified as HTML."
     },
     {
       "doc_id": "hdfc-millennia",
@@ -160,7 +276,7 @@
       "scope": "card",
       "url": "https://www.hdfcbank.com/personal/pay/cards/credit-cards/millennia",
       "known_blocked": true,
-      "note": "BLOCKED. Consistent 403 across repeated attempts and across three different HTTP clients, even though the sibling Swiggy and Tata Neu pages on the same host return 200. Millennia's rates need checking by hand for now."
+      "note": "BLOCKED. Consistent 403 across repeated attempts and three different HTTP clients, even though the sibling Swiggy and Tata Neu pages on the same host return 200."
     },
     {
       "doc_id": "hdfc-regalia-gold",
@@ -169,7 +285,126 @@
       "scope": "card",
       "url": "https://www.hdfcbank.com/personal/pay/cards/credit-cards/regalia-gold",
       "known_blocked": true,
-      "note": "BLOCKED. Timed out on the first attempt and returned 403 on every attempt after that. Same caveat as the Millennia page above."
+      "note": "BLOCKED. Timed out on the first attempt and 403 on every attempt since."
+    },
+
+    {
+      "doc_id": "amex-cardmember-agreement",
+      "card_ids": ["amex-mrcc", "amex-smartearn"],
+      "label": "American Express credit card member agreement",
+      "scope": "issuer",
+      "url": "https://www.americanexpress.com/content/dam/amex/in/legal/mitc/Card_Member_Aggreement.pdf",
+      "note": "Verified, 210 KB PDF. Amex's own spelling of the filename."
+    },
+    {
+      "doc_id": "amex-charge-mitc",
+      "card_ids": ["amex-platinum-charge", "amex-platinum-travel"],
+      "label": "American Express charge card MITC",
+      "scope": "issuer",
+      "url": "https://www.americanexpress.com/content/dam/amex/in/legal/mitc/charge-english-mitc.pdf",
+      "note": "Verified, 272 KB PDF. Charge cards are a separate product line from the lending cards above."
+    },
+
+    {
+      "doc_id": "hsbc-mitc",
+      "card_ids": [
+        "hsbc-cashback", "hsbc-live-plus", "hsbc-premier",
+        "hsbc-travelone", "hsbc-smart-value"
+      ],
+      "label": "HSBC India credit card MITC",
+      "scope": "issuer",
+      "url": "https://www.hsbc.co.in/content/dam/hsbc/in/documents/most-important-terms-and-conditions.pdf",
+      "note": "Verified, 86 KB PDF."
+    },
+    {
+      "doc_id": "hsbc-cashback-tnc",
+      "card_ids": ["hsbc-cashback"],
+      "label": "HSBC Visa Cashback card terms",
+      "scope": "card",
+      "url": "https://www.hsbc.co.in/content/dam/hsbc/in/documents/credit-cards/visa-cashback/terms-and-condition.pdf",
+      "note": "Verified, 96 KB PDF."
+    },
+    {
+      "doc_id": "hsbc-smartvalue-mitc",
+      "card_ids": ["hsbc-smart-value"],
+      "label": "HSBC Smart Value card MITC and tariff",
+      "scope": "card",
+      "url": "https://www.hsbc.co.in/content/dam/hsbc/in/documents/mitc-tariff-for-hsbc-smart-value-cc.pdf",
+      "note": "Verified, 3.6 MB PDF."
+    },
+
+    {
+      "doc_id": "onecard-federal-mitc",
+      "card_ids": ["onecard-federal"],
+      "label": "OneCard MITC (Federal Bank issued)",
+      "scope": "card",
+      "url": "https://www.federalbank.co.in/documents/10180/58403423/OneCard+Credit+Card+Most+Important+Terms+and+Conditions+(MITC).pdf/26708306-296f-6e30-f41a-a05212bcbd2e?t=1630319988048",
+      "note": "Verified, 915 KB PDF. OneCard is not a bank - FPL Technologies runs the product and a partner bank issues the card, so there is one MITC per issuing bank rather than one for OneCard."
+    },
+    {
+      "doc_id": "onecard-csb-mitc",
+      "card_ids": ["onecard-csb"],
+      "label": "OneCard MITC (CSB Bank issued)",
+      "scope": "card",
+      "url": "https://www.csb.bank.in/pdf/CSB_Bank_OneCard_Credit_Card_MITC.pdf",
+      "note": "Verified, 679 KB PDF."
+    },
+    {
+      "doc_id": "onecard-csb-tnc",
+      "card_ids": ["onecard-csb"],
+      "label": "OneCard terms and conditions (CSB Bank)",
+      "scope": "card",
+      "url": "https://www.csb.bank.in/pdf/CC-T&C21122022.pdf",
+      "note": "Verified, 516 KB PDF."
+    },
+    {
+      "doc_id": "onecard-sbm-mitc",
+      "card_ids": ["onecard-sbm"],
+      "label": "OneCard MITC (SBM Bank issued)",
+      "scope": "card",
+      "url": "https://www.sbm.bank.in/pdf/notice-board/SBM-one-card-MITC.pdf",
+      "note": "Verified, 1.0 MB PDF."
+    },
+    {
+      "doc_id": "onecard-idbi-mitc",
+      "card_ids": ["onecard-idbi"],
+      "label": "OneCard MITC (IDBI Bank issued)",
+      "scope": "card",
+      "url": "https://assets.getonecard.app/assets/legal/English_MITC_IDBI_1740546529194.pdf",
+      "note": "Verified, 1.3 MB PDF. Served from OneCard's own asset host rather than the bank's, so this one may be versioned by filename - if it starts 404ing, look for a new timestamp suffix."
+    },
+
+    {
+      "doc_id": "sc-credit-cards-help",
+      "card_ids": [
+        "sc-ultimate", "sc-smart", "sc-easemytrip", "sc-platinum-rewards"
+      ],
+      "label": "Standard Chartered India credit card help pages",
+      "scope": "issuer",
+      "url": "https://www.sc.com/in/help/credit-cards/",
+      "note": "Verified as HTML, 331 KB. Weak substitute: Standard Chartered does not publish a single MITC PDF that we could find, so this page is the best available signal that something changed."
+    },
+    {
+      "doc_id": "sc-download-centre",
+      "card_ids": [
+        "sc-ultimate", "sc-smart", "sc-easemytrip", "sc-platinum-rewards"
+      ],
+      "label": "Standard Chartered India form and document centre",
+      "scope": "issuer",
+      "url": "https://www.sc.com/in/help/download-centre/",
+      "note": "Verified as HTML, 336 KB. Watched because a new terms document would be linked from here first."
+    },
+
+    {
+      "doc_id": "amex-in-cards-index",
+      "card_ids": [
+        "amex-mrcc", "amex-smartearn", "amex-platinum-travel",
+        "amex-platinum-charge", "amex-gold-charge"
+      ],
+      "label": "American Express India card range",
+      "scope": "issuer",
+      "url": "https://www.americanexpress.com/in/credit-cards/",
+      "note": "Watched so a new card or a withdrawn one shows up. Amex India is a small range, and the MITC PDFs above carry the actual terms."
     }
   ]
 }
