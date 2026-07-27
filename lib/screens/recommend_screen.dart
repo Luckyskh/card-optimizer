@@ -12,6 +12,7 @@ import '../data/user_cards_store.dart';
 import '../engine/recommendation.dart';
 import '../engine/recommendation_engine.dart';
 import '../models/rules.dart';
+import '../widgets/card_art.dart';
 
 class RecommendScreen extends StatefulWidget {
   final RulesRepository rulesRepository;
@@ -190,11 +191,19 @@ class _ResultTile extends StatelessWidget {
     final theme = Theme.of(context);
 
     return ExpansionTile(
-      leading: isBest
-          ? Icon(Icons.emoji_events, color: theme.colorScheme.primary)
-          : const SizedBox(width: 24),
+      leading: CardArt(
+        card: result.card,
+        width: 56,
+        highlighted: isBest,
+      ),
       title: Row(
         children: [
+          if (isBest)
+            Padding(
+              padding: const EdgeInsets.only(right: 4),
+              child: Icon(Icons.emoji_events,
+                  size: 18, color: theme.colorScheme.primary),
+            ),
           Expanded(child: Text(result.card.displayName)),
           if (hasAlert)
             Padding(

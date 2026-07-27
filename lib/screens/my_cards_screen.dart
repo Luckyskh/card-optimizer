@@ -10,6 +10,7 @@ import '../data/rules_repository.dart';
 import '../data/user_cards_store.dart';
 import '../models/card.dart';
 import '../models/rules.dart';
+import '../widgets/card_art.dart';
 
 class MyCardsScreen extends StatefulWidget {
   final RulesRepository rulesRepository;
@@ -134,6 +135,10 @@ class _CardTile extends StatelessWidget {
         CheckboxListTile(
           value: selected,
           onChanged: (value) => onToggle(value ?? false),
+          // The checkbox moves to the trailing edge so the card picture can
+          // lead the row, which makes a long list far easier to scan.
+          controlAffinity: ListTileControlAffinity.trailing,
+          secondary: CardArt(card: card, width: 56),
           title: Text(card.displayName),
           subtitle: Text(
             '$fee • ${card.rewardType}'

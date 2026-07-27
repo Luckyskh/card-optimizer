@@ -49,6 +49,20 @@ Start with [lib/engine/recommendation_engine.dart](lib/engine/recommendation_eng
 It reads top to bottom and every awkward rule has a comment saying which real
 card it exists for.
 
+### The card pictures
+
+Each card gets a small drawn mock — see
+[lib/widgets/card_art.dart](lib/widgets/card_art.dart). Co-branded cards take
+their partner's colours, because that is how people recognise them: the Swiggy
+card is orange and the Swiggy BLCK is black, not two identical HDFC blues.
+
+They are drawn rather than downloaded, for three reasons. The issuers' terms
+PDFs contain no card artwork at all — they are legal documents, and the only
+images inside them are alpha-mask blobs a millimetre across. Real artwork from
+a bank's website is their trademarked brand asset. And five of the eleven cards
+are HDFC ones whose pages refuse automated requests anyway, so half the list
+would have had no picture.
+
 ### One thing worth understanding
 
 Never compare cards by their advertised multiplier. "10X rewards" on a card
