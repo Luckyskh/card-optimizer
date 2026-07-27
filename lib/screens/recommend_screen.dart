@@ -46,6 +46,13 @@ class _RecommendScreenState extends State<RecommendScreen> {
   Map<String, double> _cycleSpends = {};
   String _category = 'food_delivery';
 
+  /// The merchant id, or null for "anywhere in this category".
+  ///
+  /// Naming a merchant can change the answer a lot: Axis ACE pays 4% at
+  /// Swiggy, Zomato and Ola but only its base 1.5% at any other food delivery
+  /// app, and the engine cannot apply that row unless it knows where you are.
+  String? _merchant;
+
   @override
   void initState() {
     super.initState();
@@ -91,6 +98,7 @@ class _RecommendScreenState extends State<RecommendScreen> {
       SpendRequest(
         category: _category,
         amountInr: _amount,
+        merchant: _merchant,
         amazonPrimeMember: _isPrime,
         usage: {
           for (final entry in _cycleSpends.entries)
@@ -137,7 +145,13 @@ class _RecommendScreenState extends State<RecommendScreen> {
                       ),
                   ],
                   onChanged: (value) {
-                    if (value != null) setState(() => _category = value);
+                    if (value == null) return;
+                    setState(() {
+                      _category = value;
+                      // The old merchant belongs to the old category, so it
+                      // would silently stop matching anything.
+                      _merchant = null;
+                    });
                   },
                 ),
               ),
@@ -158,6 +172,11 @@ class _RecommendScreenState extends State<RecommendScreen> {
             ],
           ),
         ),
+        _MerchantPicker(
+          merchants: rules.merchantsIn(_category),
+          selected: _merchant,
+          onChanged: (value) => setState(() => _merchant = value),
+        ),
         const Divider(height: 1),
         Expanded(
           child: ListView.separated(
@@ -171,6 +190,55 @@ class _RecommendScreenState extends State<RecommendScreen> {
           ),
         ),
       ],
+    );
+  }
+}
+
+/// A row of merchant chips for the chosen category.
+///
+/// Shown as chips rather than another dropdown because picking the shop is the
+/// thing people actually do at a till, and it should be one tap.
+class _MerchantPicker extends StatelessWidget {
+  final List<Merchant> merchants;
+  final String? selected;
+  final ValueChanged<String?> onChanged;
+
+  const _MerchantPicker({
+    required this.merchants,
+    required this.selected,
+    required this.onChanged,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    if (merchants.isEmpty) return const SizedBox.shrink();
+
+    return SizedBox(
+      height: 48,
+      child: ListView(
+        scrollDirection: Axis.horizontal,
+        padding: const EdgeInsets.symmetric(horizontal: 16),
+        children: [
+          Padding(
+            padding: const EdgeInsets.only(right: 8),
+            child: ChoiceChip(
+              label: const Text('Anywhere'),
+              selected: selected == null,
+              onSelected: (_) => onChanged(null),
+            ),
+          ),
+          for (final merchant in merchants)
+            Padding(
+              padding: const EdgeInsets.only(right: 8),
+              child: ChoiceChip(
+                label: Text(merchant.name),
+                selected: selected == merchant.id,
+                onSelected: (isSelected) =>
+                    onChanged(isSelected ? merchant.id : null),
+              ),
+            ),
+        ],
+      ),
     );
   }
 }

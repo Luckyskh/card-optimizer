@@ -272,14 +272,21 @@ class RecommendationEngine {
     final categoryMatches = row.category == category;
     final isCatchAll = row.category == 'other';
 
-    if (!categoryMatches && !isCatchAll) return -1;
-
     if (row.merchants.isNotEmpty) {
       // A row limited to named merchants only applies when we know the
       // merchant and it is on the list.
       if (merchant == null || !row.merchants.contains(merchant)) return -1;
-      return categoryMatches ? 3 : 1.5;
+
+      // Deliberately checked before the category gate below. When a row names
+      // merchants, that list is the binding condition and the row's category
+      // label is often just where the issuer filed it. HDFC Millennia's "10
+      // partner merchants" row is tagged other_ecommerce but includes Swiggy,
+      // Uber and BookMyShow; gating on category would mean a Swiggy order
+      // never saw the 5%.
+      return categoryMatches ? 3 : 2.5;
     }
+
+    if (!categoryMatches && !isCatchAll) return -1;
 
     return categoryMatches ? 2 : 1;
   }

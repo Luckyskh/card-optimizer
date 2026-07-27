@@ -25,13 +25,36 @@ class Rules {
 
   final List<CardRule> cards;
 
+  /// Where you can spend, e.g. Swiggy, IRCTC, BookMyShow.
+  ///
+  /// Naming the merchant matters: several accelerated rates only apply at
+  /// specific places, and the engine cannot use those rate rows unless it is
+  /// told where the money is going.
+  final List<Merchant> merchants;
+
   const Rules({
     required this.version,
     this.generatedOn,
     this.notes,
     required this.categories,
     required this.cards,
+    this.merchants = const [],
   });
+
+  /// The merchants that fall under a category, alphabetically.
+  List<Merchant> merchantsIn(String category) {
+    final matching =
+        merchants.where((m) => m.category == category).toList();
+    matching.sort((a, b) => a.name.toLowerCase().compareTo(b.name.toLowerCase()));
+    return matching;
+  }
+
+  Merchant? merchantById(String id) {
+    for (final merchant in merchants) {
+      if (merchant.id == id) return merchant;
+    }
+    return null;
+  }
 
   CardRule? cardById(String id) {
     for (final card in cards) {
@@ -57,8 +80,38 @@ class Rules {
       cards: (json['cards'] as List<dynamic>? ?? [])
           .map((e) => CardRule.fromJson(e as Map<String, dynamic>))
           .toList(),
+      merchants: (json['merchants'] as List<dynamic>? ?? [])
+          .whereType<Map<String, dynamic>>()
+          .map(Merchant.fromJson)
+          .toList(),
     );
   }
+}
+
+/// A place you can spend money.
+class Merchant {
+  /// Lowercase, and matched against the `merchants` lists inside a card's
+  /// `category_rates`. Renaming one silently disconnects it from any rate row
+  /// that names it, so ids are treated as fixed.
+  final String id;
+
+  /// What the user sees, e.g. "Domino's".
+  final String name;
+
+  /// The spending category this merchant's purchases fall under.
+  final String category;
+
+  const Merchant({
+    required this.id,
+    required this.name,
+    required this.category,
+  });
+
+  factory Merchant.fromJson(Map<String, dynamic> json) => Merchant(
+        id: (json['id'] as String? ?? '').toLowerCase(),
+        name: json['name'] as String? ?? '',
+        category: json['category'] as String? ?? 'other',
+      );
 }
 
 /// Turns a category id like `food_delivery` into "Food delivery" for display.

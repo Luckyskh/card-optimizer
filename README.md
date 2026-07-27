@@ -49,6 +49,29 @@ Start with [lib/engine/recommendation_engine.dart](lib/engine/recommendation_eng
 It reads top to bottom and every awkward rule has a comment saying which real
 card it exists for.
 
+### Merchants
+
+`rules.json` also carries a merchant directory — around 100 places across
+shopping, food delivery, quick commerce, groceries, dining, travel, cabs,
+movies and streaming, recharges, utilities, fuel, insurance, education, rent,
+wallets and UPI. Pick the category, then tap the shop.
+
+This is not decoration. Several accelerated rates only apply at named
+merchants: Axis ACE pays 4% at Swiggy, Zomato and Ola but its base 1.5%
+anywhere else in food delivery. Until the app could tell the engine *where* you
+were spending, those rows could never fire.
+
+Two things to know if you add merchants:
+
+- The `id` is matched against the `merchants` lists inside `category_rates`, so
+  it must stay lowercase and must not be renamed casually. Rename one and it
+  silently stops matching the rate row that names it — which is why
+  `engine_test.dart` has a test that every merchant named in a rate row exists
+  in the directory. That test is what caught `sony liv` being filed as
+  `sonyliv`.
+- Adding a merchant never changes what a card pays. It only lets the engine see
+  a rate row that was already in the dataset.
+
 ### The card pictures
 
 Each card gets a small drawn mock — see

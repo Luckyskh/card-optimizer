@@ -277,6 +277,119 @@ void main() {
   });
 
   // -------------------------------------------------------------------------
+  // -------------------------------------------------------------------------
+  group('merchants change the answer', () {
+    test('naming Swiggy unlocks Axis ACE\'s 4% food delivery rate', () {
+      // ACE's 4% row is limited to Swiggy, Zomato and Ola. Without a merchant
+      // the engine cannot apply it and has to fall back to the base rate.
+      final anywhere = engine.evaluate(
+        card('axis-ace'),
+        const SpendRequest(category: 'food_delivery', amountInr: 1000),
+      );
+      final atSwiggy = engine.evaluate(
+        card('axis-ace'),
+        const SpendRequest(
+          category: 'food_delivery',
+          amountInr: 1000,
+          merchant: 'swiggy',
+        ),
+      );
+
+      expect(anywhere.rupees, 15); // base 1.5%
+      expect(atSwiggy.rupees, 40); // 4%
+    });
+
+    test('a merchant not on the list still gets the base rate', () {
+      final atEatSure = engine.evaluate(
+        card('axis-ace'),
+        const SpendRequest(
+          category: 'food_delivery',
+          amountInr: 1000,
+          merchant: 'eatsure',
+        ),
+      );
+
+      expect(atEatSure.rupees, 15,
+          reason: 'EatSure is not in ACE\'s merchant list, so no 4%');
+    });
+
+    test('naming Cleartrip unlocks Flipkart Axis 5% on travel', () {
+      final atCleartrip = engine.evaluate(
+        card('flipkart-axis'),
+        const SpendRequest(
+          category: 'travel_flights_hotels',
+          amountInr: 10000,
+          merchant: 'cleartrip',
+        ),
+      );
+
+      expect(atCleartrip.rupees, 500); // 5%
+    });
+
+    test('a partner-merchant row applies outside its own category label', () {
+      // HDFC Millennia files its "10 partner merchants" row under
+      // other_ecommerce, but the list includes Swiggy, Uber and BookMyShow.
+      // Matching on the row's category label would mean a Swiggy order never
+      // saw the 5%, which is the opposite of what the card actually does.
+      final atSwiggy = engine.evaluate(
+        card('hdfc-millennia'),
+        const SpendRequest(
+          category: 'food_delivery',
+          amountInr: 1000,
+          merchant: 'swiggy',
+        ),
+      );
+
+      expect(round2(atSwiggy.rupees), 50); // 5% partner rate
+
+      final atEatSure = engine.evaluate(
+        card('hdfc-millennia'),
+        const SpendRequest(
+          category: 'food_delivery',
+          amountInr: 1000,
+          merchant: 'eatsure',
+        ),
+      );
+
+      expect(atEatSure.rupees, lessThan(50),
+          reason: 'EatSure is not a Millennia partner');
+    });
+
+    test('every merchant maps to a category the dataset knows', () {
+      for (final merchant in rules.merchants) {
+        expect(rules.categories, contains(merchant.category),
+            reason: '${merchant.id} points at unknown category '
+                '"${merchant.category}"');
+      }
+    });
+
+    test('merchant ids are lowercase and unique', () {
+      final ids = <String>{};
+      for (final merchant in rules.merchants) {
+        expect(merchant.id, merchant.id.toLowerCase(),
+            reason: '${merchant.id} must be lowercase to match rate rows');
+        expect(ids.add(merchant.id), isTrue,
+            reason: 'duplicate merchant id ${merchant.id}');
+      }
+    });
+
+    test('every merchant named in a rate row exists in the directory', () {
+      // Catches the silent failure where a rate row points at a merchant the
+      // user can never actually pick, so the rate can never fire.
+      final known = rules.merchants.map((m) => m.id).toSet();
+      for (final c in rules.cards) {
+        for (final row in c.categoryRates) {
+          for (final named in row.merchants) {
+            expect(known, contains(named),
+                reason: '${c.id} names merchant "$named" in a rate row, but '
+                    'it is not in the merchants directory, so a user cannot '
+                    'select it and the rate can never apply');
+          }
+        }
+      }
+    });
+  });
+
   group('exclusions and honesty about gaps', () {
     test('an excluded category earns nothing and says so', () {
       final result = engine.evaluate(
