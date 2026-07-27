@@ -19,11 +19,20 @@
     "failing and you would stop reading it. If a blocked document ever does",
     "come back, the run says so and you can remove the flag.",
     "",
-    "Two kinds of document are listed here, and they do different jobs:",
-    "  scope 'issuer' - one MITC covering every card that bank issues. Catches",
-    "                   fee, interest and surcharge changes across the range.",
-    "  scope 'card'   - the specific card's terms. These carry the reward rates",
-    "                   and caps, so they are the ones that matter most.",
+    "Three kinds of document are listed here, and they do different jobs:",
+    "  scope 'notices' - the issuer's own announcements page, where it is",
+    "                    required to publish changes before they take effect.",
+    "                    Best signal there is for a devaluation: it is about",
+    "                    change by definition, it names the affected card, and",
+    "                    it usually carries the effective date. Watch these",
+    "                    first.",
+    "  scope 'card'    - the specific card's terms. Carries the reward rates",
+    "                    and caps, so it shows what the rate became.",
+    "  scope 'issuer'  - one MITC covering every card that bank issues. Catches",
+    "                    fee, interest and surcharge changes, but NOT reward",
+    "                    rates - an MITC is an RBI fee disclosure and simply",
+    "                    does not contain per-card earn rates. A card covered",
+    "                    only by an MITC is not protected against devaluation.",
     "",
     "EVERY url below was fetched for real on 2026-07-27. Nothing here is",
     "guessed. The notes record what actually happened, including the failures."
@@ -59,6 +68,7 @@
     "axis-myzone": "Axis Bank MY ZONE",
     "axis-select": "Axis Bank SELECT",
     "axis-magnus": "Axis Bank Magnus",
+    "axis-magnus-burgundy": "Axis Bank MAGNUS for Burgundy",
     "idfc-first-millennia": "IDFC FIRST Millennia",
     "idfc-first-wealth": "IDFC FIRST Wealth",
     "amex-mrcc": "American Express Membership Rewards",
@@ -82,6 +92,30 @@
   },
 
   "documents": [
+    {
+      "doc_id": "sbi-customer-notices",
+      "card_ids": [
+        "sbi-cashback", "sbi-simplyclick", "sbi-simplysave",
+        "sbi-bpcl-octane", "sbi-prime", "sbi-elite",
+        "sbi-air-india-signature"
+      ],
+      "label": "SBI Card customer notices",
+      "scope": "notices",
+      "url": "https://www.sbicard.com/en/customer-notices.page",
+      "note": "Verified as HTML, 180 KB. The single most useful SBI document. At the time of adding it was announcing, with effective dates, that the Reward Points Programme on two cards would be revised, that statement-credit redemption would be capped at 60,000 points a month, and that redemption would only be possible in multiples of 4,000 points. None of that appears in the MITC."
+    },
+    {
+      "doc_id": "sbi-revised-charges",
+      "card_ids": [
+        "sbi-cashback", "sbi-simplyclick", "sbi-simplysave",
+        "sbi-bpcl-octane", "sbi-prime", "sbi-elite",
+        "sbi-air-india-signature"
+      ],
+      "label": "SBI Card revision of charges",
+      "scope": "notices",
+      "url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/revised-charges.pdf",
+      "note": "Verified, 2.0 MB PDF."
+    },
     {
       "doc_id": "sbi-cashback-tnc",
       "card_ids": ["sbi-cashback"],
@@ -127,6 +161,25 @@
       "note": "NEEDS URL. Same situation as SimplyCLICK above."
     },
 
+    {
+      "doc_id": "axis-announcements",
+      "card_ids": [
+        "axis-ace", "flipkart-axis", "axis-atlas", "axis-airtel",
+        "axis-myzone", "axis-select", "axis-magnus", "axis-magnus-burgundy"
+      ],
+      "label": "Axis Bank credit card important announcements",
+      "scope": "notices",
+      "url": "https://www.axisbank.com/retail/cards/credit-card/useful-links/terms-and-conditions/important-announcements",
+      "note": "Verified as HTML, 735 KB. Names individual cards when their terms change - at the time of adding it carried the Flipkart Axis exclusion of utility, insurance and education payments from cashback, and the milestone-spend exclusion of rent and wallet transactions. This is the page that would have caught the April 2026 Axis devaluation."
+    },
+    {
+      "doc_id": "axis-magnus-burgundy-tnc",
+      "card_ids": ["axis-magnus-burgundy"],
+      "label": "Axis Bank MAGNUS for Burgundy terms and conditions",
+      "scope": "card",
+      "url": "https://www.axisbank.com/docs/default-source/default-document-library/credit-cards/magnus-for-burgundy-terms-and-conditions.pdf",
+      "note": "Verified, 597 KB PDF. Titled 'Revision of ... Terms & Conditions', so the document itself is the change record. Magnus for Burgundy is invite-only for Axis Burgundy clients and was hit by the same 2 April 2026 devaluation as Atlas, though it kept a better 5:4 point-to-mile ratio."
+    },
     {
       "doc_id": "axis-ace-tnc",
       "card_ids": ["axis-ace"],
@@ -199,6 +252,16 @@
       "note": "Verified as HTML, 444 KB."
     },
 
+    {
+      "doc_id": "idfc-notice-board",
+      "card_ids": [
+        "idfc-first-select", "idfc-first-millennia", "idfc-first-wealth"
+      ],
+      "label": "IDFC FIRST Bank notice board",
+      "scope": "notices",
+      "url": "https://www.idfcfirstbank.com/notice-board",
+      "note": "Verified as HTML, 1.8 MB. Where IDFC posts changes before they take effect."
+    },
     {
       "doc_id": "idfc-mitc",
       "card_ids": [

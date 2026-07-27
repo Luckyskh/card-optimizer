@@ -120,6 +120,40 @@ Last updated on Aug 16th, 2026
           reason: 'a support number is not a devaluation');
     });
 
+    test('a notice-page announcement is material', () {
+      // The exact shape of an SBI customer notice. Nothing here mentions a
+      // rupee amount, so the numeric test does not catch it - the wording has
+      // to.
+      final result = diffLines(
+        [],
+        ['Effective 1 Jul 2026, the Reward Points Programme on PhonePe SBI '
+            'Credit Card PURPLE will be revised.'],
+      );
+
+      expect(result.material, hasLength(1));
+    });
+
+    test('an improvement is flagged, not just a cut', () {
+      // A raised cap means the app is now understating what the card pays,
+      // which is worth telling someone about.
+      //
+      // These two lines are reported separately rather than as one edit:
+      // "capped at" to "cap enhanced to" rewrites too much of the sentence to
+      // pair confidently. That is the intended trade-off - showing both lines
+      // is honest, whereas pairing loosely enough to catch this would start
+      // pairing genuinely unrelated sentences.
+      final result = diffLines(
+        ['Monthly cashback capped at Rs 500.'],
+        ['Monthly cashback cap enhanced to Rs 1,000.'],
+      );
+
+      expect(result.material, hasLength(2));
+      expect(
+        result.material.any((e) => '${e.before}${e.after}'.contains('1,000')),
+        isTrue,
+      );
+    });
+
     test('an identical document produces no changes at all', () {
       final lines = ['Annual fee Rs 999.', 'Base rate 1%.'];
       expect(diffLines(lines, lines).hasChanges, isFalse);

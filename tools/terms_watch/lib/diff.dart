@@ -54,32 +54,62 @@ class DiffResult {
 }
 
 /// Words that make a changed line worth someone's attention.
+///
+/// Three groups. What is earned, what limits it, and the language issuers use
+/// when they announce that either is moving. The third group matters most on a
+/// notices page, where the whole document is written in it.
+///
+/// Deliberately catches improvements as well as cuts. An issuer adding a
+/// category or raising a cap is worth knowing about too - the app's bundled
+/// rate would be understating what the card now pays.
 const _rewardWords = [
+  // What you earn
   'cashback',
   'cash back',
   'reward',
   'point',
   'neucoin',
   'mile',
+  'voucher',
+  'discount',
+  'lounge',
+  'milestone',
+  'benefit',
+
+  // What limits it
   'cap',
   'capped',
   'ceiling',
-  'milestone',
-  'waiver',
+  'exclu', // exclusion, excluded, excluding
+  'minimum',
+  'threshold',
+  'eligib',
+  'accelerated',
+
+  // What it costs
+  'fee',
+  'charge',
   'surcharge',
   'markup',
   'mark-up',
-  'lounge',
-  'exclu', // catches exclusion, excluded, excluding
-  'fee',
-  'charge',
   'interest',
   'annual',
-  'accelerated',
-  'minimum',
-  'threshold',
-  'voucher',
-  'discount',
+
+  // How issuers announce a change - the vocabulary of a notices page
+  'revis', // revise, revised, revision
+  'effective from',
+  'w.e.f',
+  'with effect',
+  'discontinu',
+  'withdraw',
+  'no longer',
+  'will not be eligible',
+  'introduc',
+  'enhanc', // enhanced, enhancement - improvements count too
+  'increase',
+  'reduced',
+  'change in',
+  'update to',
 ];
 
 /// Compares two versions of a document.

@@ -1,5 +1,5 @@
 {
-  "generated_on": "2026-07-27T08:42:19.664861Z",
+  "generated_on": "2026-07-27T10:10:47.059073Z",
   "rules_version": 1,
   "note": "Each alert means an issuer document changed. It does not state a new reward rate - check the linked document before relying on it.",
   "alerts": []
