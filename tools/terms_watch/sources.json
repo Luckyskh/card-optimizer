@@ -75,6 +75,8 @@
     "axis-select": "Axis Bank SELECT",
     "axis-magnus": "Axis Bank Magnus",
     "axis-magnus-burgundy": "Axis Bank MAGNUS for Burgundy",
+    "axis-miles-and-more": "Axis Bank Miles & More",
+    "icici-platinum-chip": "ICICI Bank Platinum Chip",
     "idfc-first-millennia": "IDFC FIRST Millennia",
     "idfc-first-wealth": "IDFC FIRST Wealth",
     "amex-mrcc": "American Express Membership Rewards",
@@ -171,12 +173,21 @@
       "doc_id": "axis-announcements",
       "card_ids": [
         "axis-ace", "flipkart-axis", "axis-atlas", "axis-airtel",
-        "axis-myzone", "axis-select", "axis-magnus", "axis-magnus-burgundy"
+        "axis-myzone", "axis-select", "axis-magnus", "axis-magnus-burgundy",
+        "axis-miles-and-more"
       ],
       "label": "Axis Bank credit card important announcements",
       "scope": "notices",
       "url": "https://www.axisbank.com/retail/cards/credit-card/useful-links/terms-and-conditions/important-announcements",
       "note": "Verified as HTML, 735 KB. Names individual cards when their terms change - at the time of adding it carried the Flipkart Axis exclusion of utility, insurance and education payments from cashback, and the milestone-spend exclusion of rent and wallet transactions. This is the page that would have caught the April 2026 Axis devaluation."
+    },
+    {
+      "doc_id": "axis-miles-and-more-page",
+      "card_ids": ["axis-miles-and-more"],
+      "label": "Axis Bank Miles & More card page",
+      "scope": "card",
+      "url": "https://www.axisbank.com/retail/cards/credit-card/miles-and-more-credit-card",
+      "note": "Verified as HTML, 705 KB. Co-branded with Lufthansa's Miles & More programme, so the award-mile earn rate and any transfer-ratio change would show up here."
     },
     {
       "doc_id": "axis-magnus-burgundy-tnc",
@@ -206,7 +217,7 @@
       "doc_id": "axis-mitc",
       "card_ids": [
         "axis-ace", "flipkart-axis", "axis-atlas", "axis-airtel",
-        "axis-myzone", "axis-select", "axis-magnus"
+        "axis-myzone", "axis-select", "axis-magnus", "axis-miles-and-more"
       ],
       "label": "Axis Bank credit cards MITC",
       "scope": "issuer",
@@ -234,7 +245,8 @@
       "doc_id": "icici-mitc",
       "card_ids": [
         "amazon-pay-icici", "icici-coral", "icici-sapphiro",
-        "icici-hpcl-super-saver", "icici-makemytrip"
+        "icici-hpcl-super-saver", "icici-makemytrip", "icici-platinum-chip",
+        "icici-emeralde", "icici-emeralde-private"
       ],
       "label": "ICICI Bank credit card MITC",
       "scope": "issuer",
@@ -258,6 +270,14 @@
       "note": "Verified as HTML, 444 KB."
     },
 
+    {
+      "doc_id": "icici-platinum-chip-page",
+      "card_ids": ["icici-platinum-chip"],
+      "label": "ICICI Platinum Chip card page",
+      "scope": "card",
+      "url": "https://www.icicibank.com/personal-banking/cards/credit-card/platinum-chip-credit-card",
+      "note": "Verified as HTML, 437 KB. This is the product page for the standard Platinum. Note that /platinum-credit-card also returns 200 but is a card-comparison listing rather than this card's own page, so it is not watched."
+    },
     {
       "doc_id": "icici-emeralde-private-page",
       "card_ids": ["icici-emeralde-private"],
