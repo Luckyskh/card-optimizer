@@ -1,0 +1,175 @@
+{
+  "_readme": [
+    "The list of documents the monitor re-reads. This is the file you edit.",
+    "",
+    "Each entry needs a doc_id (any short unique name), the card ids from",
+    "assets/rules.json that it covers, a label for humans, and a url.",
+    "",
+    "There is deliberately no 'pdf' or 'html' field. The fetcher works out the",
+    "type from the response, because some issuers serve a PDF from a URL that",
+    "looks like a web page - ICICI's tnc-for-amazon-pay.page is one.",
+    "",
+    "Set url to null for a document you know exists but have not found a link",
+    "for yet. The monitor will report it as not_configured rather than quietly",
+    "watching nothing.",
+    "",
+    "Set known_blocked to true when the issuer refuses the document to every",
+    "automated client. The monitor still tries it each run, but a failure will",
+    "not mark the scheduled job red - otherwise the job would be permanently",
+    "failing and you would stop reading it. If a blocked document ever does",
+    "come back, the run says so and you can remove the flag.",
+    "",
+    "Every url below was fetched for real on 2026-07-27 and the notes record",
+    "what actually happened, including the failures."
+  ],
+
+  "documents": [
+    {
+      "doc_id": "sbi-cashback-tnc",
+      "card_ids": ["sbi-cashback"],
+      "label": "Cashback SBI Card terms booklet",
+      "scope": "card",
+      "url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/cashback-tnc-booklet.pdf",
+      "note": "Verified reachable. This is the document that carries the reward rates and caps."
+    },
+    {
+      "doc_id": "sbi-mitc",
+      "card_ids": ["sbi-cashback"],
+      "label": "SBI Card Most Important Terms and Conditions",
+      "scope": "issuer",
+      "url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/english-mitc.pdf",
+      "note": "Verified reachable. Covers fees, interest and surcharges rather than rewards."
+    },
+
+    {
+      "doc_id": "axis-ace-tnc",
+      "card_ids": ["axis-ace"],
+      "label": "Axis Bank ACE terms and conditions",
+      "scope": "card",
+      "url": "https://campaign.axisbank.com/generic/axis-bank-ace-credit-card-terms-and-conditions.pdf",
+      "note": "Verified reachable. Note the www.axisbank.com copy of this file 404s; the campaign subdomain is the working one."
+    },
+    {
+      "doc_id": "axis-mitc",
+      "card_ids": ["axis-ace", "flipkart-axis", "axis-atlas"],
+      "label": "Axis Bank credit cards MITC",
+      "scope": "issuer",
+      "url": "https://www.axisbank.com/docs/default-source/ld/soc/credit-cards/mitc-credit-cards",
+      "note": "Verified reachable. Served as a PDF from a URL with no file extension."
+    },
+    {
+      "doc_id": "flipkart-axis-tnc",
+      "card_ids": ["flipkart-axis"],
+      "label": "Flipkart Axis Bank card terms",
+      "scope": "card",
+      "url": null,
+      "note": "NEEDS URL. Not found during setup. Find the card-specific terms PDF on axisbank.com and paste the link here - the issuer MITC above does not carry the Flipkart and Myntra reward caps."
+    },
+    {
+      "doc_id": "axis-atlas-tnc",
+      "card_ids": ["axis-atlas"],
+      "label": "Axis Bank Atlas terms and transfer partners",
+      "scope": "card",
+      "url": null,
+      "note": "NEEDS URL. The EDGE Miles transfer partner list is what changes on this card, and it lives on a page we have not located yet."
+    },
+
+    {
+      "doc_id": "icici-mitc",
+      "card_ids": ["amazon-pay-icici"],
+      "label": "ICICI Bank credit card MITC",
+      "scope": "issuer",
+      "url": "https://www.icicibank.com/managed-assets/docs/personal/cards/mitc_cc.pdf",
+      "note": "Reachable, but only through the curl fallback in fetch.dart. ICICI returns 403 to Dart's own HTTP client whatever headers it sends, and 200 to curl - the difference is the TLS handshake, not the request."
+    },
+    {
+      "doc_id": "icici-amazon-pay-tnc",
+      "card_ids": ["amazon-pay-icici"],
+      "label": "Amazon Pay ICICI card terms",
+      "scope": "card",
+      "url": "https://www.icicibank.com/terms-condition/tnc-for-amazon-pay.page",
+      "note": "Reachable via the curl fallback, as above. Despite the .page ending this returns a PDF, which is why the fetcher sniffs the content type instead of trusting the URL."
+    },
+
+    {
+      "doc_id": "idfc-mitc",
+      "card_ids": ["idfc-first-select"],
+      "label": "IDFC FIRST Bank credit card MITC",
+      "scope": "issuer",
+      "url": "https://www.idfcfirstbank.com/content/dam/IDFCFirstBank/PDF/MITC-Document-Customer.pdf",
+      "note": "Verified reachable. Large file, around 4 MB."
+    },
+    {
+      "doc_id": "idfc-card-terms",
+      "card_ids": ["idfc-first-select"],
+      "label": "IDFC FIRST credit card documents index",
+      "scope": "issuer",
+      "url": "https://idfcfirstbank.com/credit-card/terms",
+      "note": "Verified reachable, HTML. Useful because new document links appear here first."
+    },
+
+    {
+      "doc_id": "hdfc-mitc",
+      "card_ids": [
+        "hdfc-millennia",
+        "tata-neu-infinity-hdfc",
+        "swiggy-ornge-hdfc",
+        "swiggy-blck-hdfc",
+        "hdfc-regalia-gold"
+      ],
+      "label": "HDFC Bank MITC document index",
+      "scope": "issuer",
+      "url": "https://www.hdfcbank.com/personal/pay/cards/credit-cards/personal-mitc",
+      "note": "Reachable, but it is only a list of links to per-language PDFs - 23 lines with no actual terms in them. Kept because it is how we would notice HDFC republishing or restructuring its MITC. The document with the real content is hdfc-mitc-english below, which is blocked."
+    },
+    {
+      "doc_id": "hdfc-mitc-english",
+      "card_ids": [
+        "hdfc-millennia",
+        "tata-neu-infinity-hdfc",
+        "swiggy-ornge-hdfc",
+        "swiggy-blck-hdfc",
+        "hdfc-regalia-gold"
+      ],
+      "label": "HDFC Bank credit card MITC (English)",
+      "scope": "issuer",
+      "url": "https://www.hdfcbank.com/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf",
+      "known_blocked": true,
+      "note": "BLOCKED. Returns 403 with an HTML error body to Dart, to curl and to PowerShell alike. This is the document that actually carries HDFC's fees and charges, so until it becomes reachable those need checking by hand. Left in the list because GitHub's runners come from different addresses and may get through."
+    },
+    {
+      "doc_id": "hdfc-swiggy",
+      "card_ids": ["swiggy-ornge-hdfc", "swiggy-blck-hdfc"],
+      "label": "Swiggy HDFC Bank card page",
+      "scope": "card",
+      "url": "https://www.hdfcbank.com/personal/pay/cards/credit-cards/swiggy-hdfc-bank-credit-card",
+      "note": "Verified reachable as HTML."
+    },
+    {
+      "doc_id": "hdfc-tata-neu",
+      "card_ids": ["tata-neu-infinity-hdfc"],
+      "label": "Tata Neu Infinity HDFC Bank card page",
+      "scope": "card",
+      "url": "https://www.hdfcbank.com/personal/pay/cards/credit-cards/tata-neu-infinity-hdfc-bank-credit-card",
+      "note": "Verified reachable as HTML."
+    },
+    {
+      "doc_id": "hdfc-millennia",
+      "card_ids": ["hdfc-millennia"],
+      "label": "HDFC Millennia card page",
+      "scope": "card",
+      "url": "https://www.hdfcbank.com/personal/pay/cards/credit-cards/millennia",
+      "known_blocked": true,
+      "note": "BLOCKED. Consistent 403 across repeated attempts and across three different HTTP clients, even though the sibling Swiggy and Tata Neu pages on the same host return 200. Millennia's rates need checking by hand for now."
+    },
+    {
+      "doc_id": "hdfc-regalia-gold",
+      "card_ids": ["hdfc-regalia-gold"],
+      "label": "HDFC Regalia Gold card page",
+      "scope": "card",
+      "url": "https://www.hdfcbank.com/personal/pay/cards/credit-cards/regalia-gold",
+      "known_blocked": true,
+      "note": "BLOCKED. Timed out on the first attempt and returned 403 on every attempt after that. Same caveat as the Millennia page above."
+    }
+  ]
+}

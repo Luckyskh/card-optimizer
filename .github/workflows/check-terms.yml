@@ -1,0 +1,91 @@
+# Re-reads the issuers' terms documents and publishes any changes.
+#
+# What happens when this runs:
+#   1. downloads each document listed in tools/terms_watch/sources.json
+#   2. compares its text with the copy stored in snapshots/
+#   3. writes alerts.json if anything moved
+#   4. commits the result back to this repository
+#
+# The app downloads alerts.json on launch and shows a banner. There is no
+# server anywhere in this design - GitHub does the work, and a plain file
+# serves as the delivery mechanism.
+
+name: Check card terms
+
+on:
+  schedule:
+    # GitHub cron has no "every 15 days", so this runs on the 1st and the 16th
+    # at 03:00 UTC, which is as close as the format allows.
+    - cron: '0 3 1,16 * *'
+
+  # Lets you run it yourself from the Actions tab without waiting a fortnight.
+  workflow_dispatch:
+
+# Needed so the job can commit the updated snapshots back to the repository.
+permissions:
+  contents: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v4
+
+      - name: Install Dart
+        uses: dart-lang/setup-dart@v1
+
+      # pdftotext reads the text out of PDF documents. It is part of poppler,
+      # and this is the only system package the monitor needs.
+      - name: Install pdftotext
+        run: sudo apt-get update && sudo apt-get install -y poppler-utils
+
+      - name: Install Dart packages
+        working-directory: tools/terms_watch
+        run: dart pub get
+
+      - name: Run the monitor's own tests first
+        working-directory: tools/terms_watch
+        run: dart test
+
+      # continue-on-error because the script exits non-zero when a document has
+      # failed three runs in a row. We still want to commit whatever it did
+      # manage to check, and then fail the job at the end so you get an email.
+      - name: Check the documents
+        id: check
+        continue-on-error: true
+        run: dart run tools/terms_watch/bin/check_terms.dart --root .
+
+      - name: Commit any changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add snapshots alerts.json
+
+          if git diff --staged --quiet; then
+            echo "Nothing changed - no commit needed."
+          else
+            git commit -m "Terms check: update snapshots and alerts"
+            git push
+          fi
+
+      # Surfaces the run's output on the summary page so you can read what
+      # changed without digging through the logs.
+      - name: Report
+        run: |
+          if [ -f alerts.json ]; then
+            count=$(grep -c '"card_id"' alerts.json || true)
+            echo "### Terms check" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "$count alert entries currently in alerts.json." >> $GITHUB_STEP_SUMMARY
+          fi
+
+      - name: Fail if a document has gone stale
+        if: steps.check.outcome == 'failure'
+        run: |
+          echo "One or more documents have failed three runs in a row."
+          echo "The app is no longer being told about changes to them."
+          echo "See the 'Check the documents' step above for which ones."
+          exit 1

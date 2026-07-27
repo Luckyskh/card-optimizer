@@ -1,0 +1,647 @@
+{
+  "version": 1,
+  "generated_on": "2026-07-26",
+  "notes": "Starter dataset. Every rate/cap below should be re-verified against the issuer MITC before shipping. Fields marked _verify are from secondary sources only.",
+
+  "categories": [
+    "amazon", "flipkart", "myntra", "other_ecommerce",
+    "food_delivery", "dining", "groceries", "quick_commerce",
+    "utilities", "mobile_dth_recharge", "fuel", "rent",
+    "travel_flights_hotels", "cabs", "entertainment",
+    "insurance", "education", "government_tax", "wallet_load",
+    "international", "upi", "other"
+  ],
+
+  "cards": [
+    {
+      "id": "sbi-cashback",
+      "bank": "SBI Card",
+      "name": "Cashback SBI Card",
+      "network": ["visa", "mastercard", "rupay"],
+      "annual_fee": 999,
+      "fee_waiver_annual_spend": 200000,
+      "reward_type": "cashback",
+      "point_value_inr": 1.0,
+      "base_rate_pct": 1.0,
+      "category_rates": [
+        {
+          "category": "other_ecommerce",
+          "label": "All online spends",
+          "rate_pct": 5.0,
+          "monthly_cap_inr": 2000,
+          "note": "Cap cut from a shared 5000 to a dedicated 2000 on 1 Apr 2026"
+        },
+        {
+          "category": "other",
+          "label": "All offline spends",
+          "rate_pct": 1.0,
+          "monthly_cap_inr": 2000
+        },
+        {
+          "category": "insurance",
+          "rate_pct": 1.0,
+          "note": "MCC 6300 is classified as a utility, so it earns the 1% rate, not 5%"
+        }
+      ],
+      "total_monthly_cap_inr": 4000,
+      "exclusions": [
+        "rent", "fuel", "utilities", "wallet_load",
+        "government_tax", "tolls", "digital_gaming"
+      ],
+      "exclusion_mccs": [7993, 7994, 5816],
+      "redemption": {
+        "method": "auto statement credit",
+        "fee_inr": 0,
+        "min_threshold": 0
+      },
+      "milestones": [],
+      "last_changed": "2026-04-01",
+      "change_summary": "Total cap reduced 5000 to 4000 and split into online/offline buckets of 2000 each. Gaming, tolls and government transactions added to exclusions.",
+      "last_verified": "2026-07-26"
+    },
+
+    {
+      "id": "hdfc-millennia",
+      "bank": "HDFC Bank",
+      "name": "Millennia",
+      "network": ["visa", "mastercard"],
+      "annual_fee": 1000,
+      "fee_waiver_annual_spend": 100000,
+      "reward_type": "points",
+      "point_currency": "CashPoints",
+      "point_value_inr": 1.0,
+      "point_value_inr_alt": {
+        "smartbuy_travel": 0.30
+      },
+      "base_rate_pct": 1.0,
+      "category_rates": [
+        {
+          "category": "other_ecommerce",
+          "label": "10 partner merchants",
+          "merchants": [
+            "amazon", "flipkart", "myntra", "tata cliq", "swiggy",
+            "zomato", "uber", "bookmyshow", "sony liv", "cult.fit"
+          ],
+          "rate_pct": 5.0,
+          "monthly_cap_points": 1000,
+          "note": "Non-EMI only. Gift card, prepaid load and voucher purchases excluded."
+        },
+        {
+          "category": "other",
+          "rate_pct": 1.0,
+          "monthly_cap_points": 1000
+        }
+      ],
+      "total_monthly_cap_inr": 2000,
+      "exclusions": [
+        "fuel", "rent", "government_tax", "cash_advance",
+        "emi", "wallet_load"
+      ],
+      "redemption": {
+        "method": "statement credit",
+        "ratio": "1 CashPoint = Rs 1",
+        "min_points": 500,
+        "fee_inr": 50,
+        "monthly_statement_credit_cap_points": 3000,
+        "smartbuy_travel_monthly_cap_points": 50000,
+        "expiry_months": 24
+      },
+      "milestones": [
+        {
+          "quarterly_spend": 100000,
+          "benefit": "Rs 1000 gift voucher OR 1 domestic lounge voucher"
+        }
+      ],
+      "last_changed": "2026-05-15",
+      "change_summary": "Not hit by the May 2026 HDFC base-rate cut (that applied to Regalia/Regalia Gold/Diners Privilege/MoneyBack/Freedom). Caps and exclusions have tightened incrementally.",
+      "last_verified": "2026-07-26"
+    },
+
+    {
+      "id": "axis-ace",
+      "bank": "Axis Bank",
+      "name": "ACE",
+      "network": ["visa"],
+      "annual_fee": 499,
+      "fee_waiver_annual_spend": 200000,
+      "reward_type": "cashback",
+      "point_value_inr": 1.0,
+      "base_rate_pct": 1.5,
+      "category_rates": [
+        {
+          "category": "utilities",
+          "label": "Utility bills, DTH and mobile recharge via Google Pay",
+          "rate_pct": 5.0,
+          "shared_cap_group": "accelerated",
+          "note": "Android only. Payment must be routed through Google Pay."
+        },
+        {
+          "category": "mobile_dth_recharge",
+          "rate_pct": 5.0,
+          "shared_cap_group": "accelerated",
+          "note": "Via Google Pay only"
+        },
+        {
+          "category": "food_delivery",
+          "merchants": ["swiggy", "zomato"],
+          "rate_pct": 4.0,
+          "shared_cap_group": "accelerated"
+        },
+        {
+          "category": "cabs",
+          "merchants": ["ola"],
+          "rate_pct": 4.0,
+          "shared_cap_group": "accelerated"
+        },
+        {
+          "category": "other",
+          "rate_pct": 1.5,
+          "monthly_cap_inr": null
+        }
+      ],
+      "shared_caps": [
+        {
+          "group": "accelerated",
+          "monthly_cap_inr": 500,
+          "note": "The 5% and 4% categories share ONE Rs 500 monthly ceiling. Base 1.5% is uncapped."
+        }
+      ],
+      "exclusions": [
+        "fuel", "emi", "rent", "wallet_load", "cash_advance",
+        "jewellery", "insurance", "education", "government_tax"
+      ],
+      "redemption": {
+        "method": "auto statement credit",
+        "fee_inr": 0
+      },
+      "benefits": [
+        {
+          "type": "lounge",
+          "detail": "4 domestic visits per year, requires Rs 50,000 spend in previous 3 months"
+        }
+      ],
+      "last_changed": "2023-06-15",
+      "change_summary": "Unaffected by the April 2026 Axis devaluation, which hit the Airtel Axis card and the TravelEdge transfer programme. Do not confuse ACE with Airtel Axis.",
+      "last_verified": "2026-07-26"
+    },
+
+    {
+      "id": "amazon-pay-icici",
+      "bank": "ICICI Bank",
+      "name": "Amazon Pay ICICI",
+      "network": ["visa"],
+      "annual_fee": 0,
+      "lifetime_free": true,
+      "reward_type": "cashback",
+      "point_currency": "Amazon Pay balance",
+      "point_value_inr": 1.0,
+      "base_rate_pct": 1.0,
+      "conditional_tier": {
+        "condition": "amazon_prime_member",
+        "note": "Amazon rate is 5% for Prime members, 3% for non-Prime. App must ask the user."
+      },
+      "category_rates": [
+        {
+          "category": "amazon",
+          "rate_pct_prime": 5.0,
+          "rate_pct_non_prime": 3.0,
+          "monthly_cap_inr": null,
+          "note": "Uncapped. Also applies to travel bookings made via Amazon Pay."
+        },
+        {
+          "category": "other",
+          "label": "Amazon Pay partner merchants (100+)",
+          "rate_pct": 2.0,
+          "monthly_cap_inr": null
+        },
+        {
+          "category": "other",
+          "rate_pct": 1.0,
+          "monthly_cap_inr": null
+        }
+      ],
+      "exclusions": ["fuel", "international", "emi", "rent", "wallet_load_above_5000"],
+      "fees_and_surcharges": [
+        {
+          "trigger": "wallet_load >= 5000",
+          "fee_pct": 1.0,
+          "effective_from": "2026-01-15",
+          "note": "Loads below Rs 5,000 still earn 1% and attract no fee"
+        },
+        {
+          "trigger": "skill_based_gaming",
+          "fee_pct": 2.0,
+          "effective_from": "2026-01-15"
+        },
+        {
+          "trigger": "transport MCC spends above 50000",
+          "fee_pct": 1.0,
+          "mccs": [4111, 4112, 4784, 4131]
+        }
+      ],
+      "forex_markup_pct": 1.99,
+      "redemption": {
+        "method": "Amazon Pay balance, auto-credited",
+        "fee_inr": 0
+      },
+      "last_changed": "2026-01-15",
+      "change_summary": "Forex markup cut 3.5% to 1.99% on 11 Oct 2025. Wallet-load and gaming fees added 15 Jan 2026. Co-brand partnership renewed for 7 years.",
+      "last_verified": "2026-07-26"
+    },
+
+    {
+      "id": "flipkart-axis",
+      "bank": "Axis Bank",
+      "name": "Flipkart Axis Bank",
+      "network": ["visa"],
+      "annual_fee": 500,
+      "fee_waiver_annual_spend": 350000,
+      "reward_type": "cashback",
+      "point_value_inr": 1.0,
+      "base_rate_pct": 1.0,
+      "category_rates": [
+        {
+          "category": "myntra",
+          "rate_pct": 7.5,
+          "quarterly_cap_inr": 4000,
+          "note": "Own cap, separate from Flipkart"
+        },
+        {
+          "category": "flipkart",
+          "rate_pct": 5.0,
+          "quarterly_cap_inr": 4000
+        },
+        {
+          "category": "travel_flights_hotels",
+          "merchants": ["cleartrip"],
+          "rate_pct": 5.0,
+          "quarterly_cap_inr": 4000
+        },
+        {
+          "category": "other",
+          "label": "Preferred partners",
+          "merchants": ["swiggy", "uber", "pvr", "cult.fit"],
+          "rate_pct": 4.0,
+          "quarterly_cap_inr": null
+        },
+        {
+          "category": "other",
+          "rate_pct": 1.0
+        }
+      ],
+      "exclusions": ["fuel", "gift_cards", "gold", "jewellery"],
+      "fees_and_surcharges": [
+        { "trigger": "utilities above 25000 per cycle", "fee_pct": 1.0 },
+        { "trigger": "online gaming above 10000 per cycle", "fee_pct": 1.0 }
+      ],
+      "benefits": [
+        {
+          "type": "fuel_surcharge_waiver",
+          "detail": "1% on transactions Rs 400-4,000, capped Rs 400 per cycle"
+        }
+      ],
+      "removed_benefits": [
+        { "benefit": "domestic lounge access", "removed_on": "2025-06-20" }
+      ],
+      "last_changed": "2025-06-20",
+      "change_summary": "Myntra upgraded to 7.5%. Flipkart and Cleartrip 5% became capped at Rs 4,000/quarter each (previously uncapped). Lounge access removed entirely.",
+      "last_verified": "2026-07-26"
+    },
+
+    {
+      "id": "tata-neu-infinity-hdfc",
+      "bank": "HDFC Bank",
+      "name": "Tata Neu Infinity",
+      "network": ["visa", "rupay"],
+      "annual_fee": 1499,
+      "fee_waiver_annual_spend": 300000,
+      "reward_type": "points",
+      "point_currency": "NeuCoins",
+      "point_value_inr": 1.0,
+      "base_rate_pct": 1.5,
+      "category_rates": [
+        {
+          "category": "other_ecommerce",
+          "label": "Tata Neu app and partner Tata brands, non-EMI",
+          "rate_pct": 5.0,
+          "note": "Additional 5% on select Tata Neu purchases takes headline value to 10%. From 1 May 2026 this ONLY applies when the Tata Neu card itself makes the payment."
+        },
+        {
+          "category": "groceries",
+          "rate_pct": 5.0,
+          "monthly_cap_points": 2000
+        },
+        {
+          "category": "upi",
+          "rate_pct": 1.5,
+          "monthly_cap_points": 500,
+          "note": "RuPay variant only. Cap approx Rs 33,000 of UPI spend."
+        },
+        {
+          "category": "other",
+          "rate_pct": 1.5
+        }
+      ],
+      "exclusions": ["fuel", "rent", "emi", "wallet_load"],
+      "redemption": {
+        "method": "Tata Neu app and partner brands",
+        "ratio": "1 NeuCoin = Rs 1",
+        "expiry": "1 year from last transaction"
+      },
+      "benefits": [
+        {
+          "type": "lounge",
+          "detail": "Voucher-based, requires Rs 50,000 spend in prior quarter"
+        },
+        {
+          "type": "fuel_surcharge_waiver",
+          "detail": "Capped Rs 500 per month on Infinity variant"
+        }
+      ],
+      "last_changed": "2026-05-01",
+      "change_summary": "The routing loophole closed: paying via Tata Neu app with a rival card no longer earns 5%. Fuel waiver capped, lounge gated behind quarterly spend, convenience fees added on mobile recharges.",
+      "last_verified": "2026-07-26"
+    },
+
+    {
+      "id": "swiggy-ornge-hdfc",
+      "bank": "HDFC Bank",
+      "name": "Swiggy ORNGE",
+      "network": ["mastercard"],
+      "annual_fee": 500,
+      "fee_waiver_annual_spend": 150000,
+      "reward_type": "cashback",
+      "point_value_inr": 1.0,
+      "base_rate_pct": 1.0,
+      "category_rates": [
+        {
+          "category": "food_delivery",
+          "label": "Swiggy app: Food, Instamart, Dineout",
+          "rate_pct": 5.0,
+          "shared_cap_group": "accelerated",
+          "min_transaction_inr": 249
+        },
+        {
+          "category": "other_ecommerce",
+          "label": "Select online categories",
+          "merchant_categories": [
+            "apparel", "pharmacies", "pet stores", "personal care",
+            "electronics", "entertainment", "travel", "discount stores", "local cabs"
+          ],
+          "rate_pct": 5.0,
+          "shared_cap_group": "accelerated",
+          "min_transaction_inr": 249
+        },
+        {
+          "category": "other",
+          "rate_pct": 1.0,
+          "monthly_cap_inr": 1000,
+          "min_transaction_inr": 100
+        }
+      ],
+      "shared_caps": [
+        { "group": "accelerated", "monthly_cap_inr": 1500 }
+      ],
+      "exclusions": ["fuel", "rent", "emi", "wallet_load", "jewellery", "government_tax"],
+      "benefits": [
+        { "type": "membership", "detail": "12-month Swiggy One" }
+      ],
+      "last_changed": "2026-03-01",
+      "change_summary": "New variant replacing the original Swiggy HDFC card. Headline Swiggy rate is 5% (the 10% moved to BLCK). Rs 249 minimum transaction introduced for the accelerated rate.",
+      "last_verified": "2026-07-26"
+    },
+
+    {
+      "id": "swiggy-blck-hdfc",
+      "bank": "HDFC Bank",
+      "name": "Swiggy BLCK",
+      "network": ["mastercard"],
+      "annual_fee": 1000,
+      "fee_waiver_annual_spend": null,
+      "_verify": ["fee_waiver_annual_spend"],
+      "reward_type": "cashback",
+      "point_value_inr": 1.0,
+      "base_rate_pct": 1.0,
+      "category_rates": [
+        {
+          "category": "food_delivery",
+          "label": "Swiggy app: Food, Instamart, Dineout",
+          "rate_pct": 10.0,
+          "monthly_cap_inr": 1500,
+          "min_transaction_inr": 249
+        },
+        {
+          "category": "other_ecommerce",
+          "label": "Select online categories",
+          "rate_pct": 5.0,
+          "monthly_cap_inr": 1500,
+          "min_transaction_inr": 100
+        },
+        {
+          "category": "other",
+          "rate_pct": 1.0,
+          "monthly_cap_inr": 1000,
+          "min_transaction_inr": 100
+        }
+      ],
+      "exclusions": ["fuel", "rent", "emi", "wallet_load", "jewellery", "government_tax"],
+      "benefits": [
+        { "type": "membership", "detail": "3-month Swiggy BLCK" },
+        { "type": "golf", "detail": "Worldwide golf access, 12 complimentary lessons per year" }
+      ],
+      "max_annual_cashback_inr": 48000,
+      "last_changed": "2026-03-01",
+      "change_summary": "Premium tier introduced when HDFC split the Swiggy card into ORNGE and BLCK.",
+      "last_verified": "2026-07-26"
+    },
+
+    {
+      "id": "hdfc-regalia-gold",
+      "bank": "HDFC Bank",
+      "name": "Regalia Gold",
+      "network": ["visa", "mastercard"],
+      "annual_fee": 2500,
+      "fee_waiver_annual_spend": 400000,
+      "_verify": ["annual_fee", "fee_waiver_annual_spend", "accelerated_merchant_list"],
+      "reward_type": "points",
+      "point_currency": "Reward Points",
+      "point_value_inr": 0.65,
+      "point_value_note": "Approx Rs 0.65 per point via SmartBuy flights/hotels; lower for catalogue redemption",
+      "base_earn": {
+        "points": 5,
+        "per_spend_inr": 200,
+        "effective_pct": 1.625,
+        "effective_from": "2026-05-15",
+        "previous": "4 points per Rs 150 (1.73%)"
+      },
+      "category_rates": [
+        {
+          "category": "other_ecommerce",
+          "label": "SmartBuy accelerated",
+          "multiplier": "up to 10X",
+          "note": "Brand vouchers via GyFTR/Woohoo now sub-capped at 3,000 accelerated RP per month from 1 Jul 2026"
+        },
+        {
+          "category": "utilities",
+          "monthly_cap_points": 2000
+        },
+        {
+          "category": "insurance",
+          "monthly_cap_points": 10000
+        }
+      ],
+      "exclusions": ["fuel", "rent", "wallet_load", "emi", "government_tax"],
+      "benefits": [
+        {
+          "type": "lounge",
+          "detail": "From 1 Jul 2026 requires Rs 60,000 spend in previous quarter",
+          "effective_from": "2026-07-01"
+        },
+        {
+          "type": "boarding_edge",
+          "detail": "New programme: upload boarding pass on SmartBuy, pick 2 benefits per quarter"
+        }
+      ],
+      "last_changed": "2026-07-01",
+      "change_summary": "Base rate cut 15 May 2026 from 4 pts/Rs150 to 5 pts/Rs200. Lounge access became spend-conditional 1 Jul 2026. SmartBuy brand-voucher earnings sub-capped at 3,000 RP/month from 1 Jul 2026.",
+      "last_verified": "2026-07-26"
+    },
+
+    {
+      "id": "idfc-first-select",
+      "bank": "IDFC FIRST Bank",
+      "name": "FIRST Select",
+      "network": ["visa", "rupay"],
+      "annual_fee": 0,
+      "lifetime_free": true,
+      "reward_type": "points",
+      "point_currency": "Reward Points",
+      "point_value_inr": 0.25,
+      "earn_base_spend_inr": 200,
+      "earn_base_note": "Revised from Rs 150 to Rs 200 per point on 18 Jan 2026",
+      "category_rates": [
+        {
+          "category": "other",
+          "label": "Spends up to Rs 20,000 per statement cycle",
+          "multiplier": "3X",
+          "points_per_200": 3,
+          "effective_pct": 0.375
+        },
+        {
+          "category": "other",
+          "label": "Incremental spends above Rs 20,000 per cycle",
+          "multiplier": "10X",
+          "points_per_200": 10,
+          "effective_pct": 1.25
+        },
+        {
+          "category": "dining",
+          "multiplier": "10X",
+          "points_per_200": 10,
+          "effective_pct": 1.25
+        },
+        {
+          "category": "travel_flights_hotels",
+          "multiplier": "10X",
+          "points_per_200": 10,
+          "effective_pct": 1.25
+        },
+        {
+          "category": "international",
+          "multiplier": "10X",
+          "points_per_200": 10,
+          "effective_pct": 1.25,
+          "_verify": ["Premium IDFC cards dropped to 5X default in Jan 2026 - confirm whether Select is affected"]
+        },
+        {
+          "category": "utilities",
+          "multiplier": "1X",
+          "points_per_200": 1,
+          "effective_pct": 0.125
+        },
+        {
+          "category": "insurance",
+          "multiplier": "1X",
+          "points_per_200": 1
+        }
+      ],
+      "exclusions": ["fuel", "emi", "cash_advance"],
+      "conditions": [
+        {
+          "rule": "No reward points for a billing cycle if minimum amount due is not paid by the due date. Already-posted points are reversed.",
+          "effective_from": "2026-01-18"
+        }
+      ],
+      "redemption": {
+        "method": "online purchases, vouchers, catalogue",
+        "ratio": "1 RP = Rs 0.25",
+        "fee_inr": 99,
+        "expiry_months": 24
+      },
+      "benefits": [
+        {
+          "type": "lounge",
+          "detail": "1 domestic visit per quarter from Apr 2026 (down from 2), requires Rs 20,000 spend in previous month"
+        },
+        {
+          "type": "lounge_railway",
+          "detail": "4 railway lounge visits per quarter"
+        },
+        {
+          "type": "movie",
+          "detail": "BOGO on District app up to Rs 125, twice monthly. From 18 Jun 2026 requires Rs 20,000 spend in previous month."
+        }
+      ],
+      "forex_markup_pct": 1.99,
+      "last_changed": "2026-06-18",
+      "change_summary": "Earn base moved from Rs 150 to Rs 200 (a ~25% cut) on 18 Jan 2026. Lounge and movie benefits became spend-gated. Missing the minimum due now forfeits the cycle's points.",
+      "last_verified": "2026-07-26"
+    },
+
+    {
+      "id": "axis-atlas",
+      "bank": "Axis Bank",
+      "name": "Atlas",
+      "network": ["visa"],
+      "annual_fee": 5000,
+      "open_to_new_applicants": false,
+      "open_to_new_applicants_note": "Axis quietly stopped accepting new applications in early 2026. Existing cards continue to work.",
+      "reward_type": "miles",
+      "point_currency": "EDGE Miles",
+      "point_value_inr": 1.0,
+      "point_value_note": "Roughly Rs 1-2 per mile depending on transfer partner. The Accor exit removed the Rs 2/mile floor.",
+      "category_rates": [
+        {
+          "category": "travel_flights_hotels",
+          "miles_per_100": 5,
+          "note": "Direct airline/hotel bookings and Axis Travel EDGE only, not travel agents"
+        },
+        {
+          "category": "other",
+          "miles_per_100": 2
+        }
+      ],
+      "exclusions": ["government_tax", "fuel", "rent", "wallet_load"],
+      "capped_categories": ["insurance", "utilities"],
+      "transfer_partners": {
+        "group_a": {
+          "annual_cap_miles": 30000,
+          "ratio": "1:2",
+          "partners": ["Singapore KrisFlyer", "Japan Airlines", "Turkish Miles&Smiles", "Aeroplan"]
+        },
+        "group_b": {
+          "annual_cap_miles": 120000,
+          "ratio": "1:2",
+          "partners": ["Air India Maharaja Club", "ITC Hotels", "Flying Blue", "IHG One Rewards"]
+        },
+        "removed": ["Accor Live Limitless", "Marriott Bonvoy", "Qatar Airways"],
+        "removed_on": "2026-04-02"
+      },
+      "welcome_benefit": "2,500 EDGE Miles",
+      "tiers": ["Silver", "Gold", "Platinum"],
+      "last_changed": "2026-04-02",
+      "change_summary": "Accor, Marriott and Qatar removed from TravelEdge with no notice. British Airways, Finnair and Vietnam Airlines added at unfavourable 2:1 ratios. Earn rates themselves unchanged.",
+      "last_verified": "2026-07-26"
+    }
+  ]
+}

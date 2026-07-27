@@ -1,0 +1,25 @@
+{
+  "documents": {
+    "hdfc-mitc": {
+      "sha256": "f8172052e5b82a37a8f5e5d1389a56f52b22e3832a102bc00e1a4495d19b1734",
+      "last_checked_utc": "2026-07-27T05:25:44.865098Z",
+      "consecutive_failures": 0
+    },
+    "hdfc-swiggy": {
+      "sha256": "176853ce9681ce6d282c92e001938556057033e6b39d2fd0ac2adf896a998001",
+      "last_checked_utc": "2026-07-27T05:29:13.057506Z",
+      "last_changed_utc": "2026-07-27T05:28:49.826808Z",
+      "consecutive_failures": 0
+    },
+    "hdfc-tata-neu": {
+      "sha256": "acd7149b64ec3193ca492c701233e6a645e40db58ef836898981c70c917c281f",
+      "last_checked_utc": "2026-07-27T05:25:44.865098Z",
+      "consecutive_failures": 0
+    },
+    "idfc-card-terms": {
+      "sha256": "100528c84642484d9a2e3467fe8d1ac45ecaaf71af2fbf582ad32c3704db8b8a",
+      "last_checked_utc": "2026-07-27T05:25:44.865098Z",
+      "consecutive_failures": 0
+    }
+  }
+}

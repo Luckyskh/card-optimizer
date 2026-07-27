@@ -1,0 +1,20 @@
+name: terms_watch
+description: >-
+  Re-reads the credit card terms documents that card_optimizer's rates are
+  based on, and reports when the text changes.
+publish_to: 'none'
+version: 1.0.0
+
+# Deliberately a plain Dart package, not a Flutter one. It runs on a server
+# (GitHub Actions) where there is no screen, so pulling in Flutter would only
+# make it slower to install.
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  args: ^2.6.0
+  crypto: ^3.0.6
+  http: ^1.2.2
+
+dev_dependencies:
+  test: ^1.25.0
