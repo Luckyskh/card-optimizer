@@ -35,11 +35,20 @@ void main() {
     expect(find.text('Add your cards first'), findsOneWidget);
   });
 
-  testWidgets('the My cards tab lists cards from rules.json', (tester) async {
+  testWidgets('the My cards tab groups cards by issuing bank', (tester) async {
     await tester.pumpWidget(const CardOptimizerApp());
     await tester.pumpAndSettle();
 
     await tester.tap(find.text('My cards'));
+    await tester.pumpAndSettle();
+
+    // Banks are listed; individual cards stay tucked away until asked for.
+    expect(find.text('SBI Card'), findsOneWidget);
+    expect(find.text('HDFC Bank'), findsOneWidget);
+    expect(find.text('Axis Bank'), findsOneWidget);
+    expect(find.text('SBI Card Cashback SBI Card'), findsNothing);
+
+    await tester.tap(find.text('SBI Card'));
     await tester.pumpAndSettle();
 
     expect(find.text('SBI Card Cashback SBI Card'), findsOneWidget);
@@ -63,6 +72,12 @@ void main() {
     // --- add two cards -----------------------------------------------------
     await tester.tap(find.text('My cards'));
     await tester.pumpAndSettle();
+
+    // Open the two banks whose cards we are about to tick.
+    for (final bank in ['HDFC Bank', 'Axis Bank']) {
+      await tester.tap(find.text(bank));
+      await tester.pumpAndSettle();
+    }
 
     for (final card in ['HDFC Bank Swiggy ORNGE', 'Axis Bank ACE']) {
       final tile = find.widgetWithText(CheckboxListTile, card);

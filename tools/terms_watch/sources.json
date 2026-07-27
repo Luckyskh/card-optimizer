@@ -49,8 +49,9 @@
   ],
 
   "card_names": {
-    "hdfc-infinia": "HDFC Bank Infinia",
+    "hdfc-infinia": "HDFC Bank Infinia Metal Edition",
     "hdfc-diners-privilege": "HDFC Bank Diners Club Privilege",
+    "hdfc-diners-black": "HDFC Bank Diners Club Black Metal",
     "hdfc-moneyback-plus": "HDFC Bank MoneyBack+",
     "hdfc-indianoil": "IndianOil HDFC Bank",
     "hdfc-marriott": "Marriott Bonvoy HDFC Bank",
@@ -62,6 +63,11 @@
     "sbi-air-india-signature": "Air India SBI Signature",
     "icici-coral": "ICICI Bank Coral",
     "icici-sapphiro": "ICICI Bank Sapphiro",
+    "icici-emeralde": "ICICI Bank Emeralde",
+    "icici-emeralde-private": "ICICI Bank Emeralde Private Metal",
+    "yes-marquee": "YES Bank Marquee",
+    "yes-reserv": "YES Bank Reserv",
+    "yes-paisasave": "YES Bank PaisaSave",
     "icici-hpcl-super-saver": "HPCL ICICI Bank Super Saver",
     "icici-makemytrip": "MakeMyTrip ICICI Bank",
     "axis-airtel": "Airtel Axis Bank",
@@ -253,6 +259,40 @@
     },
 
     {
+      "doc_id": "icici-emeralde-private-page",
+      "card_ids": ["icici-emeralde-private"],
+      "label": "ICICI Emeralde Private Metal card page",
+      "scope": "card",
+      "url": "https://www.icicibank.com/personal-banking/cards/credit-card/emeralde-private-metal-credit-card",
+      "note": "Verified as HTML, 481 KB."
+    },
+    {
+      "doc_id": "icici-emeralde-page",
+      "card_ids": ["icici-emeralde"],
+      "label": "ICICI Emeralde card page",
+      "scope": "card",
+      "url": "https://www.icicibank.com/personal-banking/cards/credit-card/emeralde-credit-card",
+      "note": "Verified as HTML, 468 KB."
+    },
+
+    {
+      "doc_id": "yes-credit-cards-index",
+      "card_ids": ["yes-marquee", "yes-reserv", "yes-paisasave"],
+      "label": "YES Bank credit cards index",
+      "scope": "issuer",
+      "url": null,
+      "note": "NEEDS URL. The page at /personal-banking/yes-individual/cards/credit-cards returns 200 and 300 KB, but every word of it is rendered by JavaScript - the extractor finds no readable text at all. Left unconfigured rather than watched, because a document that can never yield text would fail every run, go stale, and turn the scheduled job permanently red. Reading YES Bank needs a headless browser."
+    },
+    {
+      "doc_id": "yes-marquee-tnc",
+      "card_ids": ["yes-marquee"],
+      "label": "YES Bank Marquee card terms",
+      "scope": "card",
+      "url": null,
+      "note": "NEEDS URL. YES Bank serves documents from a JS-rendered asset API whose content ids rotate; every asset URL found via search returned 404 when fetched, with and without the channelToken query string, and the product page slug 404s too. Open the Marquee page in a browser, copy the terms PDF link, and paste it here."
+    },
+
+    {
       "doc_id": "idfc-notice-board",
       "card_ids": [
         "idfc-first-select", "idfc-first-millennia", "idfc-first-wealth"
@@ -294,7 +334,7 @@
       "card_ids": [
         "hdfc-millennia", "tata-neu-infinity-hdfc", "swiggy-ornge-hdfc",
         "swiggy-blck-hdfc", "hdfc-regalia-gold", "hdfc-infinia",
-        "hdfc-diners-privilege", "hdfc-moneyback-plus", "hdfc-indianoil",
+        "hdfc-diners-privilege", "hdfc-diners-black", "hdfc-moneyback-plus", "hdfc-indianoil",
         "hdfc-marriott"
       ],
       "label": "HDFC Bank MITC document index",
@@ -307,7 +347,7 @@
       "card_ids": [
         "hdfc-millennia", "tata-neu-infinity-hdfc", "swiggy-ornge-hdfc",
         "swiggy-blck-hdfc", "hdfc-regalia-gold", "hdfc-infinia",
-        "hdfc-diners-privilege", "hdfc-moneyback-plus", "hdfc-indianoil",
+        "hdfc-diners-privilege", "hdfc-diners-black", "hdfc-moneyback-plus", "hdfc-indianoil",
         "hdfc-marriott"
       ],
       "label": "HDFC Bank credit card MITC (English)",
@@ -337,18 +377,48 @@
       "card_ids": ["hdfc-millennia"],
       "label": "HDFC Millennia card page",
       "scope": "card",
-      "url": "https://www.hdfcbank.com/personal/pay/cards/credit-cards/millennia",
-      "known_blocked": true,
-      "note": "BLOCKED. Consistent 403 across repeated attempts and three different HTTP clients, even though the sibling Swiggy and Tata Neu pages on the same host return 200."
+      "url": "https://www.hdfcbank.com/personal/pay/cards/credit-cards/millennia-credit-card",
+      "note": "Verified as HTML, 1.2 MB, carrying 'Earn 3 Reward points per 200 spent'. Note the slug: /millennia 403s but /millennia-credit-card does not. HDFC's blocking is per-URL, not per-card, so a 403 is worth retrying with a longer slug before concluding a document is unreachable."
     },
     {
       "doc_id": "hdfc-regalia-gold",
       "card_ids": ["hdfc-regalia-gold"],
       "label": "HDFC Regalia Gold card page",
       "scope": "card",
-      "url": "https://www.hdfcbank.com/personal/pay/cards/credit-cards/regalia-gold",
-      "known_blocked": true,
-      "note": "BLOCKED. Timed out on the first attempt and 403 on every attempt since."
+      "url": "https://www.hdfcbank.com/personal/pay/cards/credit-cards/regalia-gold-credit-card",
+      "note": "Verified as HTML, 1.3 MB, carrying '5 Reward Points on every Rs'. Same slug trap as Millennia above: /regalia-gold 403s, /regalia-gold-credit-card does not."
+    },
+    {
+      "doc_id": "hdfc-diners-black",
+      "card_ids": ["hdfc-diners-black"],
+      "label": "HDFC Diners Club Black Metal Edition card page",
+      "scope": "card",
+      "url": "https://www.hdfcbank.com/personal/pay/cards/credit-cards/diners-club-black-metal-edition",
+      "note": "Verified as HTML, 1.2 MB, carrying the quarterly bonus reward point structure."
+    },
+    {
+      "doc_id": "hdfc-infinia",
+      "card_ids": ["hdfc-infinia"],
+      "label": "HDFC Infinia Metal Edition card page",
+      "scope": "card",
+      "url": "https://www.hdfcbank.com/personal/pay/cards/credit-cards/infinia-credit-card",
+      "note": "Verified as HTML. /infinia 403s; /infinia-credit-card works."
+    },
+    {
+      "doc_id": "hdfc-moneyback-plus",
+      "card_ids": ["hdfc-moneyback-plus"],
+      "label": "HDFC MoneyBack+ card page",
+      "scope": "card",
+      "url": "https://www.hdfcbank.com/personal/pay/cards/credit-cards/moneyback-plus",
+      "note": "Verified as HTML."
+    },
+    {
+      "doc_id": "hdfc-indianoil",
+      "card_ids": ["hdfc-indianoil"],
+      "label": "IndianOil HDFC Bank card page",
+      "scope": "card",
+      "url": "https://www.hdfcbank.com/personal/pay/cards/credit-cards/indianoil-hdfc-bank-credit-card",
+      "note": "Verified as HTML."
     },
 
     {

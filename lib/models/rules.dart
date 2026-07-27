@@ -56,6 +56,19 @@ class Rules {
     return null;
   }
 
+  /// Cards grouped under their issuing bank, banks in dataset order.
+  ///
+  /// A flat list of every card is hard to scan when you are looking for the
+  /// two or three you actually hold, and it gets worse with every card added.
+  /// Grouping matches how people think about their wallet — "my HDFC one".
+  Map<String, List<CardRule>> get cardsByBank {
+    final grouped = <String, List<CardRule>>{};
+    for (final card in cards) {
+      grouped.putIfAbsent(card.bank, () => []).add(card);
+    }
+    return grouped;
+  }
+
   CardRule? cardById(String id) {
     for (final card in cards) {
       if (card.id == id) return card;

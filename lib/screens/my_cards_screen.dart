@@ -98,14 +98,81 @@ class _MyCardsScreenState extends State<MyCardsScreen> {
           },
         ),
         const Divider(),
-        for (final card in rules.cards)
-          _CardTile(
-            card: card,
-            selected: _owned.contains(card.id),
+        // Grouped by issuing bank, and collapsed by default. A bank you hold
+        // a card from opens automatically, so returning to this screen shows
+        // your own cards without any tapping.
+        for (final entry in rules.cardsByBank.entries)
+          _BankGroup(
+            bank: entry.key,
+            cards: entry.value,
+            owned: _owned,
             store: widget.store,
-            onToggle: (value) => _toggle(card, value),
+            onToggle: _toggle,
           ),
         const SizedBox(height: 24),
+      ],
+    );
+  }
+}
+
+/// One collapsible bank, with its cards inside.
+class _BankGroup extends StatelessWidget {
+  final String bank;
+  final List<CardRule> cards;
+  final Set<String> owned;
+  final UserCardsStore store;
+  final void Function(CardRule, bool) onToggle;
+
+  const _BankGroup({
+    required this.bank,
+    required this.cards,
+    required this.owned,
+    required this.store,
+    required this.onToggle,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    final held = cards.where((c) => owned.contains(c.id)).length;
+
+    return ExpansionTile(
+      // Opening the banks you already hold means the common case - coming back
+      // to check or change something - needs no tapping at all.
+      initiallyExpanded: held > 0,
+      title: Text(bank, style: theme.textTheme.titleMedium),
+      subtitle: Text(
+        held > 0
+            ? '$held of ${cards.length} added'
+            : '${cards.length} card${cards.length == 1 ? '' : 's'}',
+        style: theme.textTheme.bodySmall?.copyWith(
+          color: held > 0 ? theme.colorScheme.primary : null,
+        ),
+      ),
+      // A stack of the bank's card art, so you can recognise the bank without
+      // reading the name.
+      leading: SizedBox(
+        width: 44,
+        height: 36,
+        child: Stack(
+          children: [
+            for (var i = cards.length.clamp(0, 3) - 1; i >= 0; i--)
+              Positioned(
+                left: i * 5.0,
+                top: i * 3.0,
+                child: CardArt(card: cards[i], width: 32),
+              ),
+          ],
+        ),
+      ),
+      children: [
+        for (final card in cards)
+          _CardTile(
+            card: card,
+            selected: owned.contains(card.id),
+            store: store,
+            onToggle: (value) => onToggle(card, value),
+          ),
       ],
     );
   }
