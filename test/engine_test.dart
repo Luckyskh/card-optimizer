@@ -270,6 +270,72 @@ void main() {
       expect(round2(results.first.rupees), 16.25);
     });
 
+    test('the result carries the points, not just their rupee value', () {
+      final result = engine.evaluate(
+        card('idfc-first-select'),
+        const SpendRequest(category: 'dining', amountInr: 1000),
+      );
+
+      // 10 points per Rs 200 -> 5 slabs -> 50 points, worth Rs 0.25 each.
+      expect(result.paysInPoints, isTrue);
+      expect(result.pointsEarned, 50);
+      expect(result.pointCurrency, 'Reward Points');
+      expect(result.formattedPoints, '50 Reward Points');
+      expect(round2(result.rupees), 12.5);
+    });
+
+    test('a cashback card reports no points at all', () {
+      final result = engine.evaluate(
+        card('sbi-cashback'),
+        const SpendRequest(category: 'other_ecommerce', amountInr: 1000),
+      );
+
+      expect(result.paysInPoints, isFalse);
+      expect(result.formattedPoints, isNull);
+      expect(result.rupees, 50);
+    });
+
+    test('points are earned per completed slab, not continuously', () {
+      // Rs 350 at 5 points per Rs 200 is one completed slab. The remaining
+      // Rs 150 earns nothing. Treating it as a flat 1.625% would have paid
+      // out on the remainder and overstated the card.
+      final result = engine.evaluate(
+        card('hdfc-regalia-gold'),
+        const SpendRequest(category: 'groceries', amountInr: 350),
+      );
+
+      expect(result.pointsEarned, 5);
+      expect(round2(result.rupees), 3.25); // 5 x Rs 0.65
+      expect(
+        result.reasons.any((r) => r.contains('completed')),
+        isTrue,
+        reason: 'the user should be told the remainder earns nothing',
+      );
+    });
+
+    test('a purchase below one full slab earns nothing', () {
+      final result = engine.evaluate(
+        card('hdfc-regalia-gold'),
+        const SpendRequest(category: 'groceries', amountInr: 150),
+      );
+
+      expect(result.pointsEarned, 0);
+      expect(result.rupees, 0);
+    });
+
+    test('a cap trims the point count too, not only the rupees', () {
+      // Tata Neu caps groceries at 2,000 NeuCoins a month.
+      final result = engine.evaluate(
+        card('tata-neu-infinity-hdfc'),
+        const SpendRequest(category: 'groceries', amountInr: 100000),
+      );
+
+      // 5% of 100,000 would be 5,000 NeuCoins; the cap is 2,000.
+      expect(result.pointsEarned, 2000);
+      expect(result.rupees, 2000); // NeuCoins are worth Rs 1
+      expect(result.capped, isTrue);
+    });
+
     test('Regalia Gold\'s base rate comes from its base_earn object', () {
       // 5 points per Rs 200, each worth Rs 0.65 -> 1.625%.
       expect(round2(card('hdfc-regalia-gold').resolvedBaseRatePct!), 1.63);

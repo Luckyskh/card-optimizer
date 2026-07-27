@@ -37,6 +37,20 @@ class Recommendation {
   /// these cards with a caveat rather than guessing a rate.
   final bool uncertain;
 
+  /// How many points or miles this purchase earns, when the card pays in
+  /// something other than rupees. Null for cashback cards, where [rupees] is
+  /// already the whole story.
+  ///
+  /// Shown alongside [rupees] rather than instead of it. "50 NeuCoins" is what
+  /// the card actually gives you and what your statement will say; "₹50" is
+  /// what it is worth and what the ranking is based on. Showing only the first
+  /// invites the "10X rewards!" mistake; showing only the second hides what
+  /// you actually earned.
+  final double? pointsEarned;
+
+  /// What those points are called — "NeuCoins", "EDGE Miles", "Reward Points".
+  final String? pointCurrency;
+
   const Recommendation({
     required this.card,
     required this.rupees,
@@ -46,7 +60,22 @@ class Recommendation {
     this.capped = false,
     this.excluded = false,
     this.uncertain = false,
+    this.pointsEarned,
+    this.pointCurrency,
   });
+
+  /// True when this card pays in points or miles rather than rupees.
+  bool get paysInPoints => pointsEarned != null && pointCurrency != null;
+
+  /// "50 NeuCoins", "325 Reward Points", "20 EDGE Miles".
+  ///
+  /// Whole units only, because that is how they are credited — you do not get
+  /// two thirds of a point.
+  String? get formattedPoints {
+    if (!paysInPoints) return null;
+    final whole = pointsEarned!.floor();
+    return '$whole $pointCurrency';
+  }
 
   /// "₹100" or "₹12.50" — whole rupees when it divides evenly, else 2 decimals.
   String get formattedRupees {

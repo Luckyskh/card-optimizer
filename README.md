@@ -93,6 +93,22 @@ whose points are worth ₹0.25 is 1.25%, which loses to a plain 1.625% card. The
 engine converts everything into rupees before comparing, and there is a test
 that fails if that ever stops happening.
 
+### Points are shown as points
+
+A points card leads with what it actually gives you — "50 Reward Points" — with
+"worth ₹12.50" underneath. Your statement will say the first thing; the ranking
+uses the second. Showing only the points invites the "10X!" mistake; showing
+only the rupees hides what you earned.
+
+Points are earned on **completed slabs**, which is how issuers really pay. At 5
+points per ₹200, a ₹350 purchase earns 5 points and the remaining ₹150 earns
+nothing — not 8.75 points. Treating the rate as a flat percentage would
+overstate every card that pays this way, and it is the majority of them.
+
+Worth verifying per issuer: a few accumulate the remainder across a statement
+rather than discarding it per transaction. Discarding is the common behaviour
+and the conservative assumption.
+
 ---
 
 ## The terms monitor

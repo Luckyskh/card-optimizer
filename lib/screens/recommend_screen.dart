@@ -282,14 +282,31 @@ class _ResultTile extends StatelessWidget {
                     size: 18, color: theme.colorScheme.tertiary),
               ),
             ),
-          Text(
-            result.formattedRupees,
-            style: theme.textTheme.titleMedium?.copyWith(
-              fontWeight: FontWeight.w700,
-              color: result.rupees > 0
-                  ? theme.colorScheme.primary
-                  : theme.disabledColor,
-            ),
+          // Points cards lead with what the card actually gives you, and put
+          // the rupee value underneath. A statement saying "50 NeuCoins" and
+          // an app saying "₹50" should not look like different things.
+          Column(
+            crossAxisAlignment: CrossAxisAlignment.end,
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              Text(
+                result.paysInPoints && result.rupees > 0
+                    ? result.formattedPoints!
+                    : result.formattedRupees,
+                textAlign: TextAlign.right,
+                style: theme.textTheme.titleMedium?.copyWith(
+                  fontWeight: FontWeight.w700,
+                  color: result.rupees > 0
+                      ? theme.colorScheme.primary
+                      : theme.disabledColor,
+                ),
+              ),
+              if (result.paysInPoints && result.rupees > 0)
+                Text(
+                  'worth ${result.formattedRupees}',
+                  style: theme.textTheme.bodySmall,
+                ),
+            ],
           ),
         ],
       ),

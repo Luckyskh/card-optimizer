@@ -197,16 +197,46 @@ class RecommendationEngine {
       );
     }
 
-    // ---- 6. Apply the caps ----------------------------------------------
-    final gross = request.amountInr * pct / 100;
+    // ---- 6. Work out the gross earning ----------------------------------
+    // Points cards earn per completed slab, so they are calculated from the
+    // slab rather than from the percentage. Cashback really is continuous.
+    final slab = rate == null
+        ? _basePointsRate(card)
+        : (_pointsRateOf(rate, card) ??
+            (rate.hasNoOwnRate ? _basePointsRate(card) : null));
+
+    double gross;
+    if (slab != null) {
+      final slabs = (request.amountInr / slab.perSpendInr).floor();
+      gross = slabs * slab.pointsPerSlab * card.pointValueInr;
+    } else {
+      gross = request.amountInr * pct / 100;
+    }
+
+    // ---- 7. Apply the caps ----------------------------------------------
     final capped = _applyCaps(card, rate, request, gross, reasons);
 
-    // ---- 7. Describe the result -----------------------------------------
+    // ---- 8. Describe the result -----------------------------------------
     if (rate?.note != null) reasons.add(rate!.note!);
-    if (card.rewardType != 'cashback' && card.pointCurrency != null) {
+
+    // Points earned, recomputed from the post-cap figure so a cap shows up in
+    // the point count too rather than only in the rupees.
+    final points = card.pointValueInr > 0 && card.rewardType != 'cashback'
+        ? capped.earned / card.pointValueInr
+        : null;
+
+    if (points != null && card.pointCurrency != null) {
+      if (slab != null) {
+        reasons.add(
+          '${slab.pointsPerSlab.round()} ${card.pointCurrency} per '
+          '₹${_plain(slab.perSpendInr)} spent, and only on completed '
+          '₹${_plain(slab.perSpendInr)} slabs — the remainder earns nothing.',
+        );
+      }
       reasons.add(
-        'Earned as ${card.pointCurrency}, valued here at '
-        '₹${_plain(card.pointValueInr)} each.',
+        '${card.pointCurrency} are valued here at '
+        '₹${_plain(card.pointValueInr)} each, which is what makes this '
+        'comparable with a cashback card.',
       );
     }
     for (final field in [...card.unverified, ...(rate?.unverified ?? [])]) {
@@ -220,10 +250,12 @@ class RecommendationEngine {
       card: card,
       rupees: capped.earned,
       effectivePct: effective,
-      headline: _headline(pct, rate, capped.wasCapped),
+      headline: _headline(effective, rate, capped.wasCapped),
       reasons: reasons,
       capped: capped.wasCapped,
       uncertain: uncertain,
+      pointsEarned: points,
+      pointCurrency: card.pointCurrency,
     );
   }
 
@@ -320,6 +352,37 @@ class RecommendationEngine {
         .toList();
   }
 
+  /// How a row pays in points, if it does.
+  ///
+  /// Points are not earned continuously. "5 points per Rs 200" means you earn
+  /// on each completed Rs 200 — a Rs 350 purchase earns 5 points, not 8.75 —
+  /// so the engine needs the slab size, not just the percentage it works out
+  /// to. Returns null for cashback rows, which really are continuous.
+  ///
+  /// Worth verifying per issuer: a few accumulate the remainder across a
+  /// statement rather than discarding it per transaction. Discarding is the
+  /// common behaviour and the conservative one.
+  _PointsRate? _pointsRateOf(CategoryRate row, CardRule card) {
+    if (row.pointsPer200 != null) {
+      return _PointsRate(row.pointsPer200!, 200);
+    }
+    if (row.milesPer100 != null) {
+      return _PointsRate(row.milesPer100!, 100);
+    }
+    return null;
+  }
+
+  /// The card's own base earn expressed as a slab, when it has one.
+  _PointsRate? _basePointsRate(CardRule card) {
+    final base = card.baseEarn;
+    if (base?.points != null &&
+        base?.perSpendInr != null &&
+        base!.perSpendInr! > 0) {
+      return _PointsRate(base.points!, base.perSpendInr!);
+    }
+    return null;
+  }
+
   /// Converts a row's rate into a plain percentage, whichever of the four
   /// possible shapes the JSON used.
   double? _ratePctOf(CategoryRate row, CardRule card, SpendRequest request) {
@@ -413,8 +476,21 @@ class RecommendationEngine {
     final atLowerRate = math.min(request.amountInr, headroom);
     final atUpperRate = request.amountInr - atLowerRate;
 
-    final earned =
-        atLowerRate * lowerPct / 100 + atUpperRate * upperPct / 100;
+    // Each portion earns on its own completed slabs, same as anywhere else.
+    final lowerSlab = _pointsRateOf(lower, card);
+    final upperSlab = _pointsRateOf(upper, card);
+
+    double earned;
+    if (lowerSlab != null && upperSlab != null) {
+      final lowerPoints =
+          (atLowerRate / lowerSlab.perSpendInr).floor() * lowerSlab.pointsPerSlab;
+      final upperPoints =
+          (atUpperRate / upperSlab.perSpendInr).floor() * upperSlab.pointsPerSlab;
+      earned = (lowerPoints + upperPoints) * card.pointValueInr;
+    } else {
+      earned = atLowerRate * lowerPct / 100 + atUpperRate * upperPct / 100;
+    }
+
     final effective =
         request.amountInr > 0 ? earned / request.amountInr * 100 : 0.0;
 
@@ -439,8 +515,9 @@ class RecommendationEngine {
 
     if (card.pointCurrency != null) {
       reasons.add(
-        'Earned as ${card.pointCurrency}, valued here at '
-        '₹${_plain(card.pointValueInr)} each.',
+        '${card.pointCurrency} are valued here at '
+        '₹${_plain(card.pointValueInr)} each, which is what makes this '
+        'comparable with a cashback card.',
       );
     }
 
@@ -450,6 +527,10 @@ class RecommendationEngine {
       effectivePct: effective,
       headline: '${effective.toStringAsFixed(2)}% at your current cycle spend',
       reasons: reasons,
+      pointsEarned: card.pointValueInr > 0 && card.rewardType != 'cashback'
+          ? earned / card.pointValueInr
+          : null,
+      pointCurrency: card.pointCurrency,
     );
   }
 
@@ -556,6 +637,14 @@ class RecommendationEngine {
     if (label != null) return '$base — $label';
     return base;
   }
+}
+
+/// "N points per Rs X spent", kept as a slab rather than a percentage so the
+/// engine can round down to completed slabs the way issuers actually do.
+class _PointsRate {
+  final double pointsPerSlab;
+  final double perSpendInr;
+  const _PointsRate(this.pointsPerSlab, this.perSpendInr);
 }
 
 /// Pulls the first rupee figure out of a label like
