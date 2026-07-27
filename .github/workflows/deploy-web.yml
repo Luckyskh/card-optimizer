@@ -1,0 +1,60 @@
+# Publishes the app as a website on GitHub Pages.
+#
+# Runs on every push to main, so whatever is on main is what your testers see.
+# You can also trigger it by hand from the Actions tab.
+#
+# Before the first run, go to Settings -> Pages and set "Source" to
+# "GitHub Actions". The site then appears at:
+#   https://<your-username>.github.io/<repo-name>/
+
+name: Deploy web app
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Never let two deploys run at once, but do not cancel one already in flight.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+
+      - run: flutter pub get
+
+      # Tests gate the deploy. A broken reward calculation should never reach
+      # someone who is about to trust it at a till.
+      - run: flutter test
+
+      # base-href matters: a project site is served from a subdirectory, so
+      # without this every asset request 404s and you get a blank page.
+      - name: Build
+        run: flutter build web --release --base-href "/${{ github.event.repository.name }}/"
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: build/web
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

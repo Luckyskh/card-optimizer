@@ -93,11 +93,13 @@ void main() {
       expect(await service.fetch(), isEmpty);
     });
 
-    test('the placeholder URL skips the network entirely', () async {
-      // Before the repository is published there is nothing to download, and
-      // trying would only produce confusing errors.
+    test('an unconfigured URL skips the network entirely', () async {
+      // Guards the fork case: someone copies the project, has not pointed
+      // alerts.json at their own repo yet, and should get silence rather than
+      // a stream of failed requests.
       var called = false;
       final service = AlertsService(
+        url: 'https://raw.githubusercontent.com/OWNER/REPO/main/alerts.json',
         client: MockClient((_) async {
           called = true;
           return http.Response(validAlerts, 200);
@@ -107,6 +109,14 @@ void main() {
       expect(service.isConfigured, isFalse);
       expect(await service.fetch(), isEmpty);
       expect(called, isFalse);
+    });
+
+    test('the shipped default URL is configured', () async {
+      // If this fails, the app has been published without a working alerts
+      // address and no user would ever hear about a devaluation.
+      expect(AlertsService().isConfigured, isTrue);
+      expect(AlertsService.defaultAlertsUrl, startsWith('https://'));
+      expect(AlertsService.defaultAlertsUrl, endsWith('/alerts.json'));
     });
   });
 

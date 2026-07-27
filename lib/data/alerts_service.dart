@@ -75,13 +75,13 @@ class AlertExcerpt {
 }
 
 class AlertsService {
-  /// Where `alerts.json` lives once the repository is published.
+  /// Where `alerts.json` lives.
   ///
-  /// Replace OWNER and REPO with your GitHub username and repository name.
-  /// Until you do, the app skips the download entirely rather than throwing
-  /// confusing network errors at you.
+  /// Written by the terms monitor on the 1st and 16th of each month and
+  /// committed straight back to the repository, so this is always the latest
+  /// published set. If you fork or rename the repo, change it here.
   static const defaultAlertsUrl =
-      'https://raw.githubusercontent.com/OWNER/REPO/main/alerts.json';
+      'https://raw.githubusercontent.com/Luckyskh/card-optimizer/main/alerts.json';
 
   static const _placeholderMarker = 'OWNER/REPO';
   static const _cacheKey = 'cached_alerts_json';
