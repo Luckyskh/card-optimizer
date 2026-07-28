@@ -35,6 +35,16 @@
       "last_checked_utc": "2026-07-28T02:54:03.509440Z",
       "consecutive_failures": 0
     },
+    "axis-burgundy-page": {
+      "sha256": "125d67361907ee0017d0da682741579879ee1c3b56517203f0f775f23a5ebfb0",
+      "last_checked_utc": "2026-07-28T03:57:59.941396Z",
+      "consecutive_failures": 0
+    },
+    "axis-burgundy-private-page": {
+      "sha256": "8fe324ff589007ca31b6a63581f62eb81025620194ebc725ec4d4f79a95cd319",
+      "last_checked_utc": "2026-07-28T03:58:01.168813Z",
+      "consecutive_failures": 0
+    },
     "axis-fibe-page": {
       "sha256": "d0ab0d97d602a12b390da015fe471b1b647e5c8601e6db57fb743e0b2207eed2",
       "last_checked_utc": "2026-07-28T02:54:03.509440Z",

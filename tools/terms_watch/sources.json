@@ -55,6 +55,8 @@
     "axis-ace": "Axis Bank Ace",
     "axis-airtel": "Airtel Axis Bank",
     "axis-atlas": "Axis Bank Atlas",
+    "axis-burgundy": "Axis Bank Burgundy",
+    "axis-burgundy-private": "Axis Bank Burgundy Private",
     "axis-aura": "Axis Bank Aura",
     "axis-fibe": "Axis Bank Fibe",
     "axis-flipkart-super-elite": "Axis Bank Flipkart Super Elite",
@@ -254,6 +256,38 @@
       "scope": "card",
       "url": "https://www.axisbank.com/retail/cards/credit-card/miles-and-more-credit-card",
       "note": "Verified as HTML, 705 KB. Co-branded with Lufthansa's Miles & More programme, so the award-mile earn rate and any transfer-ratio change would show up here."
+    },
+    {
+      "doc_id": "axis-burgundy-private-fees",
+      "card_ids": ["axis-burgundy-private"],
+      "label": "Axis Bank Burgundy Private fees and charges",
+      "scope": "card",
+      "url": "https://www.axis.bank.in/docs/default-source/burgundyprivate/burgundy-private-fees-charges.pdf?sfvrsn=cb45fbb5_6",
+      "note": "Verified, 366 KB PDF - but only on axis.bank.in. The same path on www.axisbank.com returns a soft error page of HTML rather than the file, the same host split seen with HDFC. Burgundy Private is a wealth programme rather than a plain card product, so this fee schedule is the document that actually governs it."
+    },
+    {
+      "doc_id": "axis-burgundy-private-page",
+      "card_ids": ["axis-burgundy-private"],
+      "label": "Axis Bank Burgundy Private programme page",
+      "scope": "card",
+      "url": "https://www.axis.bank.in/burgundy-private",
+      "note": "Verified as HTML, 55 KB. Small because most of the page is rendered by JavaScript, so treat it as a weak signal - it would catch the programme being restructured, not a rate change."
+    },
+    {
+      "doc_id": "axis-burgundy-fees",
+      "card_ids": ["axis-burgundy"],
+      "label": "Axis Bank Burgundy fees and charges",
+      "scope": "card",
+      "url": "https://www.axis.bank.in/docs/default-source/default-document-library/burgundy-fees-and-charges-01042023.pdf?sfvrsn=1b851dab_4",
+      "note": "Verified, 1.2 MB PDF, found by reading the Burgundy page rather than guessing the path. The filename carries a 2023 date, so a revision will probably appear at a new URL - the programme page below is what would catch that."
+    },
+    {
+      "doc_id": "axis-burgundy-page",
+      "card_ids": ["axis-burgundy"],
+      "label": "Axis Bank Burgundy programme page",
+      "scope": "card",
+      "url": "https://www.axis.bank.in/burgundy",
+      "note": "Verified as HTML, 754 KB. Watched partly to catch a new fee-schedule link replacing the dated 2023 one above."
     },
     {
       "doc_id": "axis-magnus-burgundy-tnc",
