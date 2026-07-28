@@ -94,6 +94,15 @@ class RecommendationEngine {
       if (byRupees != 0) return byRupees;
       // Then prefer the card we are confident about over an "up to 10X" guess.
       if (a.uncertain != b.uncertain) return a.uncertain ? 1 : -1;
+      // Then the cheaper card. With a hundred cards in the dataset, dozens
+      // share a rate — 22 tie at 1% — and alphabetical order among them is
+      // meaningless. If two cards pay the same on this purchase, the one
+      // costing less per year is the better recommendation. A card whose fee
+      // is unknown never beats one whose fee is known.
+      final feeA = a.card.annualFee ?? double.maxFinite;
+      final feeB = b.card.annualFee ?? double.maxFinite;
+      final byFee = feeA.compareTo(feeB);
+      if (byFee != 0) return byFee;
       return a.card.displayName.compareTo(b.card.displayName);
     });
 
@@ -201,6 +210,9 @@ class RecommendationEngine {
           ...reasons,
           'The dataset has no reward rate for this card in this category. '
               'Check the issuer\'s terms before relying on it.',
+          // Often the note explains exactly why — the Air India SBI cards
+          // earn "1 Pt = 1 Air India Mile", which cannot be priced in rupees.
+          if (card.pointValueNote != null) card.pointValueNote!,
         ],
       );
     }
@@ -247,6 +259,20 @@ class RecommendationEngine {
         'comparable with a cashback card.',
       );
     }
+    // The card may earn far more at specific platforms. These are prose in
+    // the dataset — "HDFC SmartBuy (MakeMyTrip, Cleartrip, Amazon)" — so the
+    // engine cannot price them, but hiding them would make the figure above
+    // look like the card's ceiling when it is the floor.
+    final accelerated = card.acceleratedPartners;
+    if (accelerated != null) {
+      reasons.add(
+        'Earns more at: ${accelerated.platforms}'
+        '${accelerated.rate.isEmpty ? '' : ' (${accelerated.rate})'}. '
+        'Not counted in the figure above — the dataset does not tie these to '
+        'a category the app can price.',
+      );
+    }
+
     for (final field in [...card.unverified, ...(rate?.unverified ?? [])]) {
       reasons.add('Unverified in the dataset: $field.');
     }

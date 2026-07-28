@@ -55,6 +55,32 @@ void main() {
     expect(find.byType(CheckboxListTile), findsWidgets);
   });
 
+  testWidgets('search finds a card without opening any bank group',
+      (tester) async {
+    await tester.pumpWidget(const CardOptimizerApp());
+    await tester.pumpAndSettle();
+
+    await tester.tap(find.text('My cards'));
+    await tester.pumpAndSettle();
+
+    await tester.enterText(find.byKey(const Key('card-search')), 'atlas');
+    await tester.pumpAndSettle();
+
+    // The matching card appears directly; the bank groups get out of the way.
+    expect(find.widgetWithText(CheckboxListTile, 'Axis Bank Atlas'),
+        findsOneWidget);
+    expect(find.text('HDFC Bank'), findsNothing);
+
+    // Ticking from search results works like ticking from the group view.
+    await tester.tap(find.widgetWithText(CheckboxListTile, 'Axis Bank Atlas'));
+    await tester.pumpAndSettle();
+
+    await tester.enterText(find.byKey(const Key('card-search')), '');
+    await tester.pumpAndSettle();
+    expect(find.text('HDFC Bank'), findsOneWidget);
+    expect(find.textContaining('1 of'), findsOneWidget); // Axis shows it
+  });
+
   testWidgets('the whole journey: add cards, price a purchase, see a winner',
       (tester) async {
     // The default test window is 800x600, which is shorter than the card list.

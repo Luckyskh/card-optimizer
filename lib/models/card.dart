@@ -219,6 +219,9 @@ class CardRule {
   /// Airline and hotel programmes this card's points can be moved to.
   final TransferPartners? transferPartners;
 
+  /// Platforms with accelerated earning, as prose the engine cannot price.
+  final AcceleratedPartners? acceleratedPartners;
+
   /// What one point is worth if transferred, where that differs from the
   /// ordinary redemption value.
   final String? pointValueNote;
@@ -255,6 +258,7 @@ class CardRule {
     this.exclusions = const [],
     this.surcharges = const [],
     this.transferPartners,
+    this.acceleratedPartners,
     this.pointValueNote,
     this.conditionalCondition,
     this.conditionalNote,
@@ -356,6 +360,8 @@ class CardRule {
           ? null
           : TransferPartners.fromJson(
               json['transfer_partners'] as Map<String, dynamic>),
+      acceleratedPartners: AcceleratedPartners.fromJson(
+          json['accelerated_partners'] as Map<String, dynamic>?),
       pointValueNote: json['point_value_note'] as String?,
       conditionalCondition: conditional?['condition'] as String?,
       conditionalNote: conditional?['note'] as String?,
@@ -364,6 +370,29 @@ class CardRule {
       lastVerified: json['last_verified'] as String?,
       unverified: _stringList(json['_verify']),
     );
+  }
+}
+
+/// Platforms where a card earns at an accelerated rate, as free text.
+///
+/// This comes from the supplied spreadsheets — "HDFC SmartBuy (MakeMyTrip,
+/// Cleartrip, Amazon)" with a rate like "Up to 10X Reward Points". The
+/// platforms are prose, not category ids, so the engine cannot price them;
+/// they are shown to the user as a hint that the card can do better than the
+/// figure on screen, which is more honest than either hiding them or guessing
+/// a number.
+class AcceleratedPartners {
+  final String platforms;
+  final String rate;
+
+  const AcceleratedPartners({required this.platforms, required this.rate});
+
+  static AcceleratedPartners? fromJson(Map<String, dynamic>? json) {
+    if (json == null) return null;
+    final platforms = json['platforms'] as String?;
+    final rate = json['rate'] as String?;
+    if (platforms == null || platforms.isEmpty) return null;
+    return AcceleratedPartners(platforms: platforms, rate: rate ?? '');
   }
 }
 

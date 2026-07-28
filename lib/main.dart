@@ -41,6 +41,16 @@ class CardOptimizerApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.indigo),
         useMaterial3: true,
       ),
+      // Follows the phone's setting. The card art carries its own colours and
+      // reads fine on either background, so nothing else needs special-casing.
+      darkTheme: ThemeData(
+        colorScheme: ColorScheme.fromSeed(
+          seedColor: Colors.indigo,
+          brightness: Brightness.dark,
+        ),
+        useMaterial3: true,
+      ),
+      themeMode: ThemeMode.system,
       home: const HomePage(),
     );
   }

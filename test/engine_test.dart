@@ -537,6 +537,69 @@ void main() {
     });
   });
 
+  // -------------------------------------------------------------------------
+  group('ranking among a hundred cards', () {
+    test('a tie in rupees is broken by annual fee, cheaper first', () {
+      // SBI Prime (Rs 2,999) and SBI Elite (Rs 4,999) both earn 2 points per
+      // Rs 100 at Rs 0.25 a point. Alphabetical order would put Elite first;
+      // the better recommendation is the card costing Rs 2,000 less a year.
+      final results = engine.recommend(
+        [card('sbi-elite'), card('sbi-prime')],
+        const SpendRequest(category: 'other', amountInr: 1000),
+      );
+
+      expect(results[0].rupees, results[1].rupees,
+          reason: 'precondition: the two must actually tie');
+      expect(results[0].card.id, 'sbi-prime');
+    });
+
+    test('accelerated platforms are surfaced, not silently dropped', () {
+      final infinia = card('hdfc-infinia');
+      expect(infinia.acceleratedPartners, isNotNull);
+      expect(infinia.acceleratedPartners!.platforms, contains('SmartBuy'));
+
+      final result = engine.evaluate(
+        infinia,
+        const SpendRequest(category: 'dining', amountInr: 1000),
+      );
+      expect(
+        result.reasons.any((r) => r.contains('Earns more at')),
+        isTrue,
+        reason: 'the figure shown is the floor, and the user should know it',
+      );
+    });
+
+    test('a card whose points are not in rupees explains itself', () {
+      // "1 Pt = 1 Air India Mile" cannot be priced, so the card is listed
+      // but never ranked - and says why rather than showing a bare zero.
+      final result = engine.evaluate(
+        card('sbi-air-india-signature'),
+        const SpendRequest(category: 'travel_flights_hotels', amountInr: 5000),
+      );
+
+      expect(result.rupees, 0);
+      expect(result.uncertain, isTrue);
+      // Assert the mechanism, not the CSV's exact wording — the supplied file
+      // has already changed "1 Air India Mile" to "1 Mile" once.
+      expect(
+        result.reasons.any((r) => r.contains('not stated in rupees')),
+        isTrue,
+        reason: 'the point-value note should reach the user as the reason',
+      );
+    });
+
+    test('a milestone-only card is listed but never ranked', () {
+      final white = card('kotak-white');
+      final result = engine.evaluate(
+        white,
+        const SpendRequest(category: 'other', amountInr: 10000),
+      );
+
+      expect(result.rupees, 0);
+      expect(result.headline, 'No rate on record');
+    });
+  });
+
   group('exclusions and honesty about gaps', () {
     test('an excluded category earns nothing and says so', () {
       final result = engine.evaluate(

@@ -32,9 +32,15 @@ class MyCardsScreen extends StatefulWidget {
 }
 
 class _MyCardsScreenState extends State<MyCardsScreen> {
+  final _searchController = TextEditingController();
+
   Rules? _rules;
   Set<String> _owned = {};
   bool _isPrime = false;
+
+  /// Lowercased search text. With a hundred cards in the dataset, scrolling
+  /// bank by bank stopped being a reasonable way to find yours.
+  String _query = '';
 
   @override
   void initState() {
@@ -52,6 +58,12 @@ class _MyCardsScreenState extends State<MyCardsScreen> {
       _owned = owned;
       _isPrime = prime;
     });
+  }
+
+  @override
+  void dispose() {
+    _searchController.dispose();
+    super.dispose();
   }
 
   Future<void> _toggle(CardRule card, bool selected) async {
@@ -98,17 +110,63 @@ class _MyCardsScreenState extends State<MyCardsScreen> {
           },
         ),
         const Divider(),
-        // Grouped by issuing bank, and collapsed by default. A bank you hold
-        // a card from opens automatically, so returning to this screen shows
-        // your own cards without any tapping.
-        for (final entry in rules.cardsByBank.entries)
-          _BankGroup(
-            bank: entry.key,
-            cards: entry.value,
-            owned: _owned,
-            store: widget.store,
-            onToggle: _toggle,
+        Padding(
+          padding: const EdgeInsets.fromLTRB(16, 8, 16, 4),
+          child: TextField(
+            key: const Key('card-search'),
+            controller: _searchController,
+            decoration: InputDecoration(
+              prefixIcon: const Icon(Icons.search),
+              hintText: 'Search ${rules.cards.length} cards',
+              isDense: true,
+              suffixIcon: _query.isEmpty
+                  ? null
+                  : IconButton(
+                      icon: const Icon(Icons.close),
+                      tooltip: 'Clear search',
+                      onPressed: () {
+                        _searchController.clear();
+                        setState(() => _query = '');
+                      },
+                    ),
+            ),
+            onChanged: (value) =>
+                setState(() => _query = value.trim().toLowerCase()),
           ),
+        ),
+        if (_query.isNotEmpty) ...[
+          // A flat filtered list while searching. Groups would mostly be
+          // noise here — you searched precisely because you know the name.
+          for (final card in rules.cards
+              .where((c) => c.displayName.toLowerCase().contains(_query)))
+            _CardTile(
+              card: card,
+              selected: _owned.contains(card.id),
+              store: widget.store,
+              onToggle: (value) => _toggle(card, value),
+            ),
+          if (!rules.cards
+              .any((c) => c.displayName.toLowerCase().contains(_query)))
+            Padding(
+              padding: const EdgeInsets.all(24),
+              child: Text(
+                'No card matches "$_query".',
+                style: Theme.of(context).textTheme.bodySmall,
+              ),
+            ),
+        ] else ...[
+          // Grouped by issuing bank, and collapsed by default. A bank you
+          // hold a card from opens automatically, so returning to this screen
+          // shows your own cards without any tapping.
+          for (final entry in rules.cardsByBank.entries)
+            _BankGroup(
+              bank: entry.key,
+              cards: entry.value,
+              owned: _owned,
+              store: widget.store,
+              onToggle: _toggle,
+            ),
+        ],
         const SizedBox(height: 24),
       ],
     );
