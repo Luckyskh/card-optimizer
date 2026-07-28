@@ -996,6 +996,15 @@
         {
           "category": "other",
           "rate_pct": 1.5
+        },
+        {
+          "category": "other",
+          "label": "Tata Neu App ecosystem",
+          "merchants": [
+            "tata cliq"
+          ],
+          "rate_pct": 10.0,
+          "note": "From the supplied CSV: \"10% NeuCoins\" at Tata Neu App ecosystem. Any cap on this rate is not in that file. Added alongside this card's researched rates, which already covered ."
         }
       ],
       "exclusions": [
@@ -1141,6 +1150,15 @@
           "rate_pct": 1.0,
           "monthly_cap_inr": 1000,
           "min_transaction_inr": 100
+        },
+        {
+          "category": "other",
+          "label": "Swiggy App",
+          "merchants": [
+            "swiggy"
+          ],
+          "rate_pct": 10.0,
+          "note": "From the supplied CSV: \"10% Cashback\" at Swiggy App. Any cap on this rate is not in that file. Added alongside this card's researched rates, which already covered ."
         }
       ],
       "exclusions": [
@@ -1211,6 +1229,17 @@
         {
           "category": "insurance",
           "monthly_cap_points": 10000
+        },
+        {
+          "category": "other",
+          "label": "Nykaa / Myntra / Reliance Digital",
+          "merchants": [
+            "nykaa",
+            "myntra",
+            "reliance digital"
+          ],
+          "points_per_200": 25.0,
+          "note": "From the supplied CSV: \"5X Reward Points\" at Nykaa / Myntra / Reliance Digital, read as 5 times the base rate. Any cap on this rate is not in that file. Added alongside this card's researched rates, which already covered ."
         }
       ],
       "exclusions": [
@@ -1679,7 +1708,18 @@
         "points": 4.0,
         "per_spend_inr": 150.0
       },
-      "category_rates": [],
+      "category_rates": [
+        {
+          "category": "other",
+          "label": "Swiggy & Zomato",
+          "merchants": [
+            "swiggy",
+            "zomato"
+          ],
+          "points_per_200": 10.666666666666666,
+          "note": "From the supplied CSV: \"2X Reward Points\" at Swiggy & Zomato, read as 2 times the base rate. Any cap on this rate is not in that file."
+        }
+      ],
       "exclusions": [],
       "transfer_partners": {
         "supplied": {
@@ -1723,7 +1763,17 @@
       "point_value_inr": 1.0,
       "point_value_note": "1 NeuCoin = 1 INR",
       "base_rate_pct": 1.0,
-      "category_rates": [],
+      "category_rates": [
+        {
+          "category": "other",
+          "label": "Tata Neu App ecosystem",
+          "merchants": [
+            "tata cliq"
+          ],
+          "rate_pct": 7.0,
+          "note": "From the supplied CSV: \"7% NeuCoins\" at Tata Neu App ecosystem. Any cap on this rate is not in that file."
+        }
+      ],
       "exclusions": [],
       "transfer_partners": {
         "supplied": {
@@ -1764,7 +1814,19 @@
         "points": 2.0,
         "per_spend_inr": 150.0
       },
-      "category_rates": [],
+      "category_rates": [
+        {
+          "category": "other",
+          "label": "Amazon / Swiggy / BigBasket",
+          "merchants": [
+            "amazon",
+            "swiggy",
+            "bigbasket"
+          ],
+          "points_per_200": 26.666666666666668,
+          "note": "From the supplied CSV: \"10X CashPoints\" at Amazon / Swiggy / BigBasket, read as 10 times the base rate. Any cap on this rate is not in that file."
+        }
+      ],
       "exclusions": [],
       "accelerated_partners": {
         "platforms": "Amazon / Swiggy / BigBasket",
@@ -1796,7 +1858,19 @@
         "points": 1.0,
         "per_spend_inr": 150.0
       },
-      "category_rates": [],
+      "category_rates": [
+        {
+          "category": "other",
+          "label": "BigBasket / Swiggy / OYO",
+          "merchants": [
+            "bigbasket",
+            "swiggy",
+            "oyo"
+          ],
+          "points_per_200": 13.333333333333334,
+          "note": "From the supplied CSV: \"10X CashPoints\" at BigBasket / Swiggy / OYO, read as 10 times the base rate. Any cap on this rate is not in that file."
+        }
+      ],
       "exclusions": [],
       "accelerated_partners": {
         "platforms": "BigBasket / Swiggy / OYO",
@@ -1892,7 +1966,17 @@
         "points": 1.0,
         "per_spend_inr": 150.0
       },
-      "category_rates": [],
+      "category_rates": [
+        {
+          "category": "groceries",
+          "label": "IndianOil Pumps & Groceries",
+          "merchants": [
+            "indianoil"
+          ],
+          "rate_pct": 5.0,
+          "note": "From the supplied CSV: \"5% Fuel Points\" at IndianOil Pumps & Groceries. Any cap on this rate is not in that file."
+        }
+      ],
       "exclusions": [],
       "accelerated_partners": {
         "platforms": "IndianOil Pumps & Groceries",
@@ -1924,7 +2008,17 @@
         "points": 2.0,
         "per_spend_inr": 150.0
       },
-      "category_rates": [],
+      "category_rates": [
+        {
+          "category": "other",
+          "label": "Shoppers Stop",
+          "merchants": [
+            "shoppers stop"
+          ],
+          "points_per_200": 8.0,
+          "note": "From the supplied CSV: \"6 Pts per 150\" at Shoppers Stop. Any cap on this rate is not in that file."
+        }
+      ],
       "exclusions": [],
       "transfer_partners": {
         "supplied": {
@@ -2003,7 +2097,17 @@
       "point_value_inr": 1.0,
       "point_value_note": "1 Reward = 1 INR",
       "base_rate_pct": 2.0,
-      "category_rates": [],
+      "category_rates": [
+        {
+          "category": "other",
+          "label": "Indigo Airline",
+          "merchants": [
+            "indigo"
+          ],
+          "rate_pct": 5.0,
+          "note": "From the supplied CSV: \"5% 6E Rewards\" at Indigo Airline. Any cap on this rate is not in that file."
+        }
+      ],
       "exclusions": [],
       "transfer_partners": {
         "supplied": {
@@ -2041,7 +2145,17 @@
       "point_value_inr": 1.0,
       "point_value_note": "1 Reward = 1 INR",
       "base_rate_pct": 1.0,
-      "category_rates": [],
+      "category_rates": [
+        {
+          "category": "other",
+          "label": "Indigo Airline",
+          "merchants": [
+            "indigo"
+          ],
+          "rate_pct": 2.5,
+          "note": "From the supplied CSV: \"2.5% 6E Rewards\" at Indigo Airline. Any cap on this rate is not in that file."
+        }
+      ],
       "exclusions": [],
       "transfer_partners": {
         "supplied": {
@@ -2574,7 +2688,17 @@
         "points": 1.0,
         "per_spend_inr": 100.0
       },
-      "category_rates": [],
+      "category_rates": [
+        {
+          "category": "other",
+          "label": "IndianOil Pumps",
+          "merchants": [
+            "indianoil"
+          ],
+          "points_per_200": 40.0,
+          "note": "From the supplied CSV: \"20 Pts per 100\" at IndianOil Pumps. Any cap on this rate is not in that file."
+        }
+      ],
       "exclusions": [],
       "accelerated_partners": {
         "platforms": "IndianOil Pumps",
@@ -3136,7 +3260,14 @@
         "points": 2.0,
         "per_spend_inr": 100.0
       },
-      "category_rates": [],
+      "category_rates": [
+        {
+          "category": "travel_flights_hotels",
+          "label": "Travel Bookings",
+          "points_per_200": 20.0,
+          "note": "From the supplied CSV: \"5X Credits\" at Travel Bookings, read as 5 times the base rate. Any cap on this rate is not in that file."
+        }
+      ],
       "exclusions": [],
       "transfer_partners": {
         "supplied": {
@@ -3183,7 +3314,14 @@
         "points": 2.0,
         "per_spend_inr": 100.0
       },
-      "category_rates": [],
+      "category_rates": [
+        {
+          "category": "travel_flights_hotels",
+          "label": "Travel Bookings",
+          "points_per_200": 16.0,
+          "note": "From the supplied CSV: \"4X Credits\" at Travel Bookings, read as 4 times the base rate. Any cap on this rate is not in that file."
+        }
+      ],
       "exclusions": [],
       "transfer_partners": {
         "supplied": {
@@ -3230,7 +3368,14 @@
         "points": 1.0,
         "per_spend_inr": 100.0
       },
-      "category_rates": [],
+      "category_rates": [
+        {
+          "category": "travel_flights_hotels",
+          "label": "Travel Bookings",
+          "points_per_200": 6.0,
+          "note": "From the supplied CSV: \"3X Credits\" at Travel Bookings, read as 3 times the base rate. Any cap on this rate is not in that file."
+        }
+      ],
       "exclusions": [],
       "transfer_partners": {
         "supplied": {
@@ -3277,7 +3422,18 @@
         "points": 1.0,
         "per_spend_inr": 100.0
       },
-      "category_rates": [],
+      "category_rates": [
+        {
+          "category": "other",
+          "label": "Amazon / BookMyShow",
+          "merchants": [
+            "amazon",
+            "bookmyshow"
+          ],
+          "points_per_200": 20.0,
+          "note": "From the supplied CSV: \"10X Reward Points\" at Amazon / BookMyShow, read as 10 times the base rate. Any cap on this rate is not in that file."
+        }
+      ],
       "exclusions": [],
       "accelerated_partners": {
         "platforms": "Amazon / BookMyShow",
@@ -3384,7 +3540,14 @@
         "points": 2.0,
         "per_spend_inr": 100.0
       },
-      "category_rates": [],
+      "category_rates": [
+        {
+          "category": "dining",
+          "label": "Dining / Groceries",
+          "points_per_200": 20.0,
+          "note": "From the supplied CSV: \"5X Reward Points\" at Dining / Groceries, read as 5 times the base rate. Any cap on this rate is not in that file."
+        }
+      ],
       "exclusions": [],
       "transfer_partners": {
         "supplied": {
@@ -3425,7 +3588,14 @@
         "points": 2.0,
         "per_spend_inr": 100.0
       },
-      "category_rates": [],
+      "category_rates": [
+        {
+          "category": "dining",
+          "label": "Dining / Groceries",
+          "points_per_200": 20.0,
+          "note": "From the supplied CSV: \"10 Pts per 100\" at Dining / Groceries. Any cap on this rate is not in that file."
+        }
+      ],
       "exclusions": [],
       "transfer_partners": {
         "supplied": {
@@ -3694,7 +3864,17 @@
         "points": 1.0,
         "per_spend_inr": 100.0
       },
-      "category_rates": [],
+      "category_rates": [
+        {
+          "category": "groceries",
+          "label": "Yatra App / Groceries",
+          "merchants": [
+            "yatra"
+          ],
+          "points_per_200": 12.0,
+          "note": "From the supplied CSV: \"6X Reward Points\" at Yatra App / Groceries, read as 6 times the base rate. Any cap on this rate is not in that file."
+        }
+      ],
       "exclusions": [],
       "accelerated_partners": {
         "platforms": "Yatra App / Groceries",
@@ -3721,7 +3901,17 @@
       "reward_type": "points",
       "point_currency": "Miles",
       "point_value_note": "1 Pt = 1 Mile — not stated in rupees, so this card carries no rate here. Ranking it would mean inventing what the mile is worth, and defaulting to Rs 1 put it near the top of every category.",
-      "category_rates": [],
+      "category_rates": [
+        {
+          "category": "other",
+          "label": "Air India App",
+          "merchants": [
+            "air india"
+          ],
+          "points_per_200": 60.0,
+          "note": "From the supplied CSV: \"30 Pts per 100\" at Air India App. Any cap on this rate is not in that file."
+        }
+      ],
       "exclusions": [],
       "transfer_partners": {
         "supplied": {
@@ -3757,7 +3947,17 @@
       "reward_type": "points",
       "point_currency": "Miles",
       "point_value_note": "1 Pt = 1 Mile — not stated in rupees, so this card carries no rate here. Ranking it would mean inventing what the mile is worth, and defaulting to Rs 1 put it near the top of every category.",
-      "category_rates": [],
+      "category_rates": [
+        {
+          "category": "other",
+          "label": "Air India App",
+          "merchants": [
+            "air india"
+          ],
+          "points_per_200": 30.0,
+          "note": "From the supplied CSV: \"15 Pts per 100\" at Air India App. Any cap on this rate is not in that file."
+        }
+      ],
       "exclusions": [],
       "transfer_partners": {
         "supplied": {
@@ -4080,7 +4280,14 @@
         "points": 2.0,
         "per_spend_inr": 100.0
       },
-      "category_rates": [],
+      "category_rates": [
+        {
+          "category": "dining",
+          "label": "Dining & Groceries",
+          "points_per_200": 4.0,
+          "note": "From the supplied CSV: \"2 Pts per 100\" at Dining & Groceries. Any cap on this rate is not in that file."
+        }
+      ],
       "exclusions": [],
       "accelerated_partners": {
         "platforms": "Dining & Groceries",
@@ -4856,7 +5063,17 @@
       "point_value_inr": 1.0,
       "point_value_note": "1 CB = 1 INR",
       "base_rate_pct": 1.25,
-      "category_rates": [],
+      "category_rates": [
+        {
+          "category": "other",
+          "label": "Myntra",
+          "merchants": [
+            "myntra"
+          ],
+          "rate_pct": 7.5,
+          "note": "From the supplied CSV: \"7.5% Cashback\" at Myntra. Any cap on this rate is not in that file."
+        }
+      ],
       "exclusions": [],
       "accelerated_partners": {
         "platforms": "Myntra",
@@ -4920,7 +5137,14 @@
         "points": 1.0,
         "per_spend_inr": 100.0
       },
-      "category_rates": [],
+      "category_rates": [
+        {
+          "category": "groceries",
+          "label": "Groceries",
+          "points_per_200": 40.0,
+          "note": "From the supplied CSV: \"20 Pts per 100\" at Groceries. Any cap on this rate is not in that file."
+        }
+      ],
       "exclusions": [],
       "accelerated_partners": {
         "platforms": "Groceries",
@@ -4984,7 +5208,14 @@
         "points": 2.0,
         "per_spend_inr": 100.0
       },
-      "category_rates": [],
+      "category_rates": [
+        {
+          "category": "dining",
+          "label": "Dining & International",
+          "points_per_200": 40.0,
+          "note": "From the supplied CSV: \"20 Pts per 100\" at Dining & International. Any cap on this rate is not in that file."
+        }
+      ],
       "exclusions": [],
       "accelerated_partners": {
         "platforms": "Dining & International",

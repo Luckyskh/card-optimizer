@@ -600,6 +600,87 @@ void main() {
     });
   });
 
+  // -------------------------------------------------------------------------
+  group('merchant-varying rates from the imported data', () {
+    test('naming Nykaa unlocks Regalia Gold\'s accelerated rate', () {
+      final anywhere = engine.evaluate(
+        card('hdfc-regalia-gold'),
+        const SpendRequest(category: 'other_ecommerce', amountInr: 5000),
+      );
+      final atNykaa = engine.evaluate(
+        card('hdfc-regalia-gold'),
+        const SpendRequest(
+          category: 'other_ecommerce',
+          amountInr: 5000,
+          merchant: 'nykaa',
+        ),
+      );
+
+      expect(atNykaa.rupees, greaterThan(anywhere.rupees));
+      expect(round2(atNykaa.effectivePct), closeTo(8.13, 0.05));
+    });
+
+    test('a discount is never treated as a reward', () {
+      // Axis Select's accelerated entry is "20% Discount" on Swiggy and
+      // BigBasket. That is money off the bill, not points earned; pricing it
+      // put the card top of every Swiggy purchase at 20%.
+      final result = engine.evaluate(
+        card('axis-select'),
+        const SpendRequest(
+          category: 'food_delivery',
+          amountInr: 2000,
+          merchant: 'swiggy',
+        ),
+      );
+
+      expect(result.effectivePct, lessThan(5),
+          reason: 'a 20% discount must not be earning 20%');
+    });
+
+    test('two rates against two platforms are not priced at all', () {
+      // Axis Airtel: "25% & 10% Cashback" over "Airtel Thanks App / Swiggy".
+      // Only their order links them, and guessing gave Swiggy the 25%.
+      final result = engine.evaluate(
+        card('axis-airtel'),
+        const SpendRequest(
+          category: 'food_delivery',
+          amountInr: 2000,
+          merchant: 'swiggy',
+        ),
+      );
+
+      expect(result.effectivePct, lessThan(11),
+          reason: 'Airtel\'s 25% belongs to Airtel, not to Swiggy');
+    });
+
+    test('a rate carrying an unmodelled condition is not priced', () {
+      // IDFC's 10X applies to "Online & Incremental Spends" — only the
+      // incremental part. Dropping that word made it a blanket 7.5% and put
+      // four IDFC cards atop every online purchase.
+      final result = engine.evaluate(
+        card('idfc-first-millennia'),
+        const SpendRequest(category: 'other_ecommerce', amountInr: 5000),
+      );
+
+      expect(result.effectivePct, lessThan(7),
+          reason: 'a conditional 10X must not become an unconditional one');
+    });
+
+    test('every merchant named in an imported rate row is selectable', () {
+      // The same consistency rule as the hand-written rows: a rate pinned to
+      // a merchant the user cannot pick can never fire.
+      final known = rules.merchants.map((m) => m.id).toSet();
+      for (final c in rules.cards) {
+        for (final row in c.categoryRates) {
+          for (final m in row.merchants) {
+            expect(known, contains(m),
+                reason: '${c.id} names "$m", which is not in the directory');
+          }
+        }
+      }
+    });
+  });
+
   group('exclusions and honesty about gaps', () {
     test('an excluded category earns nothing and says so', () {
       final result = engine.evaluate(
