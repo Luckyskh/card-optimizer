@@ -456,6 +456,87 @@ void main() {
     });
   });
 
+  // -------------------------------------------------------------------------
+  group('threshold exclusions and fees', () {
+    // Amazon Pay ICICI lists `wallet_load_above_5000` and charges 1% at that
+    // point. Comparing the raw exclusion string against the category matches
+    // neither, so before this the app showed a Rs 8,000 load EARNING Rs 80
+    // when it in fact earns nothing and costs Rs 80 - the sign was wrong, not
+    // just the number.
+
+    test('a load below the threshold still earns', () {
+      final result = engine.evaluate(
+        card('amazon-pay-icici'),
+        const SpendRequest(
+          category: 'wallet_load',
+          amountInr: 3000,
+          merchant: 'amazon pay',
+        ),
+      );
+
+      expect(result.excluded, isFalse);
+      expect(result.rupees, 30); // 1%
+    });
+
+    test('a load above the threshold earns nothing', () {
+      final result = engine.evaluate(
+        card('amazon-pay-icici'),
+        const SpendRequest(
+          category: 'wallet_load',
+          amountInr: 8000,
+          merchant: 'amazon pay',
+        ),
+      );
+
+      expect(result.excluded, isTrue);
+      expect(result.rupees, 0);
+      expect(result.reasons.any((r) => r.contains('5000')), isTrue);
+    });
+
+    test('and the fee it charges is disclosed, not hidden', () {
+      final result = engine.evaluate(
+        card('amazon-pay-icici'),
+        const SpendRequest(category: 'wallet_load', amountInr: 8000),
+      );
+
+      expect(
+        result.reasons.any((r) => r.contains('1%') && r.contains('80')),
+        isTrue,
+        reason: 'earning nothing and being charged for it are different '
+            'things, and the user should be told both',
+      );
+    });
+
+    test('a fee on a category that still earns is netted off', () {
+      // Flipkart Axis charges 1% on utilities above Rs 25,000 while still
+      // paying its base 1%, so the two cancel and the card is worth nothing
+      // there - which the old maths would have shown as a clear positive.
+      final result = engine.evaluate(
+        card('flipkart-axis'),
+        const SpendRequest(category: 'utilities', amountInr: 30000),
+      );
+
+      expect(round2(result.rupees), 0);
+      expect(result.reasons.any((r) => r.contains('netted off')), isTrue);
+    });
+
+    test('a free-form fee trigger is never applied to the maths', () {
+      // "skill_based_gaming" names no category or threshold we can parse.
+      // It must not silently change a number.
+      final gaming = card('amazon-pay-icici')
+          .surcharges
+          .firstWhere((s) => s.trigger.contains('skill_based_gaming'));
+
+      expect(gaming.category, isNull);
+      expect(gaming.applies('other', 10000), isFalse);
+    });
+
+    test('Amazon Pay is selectable as a wallet-load merchant', () {
+      final wallets = rules.merchantsIn('wallet_load').map((m) => m.id);
+      expect(wallets, contains('amazon pay'));
+    });
+  });
+
   group('exclusions and honesty about gaps', () {
     test('an excluded category earns nothing and says so', () {
       final result = engine.evaluate(

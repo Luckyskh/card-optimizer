@@ -205,7 +205,16 @@ class CardRule {
   final double? maxAnnualCashbackInr;
 
   /// Categories that earn nothing at all on this card.
+  ///
+  /// Most entries are a plain category, but some carry a threshold —
+  /// `wallet_load_above_5000` means the exclusion only bites above ₹5,000.
+  /// Use [isExcluded] rather than testing this list directly, or the threshold
+  /// form silently never matches and the card looks better than it is.
   final List<String> exclusions;
+
+  /// Fees the card charges on particular kinds of spend, which offset or
+  /// outweigh what it pays.
+  final List<Surcharge> surcharges;
 
   /// Set when the card's rate depends on something about the user rather than
   /// the purchase — currently only Amazon Prime membership.
@@ -237,6 +246,7 @@ class CardRule {
     this.totalMonthlyCapInr,
     this.maxAnnualCashbackInr,
     this.exclusions = const [],
+    this.surcharges = const [],
     this.conditionalCondition,
     this.conditionalNote,
     this.lastChanged,
@@ -247,6 +257,37 @@ class CardRule {
 
   /// "HDFC Bank Millennia" — what the user actually sees in a list.
   String get displayName => '$bank $name';
+
+  /// Whether this purchase earns nothing at all.
+  ///
+  /// Handles both plain exclusions and the threshold form. Amazon Pay ICICI
+  /// lists `wallet_load_above_5000`: a Rs 3,000 load still earns, a Rs 8,000
+  /// one does not. Comparing the raw string against the category would match
+  /// neither, so the card would appear to earn on a load that in fact pays
+  /// nothing and costs a fee.
+  ///
+  /// Returns the matching exclusion so the reason shown can quote it.
+  String? isExcluded(String category, double amountInr) {
+    for (final entry in exclusions) {
+      if (entry == category) return entry;
+
+      final threshold = RegExp('^${RegExp.escape(category)}_above_(\\d+)\$')
+          .firstMatch(entry);
+      if (threshold != null) {
+        final limit = double.tryParse(threshold.group(1)!);
+        if (limit != null && amountInr > limit) return entry;
+      }
+    }
+    return null;
+  }
+
+  /// Any fee this purchase attracts, or null.
+  Surcharge? surchargeFor(String category, double amountInr) {
+    for (final surcharge in surcharges) {
+      if (surcharge.applies(category, amountInr)) return surcharge;
+    }
+    return null;
+  }
 
   /// The card's fallback percentage, whichever way the JSON expressed it.
   /// Returns null when the dataset genuinely does not say.
@@ -298,12 +339,76 @@ class CardRule {
       totalMonthlyCapInr: _toDouble(json['total_monthly_cap_inr']),
       maxAnnualCashbackInr: _toDouble(json['max_annual_cashback_inr']),
       exclusions: _stringList(json['exclusions']),
+      surcharges: (json['fees_and_surcharges'] as List<dynamic>? ?? [])
+          .whereType<Map<String, dynamic>>()
+          .map(Surcharge.fromJson)
+          .toList(),
       conditionalCondition: conditional?['condition'] as String?,
       conditionalNote: conditional?['note'] as String?,
       lastChanged: json['last_changed'] as String?,
       changeSummary: json['change_summary'] as String?,
       lastVerified: json['last_verified'] as String?,
       unverified: _stringList(json['_verify']),
+    );
+  }
+}
+
+/// A fee charged on a particular kind of spend.
+///
+/// These are the reason a card can be actively bad for a purchase rather than
+/// merely unrewarding. Amazon Pay ICICI charges 1% on wallet loads of Rs 5,000
+/// or more, so a Rs 8,000 load costs Rs 80 and earns nothing — showing it as a
+/// small positive would be the wrong sign, not just an imprecise number.
+class Surcharge {
+  /// The dataset's own wording, e.g. "wallet_load >= 5000". Shown to the user
+  /// verbatim, because paraphrasing a fee rule risks changing its meaning.
+  final String trigger;
+
+  final double? feePct;
+  final String? effectiveFrom;
+
+  /// The category and threshold parsed out of [trigger], where that was
+  /// possible. Null when the wording is too free-form to read safely — in
+  /// which case the fee is disclosed but never applied to the maths.
+  final String? category;
+  final double? aboveInr;
+
+  const Surcharge({
+    required this.trigger,
+    this.feePct,
+    this.effectiveFrom,
+    this.category,
+    this.aboveInr,
+  });
+
+  bool applies(String forCategory, double amountInr) {
+    if (category == null || feePct == null) return false;
+    if (category != forCategory) return false;
+    if (aboveInr != null && amountInr < aboveInr!) return false;
+    return true;
+  }
+
+  factory Surcharge.fromJson(Map<String, dynamic> json) {
+    final trigger = json['trigger'] as String? ?? '';
+
+    // Only two shapes are parsed, both unambiguous:
+    //   "wallet_load >= 5000"
+    //   "utilities above 25000 per cycle"
+    // Anything else - "skill_based_gaming", "transport MCC spends above
+    // 50000" - is left unparsed rather than guessed at, so it is shown to the
+    // user but never silently changes a number.
+    final match = RegExp(r'^([a-z_]+)\s*(?:>=|above)\s*([\d,]+)',
+            caseSensitive: false)
+        .firstMatch(trigger.trim());
+
+    return Surcharge(
+      trigger: trigger,
+      feePct: _toDouble(json['fee_pct']),
+      effectiveFrom: json['effective_from'] as String?,
+      category: match?.group(1)?.toLowerCase(),
+      aboveInr: match == null
+          ? null
+          : double.tryParse(match.group(2)!.replaceAll(',', '')),
     );
   }
 }

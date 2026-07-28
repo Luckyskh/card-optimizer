@@ -105,8 +105,12 @@ class RecommendationEngine {
   Recommendation evaluate(CardRule card, SpendRequest request) {
     final reasons = <String>[];
 
-    // ---- 1. Is this category excluded outright? -------------------------
-    if (card.exclusions.contains(request.category)) {
+    // ---- 1. Is this category excluded? ----------------------------------
+    // Some exclusions carry a threshold, so this has to know the amount.
+    final excluded = card.isExcluded(request.category, request.amountInr);
+    if (excluded != null) {
+      final threshold =
+          RegExp(r'_above_(\d+)$').firstMatch(excluded)?.group(1);
       return Recommendation(
         card: card,
         rupees: 0,
@@ -114,8 +118,12 @@ class RecommendationEngine {
         headline: 'Earns nothing here',
         excluded: true,
         reasons: [
-          '${prettyCategory(request.category)} is on this card\'s exclusion '
-              'list, so the spend earns no reward at all.',
+          threshold == null
+              ? '${prettyCategory(request.category)} is on this card\'s '
+                  'exclusion list, so the spend earns no reward at all.'
+              : '${prettyCategory(request.category)} earns nothing on this '
+                  'card above ₹$threshold, and this purchase is over that.',
+          ...?_surchargeReason(card, request),
         ],
       );
     }
@@ -243,12 +251,27 @@ class RecommendationEngine {
       reasons.add('Unverified in the dataset: $field.');
     }
 
+    // A fee on this kind of spend comes straight off what you earn. Netting it
+    // here rather than mentioning it in passing is the difference between
+    // "this card pays a little" and "this card costs you money".
+    var net = capped.earned;
+    final surcharge = card.surchargeFor(request.category, request.amountInr);
+    if (surcharge?.feePct != null) {
+      final fee = request.amountInr * surcharge!.feePct! / 100;
+      net -= fee;
+      reasons.add(
+        'This card charges a ${_plain(surcharge.feePct!)}% fee on this kind of '
+        'spend — ₹${_plain(fee)} here — which is netted off above. Its own '
+        'wording: "${surcharge.trigger}".',
+      );
+    }
+
     final effective =
-        request.amountInr > 0 ? capped.earned / request.amountInr * 100 : 0.0;
+        request.amountInr > 0 ? net / request.amountInr * 100 : 0.0;
 
     return Recommendation(
       card: card,
-      rupees: capped.earned,
+      rupees: net,
       effectivePct: effective,
       headline: _headline(effective, rate, capped.wasCapped),
       reasons: reasons,
@@ -637,6 +660,21 @@ class RecommendationEngine {
     if (label != null) return '$base — $label';
     return base;
   }
+}
+
+/// The fee note for an excluded purchase, if there is one.
+///
+/// An excluded category earning nothing is one thing; earning nothing *and*
+/// being charged for the privilege is worth saying out loud.
+List<String>? _surchargeReason(CardRule card, SpendRequest request) {
+  final surcharge =
+      card.surchargeFor(request.category, request.amountInr);
+  if (surcharge?.feePct == null) return null;
+  final fee = request.amountInr * surcharge!.feePct! / 100;
+  return [
+    'Worse than nothing: this card also charges '
+        '${_plain(surcharge.feePct!)}% on this spend, about ₹${_plain(fee)}.',
+  ];
 }
 
 /// "N points per Rs X spent", kept as a slab rather than a percentage so the

@@ -138,6 +138,7 @@
     { "id": "cred rentpay", "name": "CRED RentPay", "category": "rent" },
     { "id": "housing.com", "name": "Housing.com", "category": "rent" },
 
+    { "id": "amazon pay", "name": "Amazon Pay", "category": "wallet_load" },
     { "id": "paytm wallet", "name": "Paytm Wallet", "category": "wallet_load" },
     { "id": "phonepe wallet", "name": "PhonePe Wallet", "category": "wallet_load" },
     { "id": "mobikwik", "name": "MobiKwik", "category": "wallet_load" },
