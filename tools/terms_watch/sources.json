@@ -372,9 +372,8 @@
       ],
       "label": "HDFC Bank credit card MITC (English)",
       "scope": "issuer",
-      "url": "https://www.hdfcbank.com/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf",
-      "known_blocked": true,
-      "note": "BLOCKED. Returns 403 with an HTML error body to Dart, curl and PowerShell alike. This is the document that actually carries HDFC's fees and charges, so until it becomes reachable those need checking by hand. Left in the list because GitHub's runners come from different addresses and may get through."
+      "url": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf",
+      "note": "Verified, 824 KB PDF - but only on hdfc.bank.in. The byte-identical path on www.hdfcbank.com returns 403 to every client tried. HDFC serves the same content from two hostnames and only one of them refuses automated requests, so a 403 from hdfcbank.com is worth retrying against hdfc.bank.in before concluding a document is unreachable."
     },
     {
       "doc_id": "hdfc-swiggy",
@@ -422,7 +421,71 @@
       "label": "HDFC Infinia Metal Edition card page",
       "scope": "card",
       "url": "https://www.hdfcbank.com/personal/pay/cards/credit-cards/infinia-credit-card",
-      "note": "Verified as HTML. /infinia 403s; /infinia-credit-card works."
+      "note": "Verified as HTML. /infinia 403s; /infinia-credit-card works. The same page is served from hdfc.bank.in/credit-cards/infinia-credit-card, byte for byte."
+    },
+    {
+      "doc_id": "hdfc-infinia-rewards-tnc",
+      "card_ids": ["hdfc-infinia"],
+      "label": "HDFC Infinia reward points programme terms",
+      "scope": "card",
+      "url": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/infinia-credit-card/rewards-points-program-terms-and-conditions.pdf",
+      "note": "Verified, 192 KB PDF. The most important document for this card - it is the reward programme itself, so an earn-rate or redemption change lands here first."
+    },
+    {
+      "doc_id": "hdfc-infinia-fees",
+      "card_ids": ["hdfc-infinia"],
+      "label": "HDFC Infinia fees and charges",
+      "scope": "card",
+      "url": "https://www.hdfc.bank.in/credit-cards/infinia-credit-card/fees-and-charges",
+      "note": "Verified as HTML, 1.1 MB. Per-card fees, as opposed to the issuer-wide MITC."
+    },
+    {
+      "doc_id": "hdfc-infinia-lounge",
+      "card_ids": ["hdfc-infinia"],
+      "label": "HDFC Infinia airport lounge access programme",
+      "scope": "card",
+      "url": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/infinia-credit-card/airport-lounge-access-program-30sep2025.pdf",
+      "note": "Verified, 110 KB PDF. Worth watching: lounge access is the benefit issuers have been quietly gating behind spend thresholds - it happened to Regalia Gold on 1 Jul 2026 and to IDFC FIRST Select in April. Note the date in the filename, so a new version may appear at a new URL rather than changing this one."
+    },
+    {
+      "doc_id": "hdfc-infinia-golf",
+      "card_ids": ["hdfc-infinia"],
+      "label": "HDFC Infinia golf programme terms",
+      "scope": "card",
+      "url": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/infinia-credit-card/Golf-T-and-C-for-INFINIA-05-08-25.pdf",
+      "note": "Verified, 670 KB PDF. Dated filename, same caveat as the lounge document."
+    },
+    {
+      "doc_id": "hdfc-infinia-club-marriott",
+      "card_ids": ["hdfc-infinia"],
+      "label": "HDFC Infinia Club Marriott membership terms",
+      "scope": "card",
+      "url": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/infinia-credit-card/Club_Marriott_Membership_T_C.pdf",
+      "note": "Verified, 311 KB PDF."
+    },
+    {
+      "doc_id": "hdfc-infinia-concierge",
+      "card_ids": ["hdfc-infinia"],
+      "label": "HDFC Infinia concierge terms",
+      "scope": "card",
+      "url": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/infinia-credit-card/Concierge-T-and-C.pdf",
+      "note": "Verified, 88 KB PDF."
+    },
+    {
+      "doc_id": "hdfc-infinia-fuel",
+      "card_ids": ["hdfc-infinia"],
+      "label": "HDFC Infinia fuel transaction terms",
+      "scope": "card",
+      "url": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/infinia-credit-card/Fuel_Transaction.pdf",
+      "note": "Verified, 85 KB PDF. Carries the fuel surcharge waiver, which is capped and has been trimmed on other cards."
+    },
+    {
+      "doc_id": "hdfc-infinia-insurance",
+      "card_ids": ["hdfc-infinia"],
+      "label": "HDFC Infinia insurance cover terms",
+      "scope": "card",
+      "url": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/infinia-credit-card/Insurance-Infinia.pdf",
+      "note": "Verified, 110 KB PDF."
     },
     {
       "doc_id": "hdfc-moneyback-plus",
