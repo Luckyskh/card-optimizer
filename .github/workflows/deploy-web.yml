@@ -42,8 +42,23 @@ jobs:
 
       # base-href matters: a project site is served from a subdirectory, so
       # without this every asset request 404s and you get a blank page.
+      #
+      # pwa-strategy=none turns off the service worker. Flutter installs one by
+      # default to make the site work offline, but it serves the previous build
+      # from cache and only picks up a new one on a later reload - so after a
+      # deploy a tester sees the old app and reasonably concludes the change did
+      # not ship. That happened with the Infinia card.
+      #
+      # The trade-off is real: the web build no longer works offline. For a
+      # version people are actively testing, showing them the current app
+      # matters more, and the Android build is unaffected and still offline.
+      # GitHub Pages also sends Cache-Control: max-age=600, so a change can
+      # still take up to ten minutes to appear - that part is not ours to set.
       - name: Build
-        run: flutter build web --release --base-href "/${{ github.event.repository.name }}/"
+        run: |
+          flutter build web --release \
+            --base-href "/${{ github.event.repository.name }}/" \
+            --pwa-strategy=none
 
       - uses: actions/upload-pages-artifact@v3
         with:
