@@ -1,17 +1,31 @@
 {
-  "version": 2,
+  "version": 4,
   "generated_on": "2026-07-26",
   "notes": "Starter dataset. Every rate/cap below should be re-verified against the issuer MITC before shipping. Fields marked _verify are from secondary sources only.",
-
   "categories": [
-    "amazon", "flipkart", "myntra", "other_ecommerce",
-    "food_delivery", "dining", "groceries", "quick_commerce",
-    "utilities", "mobile_dth_recharge", "fuel", "rent",
-    "travel_flights_hotels", "cabs", "entertainment",
-    "insurance", "education", "government_tax", "wallet_load",
-    "international", "upi", "other"
+    "amazon",
+    "flipkart",
+    "myntra",
+    "other_ecommerce",
+    "food_delivery",
+    "dining",
+    "groceries",
+    "quick_commerce",
+    "utilities",
+    "mobile_dth_recharge",
+    "fuel",
+    "rent",
+    "travel_flights_hotels",
+    "cabs",
+    "entertainment",
+    "insurance",
+    "education",
+    "government_tax",
+    "wallet_load",
+    "international",
+    "upi",
+    "other"
   ],
-
   "_merchants_note": [
     "Where you are spending, not just what on. This matters because several",
     "accelerated rates only apply at named merchants - Axis ACE pays 4% on",
@@ -26,137 +40,548 @@
     "never changes what a card pays - it only lets the engine see a rate row",
     "that was already in the dataset."
   ],
-
   "merchants": [
-    { "id": "amazon", "name": "Amazon", "category": "amazon" },
-    { "id": "flipkart", "name": "Flipkart", "category": "flipkart" },
-    { "id": "myntra", "name": "Myntra", "category": "myntra" },
-    { "id": "ajio", "name": "AJIO", "category": "other_ecommerce" },
-    { "id": "meesho", "name": "Meesho", "category": "other_ecommerce" },
-    { "id": "nykaa", "name": "Nykaa", "category": "other_ecommerce" },
-    { "id": "tata cliq", "name": "Tata CLiQ", "category": "other_ecommerce" },
-    { "id": "snapdeal", "name": "Snapdeal", "category": "other_ecommerce" },
-    { "id": "croma", "name": "Croma", "category": "other_ecommerce" },
-    { "id": "reliance digital", "name": "Reliance Digital", "category": "other_ecommerce" },
-    { "id": "vijay sales", "name": "Vijay Sales", "category": "other_ecommerce" },
-    { "id": "shoppers stop", "name": "Shoppers Stop", "category": "other_ecommerce" },
-    { "id": "westside", "name": "Westside", "category": "other_ecommerce" },
-    { "id": "decathlon", "name": "Decathlon", "category": "other_ecommerce" },
-    { "id": "ikea", "name": "IKEA", "category": "other_ecommerce" },
-    { "id": "pharmeasy", "name": "PharmEasy", "category": "other_ecommerce" },
-    { "id": "tata 1mg", "name": "Tata 1mg", "category": "other_ecommerce" },
-    { "id": "netmeds", "name": "Netmeds", "category": "other_ecommerce" },
-    { "id": "apollo pharmacy", "name": "Apollo Pharmacy", "category": "other_ecommerce" },
-
-    { "id": "swiggy", "name": "Swiggy", "category": "food_delivery" },
-    { "id": "zomato", "name": "Zomato", "category": "food_delivery" },
-    { "id": "eatsure", "name": "EatSure", "category": "food_delivery" },
-    { "id": "dominos", "name": "Domino's", "category": "food_delivery" },
-
-    { "id": "blinkit", "name": "Blinkit", "category": "quick_commerce" },
-    { "id": "zepto", "name": "Zepto", "category": "quick_commerce" },
-    { "id": "swiggy instamart", "name": "Swiggy Instamart", "category": "quick_commerce" },
-    { "id": "bigbasket", "name": "BigBasket", "category": "groceries" },
-    { "id": "jiomart", "name": "JioMart", "category": "groceries" },
-    { "id": "dmart", "name": "DMart", "category": "groceries" },
-    { "id": "spencers", "name": "Spencer's", "category": "groceries" },
-    { "id": "more retail", "name": "More Retail", "category": "groceries" },
-
-    { "id": "eazydiner", "name": "EazyDiner", "category": "dining" },
-    { "id": "dineout", "name": "Dineout", "category": "dining" },
-    { "id": "starbucks", "name": "Starbucks", "category": "dining" },
-    { "id": "mcdonalds", "name": "McDonald's", "category": "dining" },
-    { "id": "kfc", "name": "KFC", "category": "dining" },
-    { "id": "pizza hut", "name": "Pizza Hut", "category": "dining" },
-    { "id": "burger king", "name": "Burger King", "category": "dining" },
-    { "id": "barbeque nation", "name": "Barbeque Nation", "category": "dining" },
-    { "id": "third wave coffee", "name": "Third Wave Coffee", "category": "dining" },
-    { "id": "blue tokai", "name": "Blue Tokai", "category": "dining" },
-
-    { "id": "makemytrip", "name": "MakeMyTrip", "category": "travel_flights_hotels" },
-    { "id": "goibibo", "name": "Goibibo", "category": "travel_flights_hotels" },
-    { "id": "cleartrip", "name": "Cleartrip", "category": "travel_flights_hotels" },
-    { "id": "yatra", "name": "Yatra", "category": "travel_flights_hotels" },
-    { "id": "easemytrip", "name": "EaseMyTrip", "category": "travel_flights_hotels" },
-    { "id": "ixigo", "name": "ixigo", "category": "travel_flights_hotels" },
-    { "id": "irctc", "name": "IRCTC", "category": "travel_flights_hotels" },
-    { "id": "booking.com", "name": "Booking.com", "category": "travel_flights_hotels" },
-    { "id": "agoda", "name": "Agoda", "category": "travel_flights_hotels" },
-    { "id": "airbnb", "name": "Airbnb", "category": "travel_flights_hotels" },
-    { "id": "oyo", "name": "OYO", "category": "travel_flights_hotels" },
-    { "id": "indigo", "name": "IndiGo", "category": "travel_flights_hotels" },
-    { "id": "air india", "name": "Air India", "category": "travel_flights_hotels" },
-    { "id": "akasa air", "name": "Akasa Air", "category": "travel_flights_hotels" },
-
-    { "id": "uber", "name": "Uber", "category": "cabs" },
-    { "id": "ola", "name": "Ola", "category": "cabs" },
-    { "id": "rapido", "name": "Rapido", "category": "cabs" },
-    { "id": "blusmart", "name": "BluSmart", "category": "cabs" },
-
-    { "id": "bookmyshow", "name": "BookMyShow", "category": "entertainment" },
-    { "id": "pvr", "name": "PVR INOX", "category": "entertainment" },
-    { "id": "district", "name": "District by Zomato", "category": "entertainment" },
-    { "id": "netflix", "name": "Netflix", "category": "entertainment" },
-    { "id": "amazon prime video", "name": "Amazon Prime Video", "category": "entertainment" },
-    { "id": "disney+ hotstar", "name": "JioHotstar", "category": "entertainment" },
-    { "id": "sony liv", "name": "SonyLIV", "category": "entertainment" },
-    { "id": "zee5", "name": "ZEE5", "category": "entertainment" },
-    { "id": "spotify", "name": "Spotify", "category": "entertainment" },
-    { "id": "youtube premium", "name": "YouTube Premium", "category": "entertainment" },
-
-    { "id": "airtel", "name": "Airtel", "category": "mobile_dth_recharge" },
-    { "id": "jio", "name": "Jio", "category": "mobile_dth_recharge" },
-    { "id": "vi", "name": "Vi", "category": "mobile_dth_recharge" },
-    { "id": "bsnl", "name": "BSNL", "category": "mobile_dth_recharge" },
-    { "id": "tata play", "name": "Tata Play", "category": "mobile_dth_recharge" },
-
-    { "id": "tata power", "name": "Tata Power", "category": "utilities" },
-    { "id": "adani electricity", "name": "Adani Electricity", "category": "utilities" },
-    { "id": "mahanagar gas", "name": "Mahanagar Gas", "category": "utilities" },
-    { "id": "indraprastha gas", "name": "Indraprastha Gas", "category": "utilities" },
-
-    { "id": "indianoil", "name": "IndianOil", "category": "fuel" },
-    { "id": "bharat petroleum", "name": "Bharat Petroleum", "category": "fuel" },
-    { "id": "hindustan petroleum", "name": "Hindustan Petroleum", "category": "fuel" },
-    { "id": "shell", "name": "Shell", "category": "fuel" },
-    { "id": "nayara", "name": "Nayara Energy", "category": "fuel" },
-
-    { "id": "policybazaar", "name": "PolicyBazaar", "category": "insurance" },
-    { "id": "acko", "name": "ACKO", "category": "insurance" },
-    { "id": "digit", "name": "Digit Insurance", "category": "insurance" },
-    { "id": "lic", "name": "LIC", "category": "insurance" },
-    { "id": "hdfc ergo", "name": "HDFC ERGO", "category": "insurance" },
-    { "id": "star health", "name": "Star Health", "category": "insurance" },
-
-    { "id": "unacademy", "name": "Unacademy", "category": "education" },
-    { "id": "coursera", "name": "Coursera", "category": "education" },
-    { "id": "udemy", "name": "Udemy", "category": "education" },
-    { "id": "upgrad", "name": "upGrad", "category": "education" },
-    { "id": "vedantu", "name": "Vedantu", "category": "education" },
-
-    { "id": "nobroker", "name": "NoBroker", "category": "rent" },
-    { "id": "cred rentpay", "name": "CRED RentPay", "category": "rent" },
-    { "id": "housing.com", "name": "Housing.com", "category": "rent" },
-
-    { "id": "amazon pay", "name": "Amazon Pay", "category": "wallet_load" },
-    { "id": "paytm wallet", "name": "Paytm Wallet", "category": "wallet_load" },
-    { "id": "phonepe wallet", "name": "PhonePe Wallet", "category": "wallet_load" },
-    { "id": "mobikwik", "name": "MobiKwik", "category": "wallet_load" },
-
-    { "id": "google pay", "name": "Google Pay", "category": "upi" },
-    { "id": "phonepe", "name": "PhonePe", "category": "upi" },
-    { "id": "paytm upi", "name": "Paytm UPI", "category": "upi" },
-    { "id": "cred", "name": "CRED", "category": "upi" },
-
-    { "id": "cult.fit", "name": "cult.fit", "category": "other" }
+    {
+      "id": "amazon",
+      "name": "Amazon",
+      "category": "amazon"
+    },
+    {
+      "id": "flipkart",
+      "name": "Flipkart",
+      "category": "flipkart"
+    },
+    {
+      "id": "myntra",
+      "name": "Myntra",
+      "category": "myntra"
+    },
+    {
+      "id": "ajio",
+      "name": "AJIO",
+      "category": "other_ecommerce"
+    },
+    {
+      "id": "meesho",
+      "name": "Meesho",
+      "category": "other_ecommerce"
+    },
+    {
+      "id": "nykaa",
+      "name": "Nykaa",
+      "category": "other_ecommerce"
+    },
+    {
+      "id": "tata cliq",
+      "name": "Tata CLiQ",
+      "category": "other_ecommerce"
+    },
+    {
+      "id": "snapdeal",
+      "name": "Snapdeal",
+      "category": "other_ecommerce"
+    },
+    {
+      "id": "croma",
+      "name": "Croma",
+      "category": "other_ecommerce"
+    },
+    {
+      "id": "reliance digital",
+      "name": "Reliance Digital",
+      "category": "other_ecommerce"
+    },
+    {
+      "id": "vijay sales",
+      "name": "Vijay Sales",
+      "category": "other_ecommerce"
+    },
+    {
+      "id": "shoppers stop",
+      "name": "Shoppers Stop",
+      "category": "other_ecommerce"
+    },
+    {
+      "id": "westside",
+      "name": "Westside",
+      "category": "other_ecommerce"
+    },
+    {
+      "id": "decathlon",
+      "name": "Decathlon",
+      "category": "other_ecommerce"
+    },
+    {
+      "id": "ikea",
+      "name": "IKEA",
+      "category": "other_ecommerce"
+    },
+    {
+      "id": "pharmeasy",
+      "name": "PharmEasy",
+      "category": "other_ecommerce"
+    },
+    {
+      "id": "tata 1mg",
+      "name": "Tata 1mg",
+      "category": "other_ecommerce"
+    },
+    {
+      "id": "netmeds",
+      "name": "Netmeds",
+      "category": "other_ecommerce"
+    },
+    {
+      "id": "apollo pharmacy",
+      "name": "Apollo Pharmacy",
+      "category": "other_ecommerce"
+    },
+    {
+      "id": "swiggy",
+      "name": "Swiggy",
+      "category": "food_delivery"
+    },
+    {
+      "id": "zomato",
+      "name": "Zomato",
+      "category": "food_delivery"
+    },
+    {
+      "id": "eatsure",
+      "name": "EatSure",
+      "category": "food_delivery"
+    },
+    {
+      "id": "dominos",
+      "name": "Domino's",
+      "category": "food_delivery"
+    },
+    {
+      "id": "blinkit",
+      "name": "Blinkit",
+      "category": "quick_commerce"
+    },
+    {
+      "id": "zepto",
+      "name": "Zepto",
+      "category": "quick_commerce"
+    },
+    {
+      "id": "swiggy instamart",
+      "name": "Swiggy Instamart",
+      "category": "quick_commerce"
+    },
+    {
+      "id": "bigbasket",
+      "name": "BigBasket",
+      "category": "groceries"
+    },
+    {
+      "id": "jiomart",
+      "name": "JioMart",
+      "category": "groceries"
+    },
+    {
+      "id": "dmart",
+      "name": "DMart",
+      "category": "groceries"
+    },
+    {
+      "id": "spencers",
+      "name": "Spencer's",
+      "category": "groceries"
+    },
+    {
+      "id": "more retail",
+      "name": "More Retail",
+      "category": "groceries"
+    },
+    {
+      "id": "eazydiner",
+      "name": "EazyDiner",
+      "category": "dining"
+    },
+    {
+      "id": "dineout",
+      "name": "Dineout",
+      "category": "dining"
+    },
+    {
+      "id": "starbucks",
+      "name": "Starbucks",
+      "category": "dining"
+    },
+    {
+      "id": "mcdonalds",
+      "name": "McDonald's",
+      "category": "dining"
+    },
+    {
+      "id": "kfc",
+      "name": "KFC",
+      "category": "dining"
+    },
+    {
+      "id": "pizza hut",
+      "name": "Pizza Hut",
+      "category": "dining"
+    },
+    {
+      "id": "burger king",
+      "name": "Burger King",
+      "category": "dining"
+    },
+    {
+      "id": "barbeque nation",
+      "name": "Barbeque Nation",
+      "category": "dining"
+    },
+    {
+      "id": "third wave coffee",
+      "name": "Third Wave Coffee",
+      "category": "dining"
+    },
+    {
+      "id": "blue tokai",
+      "name": "Blue Tokai",
+      "category": "dining"
+    },
+    {
+      "id": "makemytrip",
+      "name": "MakeMyTrip",
+      "category": "travel_flights_hotels"
+    },
+    {
+      "id": "goibibo",
+      "name": "Goibibo",
+      "category": "travel_flights_hotels"
+    },
+    {
+      "id": "cleartrip",
+      "name": "Cleartrip",
+      "category": "travel_flights_hotels"
+    },
+    {
+      "id": "yatra",
+      "name": "Yatra",
+      "category": "travel_flights_hotels"
+    },
+    {
+      "id": "easemytrip",
+      "name": "EaseMyTrip",
+      "category": "travel_flights_hotels"
+    },
+    {
+      "id": "ixigo",
+      "name": "ixigo",
+      "category": "travel_flights_hotels"
+    },
+    {
+      "id": "irctc",
+      "name": "IRCTC",
+      "category": "travel_flights_hotels"
+    },
+    {
+      "id": "booking.com",
+      "name": "Booking.com",
+      "category": "travel_flights_hotels"
+    },
+    {
+      "id": "agoda",
+      "name": "Agoda",
+      "category": "travel_flights_hotels"
+    },
+    {
+      "id": "airbnb",
+      "name": "Airbnb",
+      "category": "travel_flights_hotels"
+    },
+    {
+      "id": "oyo",
+      "name": "OYO",
+      "category": "travel_flights_hotels"
+    },
+    {
+      "id": "indigo",
+      "name": "IndiGo",
+      "category": "travel_flights_hotels"
+    },
+    {
+      "id": "air india",
+      "name": "Air India",
+      "category": "travel_flights_hotels"
+    },
+    {
+      "id": "akasa air",
+      "name": "Akasa Air",
+      "category": "travel_flights_hotels"
+    },
+    {
+      "id": "uber",
+      "name": "Uber",
+      "category": "cabs"
+    },
+    {
+      "id": "ola",
+      "name": "Ola",
+      "category": "cabs"
+    },
+    {
+      "id": "rapido",
+      "name": "Rapido",
+      "category": "cabs"
+    },
+    {
+      "id": "blusmart",
+      "name": "BluSmart",
+      "category": "cabs"
+    },
+    {
+      "id": "bookmyshow",
+      "name": "BookMyShow",
+      "category": "entertainment"
+    },
+    {
+      "id": "pvr",
+      "name": "PVR INOX",
+      "category": "entertainment"
+    },
+    {
+      "id": "district",
+      "name": "District by Zomato",
+      "category": "entertainment"
+    },
+    {
+      "id": "netflix",
+      "name": "Netflix",
+      "category": "entertainment"
+    },
+    {
+      "id": "amazon prime video",
+      "name": "Amazon Prime Video",
+      "category": "entertainment"
+    },
+    {
+      "id": "disney+ hotstar",
+      "name": "JioHotstar",
+      "category": "entertainment"
+    },
+    {
+      "id": "sony liv",
+      "name": "SonyLIV",
+      "category": "entertainment"
+    },
+    {
+      "id": "zee5",
+      "name": "ZEE5",
+      "category": "entertainment"
+    },
+    {
+      "id": "spotify",
+      "name": "Spotify",
+      "category": "entertainment"
+    },
+    {
+      "id": "youtube premium",
+      "name": "YouTube Premium",
+      "category": "entertainment"
+    },
+    {
+      "id": "airtel",
+      "name": "Airtel",
+      "category": "mobile_dth_recharge"
+    },
+    {
+      "id": "jio",
+      "name": "Jio",
+      "category": "mobile_dth_recharge"
+    },
+    {
+      "id": "vi",
+      "name": "Vi",
+      "category": "mobile_dth_recharge"
+    },
+    {
+      "id": "bsnl",
+      "name": "BSNL",
+      "category": "mobile_dth_recharge"
+    },
+    {
+      "id": "tata play",
+      "name": "Tata Play",
+      "category": "mobile_dth_recharge"
+    },
+    {
+      "id": "tata power",
+      "name": "Tata Power",
+      "category": "utilities"
+    },
+    {
+      "id": "adani electricity",
+      "name": "Adani Electricity",
+      "category": "utilities"
+    },
+    {
+      "id": "mahanagar gas",
+      "name": "Mahanagar Gas",
+      "category": "utilities"
+    },
+    {
+      "id": "indraprastha gas",
+      "name": "Indraprastha Gas",
+      "category": "utilities"
+    },
+    {
+      "id": "indianoil",
+      "name": "IndianOil",
+      "category": "fuel"
+    },
+    {
+      "id": "bharat petroleum",
+      "name": "Bharat Petroleum",
+      "category": "fuel"
+    },
+    {
+      "id": "hindustan petroleum",
+      "name": "Hindustan Petroleum",
+      "category": "fuel"
+    },
+    {
+      "id": "shell",
+      "name": "Shell",
+      "category": "fuel"
+    },
+    {
+      "id": "nayara",
+      "name": "Nayara Energy",
+      "category": "fuel"
+    },
+    {
+      "id": "policybazaar",
+      "name": "PolicyBazaar",
+      "category": "insurance"
+    },
+    {
+      "id": "acko",
+      "name": "ACKO",
+      "category": "insurance"
+    },
+    {
+      "id": "digit",
+      "name": "Digit Insurance",
+      "category": "insurance"
+    },
+    {
+      "id": "lic",
+      "name": "LIC",
+      "category": "insurance"
+    },
+    {
+      "id": "hdfc ergo",
+      "name": "HDFC ERGO",
+      "category": "insurance"
+    },
+    {
+      "id": "star health",
+      "name": "Star Health",
+      "category": "insurance"
+    },
+    {
+      "id": "unacademy",
+      "name": "Unacademy",
+      "category": "education"
+    },
+    {
+      "id": "coursera",
+      "name": "Coursera",
+      "category": "education"
+    },
+    {
+      "id": "udemy",
+      "name": "Udemy",
+      "category": "education"
+    },
+    {
+      "id": "upgrad",
+      "name": "upGrad",
+      "category": "education"
+    },
+    {
+      "id": "vedantu",
+      "name": "Vedantu",
+      "category": "education"
+    },
+    {
+      "id": "nobroker",
+      "name": "NoBroker",
+      "category": "rent"
+    },
+    {
+      "id": "cred rentpay",
+      "name": "CRED RentPay",
+      "category": "rent"
+    },
+    {
+      "id": "housing.com",
+      "name": "Housing.com",
+      "category": "rent"
+    },
+    {
+      "id": "amazon pay",
+      "name": "Amazon Pay",
+      "category": "wallet_load"
+    },
+    {
+      "id": "paytm wallet",
+      "name": "Paytm Wallet",
+      "category": "wallet_load"
+    },
+    {
+      "id": "phonepe wallet",
+      "name": "PhonePe Wallet",
+      "category": "wallet_load"
+    },
+    {
+      "id": "mobikwik",
+      "name": "MobiKwik",
+      "category": "wallet_load"
+    },
+    {
+      "id": "google pay",
+      "name": "Google Pay",
+      "category": "upi"
+    },
+    {
+      "id": "phonepe",
+      "name": "PhonePe",
+      "category": "upi"
+    },
+    {
+      "id": "paytm upi",
+      "name": "Paytm UPI",
+      "category": "upi"
+    },
+    {
+      "id": "cred",
+      "name": "CRED",
+      "category": "upi"
+    },
+    {
+      "id": "cult.fit",
+      "name": "cult.fit",
+      "category": "other"
+    }
   ],
-
   "cards": [
     {
       "id": "sbi-cashback",
       "bank": "SBI Card",
       "name": "Cashback SBI Card",
-      "network": ["visa", "mastercard", "rupay"],
+      "network": [
+        "visa",
+        "mastercard",
+        "rupay"
+      ],
       "annual_fee": 999,
       "fee_waiver_annual_spend": 200000,
       "reward_type": "cashback",
@@ -184,10 +609,19 @@
       ],
       "total_monthly_cap_inr": 4000,
       "exclusions": [
-        "rent", "fuel", "utilities", "wallet_load",
-        "government_tax", "tolls", "digital_gaming"
+        "rent",
+        "fuel",
+        "utilities",
+        "wallet_load",
+        "government_tax",
+        "tolls",
+        "digital_gaming"
       ],
-      "exclusion_mccs": [7993, 7994, 5816],
+      "exclusion_mccs": [
+        7993,
+        7994,
+        5816
+      ],
       "redemption": {
         "method": "auto statement credit",
         "fee_inr": 0,
@@ -196,21 +630,28 @@
       "milestones": [],
       "last_changed": "2026-04-01",
       "change_summary": "Total cap reduced 5000 to 4000 and split into online/offline buckets of 2000 each. Gaming, tolls and government transactions added to exclusions.",
-      "last_verified": "2026-07-26"
+      "last_verified": "2026-07-26",
+      "accelerated_partners": {
+        "platforms": "Any Online Merchants",
+        "rate": "5% Cashback",
+        "_source": "Supplied CSV, 2026-07-28."
+      }
     },
-
     {
       "id": "hdfc-millennia",
       "bank": "HDFC Bank",
       "name": "Millennia",
-      "network": ["visa", "mastercard"],
+      "network": [
+        "visa",
+        "mastercard"
+      ],
       "annual_fee": 1000,
       "fee_waiver_annual_spend": 100000,
       "reward_type": "points",
       "point_currency": "CashPoints",
       "point_value_inr": 1.0,
       "point_value_inr_alt": {
-        "smartbuy_travel": 0.30
+        "smartbuy_travel": 0.3
       },
       "base_rate_pct": 1.0,
       "category_rates": [
@@ -218,8 +659,16 @@
           "category": "other_ecommerce",
           "label": "10 partner merchants",
           "merchants": [
-            "amazon", "flipkart", "myntra", "tata cliq", "swiggy",
-            "zomato", "uber", "bookmyshow", "sony liv", "cult.fit"
+            "amazon",
+            "flipkart",
+            "myntra",
+            "tata cliq",
+            "swiggy",
+            "zomato",
+            "uber",
+            "bookmyshow",
+            "sony liv",
+            "cult.fit"
           ],
           "rate_pct": 5.0,
           "monthly_cap_points": 1000,
@@ -233,8 +682,12 @@
       ],
       "total_monthly_cap_inr": 2000,
       "exclusions": [
-        "fuel", "rent", "government_tax", "cash_advance",
-        "emi", "wallet_load"
+        "fuel",
+        "rent",
+        "government_tax",
+        "cash_advance",
+        "emi",
+        "wallet_load"
       ],
       "redemption": {
         "method": "statement credit",
@@ -253,14 +706,20 @@
       ],
       "last_changed": "2026-05-15",
       "change_summary": "Not hit by the May 2026 HDFC base-rate cut (that applied to Regalia/Regalia Gold/Diners Privilege/MoneyBack/Freedom). Caps and exclusions have tightened incrementally.",
-      "last_verified": "2026-07-26"
+      "last_verified": "2026-07-26",
+      "accelerated_partners": {
+        "platforms": "Amazon / Flipkart / Myntra / Swiggy",
+        "rate": "5% Cashback",
+        "_source": "Supplied CSV, 2026-07-28."
+      }
     },
-
     {
       "id": "axis-ace",
       "bank": "Axis Bank",
       "name": "ACE",
-      "network": ["visa"],
+      "network": [
+        "visa"
+      ],
       "annual_fee": 499,
       "fee_waiver_annual_spend": 200000,
       "reward_type": "cashback",
@@ -282,13 +741,18 @@
         },
         {
           "category": "food_delivery",
-          "merchants": ["swiggy", "zomato"],
+          "merchants": [
+            "swiggy",
+            "zomato"
+          ],
           "rate_pct": 4.0,
           "shared_cap_group": "accelerated"
         },
         {
           "category": "cabs",
-          "merchants": ["ola"],
+          "merchants": [
+            "ola"
+          ],
           "rate_pct": 4.0,
           "shared_cap_group": "accelerated"
         },
@@ -306,8 +770,15 @@
         }
       ],
       "exclusions": [
-        "fuel", "emi", "rent", "wallet_load", "cash_advance",
-        "jewellery", "insurance", "education", "government_tax"
+        "fuel",
+        "emi",
+        "rent",
+        "wallet_load",
+        "cash_advance",
+        "jewellery",
+        "insurance",
+        "education",
+        "government_tax"
       ],
       "redemption": {
         "method": "auto statement credit",
@@ -321,14 +792,20 @@
       ],
       "last_changed": "2023-06-15",
       "change_summary": "Unaffected by the April 2026 Axis devaluation, which hit the Airtel Axis card and the TravelEdge transfer programme. Do not confuse ACE with Airtel Axis.",
-      "last_verified": "2026-07-26"
+      "last_verified": "2026-07-26",
+      "accelerated_partners": {
+        "platforms": "Google Pay Utilities / Swiggy / Zomato",
+        "rate": "5% & 4% Cashback",
+        "_source": "Supplied CSV, 2026-07-28."
+      }
     },
-
     {
       "id": "amazon-pay-icici",
       "bank": "ICICI Bank",
       "name": "Amazon Pay ICICI",
-      "network": ["visa"],
+      "network": [
+        "visa"
+      ],
       "annual_fee": 0,
       "lifetime_free": true,
       "reward_type": "cashback",
@@ -359,7 +836,13 @@
           "monthly_cap_inr": null
         }
       ],
-      "exclusions": ["fuel", "international", "emi", "rent", "wallet_load_above_5000"],
+      "exclusions": [
+        "fuel",
+        "international",
+        "emi",
+        "rent",
+        "wallet_load_above_5000"
+      ],
       "fees_and_surcharges": [
         {
           "trigger": "wallet_load >= 5000",
@@ -375,7 +858,12 @@
         {
           "trigger": "transport MCC spends above 50000",
           "fee_pct": 1.0,
-          "mccs": [4111, 4112, 4784, 4131]
+          "mccs": [
+            4111,
+            4112,
+            4784,
+            4131
+          ]
         }
       ],
       "forex_markup_pct": 1.99,
@@ -387,12 +875,13 @@
       "change_summary": "Forex markup cut 3.5% to 1.99% on 11 Oct 2025. Wallet-load and gaming fees added 15 Jan 2026. Co-brand partnership renewed for 7 years.",
       "last_verified": "2026-07-26"
     },
-
     {
       "id": "flipkart-axis",
       "bank": "Axis Bank",
       "name": "Flipkart Axis Bank",
-      "network": ["visa"],
+      "network": [
+        "visa"
+      ],
       "annual_fee": 500,
       "fee_waiver_annual_spend": 350000,
       "reward_type": "cashback",
@@ -412,14 +901,21 @@
         },
         {
           "category": "travel_flights_hotels",
-          "merchants": ["cleartrip"],
+          "merchants": [
+            "cleartrip"
+          ],
           "rate_pct": 5.0,
           "quarterly_cap_inr": 4000
         },
         {
           "category": "other",
           "label": "Preferred partners",
-          "merchants": ["swiggy", "uber", "pvr", "cult.fit"],
+          "merchants": [
+            "swiggy",
+            "uber",
+            "pvr",
+            "cult.fit"
+          ],
           "rate_pct": 4.0,
           "quarterly_cap_inr": null
         },
@@ -428,10 +924,21 @@
           "rate_pct": 1.0
         }
       ],
-      "exclusions": ["fuel", "gift_cards", "gold", "jewellery"],
+      "exclusions": [
+        "fuel",
+        "gift_cards",
+        "gold",
+        "jewellery"
+      ],
       "fees_and_surcharges": [
-        { "trigger": "utilities above 25000 per cycle", "fee_pct": 1.0 },
-        { "trigger": "online gaming above 10000 per cycle", "fee_pct": 1.0 }
+        {
+          "trigger": "utilities above 25000 per cycle",
+          "fee_pct": 1.0
+        },
+        {
+          "trigger": "online gaming above 10000 per cycle",
+          "fee_pct": 1.0
+        }
       ],
       "benefits": [
         {
@@ -440,18 +947,28 @@
         }
       ],
       "removed_benefits": [
-        { "benefit": "domestic lounge access", "removed_on": "2025-06-20" }
+        {
+          "benefit": "domestic lounge access",
+          "removed_on": "2025-06-20"
+        }
       ],
       "last_changed": "2025-06-20",
       "change_summary": "Myntra upgraded to 7.5%. Flipkart and Cleartrip 5% became capped at Rs 4,000/quarter each (previously uncapped). Lounge access removed entirely.",
-      "last_verified": "2026-07-26"
+      "last_verified": "2026-07-26",
+      "accelerated_partners": {
+        "platforms": "Flipkart / Myntra / Swiggy",
+        "rate": "5% & 4% Cashback",
+        "_source": "Supplied CSV, 2026-07-28."
+      }
     },
-
     {
       "id": "tata-neu-infinity-hdfc",
       "bank": "HDFC Bank",
       "name": "Tata Neu Infinity",
-      "network": ["visa", "rupay"],
+      "network": [
+        "visa",
+        "rupay"
+      ],
       "annual_fee": 1499,
       "fee_waiver_annual_spend": 300000,
       "reward_type": "points",
@@ -481,7 +998,12 @@
           "rate_pct": 1.5
         }
       ],
-      "exclusions": ["fuel", "rent", "emi", "wallet_load"],
+      "exclusions": [
+        "fuel",
+        "rent",
+        "emi",
+        "wallet_load"
+      ],
       "redemption": {
         "method": "Tata Neu app and partner brands",
         "ratio": "1 NeuCoin = Rs 1",
@@ -499,14 +1021,29 @@
       ],
       "last_changed": "2026-05-01",
       "change_summary": "The routing loophole closed: paying via Tata Neu app with a rival card no longer earns 5%. Fuel waiver capped, lounge gated behind quarterly spend, convenience fees added on mobile recharges.",
-      "last_verified": "2026-07-26"
+      "last_verified": "2026-07-26",
+      "transfer_partners": {
+        "supplied": {
+          "ratio": "1:1 (Tata Brands)",
+          "partners": [
+            "Tata Neu Ecosystem"
+          ]
+        },
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "accelerated_partners": {
+        "platforms": "Tata Neu App ecosystem",
+        "rate": "10% NeuCoins",
+        "_source": "Supplied CSV, 2026-07-28."
+      }
     },
-
     {
       "id": "swiggy-ornge-hdfc",
       "bank": "HDFC Bank",
       "name": "Swiggy ORNGE",
-      "network": ["mastercard"],
+      "network": [
+        "mastercard"
+      ],
       "annual_fee": 500,
       "fee_waiver_annual_spend": 150000,
       "reward_type": "cashback",
@@ -524,8 +1061,15 @@
           "category": "other_ecommerce",
           "label": "Select online categories",
           "merchant_categories": [
-            "apparel", "pharmacies", "pet stores", "personal care",
-            "electronics", "entertainment", "travel", "discount stores", "local cabs"
+            "apparel",
+            "pharmacies",
+            "pet stores",
+            "personal care",
+            "electronics",
+            "entertainment",
+            "travel",
+            "discount stores",
+            "local cabs"
           ],
           "rate_pct": 5.0,
           "shared_cap_group": "accelerated",
@@ -539,25 +1083,41 @@
         }
       ],
       "shared_caps": [
-        { "group": "accelerated", "monthly_cap_inr": 1500 }
+        {
+          "group": "accelerated",
+          "monthly_cap_inr": 1500
+        }
       ],
-      "exclusions": ["fuel", "rent", "emi", "wallet_load", "jewellery", "government_tax"],
+      "exclusions": [
+        "fuel",
+        "rent",
+        "emi",
+        "wallet_load",
+        "jewellery",
+        "government_tax"
+      ],
       "benefits": [
-        { "type": "membership", "detail": "12-month Swiggy One" }
+        {
+          "type": "membership",
+          "detail": "12-month Swiggy One"
+        }
       ],
       "last_changed": "2026-03-01",
       "change_summary": "New variant replacing the original Swiggy HDFC card. Headline Swiggy rate is 5% (the 10% moved to BLCK). Rs 249 minimum transaction introduced for the accelerated rate.",
       "last_verified": "2026-07-26"
     },
-
     {
       "id": "swiggy-blck-hdfc",
       "bank": "HDFC Bank",
       "name": "Swiggy BLCK",
-      "network": ["mastercard"],
+      "network": [
+        "mastercard"
+      ],
       "annual_fee": 1000,
       "fee_waiver_annual_spend": null,
-      "_verify": ["fee_waiver_annual_spend"],
+      "_verify": [
+        "fee_waiver_annual_spend"
+      ],
       "reward_type": "cashback",
       "point_value_inr": 1.0,
       "base_rate_pct": 1.0,
@@ -583,25 +1143,49 @@
           "min_transaction_inr": 100
         }
       ],
-      "exclusions": ["fuel", "rent", "emi", "wallet_load", "jewellery", "government_tax"],
+      "exclusions": [
+        "fuel",
+        "rent",
+        "emi",
+        "wallet_load",
+        "jewellery",
+        "government_tax"
+      ],
       "benefits": [
-        { "type": "membership", "detail": "3-month Swiggy BLCK" },
-        { "type": "golf", "detail": "Worldwide golf access, 12 complimentary lessons per year" }
+        {
+          "type": "membership",
+          "detail": "3-month Swiggy BLCK"
+        },
+        {
+          "type": "golf",
+          "detail": "Worldwide golf access, 12 complimentary lessons per year"
+        }
       ],
       "max_annual_cashback_inr": 48000,
       "last_changed": "2026-03-01",
       "change_summary": "Premium tier introduced when HDFC split the Swiggy card into ORNGE and BLCK.",
-      "last_verified": "2026-07-26"
+      "last_verified": "2026-07-26",
+      "accelerated_partners": {
+        "platforms": "Swiggy App",
+        "rate": "10% Cashback",
+        "_source": "Supplied CSV, 2026-07-28."
+      }
     },
-
     {
       "id": "hdfc-regalia-gold",
       "bank": "HDFC Bank",
       "name": "Regalia Gold",
-      "network": ["visa", "mastercard"],
+      "network": [
+        "visa",
+        "mastercard"
+      ],
       "annual_fee": 2500,
       "fee_waiver_annual_spend": 400000,
-      "_verify": ["annual_fee", "fee_waiver_annual_spend", "accelerated_merchant_list"],
+      "_verify": [
+        "annual_fee",
+        "fee_waiver_annual_spend",
+        "accelerated_merchant_list"
+      ],
       "reward_type": "points",
       "point_currency": "Reward Points",
       "point_value_inr": 0.65,
@@ -629,7 +1213,13 @@
           "monthly_cap_points": 10000
         }
       ],
-      "exclusions": ["fuel", "rent", "wallet_load", "emi", "government_tax"],
+      "exclusions": [
+        "fuel",
+        "rent",
+        "wallet_load",
+        "emi",
+        "government_tax"
+      ],
       "benefits": [
         {
           "type": "lounge",
@@ -643,15 +1233,32 @@
       ],
       "last_changed": "2026-07-01",
       "change_summary": "Base rate cut 15 May 2026 from 4 pts/Rs150 to 5 pts/Rs200. Lounge access became spend-conditional 1 Jul 2026. SmartBuy brand-voucher earnings sub-capped at 3,000 RP/month from 1 Jul 2026.",
-      "last_verified": "2026-07-26"
+      "last_verified": "2026-07-26",
+      "transfer_partners": {
+        "supplied": {
+          "ratio": "2:1",
+          "partners": [
+            "Airlines",
+            "Hotels"
+          ]
+        },
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "accelerated_partners": {
+        "platforms": "Nykaa / Myntra / Reliance Digital",
+        "rate": "5X Reward Points",
+        "_source": "Supplied CSV, 2026-07-28."
+      }
     },
-
     {
       "id": "hdfc-infinia",
       "bank": "HDFC Bank",
       "name": "Infinia Metal Edition",
       "network": [],
-      "_verify": ["network", "exclusions"],
+      "_verify": [
+        "network",
+        "exclusions"
+      ],
       "annual_fee": 12500,
       "fee_waiver_annual_spend": 1000000,
       "reward_type": "points",
@@ -689,14 +1296,32 @@
       ],
       "last_changed": "2026-07-28",
       "change_summary": "Added from HDFC's own card and fees pages on 28 Jul 2026. Every figure here was read from hdfc.bank.in, not recalled: 5 Reward Points per Rs 150, Rs 12,500 joining and renewal fee, Rs 10 lakh spend for fee waiver. Note the site also lists a Rs 10,000 fee with an Rs 8 lakh waiver, which belongs to the older non-metal Infinia.",
-      "last_verified": "2026-07-28"
+      "last_verified": "2026-07-28",
+      "transfer_partners": {
+        "supplied": {
+          "ratio": "1:1 (Airlines) / 2:1 (Hotels)",
+          "partners": [
+            "Airlines",
+            "Hotels"
+          ]
+        },
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "accelerated_partners": {
+        "platforms": "HDFC SmartBuy",
+        "rate": "Up to 10X Reward Points",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "open_to_new_applicants": false
     },
-
     {
       "id": "idfc-first-select",
       "bank": "IDFC FIRST Bank",
       "name": "FIRST Select",
-      "network": ["visa", "rupay"],
+      "network": [
+        "visa",
+        "rupay"
+      ],
       "annual_fee": 0,
       "lifetime_free": true,
       "reward_type": "points",
@@ -736,7 +1361,9 @@
           "multiplier": "10X",
           "points_per_200": 10,
           "effective_pct": 1.25,
-          "_verify": ["Premium IDFC cards dropped to 5X default in Jan 2026 - confirm whether Select is affected"]
+          "_verify": [
+            "Premium IDFC cards dropped to 5X default in Jan 2026 - confirm whether Select is affected"
+          ]
         },
         {
           "category": "utilities",
@@ -750,7 +1377,11 @@
           "points_per_200": 1
         }
       ],
-      "exclusions": ["fuel", "emi", "cash_advance"],
+      "exclusions": [
+        "fuel",
+        "emi",
+        "cash_advance"
+      ],
       "conditions": [
         {
           "rule": "No reward points for a billing cycle if minimum amount due is not paid by the due date. Already-posted points are reversed.",
@@ -780,14 +1411,20 @@
       "forex_markup_pct": 1.99,
       "last_changed": "2026-06-18",
       "change_summary": "Earn base moved from Rs 150 to Rs 200 (a ~25% cut) on 18 Jan 2026. Lounge and movie benefits became spend-gated. Missing the minimum due now forfeits the cycle's points.",
-      "last_verified": "2026-07-26"
+      "last_verified": "2026-07-26",
+      "accelerated_partners": {
+        "platforms": "Online & Incremental Spends",
+        "rate": "10X Pts",
+        "_source": "Supplied CSV, 2026-07-28."
+      }
     },
-
     {
       "id": "axis-atlas",
       "bank": "Axis Bank",
       "name": "Atlas",
-      "network": ["visa"],
+      "network": [
+        "visa"
+      ],
       "annual_fee": 5000,
       "open_to_new_applicants": false,
       "open_to_new_applicants_note": "Axis quietly stopped accepting new applications in early 2026. Existing cards continue to work.",
@@ -806,27 +1443,3227 @@
           "miles_per_100": 2
         }
       ],
-      "exclusions": ["government_tax", "fuel", "rent", "wallet_load"],
-      "capped_categories": ["insurance", "utilities"],
+      "exclusions": [
+        "government_tax",
+        "fuel",
+        "rent",
+        "wallet_load"
+      ],
+      "capped_categories": [
+        "insurance",
+        "utilities"
+      ],
       "transfer_partners": {
         "group_a": {
           "annual_cap_miles": 30000,
           "ratio": "1:2",
-          "partners": ["Singapore KrisFlyer", "Japan Airlines", "Turkish Miles&Smiles", "Aeroplan"]
+          "partners": [
+            "Singapore KrisFlyer",
+            "Japan Airlines",
+            "Turkish Miles&Smiles",
+            "Aeroplan"
+          ]
         },
         "group_b": {
           "annual_cap_miles": 120000,
           "ratio": "1:2",
-          "partners": ["Air India Maharaja Club", "ITC Hotels", "Flying Blue", "IHG One Rewards"]
+          "partners": [
+            "Air India Maharaja Club",
+            "ITC Hotels",
+            "Flying Blue",
+            "IHG One Rewards"
+          ]
         },
-        "removed": ["Accor Live Limitless", "Marriott Bonvoy", "Qatar Airways"],
+        "removed": [
+          "Accor Live Limitless",
+          "Marriott Bonvoy",
+          "Qatar Airways"
+        ],
         "removed_on": "2026-04-02"
       },
       "welcome_benefit": "2,500 EDGE Miles",
-      "tiers": ["Silver", "Gold", "Platinum"],
+      "tiers": [
+        "Silver",
+        "Gold",
+        "Platinum"
+      ],
       "last_changed": "2026-04-02",
       "change_summary": "Accor, Marriott and Qatar removed from TravelEdge with no notice. British Airways, Finnair and Vietnam Airlines added at unfavourable 2:1 ratios. Earn rates themselves unchanged.",
-      "last_verified": "2026-07-26"
+      "last_verified": "2026-07-26",
+      "accelerated_partners": {
+        "platforms": "Axis Travel & Direct Airlines",
+        "rate": "5 Miles per 100",
+        "_source": "Supplied CSV, 2026-07-28."
+      }
+    },
+    {
+      "id": "hdfc-diners-club-black-metal",
+      "bank": "HDFC Bank",
+      "name": "Diners Club Black Metal",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 10000.0,
+      "reward_type": "points",
+      "point_currency": "Reward Points",
+      "point_value_inr": 1.0,
+      "point_value_note": "1 Pt = 1 INR",
+      "base_earn": {
+        "points": 5.0,
+        "per_spend_inr": 150.0
+      },
+      "category_rates": [],
+      "exclusions": [],
+      "transfer_partners": {
+        "supplied": {
+          "ratio": "1:1 (Airlines) / 2:1 (Hotels)",
+          "partners": [
+            "Airlines",
+            "Hotels"
+          ]
+        },
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "accelerated_partners": {
+        "platforms": "HDFC SmartBuy & Swiggy",
+        "rate": "Up to 10X Reward Points",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "5 Pts per 150",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "hdfc-tata-neu-plus",
+      "bank": "HDFC Bank",
+      "name": "Tata Neu Plus",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 499.0,
+      "reward_type": "points",
+      "point_currency": "NeuCoins",
+      "point_value_inr": 1.0,
+      "point_value_note": "1 NeuCoin = 1 INR",
+      "base_rate_pct": 1.0,
+      "category_rates": [],
+      "exclusions": [],
+      "transfer_partners": {
+        "supplied": {
+          "ratio": "1:1 (Tata Brands)",
+          "partners": [
+            "Tata Neu Ecosystem"
+          ]
+        },
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "accelerated_partners": {
+        "platforms": "Tata Neu App ecosystem",
+        "rate": "7% NeuCoins",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "1% NeuCoins",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "hdfc-moneyback",
+      "bank": "HDFC Bank",
+      "name": "MoneyBack+",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 500.0,
+      "reward_type": "points",
+      "point_currency": "CashPoints",
+      "point_value_inr": 0.25,
+      "point_value_note": "1 CP = 0.25 INR",
+      "base_earn": {
+        "points": 2.0,
+        "per_spend_inr": 150.0
+      },
+      "category_rates": [],
+      "exclusions": [],
+      "accelerated_partners": {
+        "platforms": "Amazon / Swiggy / BigBasket",
+        "rate": "10X CashPoints",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "2 CashPoints per 150",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "hdfc-freedom",
+      "bank": "HDFC Bank",
+      "name": "Freedom",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 500.0,
+      "reward_type": "points",
+      "point_currency": "CashPoints",
+      "point_value_inr": 0.15,
+      "point_value_note": "1 CP = 0.15 INR",
+      "base_earn": {
+        "points": 1.0,
+        "per_spend_inr": 150.0
+      },
+      "category_rates": [],
+      "exclusions": [],
+      "accelerated_partners": {
+        "platforms": "BigBasket / Swiggy / OYO",
+        "rate": "10X CashPoints",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "1 CashPoint per 150",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "hdfc-biz-black-metal",
+      "bank": "HDFC Bank",
+      "name": "Biz Black Metal",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 10000.0,
+      "open_to_new_applicants": false,
+      "open_to_new_applicants_note": "Marked \"(Invite)\" in the supplied CSV - issued by invitation only.",
+      "reward_type": "points",
+      "point_currency": "Reward Points",
+      "point_value_inr": 1.0,
+      "point_value_note": "1 Pt = 1 INR",
+      "base_earn": {
+        "points": 5.0,
+        "per_spend_inr": 150.0
+      },
+      "category_rates": [],
+      "exclusions": [],
+      "transfer_partners": {
+        "supplied": {
+          "ratio": "1:1 (Airlines) / 2:1 (Hotels)",
+          "partners": [
+            "Airlines",
+            "Hotels"
+          ]
+        },
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "accelerated_partners": {
+        "platforms": "SmartBuy Biz & Income Tax",
+        "rate": "Up to 5X Reward Points",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "5 Pts per 150",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "hdfc-biz-power",
+      "bank": "HDFC Bank",
+      "name": "Biz Power",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 2500.0,
+      "reward_type": "points",
+      "point_currency": "Reward Points",
+      "point_value_inr": 0.5,
+      "point_value_note": "1 Pt = 0.50 INR",
+      "base_earn": {
+        "points": 4.0,
+        "per_spend_inr": 150.0
+      },
+      "category_rates": [],
+      "exclusions": [],
+      "transfer_partners": {
+        "supplied": {
+          "ratio": "2:1",
+          "partners": [
+            "Airlines",
+            "Hotels"
+          ]
+        },
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "accelerated_partners": {
+        "platforms": "SmartBuy Biz & BillPay",
+        "rate": "5X Reward Points",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "4 Pts per 150",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "hdfc-biz-grow",
+      "bank": "HDFC Bank",
+      "name": "Biz Grow",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 500.0,
+      "reward_type": "points",
+      "point_currency": "CashPoints",
+      "point_value_inr": 0.25,
+      "point_value_note": "1 CP = 0.25 INR",
+      "base_earn": {
+        "points": 2.0,
+        "per_spend_inr": 150.0
+      },
+      "category_rates": [],
+      "exclusions": [],
+      "accelerated_partners": {
+        "platforms": "SmartBuy Biz & BillPay",
+        "rate": "10X CashPoints",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "2 CashPoints per 150",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "hdfc-biz-first",
+      "bank": "HDFC Bank",
+      "name": "Biz First",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 500.0,
+      "reward_type": "points",
+      "point_currency": "CashPoints",
+      "point_value_inr": 0.25,
+      "point_value_note": "1 CP = 0.25 INR",
+      "base_earn": {
+        "points": 1.0,
+        "per_spend_inr": 150.0
+      },
+      "category_rates": [],
+      "exclusions": [],
+      "accelerated_partners": {
+        "platforms": "SmartBuy Biz & BillPay",
+        "rate": "5X CashPoints",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "1 CashPoint per 150",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "hdfc-indianoil",
+      "bank": "HDFC Bank",
+      "name": "IndianOil",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 500.0,
+      "reward_type": "points",
+      "point_currency": "Fuel Points",
+      "point_value_inr": 0.96,
+      "point_value_note": "1 FP = 0.96 INR (Fuel)",
+      "base_earn": {
+        "points": 1.0,
+        "per_spend_inr": 150.0
+      },
+      "category_rates": [],
+      "exclusions": [],
+      "accelerated_partners": {
+        "platforms": "IndianOil Pumps & Groceries",
+        "rate": "5% Fuel Points",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "1 Fuel Point per 150",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "hdfc-shoppers-stop",
+      "bank": "HDFC Bank",
+      "name": "Shoppers Stop",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 500.0,
+      "reward_type": "points",
+      "point_currency": "Reward Points",
+      "point_value_inr": 1.0,
+      "point_value_note": "1 Pt = 1 INR (Shoppers Stop)",
+      "base_earn": {
+        "points": 2.0,
+        "per_spend_inr": 150.0
+      },
+      "category_rates": [],
+      "exclusions": [],
+      "accelerated_partners": {
+        "platforms": "Shoppers Stop",
+        "rate": "6 Pts per 150",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "2 Pts per 150",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "hdfc-marriott-bonvoy",
+      "bank": "HDFC Bank",
+      "name": "Marriott Bonvoy",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 3000.0,
+      "reward_type": "points",
+      "point_currency": "Reward Points",
+      "point_value_inr": 1.0,
+      "point_value_note": "1 Pt = 1 INR (Marriott)",
+      "base_earn": {
+        "points": 2.0,
+        "per_spend_inr": 150.0
+      },
+      "category_rates": [],
+      "exclusions": [],
+      "transfer_partners": {
+        "supplied": {
+          "ratio": "1:1",
+          "partners": [
+            "Marriott Bonvoy"
+          ]
+        },
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "accelerated_partners": {
+        "platforms": "Marriott Properties",
+        "rate": "8 Pts per 150",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "2 Pts per 150",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "hdfc-indigo-6e-rewards-xl",
+      "bank": "HDFC Bank",
+      "name": "Indigo 6E Rewards XL",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 2500.0,
+      "reward_type": "points",
+      "point_currency": "6E Rewards",
+      "point_value_inr": 1.0,
+      "point_value_note": "1 Reward = 1 INR",
+      "base_rate_pct": 2.0,
+      "category_rates": [],
+      "exclusions": [],
+      "transfer_partners": {
+        "supplied": {
+          "ratio": "1:1",
+          "partners": [
+            "Indigo"
+          ]
+        },
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "accelerated_partners": {
+        "platforms": "Indigo Airline",
+        "rate": "5% 6E Rewards",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "2% 6E Rewards",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "hdfc-indigo-6e-rewards",
+      "bank": "HDFC Bank",
+      "name": "Indigo 6E Rewards",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 500.0,
+      "reward_type": "points",
+      "point_currency": "6E Rewards",
+      "point_value_inr": 1.0,
+      "point_value_note": "1 Reward = 1 INR",
+      "base_rate_pct": 1.0,
+      "category_rates": [],
+      "exclusions": [],
+      "transfer_partners": {
+        "supplied": {
+          "ratio": "1:1",
+          "partners": [
+            "Indigo"
+          ]
+        },
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "accelerated_partners": {
+        "platforms": "Indigo Airline",
+        "rate": "2.5% 6E Rewards",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "1% 6E Rewards",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "hdfc-diners-club-privilege",
+      "bank": "HDFC Bank",
+      "name": "Diners Club Privilege",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 2500.0,
+      "reward_type": "points",
+      "point_currency": "Reward Points",
+      "point_value_inr": 0.5,
+      "point_value_note": "1 Pt = 0.50 INR",
+      "base_earn": {
+        "points": 4.0,
+        "per_spend_inr": 150.0
+      },
+      "category_rates": [],
+      "exclusions": [],
+      "transfer_partners": {
+        "supplied": {
+          "ratio": "2:1",
+          "partners": [
+            "Airlines",
+            "Hotels"
+          ]
+        },
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "accelerated_partners": {
+        "platforms": "Swiggy & Zomato",
+        "rate": "2X Reward Points",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "4 Pts per 150",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "hdfc-upi-rupay",
+      "bank": "HDFC Bank",
+      "name": "UPI RuPay",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 250.0,
+      "reward_type": "points",
+      "point_currency": "CashPoints",
+      "point_value_inr": 0.25,
+      "point_value_note": "1 CP = 0.25 INR",
+      "category_rates": [
+        {
+          "category": "other",
+          "label": "3% CashPoints on Groceries",
+          "rate_pct": 3.0,
+          "note": "The CSV states this rate only for groceries, so it is not treated as the card's rate everywhere."
+        }
+      ],
+      "exclusions": [],
+      "accelerated_partners": {
+        "platforms": "PayZapp & UPI",
+        "rate": "3% CashPoints",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "3% CashPoints on Groceries",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "sbi-simplyclick",
+      "bank": "SBI Card",
+      "name": "SimplyCLICK",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 499.0,
+      "reward_type": "points",
+      "point_currency": "Reward Points",
+      "point_value_inr": 0.25,
+      "point_value_note": "1 Pt = 0.25 INR",
+      "base_earn": {
+        "points": 1.0,
+        "per_spend_inr": 100.0
+      },
+      "category_rates": [],
+      "exclusions": [],
+      "accelerated_partners": {
+        "platforms": "Amazon / BookMyShow / Cleartrip",
+        "rate": "10X Reward Points",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "1 Pt per 100",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "sbi-simplysave",
+      "bank": "SBI Card",
+      "name": "SimplySAVE",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 499.0,
+      "reward_type": "points",
+      "point_currency": "Reward Points",
+      "point_value_inr": 0.25,
+      "point_value_note": "1 Pt = 0.25 INR",
+      "base_earn": {
+        "points": 1.0,
+        "per_spend_inr": 100.0
+      },
+      "category_rates": [],
+      "exclusions": [],
+      "accelerated_partners": {
+        "platforms": "Dining / Movies / Groceries",
+        "rate": "10X Reward Points",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "1 Pt per 100",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "sbi-aurum",
+      "bank": "SBI Card",
+      "name": "Aurum",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 10000.0,
+      "open_to_new_applicants": false,
+      "open_to_new_applicants_note": "Marked \"(Invite)\" in the supplied CSV - issued by invitation only.",
+      "reward_type": "points",
+      "point_currency": "Reward Points",
+      "point_value_inr": 0.25,
+      "point_value_note": "1 Pt = 0.25 INR",
+      "base_earn": {
+        "points": 4.0,
+        "per_spend_inr": 100.0
+      },
+      "category_rates": [],
+      "exclusions": [],
+      "transfer_partners": {
+        "supplied": {
+          "ratio": "4:1",
+          "partners": [
+            "Club Vistara"
+          ]
+        },
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "accelerated_partners": {
+        "platforms": "BookMyShow & EazyDiner",
+        "rate": "Up to 4X Reward Points",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "4 Pts per 100",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "sbi-elite",
+      "bank": "SBI Card",
+      "name": "Elite",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 4999.0,
+      "reward_type": "points",
+      "point_currency": "Reward Points",
+      "point_value_inr": 0.25,
+      "point_value_note": "1 Pt = 0.25 INR",
+      "base_earn": {
+        "points": 2.0,
+        "per_spend_inr": 100.0
+      },
+      "category_rates": [],
+      "exclusions": [],
+      "transfer_partners": {
+        "supplied": {
+          "ratio": "4:1",
+          "partners": [
+            "Club Vistara"
+          ]
+        },
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "accelerated_partners": {
+        "platforms": "Dining / Groceries / Departmental",
+        "rate": "5X Reward Points",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "2 Pts per 100",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "sbi-prime",
+      "bank": "SBI Card",
+      "name": "Prime",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 2999.0,
+      "reward_type": "points",
+      "point_currency": "Reward Points",
+      "point_value_inr": 0.25,
+      "point_value_note": "1 Pt = 0.25 INR",
+      "base_earn": {
+        "points": 2.0,
+        "per_spend_inr": 100.0
+      },
+      "category_rates": [],
+      "exclusions": [],
+      "transfer_partners": {
+        "supplied": {
+          "ratio": "4:1",
+          "partners": [
+            "Club Vistara"
+          ]
+        },
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "accelerated_partners": {
+        "platforms": "Dining / Groceries / Utilities",
+        "rate": "10 Pts per 100",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "2 Pts per 100",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "sbi-club-vistara-premier",
+      "bank": "SBI Card",
+      "name": "Club Vistara Premier",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 2999.0,
+      "reward_type": "points",
+      "point_currency": "Club Vistara Points",
+      "point_value_inr": 1.0,
+      "point_value_note": "1 CV = 1 INR",
+      "base_earn": {
+        "points": 4.0,
+        "per_spend_inr": 200.0
+      },
+      "category_rates": [],
+      "exclusions": [],
+      "transfer_partners": {
+        "supplied": {
+          "ratio": "1:1",
+          "partners": [
+            "Club Vistara"
+          ]
+        },
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "accelerated_partners": {
+        "platforms": "Air Vistara App",
+        "rate": "4 CV Pts per 200 + Milestones",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "4 CV Pts per 200",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "sbi-club-vistara",
+      "bank": "SBI Card",
+      "name": "Club Vistara",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 1499.0,
+      "reward_type": "points",
+      "point_currency": "Club Vistara Points",
+      "point_value_inr": 1.0,
+      "point_value_note": "1 CV = 1 INR",
+      "base_earn": {
+        "points": 3.0,
+        "per_spend_inr": 200.0
+      },
+      "category_rates": [],
+      "exclusions": [],
+      "transfer_partners": {
+        "supplied": {
+          "ratio": "1:1",
+          "partners": [
+            "Club Vistara"
+          ]
+        },
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "accelerated_partners": {
+        "platforms": "Air Vistara App",
+        "rate": "3 CV Pts per 200 + Milestones",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "3 CV Pts per 200",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "sbi-bpcl-octane",
+      "bank": "SBI Card",
+      "name": "BPCL Octane",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 1499.0,
+      "reward_type": "points",
+      "point_currency": "Reward Points",
+      "point_value_inr": 0.25,
+      "point_value_note": "1 Pt = 0.25 INR",
+      "base_earn": {
+        "points": 2.0,
+        "per_spend_inr": 100.0
+      },
+      "category_rates": [],
+      "exclusions": [],
+      "accelerated_partners": {
+        "platforms": "BPCL Fuel & Groceries",
+        "rate": "25 Pts per 100",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "2 Pts per 100",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "sbi-bpcl",
+      "bank": "SBI Card",
+      "name": "BPCL",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 499.0,
+      "reward_type": "points",
+      "point_currency": "Reward Points",
+      "point_value_inr": 0.25,
+      "point_value_note": "1 Pt = 0.25 INR",
+      "base_earn": {
+        "points": 1.0,
+        "per_spend_inr": 100.0
+      },
+      "category_rates": [],
+      "exclusions": [],
+      "accelerated_partners": {
+        "platforms": "BPCL Fuel & Groceries",
+        "rate": "13 Pts per 100",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "1 Pt per 100",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "sbi-irctc-premier",
+      "bank": "SBI Card",
+      "name": "IRCTC Premier",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 1499.0,
+      "reward_type": "points",
+      "point_currency": "Reward Points",
+      "point_value_inr": 1.0,
+      "point_value_note": "1 Pt = 1 INR",
+      "base_earn": {
+        "points": 1.0,
+        "per_spend_inr": 125.0
+      },
+      "category_rates": [],
+      "exclusions": [],
+      "transfer_partners": {
+        "supplied": {
+          "ratio": "1:1",
+          "partners": [
+            "IRCTC"
+          ]
+        },
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "accelerated_partners": {
+        "platforms": "IRCTC AC Tickets",
+        "rate": "10% Value back",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "1 Pt per 125",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "sbi-irctc-platinum",
+      "bank": "SBI Card",
+      "name": "IRCTC Platinum",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 500.0,
+      "reward_type": "points",
+      "point_currency": "Reward Points",
+      "point_value_inr": 1.0,
+      "point_value_note": "1 Pt = 1 INR",
+      "base_earn": {
+        "points": 1.0,
+        "per_spend_inr": 125.0
+      },
+      "category_rates": [],
+      "exclusions": [],
+      "transfer_partners": {
+        "supplied": {
+          "ratio": "1:1",
+          "partners": [
+            "IRCTC"
+          ]
+        },
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "accelerated_partners": {
+        "platforms": "IRCTC AC Tickets",
+        "rate": "10% Value back",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "1 Pt per 125",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "sbi-yatra",
+      "bank": "SBI Card",
+      "name": "Yatra",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 499.0,
+      "reward_type": "points",
+      "point_currency": "Reward Points",
+      "point_value_inr": 0.25,
+      "point_value_note": "1 Pt = 0.25 INR",
+      "base_earn": {
+        "points": 1.0,
+        "per_spend_inr": 100.0
+      },
+      "category_rates": [],
+      "exclusions": [],
+      "accelerated_partners": {
+        "platforms": "Yatra App / Groceries / Dining",
+        "rate": "6X Reward Points",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "1 Pt per 100",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "sbi-air-india-signature",
+      "bank": "SBI Card",
+      "name": "Air India Signature",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 4999.0,
+      "reward_type": "points",
+      "point_currency": "Miles",
+      "point_value_note": "1 Pt = 1 Air India Mile — not stated in rupees, so this card carries no rate here. Ranking it would mean inventing what the mile is worth, and defaulting to Rs 1 put it near the top of every category.",
+      "category_rates": [],
+      "exclusions": [],
+      "transfer_partners": {
+        "supplied": {
+          "ratio": "1:1",
+          "partners": [
+            "Air India"
+          ]
+        },
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "accelerated_partners": {
+        "platforms": "Air India App",
+        "rate": "30 Pts per 100",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "4 Pts per 100",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "sbi-air-india-platinum",
+      "bank": "SBI Card",
+      "name": "Air India Platinum",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 1499.0,
+      "reward_type": "points",
+      "point_currency": "Miles",
+      "point_value_note": "1 Pt = 1 Air India Mile — not stated in rupees, so this card carries no rate here. Ranking it would mean inventing what the mile is worth, and defaulting to Rs 1 put it near the top of every category.",
+      "category_rates": [],
+      "exclusions": [],
+      "transfer_partners": {
+        "supplied": {
+          "ratio": "1:1",
+          "partners": [
+            "Air India"
+          ]
+        },
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "accelerated_partners": {
+        "platforms": "Air India App",
+        "rate": "15 Pts per 100",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "2 Pts per 100",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "sbi-fabindia",
+      "bank": "SBI Card",
+      "name": "Fabindia",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 499.0,
+      "reward_type": "points",
+      "point_currency": "Reward Points",
+      "point_value_inr": 0.25,
+      "point_value_note": "1 Pt = 0.25 INR",
+      "base_earn": {
+        "points": 2.0,
+        "per_spend_inr": 100.0
+      },
+      "category_rates": [],
+      "exclusions": [],
+      "accelerated_partners": {
+        "platforms": "Fabindia",
+        "rate": "5 Pts per 100",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "2 Pts per 100",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "sbi-nature-s-basket",
+      "bank": "SBI Card",
+      "name": "Nature's Basket",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 1499.0,
+      "reward_type": "points",
+      "point_currency": "Reward Points",
+      "point_value_inr": 0.25,
+      "point_value_note": "1 Pt = 0.25 INR",
+      "base_earn": {
+        "points": 2.0,
+        "per_spend_inr": 100.0
+      },
+      "category_rates": [],
+      "exclusions": [],
+      "accelerated_partners": {
+        "platforms": "Nature's Basket",
+        "rate": "10 Pts per 100",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "2 Pts per 100",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "sbi-paytm-select",
+      "bank": "SBI Card",
+      "name": "Paytm Select",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 1499.0,
+      "reward_type": "cashback",
+      "point_value_inr": 1.0,
+      "point_value_note": "1 CB = 1 INR",
+      "base_rate_pct": 1.0,
+      "category_rates": [],
+      "exclusions": [],
+      "accelerated_partners": {
+        "platforms": "Paytm Mall / Movies / Travel",
+        "rate": "5% Cashback",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "1% Cashback",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "sbi-card-pulse",
+      "bank": "SBI Card",
+      "name": "Card Pulse",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 1499.0,
+      "reward_type": "points",
+      "point_currency": "Reward Points",
+      "point_value_inr": 0.25,
+      "point_value_note": "1 Pt = 0.25 INR",
+      "base_earn": {
+        "points": 2.0,
+        "per_spend_inr": 100.0
+      },
+      "category_rates": [],
+      "exclusions": [],
+      "accelerated_partners": {
+        "platforms": "Pharmacy / Dining / Movies",
+        "rate": "10 Pts per 100",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "2 Pts per 100",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "sbi-ola-money",
+      "bank": "SBI Card",
+      "name": "OLA Money",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 0.0,
+      "reward_type": "cashback",
+      "point_value_inr": 1.0,
+      "point_value_note": "1 CB = 1 INR",
+      "base_rate_pct": 1.0,
+      "category_rates": [],
+      "exclusions": [],
+      "accelerated_partners": {
+        "platforms": "OLA Rides",
+        "rate": "7% Cashback",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "1% Cashback",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "axis-burgundy-private",
+      "bank": "Axis Bank",
+      "name": "Burgundy Private",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 50000.0,
+      "open_to_new_applicants": false,
+      "open_to_new_applicants_note": "Marked \"(Invite)\" in the supplied CSV - issued by invitation only.",
+      "reward_type": "points",
+      "point_currency": "Reward Points",
+      "point_value_inr": 0.2,
+      "point_value_note": "1 Pt = 0.20 INR",
+      "base_earn": {
+        "points": 15.0,
+        "per_spend_inr": 200.0
+      },
+      "category_rates": [],
+      "exclusions": [],
+      "transfer_partners": {
+        "supplied": {
+          "ratio": "5:4",
+          "partners": [
+            "Airlines",
+            "Hotels"
+          ]
+        },
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "accelerated_partners": {
+        "platforms": "Axis Travel Edge",
+        "rate": "Up to 50 Pts per 200",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "15 Pts per 200",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "axis-reserve",
+      "bank": "Axis Bank",
+      "name": "Reserve",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 50000.0,
+      "reward_type": "points",
+      "point_currency": "Reward Points",
+      "point_value_inr": 0.2,
+      "point_value_note": "1 Pt = 0.20 INR",
+      "base_earn": {
+        "points": 15.0,
+        "per_spend_inr": 200.0
+      },
+      "category_rates": [],
+      "exclusions": [],
+      "transfer_partners": {
+        "supplied": {
+          "ratio": "5:2",
+          "partners": [
+            "Airlines",
+            "Hotels"
+          ]
+        },
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "accelerated_partners": {
+        "platforms": "Axis Travel Edge",
+        "rate": "Up to 50 Pts per 200",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "15 Pts per 200",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "axis-magnus",
+      "bank": "Axis Bank",
+      "name": "Magnus",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 12500.0,
+      "reward_type": "points",
+      "point_currency": "Reward Points",
+      "point_value_inr": 0.2,
+      "point_value_note": "1 Pt = 0.20 INR",
+      "base_earn": {
+        "points": 12.0,
+        "per_spend_inr": 200.0
+      },
+      "category_rates": [],
+      "exclusions": [],
+      "transfer_partners": {
+        "supplied": {
+          "ratio": "5:2",
+          "partners": [
+            "Airlines",
+            "Hotels"
+          ]
+        },
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "accelerated_partners": {
+        "platforms": "Axis Travel Edge",
+        "rate": "Up to 5X Pts",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "12 Pts per 200",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "axis-vistara-infinite",
+      "bank": "Axis Bank",
+      "name": "Vistara Infinite",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 10000.0,
+      "reward_type": "points",
+      "point_currency": "Club Vistara Points",
+      "point_value_inr": 1.0,
+      "point_value_note": "1 CV = 1 INR",
+      "base_earn": {
+        "points": 6.0,
+        "per_spend_inr": 200.0
+      },
+      "category_rates": [],
+      "exclusions": [],
+      "transfer_partners": {
+        "supplied": {
+          "ratio": "1:1",
+          "partners": [
+            "Club Vistara"
+          ]
+        },
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "accelerated_partners": {
+        "platforms": "Air Vistara App",
+        "rate": "6 CV Pts per 200 + Milestones",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "6 CV Pts per 200",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "axis-vistara-signature",
+      "bank": "Axis Bank",
+      "name": "Vistara Signature",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 3000.0,
+      "reward_type": "points",
+      "point_currency": "Club Vistara Points",
+      "point_value_inr": 1.0,
+      "point_value_note": "1 CV = 1 INR",
+      "base_earn": {
+        "points": 4.0,
+        "per_spend_inr": 200.0
+      },
+      "category_rates": [],
+      "exclusions": [],
+      "transfer_partners": {
+        "supplied": {
+          "ratio": "1:1",
+          "partners": [
+            "Club Vistara"
+          ]
+        },
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "accelerated_partners": {
+        "platforms": "Air Vistara App",
+        "rate": "4 CV Pts per 200 + Milestones",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "4 CV Pts per 200",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "axis-vistara",
+      "bank": "Axis Bank",
+      "name": "Vistara",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 1500.0,
+      "reward_type": "points",
+      "point_currency": "Club Vistara Points",
+      "point_value_inr": 1.0,
+      "point_value_note": "1 CV = 1 INR",
+      "base_earn": {
+        "points": 2.0,
+        "per_spend_inr": 200.0
+      },
+      "category_rates": [],
+      "exclusions": [],
+      "transfer_partners": {
+        "supplied": {
+          "ratio": "1:1",
+          "partners": [
+            "Club Vistara"
+          ]
+        },
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "accelerated_partners": {
+        "platforms": "Air Vistara App",
+        "rate": "2 CV Pts per 200 + Milestones",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "2 CV Pts per 200",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "axis-airtel",
+      "bank": "Axis Bank",
+      "name": "Airtel",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 500.0,
+      "reward_type": "cashback",
+      "point_value_inr": 1.0,
+      "point_value_note": "1 CB = 1 INR",
+      "base_rate_pct": 1.0,
+      "category_rates": [],
+      "exclusions": [],
+      "accelerated_partners": {
+        "platforms": "Airtel Thanks App / Swiggy / Zomato",
+        "rate": "25% & 10% Cashback",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "1% Cashback",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "axis-select",
+      "bank": "Axis Bank",
+      "name": "Select",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 3000.0,
+      "reward_type": "points",
+      "point_currency": "Reward Points",
+      "point_value_inr": 0.2,
+      "point_value_note": "1 Pt = 0.20 INR",
+      "base_earn": {
+        "points": 10.0,
+        "per_spend_inr": 200.0
+      },
+      "category_rates": [],
+      "exclusions": [],
+      "transfer_partners": {
+        "supplied": {
+          "ratio": "5:1",
+          "partners": [
+            "Airlines",
+            "Hotels"
+          ]
+        },
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "accelerated_partners": {
+        "platforms": "Swiggy & BigBasket",
+        "rate": "20% Discount",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "10 Pts per 200",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "axis-privilege",
+      "bank": "Axis Bank",
+      "name": "Privilege",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 1500.0,
+      "reward_type": "points",
+      "point_currency": "Reward Points",
+      "point_value_inr": 0.2,
+      "point_value_note": "1 Pt = 0.20 INR",
+      "base_earn": {
+        "points": 10.0,
+        "per_spend_inr": 200.0
+      },
+      "category_rates": [],
+      "exclusions": [],
+      "transfer_partners": {
+        "supplied": {
+          "ratio": "5:1",
+          "partners": [
+            "Airlines",
+            "Hotels"
+          ]
+        },
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "accelerated_partners": {
+        "platforms": "Travel Edge",
+        "rate": "2X Reward Points",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "10 Pts per 200",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "axis-neo",
+      "bank": "Axis Bank",
+      "name": "Neo",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 250.0,
+      "reward_type": "points",
+      "point_currency": "Reward Points",
+      "point_value_inr": 0.2,
+      "point_value_note": "1 Pt = 0.20 INR",
+      "base_earn": {
+        "points": 1.0,
+        "per_spend_inr": 200.0
+      },
+      "category_rates": [],
+      "exclusions": [],
+      "accelerated_partners": {
+        "platforms": "Zomato / Blinkit / Myntra",
+        "rate": "10-40% Discount",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "1 Pt per 200",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "axis-my-zone",
+      "bank": "Axis Bank",
+      "name": "My Zone",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 500.0,
+      "reward_type": "points",
+      "point_currency": "Reward Points",
+      "point_value_inr": 0.2,
+      "point_value_note": "1 Pt = 0.20 INR",
+      "base_earn": {
+        "points": 4.0,
+        "per_spend_inr": 200.0
+      },
+      "category_rates": [],
+      "exclusions": [],
+      "accelerated_partners": {
+        "platforms": "Swiggy",
+        "rate": "Up to 120 INR Discount",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "4 Pts per 200",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "axis-indianoil",
+      "bank": "Axis Bank",
+      "name": "IndianOil",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 500.0,
+      "reward_type": "points",
+      "point_currency": "Reward Points",
+      "point_value_inr": 0.2,
+      "point_value_note": "1 Pt = 0.20 INR",
+      "base_earn": {
+        "points": 1.0,
+        "per_spend_inr": 100.0
+      },
+      "category_rates": [],
+      "exclusions": [],
+      "accelerated_partners": {
+        "platforms": "IndianOil Pumps & BookMyShow",
+        "rate": "20 Pts per 100",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "1 Pt per 100",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "axis-miles-more",
+      "bank": "Axis Bank",
+      "name": "Miles & More",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 3500.0,
+      "reward_type": "points",
+      "point_currency": "Miles",
+      "point_value_inr": 1.0,
+      "point_value_note": "1 Mile = 1 INR",
+      "base_earn": {
+        "points": 4.0,
+        "per_spend_inr": 200.0
+      },
+      "category_rates": [],
+      "exclusions": [],
+      "transfer_partners": {
+        "supplied": {
+          "ratio": "1:1",
+          "partners": [
+            "Miles",
+            "More"
+          ]
+        },
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "accelerated_partners": {
+        "platforms": "Lufthansa & Swiss",
+        "rate": "Up to 10 Miles per 200",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "4 Miles per 200",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "axis-samsung-signature",
+      "bank": "Axis Bank",
+      "name": "Samsung Signature",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 500.0,
+      "reward_type": "points",
+      "point_currency": "Reward Points",
+      "point_value_inr": 0.2,
+      "point_value_note": "1 Pt = 0.20 INR",
+      "base_earn": {
+        "points": 5.0,
+        "per_spend_inr": 100.0
+      },
+      "category_rates": [],
+      "exclusions": [],
+      "accelerated_partners": {
+        "platforms": "Samsung Products",
+        "rate": "10% Cashback",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "5 Pts per 100",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "axis-samsung-infinite",
+      "bank": "Axis Bank",
+      "name": "Samsung Infinite",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 5000.0,
+      "reward_type": "points",
+      "point_currency": "Reward Points",
+      "point_value_inr": 0.2,
+      "point_value_note": "1 Pt = 0.20 INR",
+      "base_earn": {
+        "points": 5.0,
+        "per_spend_inr": 100.0
+      },
+      "category_rates": [],
+      "exclusions": [],
+      "accelerated_partners": {
+        "platforms": "Samsung Products",
+        "rate": "10% Cashback",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "5 Pts per 100",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "axis-spicejet",
+      "bank": "Axis Bank",
+      "name": "SpiceJet",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 3000.0,
+      "reward_type": "points",
+      "point_currency": "Reward Points",
+      "point_value_inr": 0.5,
+      "point_value_note": "1 Pt = 0.50 INR",
+      "base_earn": {
+        "points": 4.0,
+        "per_spend_inr": 200.0
+      },
+      "category_rates": [],
+      "exclusions": [],
+      "transfer_partners": {
+        "supplied": {
+          "ratio": "1:1",
+          "partners": [
+            "SpiceJet"
+          ]
+        },
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "accelerated_partners": {
+        "platforms": "SpiceJet",
+        "rate": "28 SpiceClub Pts per 200",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "4 SpiceClub Pts per 200",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "axis-rewards",
+      "bank": "Axis Bank",
+      "name": "Rewards",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 1000.0,
+      "reward_type": "points",
+      "point_currency": "Reward Points",
+      "point_value_inr": 0.2,
+      "point_value_note": "1 Pt = 0.20 INR",
+      "base_earn": {
+        "points": 2.0,
+        "per_spend_inr": 125.0
+      },
+      "category_rates": [],
+      "exclusions": [],
+      "accelerated_partners": {
+        "platforms": "Apparel & Departmental",
+        "rate": "10X Pts per 125",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "2 Pts per 125",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "icici-emeralde-private-metal",
+      "bank": "ICICI Bank",
+      "name": "Emeralde Private Metal",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 12499.0,
+      "open_to_new_applicants": false,
+      "open_to_new_applicants_note": "Marked \"(Invite)\" in the supplied CSV - issued by invitation only.",
+      "reward_type": "points",
+      "point_currency": "Reward Points",
+      "point_value_inr": 1.0,
+      "point_value_note": "1 Pt = 1 INR",
+      "base_earn": {
+        "points": 6.0,
+        "per_spend_inr": 200.0
+      },
+      "category_rates": [],
+      "exclusions": [],
+      "accelerated_partners": {
+        "platforms": "Tax / Groceries / Utilities",
+        "rate": "6 Pts per 100",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "6 Pts per 200",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "icici-emeralde",
+      "bank": "ICICI Bank",
+      "name": "Emeralde",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 12000.0,
+      "reward_type": "points",
+      "point_currency": "Reward Points",
+      "point_value_inr": 0.25,
+      "point_value_note": "1 Pt = 0.25 INR",
+      "base_earn": {
+        "points": 4.0,
+        "per_spend_inr": 100.0
+      },
+      "category_rates": [],
+      "exclusions": [],
+      "accelerated_partners": {
+        "platforms": "Retail",
+        "rate": "4 Pts per 100",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "4 Pts per 100",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "icici-sapphiro",
+      "bank": "ICICI Bank",
+      "name": "Sapphiro",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 6500.0,
+      "reward_type": "points",
+      "point_currency": "Reward Points",
+      "point_value_inr": 0.25,
+      "point_value_note": "1 Pt = 0.25 INR",
+      "base_earn": {
+        "points": 2.0,
+        "per_spend_inr": 100.0
+      },
+      "category_rates": [],
+      "exclusions": [],
+      "accelerated_partners": {
+        "platforms": "International Spends",
+        "rate": "4 Pts per 100",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "2 Pts per 100",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "icici-rubyx",
+      "bank": "ICICI Bank",
+      "name": "Rubyx",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 3000.0,
+      "reward_type": "points",
+      "point_currency": "Reward Points",
+      "point_value_inr": 0.25,
+      "point_value_note": "1 Pt = 0.25 INR",
+      "base_earn": {
+        "points": 2.0,
+        "per_spend_inr": 100.0
+      },
+      "category_rates": [],
+      "exclusions": [],
+      "accelerated_partners": {
+        "platforms": "International Spends",
+        "rate": "4 Pts per 100",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "2 Pts per 100",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "icici-coral",
+      "bank": "ICICI Bank",
+      "name": "Coral",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 500.0,
+      "reward_type": "points",
+      "point_currency": "Reward Points",
+      "point_value_inr": 0.25,
+      "point_value_note": "1 Pt = 0.25 INR",
+      "base_earn": {
+        "points": 2.0,
+        "per_spend_inr": 100.0
+      },
+      "category_rates": [],
+      "exclusions": [],
+      "accelerated_partners": {
+        "platforms": "Dining & Groceries",
+        "rate": "2 Pts per 100",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "2 Pts per 100",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "icici-amazon-pay",
+      "bank": "ICICI Bank",
+      "name": "Amazon Pay",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 0.0,
+      "reward_type": "cashback",
+      "point_value_inr": 1.0,
+      "point_value_note": "1 CB = 1 INR",
+      "base_rate_pct": 1.0,
+      "category_rates": [],
+      "exclusions": [],
+      "accelerated_partners": {
+        "platforms": "Amazon Prime & Amazon Pay",
+        "rate": "5% & 2% Cashback",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "1% Cashback",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "icici-makemytrip-signature",
+      "bank": "ICICI Bank",
+      "name": "MakeMyTrip Signature",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 2500.0,
+      "reward_type": "points",
+      "point_currency": "Reward Points",
+      "point_value_inr": 1.0,
+      "point_value_note": "1 My Cash = 1 INR",
+      "base_earn": {
+        "points": 1.25,
+        "per_spend_inr": 200.0
+      },
+      "category_rates": [],
+      "exclusions": [],
+      "transfer_partners": {
+        "supplied": {
+          "ratio": "1:1",
+          "partners": [
+            "MakeMyTrip"
+          ]
+        },
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "accelerated_partners": {
+        "platforms": "MakeMyTrip Flights & Hotels",
+        "rate": "Up to 2 My Cash per 200",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "1.25 My Cash per 200",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "icici-makemytrip-platinum",
+      "bank": "ICICI Bank",
+      "name": "MakeMyTrip Platinum",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 500.0,
+      "reward_type": "points",
+      "point_currency": "Reward Points",
+      "point_value_inr": 1.0,
+      "point_value_note": "1 My Cash = 1 INR",
+      "base_earn": {
+        "points": 1.0,
+        "per_spend_inr": 200.0
+      },
+      "category_rates": [],
+      "exclusions": [],
+      "transfer_partners": {
+        "supplied": {
+          "ratio": "1:1",
+          "partners": [
+            "MakeMyTrip"
+          ]
+        },
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "accelerated_partners": {
+        "platforms": "MakeMyTrip Flights & Hotels",
+        "rate": "Up to 1.5 My Cash per 200",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "1 My Cash per 200",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "icici-hpcl-super-saver",
+      "bank": "ICICI Bank",
+      "name": "HPCL Super Saver",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 500.0,
+      "reward_type": "points",
+      "point_currency": "Reward Points",
+      "point_value_inr": 0.25,
+      "point_value_note": "1 Pt = 0.25 INR",
+      "base_earn": {
+        "points": 2.0,
+        "per_spend_inr": 100.0
+      },
+      "category_rates": [],
+      "exclusions": [],
+      "accelerated_partners": {
+        "platforms": "HPCL Fuel & Groceries",
+        "rate": "5% Value Back",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "2 Pts per 100",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "icici-manchester-united-signature",
+      "bank": "ICICI Bank",
+      "name": "Manchester United Signature",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 2499.0,
+      "reward_type": "points",
+      "point_currency": "Reward Points",
+      "point_value_inr": 0.25,
+      "point_value_note": "1 Pt = 0.25 INR",
+      "base_earn": {
+        "points": 3.0,
+        "per_spend_inr": 100.0
+      },
+      "category_rates": [],
+      "exclusions": [],
+      "accelerated_partners": {
+        "platforms": "Manchester United Match Days",
+        "rate": "5 Pts per 100",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "3 Pts per 100",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "icici-manchester-united-platinum",
+      "bank": "ICICI Bank",
+      "name": "Manchester United Platinum",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 499.0,
+      "reward_type": "points",
+      "point_currency": "Reward Points",
+      "point_value_inr": 0.25,
+      "point_value_note": "1 Pt = 0.25 INR",
+      "base_earn": {
+        "points": 2.0,
+        "per_spend_inr": 100.0
+      },
+      "category_rates": [],
+      "exclusions": [],
+      "accelerated_partners": {
+        "platforms": "Manchester United Match Days",
+        "rate": "3 Pts per 100",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "2 Pts per 100",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "icici-chennai-super-kings",
+      "bank": "ICICI Bank",
+      "name": "Chennai Super Kings",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 500.0,
+      "reward_type": "points",
+      "point_currency": "Reward Points",
+      "point_value_inr": 0.25,
+      "point_value_note": "1 Pt = 0.25 INR",
+      "base_earn": {
+        "points": 2.0,
+        "per_spend_inr": 100.0
+      },
+      "category_rates": [],
+      "exclusions": [],
+      "accelerated_partners": {
+        "platforms": "CSK Match Days",
+        "rate": "10 Pts per 100",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "2 Pts per 100",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "icici-emirates-skywards-emeralde",
+      "bank": "ICICI Bank",
+      "name": "Emirates Skywards Emeralde",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 10000.0,
+      "reward_type": "points",
+      "point_currency": "Miles",
+      "point_value_inr": 1.0,
+      "point_value_note": "1 Mile = 1 INR",
+      "base_earn": {
+        "points": 1.0,
+        "per_spend_inr": 100.0
+      },
+      "category_rates": [],
+      "exclusions": [],
+      "transfer_partners": {
+        "supplied": {
+          "ratio": "1:1",
+          "partners": [
+            "Emirates Skywards"
+          ]
+        },
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "accelerated_partners": {
+        "platforms": "Emirates Airlines",
+        "rate": "2.5 Miles per 100",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "1 Skyward Mile per 100",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "icici-emirates-skywards-sapphiro",
+      "bank": "ICICI Bank",
+      "name": "Emirates Skywards Sapphiro",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 5000.0,
+      "reward_type": "points",
+      "point_currency": "Miles",
+      "point_value_inr": 1.0,
+      "point_value_note": "1 Mile = 1 INR",
+      "base_earn": {
+        "points": 1.0,
+        "per_spend_inr": 100.0
+      },
+      "category_rates": [],
+      "exclusions": [],
+      "transfer_partners": {
+        "supplied": {
+          "ratio": "1:1",
+          "partners": [
+            "Emirates Skywards"
+          ]
+        },
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "accelerated_partners": {
+        "platforms": "Emirates Airlines",
+        "rate": "2 Miles per 100",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "1 Skyward Mile per 100",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "icici-emirates-skywards-rubyx",
+      "bank": "ICICI Bank",
+      "name": "Emirates Skywards Rubyx",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 1000.0,
+      "reward_type": "points",
+      "point_currency": "Miles",
+      "point_value_inr": 1.0,
+      "point_value_note": "1 Mile = 1 INR",
+      "base_earn": {
+        "points": 0.75,
+        "per_spend_inr": 100.0
+      },
+      "category_rates": [],
+      "exclusions": [],
+      "transfer_partners": {
+        "supplied": {
+          "ratio": "1:1",
+          "partners": [
+            "Emirates Skywards"
+          ]
+        },
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "accelerated_partners": {
+        "platforms": "Emirates Airlines",
+        "rate": "1.5 Miles per 100",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "0.75 Skyward Mile per 100",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "icici-platinum-chip",
+      "bank": "ICICI Bank",
+      "name": "Platinum Chip",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 0.0,
+      "reward_type": "points",
+      "point_currency": "Reward Points",
+      "point_value_inr": 0.25,
+      "point_value_note": "1 Pt = 0.25 INR",
+      "base_earn": {
+        "points": 2.0,
+        "per_spend_inr": 100.0
+      },
+      "category_rates": [],
+      "exclusions": [],
+      "accelerated_partners": {
+        "platforms": "Retail",
+        "rate": "2 Pts per 100",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "2 Pts per 100",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "icici-accelero",
+      "bank": "ICICI Bank",
+      "name": "Accelero",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 499.0,
+      "reward_type": "points",
+      "point_currency": "Reward Points",
+      "point_value_inr": 0.25,
+      "point_value_note": "1 Pt = 0.25 INR",
+      "base_earn": {
+        "points": 2.0,
+        "per_spend_inr": 100.0
+      },
+      "category_rates": [],
+      "exclusions": [],
+      "accelerated_partners": {
+        "platforms": "Auto Spends",
+        "rate": "2X Pts",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "2 Pts per 100",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "amex-platinum-charge",
+      "bank": "American Express",
+      "name": "Amex Platinum Charge",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 60000.0,
+      "open_to_new_applicants": false,
+      "open_to_new_applicants_note": "Marked \"(Invite)\" in the supplied CSV - issued by invitation only.",
+      "reward_type": "points",
+      "point_currency": "Reward Points",
+      "point_value_inr": 0.25,
+      "point_value_note": "1 MR = 0.25 - 0.30 INR",
+      "base_earn": {
+        "points": 1.0,
+        "per_spend_inr": 40.0
+      },
+      "category_rates": [],
+      "exclusions": [],
+      "transfer_partners": {
+        "supplied": {
+          "ratio": "2:1 (Airlines) / 1:1 (Marriott)",
+          "partners": [
+            "Airlines",
+            "Hotels"
+          ]
+        },
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "accelerated_partners": {
+        "platforms": "Amex Reward Multiplier",
+        "rate": "Up to 5X MR Pts",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "1 MR per 40",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "amex-gold-charge",
+      "bank": "American Express",
+      "name": "Amex Gold Charge",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 4500.0,
+      "reward_type": "points",
+      "point_currency": "Reward Points",
+      "point_value_inr": 0.25,
+      "point_value_note": "1 MR = 0.25 - 0.30 INR",
+      "base_earn": {
+        "points": 1.0,
+        "per_spend_inr": 50.0
+      },
+      "category_rates": [],
+      "exclusions": [],
+      "transfer_partners": {
+        "supplied": {
+          "ratio": "2:1 (Airlines) / 1:1 (Marriott)",
+          "partners": [
+            "Airlines",
+            "Hotels"
+          ]
+        },
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "accelerated_partners": {
+        "platforms": "Amex Reward Multiplier",
+        "rate": "5X MR Pts",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "1 MR per 50",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "amex-platinum-travel",
+      "bank": "American Express",
+      "name": "Amex Platinum Travel",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 5000.0,
+      "reward_type": "points",
+      "point_currency": "Reward Points",
+      "point_value_inr": 0.25,
+      "point_value_note": "1 MR = 0.25 - 0.30 INR",
+      "base_earn": {
+        "points": 1.0,
+        "per_spend_inr": 50.0
+      },
+      "category_rates": [],
+      "exclusions": [],
+      "transfer_partners": {
+        "supplied": {
+          "ratio": "2:1 (Airlines) / 1:1 (Marriott)",
+          "partners": [
+            "Airlines",
+            "Hotels"
+          ]
+        },
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "accelerated_partners": {
+        "platforms": "Amex Reward Multiplier",
+        "rate": "3X to 5X MR Pts",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "1 MR per 50",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "amex-platinum-reserve",
+      "bank": "American Express",
+      "name": "Amex Platinum Reserve",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 10000.0,
+      "reward_type": "points",
+      "point_currency": "Reward Points",
+      "point_value_inr": 0.25,
+      "point_value_note": "1 MR = 0.25 - 0.30 INR",
+      "base_earn": {
+        "points": 1.0,
+        "per_spend_inr": 50.0
+      },
+      "category_rates": [],
+      "exclusions": [],
+      "transfer_partners": {
+        "supplied": {
+          "ratio": "2:1 (Airlines) / 1:1 (Marriott)",
+          "partners": [
+            "Airlines",
+            "Hotels"
+          ]
+        },
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "accelerated_partners": {
+        "platforms": "Health & Wellness",
+        "rate": "5X MR Pts",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "1 MR per 50",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "amex-mrcc",
+      "bank": "American Express",
+      "name": "Amex MRCC",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 1000.0,
+      "reward_type": "points",
+      "point_currency": "Reward Points",
+      "point_value_inr": 0.25,
+      "point_value_note": "1 MR = 0.25 - 0.30 INR",
+      "base_earn": {
+        "points": 1.0,
+        "per_spend_inr": 50.0
+      },
+      "category_rates": [],
+      "exclusions": [],
+      "transfer_partners": {
+        "supplied": {
+          "ratio": "2:1 (Airlines) / 1:1 (Marriott)",
+          "partners": [
+            "Airlines",
+            "Hotels"
+          ]
+        },
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "accelerated_partners": {
+        "platforms": "4 Transactions of 1500",
+        "rate": "1000 Bonus MR Pts",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "1 MR per 50",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "amex-smartearn",
+      "bank": "American Express",
+      "name": "Amex SmartEarn",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 495.0,
+      "reward_type": "points",
+      "point_currency": "Reward Points",
+      "point_value_inr": 0.25,
+      "point_value_note": "1 MR = 0.25 INR",
+      "base_earn": {
+        "points": 1.0,
+        "per_spend_inr": 50.0
+      },
+      "category_rates": [],
+      "exclusions": [],
+      "transfer_partners": {
+        "supplied": {
+          "ratio": "2:1 (Airlines) / 1:1 (Marriott)",
+          "partners": [
+            "Airlines",
+            "Hotels"
+          ]
+        },
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "accelerated_partners": {
+        "platforms": "Zomato / Swiggy / BMS / Amazon",
+        "rate": "10X & 5X MR Pts",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "1 MR per 50",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "amex-corporate-card",
+      "bank": "American Express",
+      "name": "Amex Corporate Card",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 4900.0,
+      "reward_type": "points",
+      "point_currency": "Reward Points",
+      "point_value_inr": 0.25,
+      "point_value_note": "1 MR = 0.25 - 0.30 INR",
+      "base_earn": {
+        "points": 1.0,
+        "per_spend_inr": 50.0
+      },
+      "category_rates": [],
+      "exclusions": [],
+      "transfer_partners": {
+        "supplied": {
+          "ratio": "2:1 (Airlines) / 1:1 (Marriott)",
+          "partners": [
+            "Airlines",
+            "Hotels"
+          ]
+        },
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "accelerated_partners": {
+        "platforms": "Uber & Taj & Telecom",
+        "rate": "Accelerated MR",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "1 MR per 50",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "idfc-first-private",
+      "bank": "IDFC FIRST Bank",
+      "name": "First Private",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 50000.0,
+      "open_to_new_applicants": false,
+      "open_to_new_applicants_note": "Marked \"(Invite)\" in the supplied CSV - issued by invitation only.",
+      "reward_type": "points",
+      "point_currency": "Reward Points",
+      "point_value_inr": 0.25,
+      "point_value_note": "1 Pt = 0.25 INR",
+      "base_earn": {
+        "points": 3.0,
+        "per_spend_inr": 100.0
+      },
+      "category_rates": [],
+      "exclusions": [],
+      "accelerated_partners": {
+        "platforms": "Birthday & International",
+        "rate": "10X Pts",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "3 Pts per 100",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "idfc-first-wealth",
+      "bank": "IDFC FIRST Bank",
+      "name": "First Wealth",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 0.0,
+      "reward_type": "points",
+      "point_currency": "Reward Points",
+      "point_value_inr": 0.25,
+      "point_value_note": "1 Pt = 0.25 INR",
+      "base_earn": {
+        "points": 3.0,
+        "per_spend_inr": 100.0
+      },
+      "category_rates": [],
+      "exclusions": [],
+      "accelerated_partners": {
+        "platforms": "Online & Incremental Spends",
+        "rate": "10X Pts",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "3 Pts per 100",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "idfc-first-millennia",
+      "bank": "IDFC FIRST Bank",
+      "name": "First Millennia",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 0.0,
+      "reward_type": "points",
+      "point_currency": "Reward Points",
+      "point_value_inr": 0.25,
+      "point_value_note": "1 Pt = 0.25 INR",
+      "base_earn": {
+        "points": 3.0,
+        "per_spend_inr": 100.0
+      },
+      "category_rates": [],
+      "exclusions": [],
+      "accelerated_partners": {
+        "platforms": "Online & Incremental Spends",
+        "rate": "10X Pts",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "3 Pts per 100",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "idfc-first-classic",
+      "bank": "IDFC FIRST Bank",
+      "name": "First Classic",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 0.0,
+      "reward_type": "points",
+      "point_currency": "Reward Points",
+      "point_value_inr": 0.25,
+      "point_value_note": "1 Pt = 0.25 INR",
+      "base_earn": {
+        "points": 3.0,
+        "per_spend_inr": 100.0
+      },
+      "category_rates": [],
+      "exclusions": [],
+      "accelerated_partners": {
+        "platforms": "Online & Incremental Spends",
+        "rate": "10X Pts",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "3 Pts per 100",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "idfc-wow",
+      "bank": "IDFC FIRST Bank",
+      "name": "WOW",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 0.0,
+      "reward_type": "points",
+      "point_currency": "Reward Points",
+      "point_value_inr": 0.25,
+      "point_value_note": "1 Pt = 0.25 INR",
+      "base_earn": {
+        "points": 1.0,
+        "per_spend_inr": 100.0
+      },
+      "category_rates": [],
+      "exclusions": [],
+      "accelerated_partners": {
+        "platforms": "Zero Forex Markup",
+        "rate": "4X Pts",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "1 Pt per 100",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "idfc-vistara",
+      "bank": "IDFC FIRST Bank",
+      "name": "Vistara",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 4999.0,
+      "reward_type": "points",
+      "point_currency": "Club Vistara Points",
+      "point_value_inr": 1.0,
+      "point_value_note": "1 CV = 1 INR",
+      "base_earn": {
+        "points": 6.0,
+        "per_spend_inr": 200.0
+      },
+      "category_rates": [],
+      "exclusions": [],
+      "transfer_partners": {
+        "supplied": {
+          "ratio": "1:1",
+          "partners": [
+            "Club Vistara"
+          ]
+        },
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "accelerated_partners": {
+        "platforms": "Air Vistara App",
+        "rate": "6 CV Pts per 200",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "6 CV Pts per 200",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "kotak-zen",
+      "bank": "Kotak Mahindra Bank",
+      "name": "Zen",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 1500.0,
+      "reward_type": "points",
+      "point_currency": "Reward Points",
+      "point_value_inr": 0.25,
+      "point_value_note": "1 Pt = 0.25 INR",
+      "base_earn": {
+        "points": 3.0,
+        "per_spend_inr": 150.0
+      },
+      "category_rates": [],
+      "exclusions": [],
+      "accelerated_partners": {
+        "platforms": "Milestones",
+        "rate": "15000 Bonus Pts",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "3 Pts per 150",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "kotak-royale",
+      "bank": "Kotak Mahindra Bank",
+      "name": "Royale",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 999.0,
+      "reward_type": "points",
+      "point_currency": "Reward Points",
+      "point_value_inr": 0.25,
+      "point_value_note": "1 Pt = 0.25 INR",
+      "base_earn": {
+        "points": 2.0,
+        "per_spend_inr": 150.0
+      },
+      "category_rates": [],
+      "exclusions": [],
+      "accelerated_partners": {
+        "platforms": "Hotels & Travel Agencies",
+        "rate": "4X Pts",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "2 Pts per 150",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "kotak-myntra",
+      "bank": "Kotak Mahindra Bank",
+      "name": "Myntra",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 500.0,
+      "reward_type": "cashback",
+      "point_value_inr": 1.0,
+      "point_value_note": "1 CB = 1 INR",
+      "base_rate_pct": 1.25,
+      "category_rates": [],
+      "exclusions": [],
+      "accelerated_partners": {
+        "platforms": "Myntra",
+        "rate": "7.5% Cashback",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "1.25% Cashback",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "kotak-league",
+      "bank": "Kotak Mahindra Bank",
+      "name": "League",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 499.0,
+      "reward_type": "points",
+      "point_currency": "Reward Points",
+      "point_value_inr": 0.25,
+      "point_value_note": "1 Pt = 0.25 INR",
+      "base_earn": {
+        "points": 4.0,
+        "per_spend_inr": 150.0
+      },
+      "category_rates": [],
+      "exclusions": [],
+      "accelerated_partners": {
+        "platforms": "Special Categories",
+        "rate": "8 Pts per 150",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "4 Pts per 150",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "rbl-shoprite",
+      "bank": "RBL Bank",
+      "name": "Shoprite",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 500.0,
+      "reward_type": "points",
+      "point_currency": "Reward Points",
+      "point_value_inr": 0.25,
+      "point_value_note": "1 Pt = 0.25 INR",
+      "base_earn": {
+        "points": 1.0,
+        "per_spend_inr": 100.0
+      },
+      "category_rates": [],
+      "exclusions": [],
+      "accelerated_partners": {
+        "platforms": "Groceries",
+        "rate": "20 Pts per 100",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "1 Pt per 100",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "rbl-world-safari",
+      "bank": "RBL Bank",
+      "name": "World Safari",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 3000.0,
+      "reward_type": "points",
+      "point_currency": "Reward Points",
+      "point_value_inr": 0.25,
+      "point_value_note": "1 Travel Pt = 0.25 INR",
+      "base_earn": {
+        "points": 2.0,
+        "per_spend_inr": 100.0
+      },
+      "category_rates": [],
+      "exclusions": [],
+      "accelerated_partners": {
+        "platforms": "0% Forex Markup",
+        "rate": "5 Travel Pts per 100",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "2 Travel Pts per 100",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
+    },
+    {
+      "id": "rbl-icon",
+      "bank": "RBL Bank",
+      "name": "Icon",
+      "network": [],
+      "_verify": [
+        "network",
+        "exclusions",
+        "caps",
+        "minimum spends"
+      ],
+      "annual_fee": 5000.0,
+      "reward_type": "points",
+      "point_currency": "Reward Points",
+      "point_value_inr": 0.25,
+      "point_value_note": "1 Pt = 0.25 INR",
+      "base_earn": {
+        "points": 2.0,
+        "per_spend_inr": 100.0
+      },
+      "category_rates": [],
+      "exclusions": [],
+      "accelerated_partners": {
+        "platforms": "Dining & International",
+        "rate": "20 Pts per 100",
+        "_source": "Supplied CSV, 2026-07-28."
+      },
+      "base_rate_summary": "2 Pts per 100",
+      "last_changed": "2026-07-28",
+      "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
+      "last_verified": "2026-07-28"
     }
   ]
 }

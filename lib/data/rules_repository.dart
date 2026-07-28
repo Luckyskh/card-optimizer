@@ -19,7 +19,19 @@ class RulesRepository {
     final cached = _cached;
     if (cached != null) return cached;
 
-    final raw = await rootBundle.loadString('assets/rules.json');
+    // Deliberately load() + decode rather than loadString().
+    //
+    // rootBundle.loadString hands UTF-8 decoding to a background isolate once
+    // an asset passes 50 KB. rules.json crossed that when the card list grew,
+    // and isolates do not run under the widget-test fake clock — so every
+    // screen sat on its loading spinner forever and six tests began timing
+    // out. Decoding here keeps it on the main isolate. The file is well under
+    // a megabyte, so there is nothing to gain from offloading it anyway.
+    final data = await rootBundle.load('assets/rules.json');
+    final raw = utf8.decode(data.buffer.asUint8List(
+      data.offsetInBytes,
+      data.lengthInBytes,
+    ));
     final parsed = Rules.fromJson(json.decode(raw) as Map<String, dynamic>);
     _cached = parsed;
     return parsed;

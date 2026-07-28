@@ -73,20 +73,29 @@ void main() {
     await tester.tap(find.text('My cards'));
     await tester.pumpAndSettle();
 
-    // Open the two banks whose cards we are about to tick.
-    for (final bank in ['HDFC Bank', 'Axis Bank']) {
-      await tester.tap(find.text(bank));
+    // Open each bank and tick its card, one bank at a time. The bank has to be
+    // scrolled to first: with a hundred cards, expanding HDFC pushes every
+    // later bank off the screen, and a widget that is off-screen cannot be
+    // tapped even though it exists.
+    for (final entry in const {
+      'HDFC Bank': 'HDFC Bank Swiggy ORNGE',
+      'Axis Bank': 'Axis Bank ACE',
+    }.entries) {
+      await tester.ensureVisible(find.text(entry.key));
       await tester.pumpAndSettle();
-    }
+      await tester.tap(find.text(entry.key));
+      await tester.pumpAndSettle();
 
-    for (final card in ['HDFC Bank Swiggy ORNGE', 'Axis Bank ACE']) {
-      final tile = find.widgetWithText(CheckboxListTile, card);
-      // ensureVisible rather than scrollUntilVisible: both tabs live in an
-      // IndexedStack, so both are in the widget tree at once and picking a
-      // scrollable by type would sometimes scroll the other screen's list.
+      final tile = find.widgetWithText(CheckboxListTile, entry.value);
       await tester.ensureVisible(tile);
       await tester.pumpAndSettle();
       await tester.tap(tile);
+      await tester.pumpAndSettle();
+
+      // Collapse again so the next bank stays reachable.
+      await tester.ensureVisible(find.text(entry.key));
+      await tester.pumpAndSettle();
+      await tester.tap(find.text(entry.key));
       await tester.pumpAndSettle();
     }
 
