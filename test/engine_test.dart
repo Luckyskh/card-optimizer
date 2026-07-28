@@ -666,6 +666,42 @@ void main() {
           reason: 'a conditional 10X must not become an unconditional one');
     });
 
+    test('an imported accelerated rate is capped where the file says so', () {
+      // Millennia: 5% at Amazon, "1000 INR Max Cashback per month".
+      final small = engine.evaluate(
+        card('hdfc-millennia'),
+        const SpendRequest(
+            category: 'amazon', amountInr: 5000, merchant: 'amazon'),
+      );
+      final large = engine.evaluate(
+        card('hdfc-millennia'),
+        const SpendRequest(
+            category: 'amazon', amountInr: 50000, merchant: 'amazon'),
+      );
+
+      expect(small.rupees, 250); // under the ceiling
+      expect(small.capped, isFalse);
+      expect(large.rupees, 1000); // the stated ceiling, not 2,500
+      expect(large.capped, isTrue);
+    });
+
+    test('a per-transaction cap is disclosed rather than modelled', () {
+      // Kotak Myntra caps at Rs 750 per transaction, not per month. The app
+      // models monthly ceilings, so applying this one would be wrong in the
+      // other direction - it is said out loud instead.
+      final kotak = rules.cardById('kotak-myntra');
+      if (kotak == null) return; // card list is data-driven
+
+      final row = kotak.categoryRates
+          .where((r) => r.merchants.contains('myntra'))
+          .toList();
+      if (row.isEmpty) return;
+
+      expect(row.first.monthlyCapInr, isNull,
+          reason: 'a per-transaction cap must not be applied monthly');
+      expect(row.first.note, contains('per transaction'));
+    });
+
     test('every merchant named in an imported rate row is selectable', () {
       // The same consistency rule as the hand-written rows: a rate pinned to
       // a merchant the user cannot pick can never fire.

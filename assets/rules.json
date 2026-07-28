@@ -1004,7 +1004,8 @@
             "tata cliq"
           ],
           "rate_pct": 10.0,
-          "note": "From the supplied CSV: \"10% NeuCoins\" at Tata Neu App ecosystem. Any cap on this rate is not in that file. Added alongside this card's researched rates, which already covered ."
+          "monthly_cap_points": 1000.0,
+          "note": "From the supplied CSV: \"10% NeuCoins\" at Tata Neu App ecosystem. Added alongside this card's researched rates, which already covered ."
         }
       ],
       "exclusions": [
@@ -1035,7 +1036,13 @@
         "supplied": {
           "ratio": null,
           "partners": [
-            "Tata Neu Ecosystem (1:1)"
+            "Tata Neu Ecosystem"
+          ],
+          "partner_ratios": [
+            {
+              "name": "Tata Neu Ecosystem",
+              "ratio": "1:1"
+            }
           ]
         },
         "_source": "Supplied CSV, 2026-07-28."
@@ -1158,7 +1165,8 @@
             "swiggy"
           ],
           "rate_pct": 10.0,
-          "note": "From the supplied CSV: \"10% Cashback\" at Swiggy App. Any cap on this rate is not in that file. Added alongside this card's researched rates, which already covered ."
+          "monthly_cap_inr": 1500.0,
+          "note": "From the supplied CSV: \"10% Cashback\" at Swiggy App. Added alongside this card's researched rates, which already covered ."
         }
       ],
       "exclusions": [
@@ -1239,7 +1247,8 @@
             "reliance digital"
           ],
           "points_per_200": 25.0,
-          "note": "From the supplied CSV: \"5X Reward Points\" at Nykaa / Myntra / Reliance Digital, read as 5 times the base rate. Any cap on this rate is not in that file. Added alongside this card's researched rates, which already covered ."
+          "monthly_cap_points": 4000.0,
+          "note": "From the supplied CSV: \"5X Reward Points\" at Nykaa / Myntra / Reliance Digital, read as 5 times the base rate. Added alongside this card's researched rates, which already covered ."
         }
       ],
       "exclusions": [
@@ -1267,15 +1276,53 @@
         "supplied": {
           "ratio": null,
           "partners": [
-            "KrisFlyer (2:1)",
-            "Flying Blue (2:1)",
-            "Air India (2:1)",
-            "Avianca (2:1)",
-            "IHG (2:1)",
-            "Marriott Bonvoy (2:1)",
-            "Finnair (2:1)",
-            "Club ITC (2:0.5)",
-            "Accor (2:0.5)"
+            "KrisFlyer",
+            "Flying Blue",
+            "Air India",
+            "Avianca",
+            "IHG",
+            "Marriott Bonvoy",
+            "Finnair",
+            "Club ITC",
+            "Accor"
+          ],
+          "partner_ratios": [
+            {
+              "name": "KrisFlyer",
+              "ratio": "2:1"
+            },
+            {
+              "name": "Flying Blue",
+              "ratio": "2:1"
+            },
+            {
+              "name": "Air India",
+              "ratio": "2:1"
+            },
+            {
+              "name": "Avianca",
+              "ratio": "2:1"
+            },
+            {
+              "name": "IHG",
+              "ratio": "2:1"
+            },
+            {
+              "name": "Marriott Bonvoy",
+              "ratio": "2:1"
+            },
+            {
+              "name": "Finnair",
+              "ratio": "2:1"
+            },
+            {
+              "name": "Club ITC",
+              "ratio": "2:0.5"
+            },
+            {
+              "name": "Accor",
+              "ratio": "2:0.5"
+            }
           ]
         },
         "_source": "Supplied CSV, 2026-07-28."
@@ -1337,16 +1384,58 @@
         "supplied": {
           "ratio": null,
           "partners": [
-            "KrisFlyer (1:1)",
-            "Flying Blue (1:1)",
-            "Air India (1:1)",
-            "Avianca (1:1)",
-            "IHG (1:1)",
-            "Marriott Bonvoy (1:1)",
-            "Finnair (1:1)",
-            "Vietnam Airlines (1:1)",
-            "Club ITC (1:0.5)",
-            "Accor (1:0.5)"
+            "KrisFlyer",
+            "Flying Blue",
+            "Air India",
+            "Avianca",
+            "IHG",
+            "Marriott Bonvoy",
+            "Finnair",
+            "Vietnam Airlines",
+            "Club ITC",
+            "Accor"
+          ],
+          "partner_ratios": [
+            {
+              "name": "KrisFlyer",
+              "ratio": "1:1"
+            },
+            {
+              "name": "Flying Blue",
+              "ratio": "1:1"
+            },
+            {
+              "name": "Air India",
+              "ratio": "1:1"
+            },
+            {
+              "name": "Avianca",
+              "ratio": "1:1"
+            },
+            {
+              "name": "IHG",
+              "ratio": "1:1"
+            },
+            {
+              "name": "Marriott Bonvoy",
+              "ratio": "1:1"
+            },
+            {
+              "name": "Finnair",
+              "ratio": "1:1"
+            },
+            {
+              "name": "Vietnam Airlines",
+              "ratio": "1:1"
+            },
+            {
+              "name": "Club ITC",
+              "ratio": "1:0.5"
+            },
+            {
+              "name": "Accor",
+              "ratio": "1:0.5"
+            }
           ]
         },
         "_source": "Supplied CSV, 2026-07-28."
@@ -1566,16 +1655,58 @@
         "supplied": {
           "ratio": null,
           "partners": [
-            "KrisFlyer (1:1)",
-            "Flying Blue (1:1)",
-            "Air India (1:1)",
-            "Avianca (1:1)",
-            "IHG (1:1)",
-            "Marriott Bonvoy (1:1)",
-            "Finnair (1:1)",
-            "Vietnam Airlines (1:1)",
-            "Club ITC (1:0.5)",
-            "Accor (1:0.5)"
+            "KrisFlyer",
+            "Flying Blue",
+            "Air India",
+            "Avianca",
+            "IHG",
+            "Marriott Bonvoy",
+            "Finnair",
+            "Vietnam Airlines",
+            "Club ITC",
+            "Accor"
+          ],
+          "partner_ratios": [
+            {
+              "name": "KrisFlyer",
+              "ratio": "1:1"
+            },
+            {
+              "name": "Flying Blue",
+              "ratio": "1:1"
+            },
+            {
+              "name": "Air India",
+              "ratio": "1:1"
+            },
+            {
+              "name": "Avianca",
+              "ratio": "1:1"
+            },
+            {
+              "name": "IHG",
+              "ratio": "1:1"
+            },
+            {
+              "name": "Marriott Bonvoy",
+              "ratio": "1:1"
+            },
+            {
+              "name": "Finnair",
+              "ratio": "1:1"
+            },
+            {
+              "name": "Vietnam Airlines",
+              "ratio": "1:1"
+            },
+            {
+              "name": "Club ITC",
+              "ratio": "1:0.5"
+            },
+            {
+              "name": "Accor",
+              "ratio": "1:0.5"
+            }
           ]
         },
         "_source": "Supplied CSV, 2026-07-28."
@@ -1585,6 +1716,7 @@
         "rate": "Up to 10X Reward Points",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "Unlimited Base / 10000 Pts Max on SmartBuy per month",
       "base_rate_summary": "5 Pts per 150",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -1618,14 +1750,48 @@
         "supplied": {
           "ratio": null,
           "partners": [
-            "KrisFlyer (1:1)",
-            "Flying Blue (1:1)",
-            "Air India (1:1)",
-            "Avianca (1:1)",
-            "IHG (1:1)",
-            "Marriott Bonvoy (1:1)",
-            "Club ITC (1:0.5)",
-            "Accor (1:0.5)"
+            "KrisFlyer",
+            "Flying Blue",
+            "Air India",
+            "Avianca",
+            "IHG",
+            "Marriott Bonvoy",
+            "Club ITC",
+            "Accor"
+          ],
+          "partner_ratios": [
+            {
+              "name": "KrisFlyer",
+              "ratio": "1:1"
+            },
+            {
+              "name": "Flying Blue",
+              "ratio": "1:1"
+            },
+            {
+              "name": "Air India",
+              "ratio": "1:1"
+            },
+            {
+              "name": "Avianca",
+              "ratio": "1:1"
+            },
+            {
+              "name": "IHG",
+              "ratio": "1:1"
+            },
+            {
+              "name": "Marriott Bonvoy",
+              "ratio": "1:1"
+            },
+            {
+              "name": "Club ITC",
+              "ratio": "1:0.5"
+            },
+            {
+              "name": "Accor",
+              "ratio": "1:0.5"
+            }
           ]
         },
         "_source": "Supplied CSV, 2026-07-28."
@@ -1635,6 +1801,7 @@
         "rate": "Up to 5X Reward Points",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "Unlimited Base / 10000 Pts Max on SmartBuy per month",
       "base_rate_summary": "5 Pts per 150",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -1666,14 +1833,48 @@
         "supplied": {
           "ratio": null,
           "partners": [
-            "KrisFlyer (2:1)",
-            "Flying Blue (2:1)",
-            "Air India (2:1)",
-            "Avianca (2:1)",
-            "IHG (2:1)",
-            "Marriott Bonvoy (2:1)",
-            "Finnair (2:1)",
-            "Club ITC (2:0.5)"
+            "KrisFlyer",
+            "Flying Blue",
+            "Air India",
+            "Avianca",
+            "IHG",
+            "Marriott Bonvoy",
+            "Finnair",
+            "Club ITC"
+          ],
+          "partner_ratios": [
+            {
+              "name": "KrisFlyer",
+              "ratio": "2:1"
+            },
+            {
+              "name": "Flying Blue",
+              "ratio": "2:1"
+            },
+            {
+              "name": "Air India",
+              "ratio": "2:1"
+            },
+            {
+              "name": "Avianca",
+              "ratio": "2:1"
+            },
+            {
+              "name": "IHG",
+              "ratio": "2:1"
+            },
+            {
+              "name": "Marriott Bonvoy",
+              "ratio": "2:1"
+            },
+            {
+              "name": "Finnair",
+              "ratio": "2:1"
+            },
+            {
+              "name": "Club ITC",
+              "ratio": "2:0.5"
+            }
           ]
         },
         "_source": "Supplied CSV, 2026-07-28."
@@ -1683,6 +1884,7 @@
         "rate": "5X Reward Points",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "Unlimited Base / 4000 Pts Max on SmartBuy per month",
       "base_rate_summary": "4 Pts per 150",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -1717,7 +1919,8 @@
             "zomato"
           ],
           "points_per_200": 10.666666666666666,
-          "note": "From the supplied CSV: \"2X Reward Points\" at Swiggy & Zomato, read as 2 times the base rate. Any cap on this rate is not in that file."
+          "monthly_cap_points": 4000.0,
+          "note": "From the supplied CSV: \"2X Reward Points\" at Swiggy & Zomato, read as 2 times the base rate."
         }
       ],
       "exclusions": [],
@@ -1725,13 +1928,43 @@
         "supplied": {
           "ratio": null,
           "partners": [
-            "KrisFlyer (2:1)",
-            "Flying Blue (2:1)",
-            "Air India (2:1)",
-            "Avianca (2:1)",
-            "IHG (2:1)",
-            "Marriott Bonvoy (2:1)",
-            "Club ITC (2:0.5)"
+            "KrisFlyer",
+            "Flying Blue",
+            "Air India",
+            "Avianca",
+            "IHG",
+            "Marriott Bonvoy",
+            "Club ITC"
+          ],
+          "partner_ratios": [
+            {
+              "name": "KrisFlyer",
+              "ratio": "2:1"
+            },
+            {
+              "name": "Flying Blue",
+              "ratio": "2:1"
+            },
+            {
+              "name": "Air India",
+              "ratio": "2:1"
+            },
+            {
+              "name": "Avianca",
+              "ratio": "2:1"
+            },
+            {
+              "name": "IHG",
+              "ratio": "2:1"
+            },
+            {
+              "name": "Marriott Bonvoy",
+              "ratio": "2:1"
+            },
+            {
+              "name": "Club ITC",
+              "ratio": "2:0.5"
+            }
           ]
         },
         "_source": "Supplied CSV, 2026-07-28."
@@ -1741,6 +1974,7 @@
         "rate": "2X Reward Points",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "Unlimited Base / 4000 Pts Max on SmartBuy per month",
       "base_rate_summary": "4 Pts per 150",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -1771,7 +2005,8 @@
             "tata cliq"
           ],
           "rate_pct": 7.0,
-          "note": "From the supplied CSV: \"7% NeuCoins\" at Tata Neu App ecosystem. Any cap on this rate is not in that file."
+          "monthly_cap_points": 1000.0,
+          "note": "From the supplied CSV: \"7% NeuCoins\" at Tata Neu App ecosystem."
         }
       ],
       "exclusions": [],
@@ -1779,7 +2014,13 @@
         "supplied": {
           "ratio": null,
           "partners": [
-            "Tata Neu Ecosystem (1:1)"
+            "Tata Neu Ecosystem"
+          ],
+          "partner_ratios": [
+            {
+              "name": "Tata Neu Ecosystem",
+              "ratio": "1:1"
+            }
           ]
         },
         "_source": "Supplied CSV, 2026-07-28."
@@ -1789,6 +2030,7 @@
         "rate": "7% NeuCoins",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "Unlimited Base / 1000 NeuCoins Max on SmartBuy per month",
       "base_rate_summary": "1% NeuCoins",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -1824,7 +2066,8 @@
             "bigbasket"
           ],
           "points_per_200": 26.666666666666668,
-          "note": "From the supplied CSV: \"10X CashPoints\" at Amazon / Swiggy / BigBasket, read as 10 times the base rate. Any cap on this rate is not in that file."
+          "monthly_cap_points": 2500.0,
+          "note": "From the supplied CSV: \"10X CashPoints\" at Amazon / Swiggy / BigBasket, read as 10 times the base rate."
         }
       ],
       "exclusions": [],
@@ -1833,6 +2076,7 @@
         "rate": "10X CashPoints",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "Unlimited Base / 2500 Pts Max on 10X categories",
       "base_rate_summary": "2 CashPoints per 150",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -1868,7 +2112,8 @@
             "oyo"
           ],
           "points_per_200": 13.333333333333334,
-          "note": "From the supplied CSV: \"10X CashPoints\" at BigBasket / Swiggy / OYO, read as 10 times the base rate. Any cap on this rate is not in that file."
+          "monthly_cap_points": 2500.0,
+          "note": "From the supplied CSV: \"10X CashPoints\" at BigBasket / Swiggy / OYO, read as 10 times the base rate."
         }
       ],
       "exclusions": [],
@@ -1877,6 +2122,7 @@
         "rate": "10X CashPoints",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "Unlimited Base / 2500 Pts Max on 10X categories",
       "base_rate_summary": "1 CashPoint per 150",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -1909,6 +2155,7 @@
         "rate": "10X CashPoints",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "Unlimited Base / Capped accelerated points per month",
       "base_rate_summary": "2 CashPoints per 150",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -1941,6 +2188,7 @@
         "rate": "5X CashPoints",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "Unlimited Base / Capped accelerated points per month",
       "base_rate_summary": "1 CashPoint per 150",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -1974,7 +2222,8 @@
             "indianoil"
           ],
           "rate_pct": 5.0,
-          "note": "From the supplied CSV: \"5% Fuel Points\" at IndianOil Pumps & Groceries. Any cap on this rate is not in that file."
+          "monthly_cap_points": 250.0,
+          "note": "From the supplied CSV: \"5% Fuel Points\" at IndianOil Pumps & Groceries."
         }
       ],
       "exclusions": [],
@@ -1983,6 +2232,7 @@
         "rate": "5% Fuel Points",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "250 Fuel Points Max per month on Fuel",
       "base_rate_summary": "1 Fuel Point per 150",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -2016,7 +2266,8 @@
             "shoppers stop"
           ],
           "points_per_200": 8.0,
-          "note": "From the supplied CSV: \"6 Pts per 150\" at Shoppers Stop. Any cap on this rate is not in that file."
+          "monthly_cap_points": 500.0,
+          "note": "From the supplied CSV: \"6 Pts per 150\" at Shoppers Stop."
         }
       ],
       "exclusions": [],
@@ -2024,7 +2275,13 @@
         "supplied": {
           "ratio": null,
           "partners": [
-            "Shoppers Stop (1:1)"
+            "Shoppers Stop"
+          ],
+          "partner_ratios": [
+            {
+              "name": "Shoppers Stop",
+              "ratio": "1:1"
+            }
           ]
         },
         "_source": "Supplied CSV, 2026-07-28."
@@ -2034,6 +2291,7 @@
         "rate": "6 Pts per 150",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "500 Pts Max per month on accelerated category",
       "base_rate_summary": "2 Pts per 150",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -2065,7 +2323,13 @@
         "supplied": {
           "ratio": null,
           "partners": [
-            "Marriott Bonvoy (1:1)"
+            "Marriott Bonvoy"
+          ],
+          "partner_ratios": [
+            {
+              "name": "Marriott Bonvoy",
+              "ratio": "1:1"
+            }
           ]
         },
         "_source": "Supplied CSV, 2026-07-28."
@@ -2075,6 +2339,7 @@
         "rate": "8 Pts per 150",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "Unlimited Base",
       "base_rate_summary": "2 Pts per 150",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -2105,7 +2370,7 @@
             "indigo"
           ],
           "rate_pct": 5.0,
-          "note": "From the supplied CSV: \"5% 6E Rewards\" at Indigo Airline. Any cap on this rate is not in that file."
+          "note": "From the supplied CSV: \"5% 6E Rewards\" at Indigo Airline."
         }
       ],
       "exclusions": [],
@@ -2113,7 +2378,13 @@
         "supplied": {
           "ratio": null,
           "partners": [
-            "Indigo (1:1)"
+            "Indigo"
+          ],
+          "partner_ratios": [
+            {
+              "name": "Indigo",
+              "ratio": "1:1"
+            }
           ]
         },
         "_source": "Supplied CSV, 2026-07-28."
@@ -2123,6 +2394,7 @@
         "rate": "5% 6E Rewards",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "Unlimited Base",
       "base_rate_summary": "2% 6E Rewards",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -2153,7 +2425,7 @@
             "indigo"
           ],
           "rate_pct": 2.5,
-          "note": "From the supplied CSV: \"2.5% 6E Rewards\" at Indigo Airline. Any cap on this rate is not in that file."
+          "note": "From the supplied CSV: \"2.5% 6E Rewards\" at Indigo Airline."
         }
       ],
       "exclusions": [],
@@ -2161,7 +2433,13 @@
         "supplied": {
           "ratio": null,
           "partners": [
-            "Indigo (1:1)"
+            "Indigo"
+          ],
+          "partner_ratios": [
+            {
+              "name": "Indigo",
+              "ratio": "1:1"
+            }
           ]
         },
         "_source": "Supplied CSV, 2026-07-28."
@@ -2171,6 +2449,7 @@
         "rate": "2.5% 6E Rewards",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "Unlimited Base",
       "base_rate_summary": "1% 6E Rewards",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -2206,6 +2485,7 @@
         "rate": "3% CashPoints",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "500 Pts Max per month on 3% category",
       "base_rate_summary": "3% CashPoints on Groceries",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -2239,16 +2519,58 @@
         "supplied": {
           "ratio": null,
           "partners": [
-            "KrisFlyer (5:4)",
-            "Aeroplan (5:4)",
-            "JAL (5:4)",
-            "Air India (5:4)",
-            "Flying Blue (5:4)",
-            "BA Avios (5:4)",
-            "Finnair (5:4)",
-            "Vietnam Airlines (5:4)",
-            "ITC (5:4)",
-            "IHG (5:4)"
+            "KrisFlyer",
+            "Aeroplan",
+            "JAL",
+            "Air India",
+            "Flying Blue",
+            "BA Avios",
+            "Finnair",
+            "Vietnam Airlines",
+            "ITC",
+            "IHG"
+          ],
+          "partner_ratios": [
+            {
+              "name": "KrisFlyer",
+              "ratio": "5:4"
+            },
+            {
+              "name": "Aeroplan",
+              "ratio": "5:4"
+            },
+            {
+              "name": "JAL",
+              "ratio": "5:4"
+            },
+            {
+              "name": "Air India",
+              "ratio": "5:4"
+            },
+            {
+              "name": "Flying Blue",
+              "ratio": "5:4"
+            },
+            {
+              "name": "BA Avios",
+              "ratio": "5:4"
+            },
+            {
+              "name": "Finnair",
+              "ratio": "5:4"
+            },
+            {
+              "name": "Vietnam Airlines",
+              "ratio": "5:4"
+            },
+            {
+              "name": "ITC",
+              "ratio": "5:4"
+            },
+            {
+              "name": "IHG",
+              "ratio": "5:4"
+            }
           ]
         },
         "_source": "Supplied CSV, 2026-07-28."
@@ -2258,6 +2580,7 @@
         "rate": "Up to 50 Pts per 200",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "Unlimited Base",
       "base_rate_summary": "15 Pts per 200",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -2289,16 +2612,58 @@
         "supplied": {
           "ratio": null,
           "partners": [
-            "KrisFlyer (5:2)",
-            "Aeroplan (5:2)",
-            "JAL (5:2)",
-            "Air India (5:2)",
-            "Flying Blue (5:2)",
-            "BA Avios (5:1)",
-            "Finnair (5:1)",
-            "Vietnam Airlines (5:1)",
-            "ITC (5:2)",
-            "IHG (5:2)"
+            "KrisFlyer",
+            "Aeroplan",
+            "JAL",
+            "Air India",
+            "Flying Blue",
+            "BA Avios",
+            "Finnair",
+            "Vietnam Airlines",
+            "ITC",
+            "IHG"
+          ],
+          "partner_ratios": [
+            {
+              "name": "KrisFlyer",
+              "ratio": "5:2"
+            },
+            {
+              "name": "Aeroplan",
+              "ratio": "5:2"
+            },
+            {
+              "name": "JAL",
+              "ratio": "5:2"
+            },
+            {
+              "name": "Air India",
+              "ratio": "5:2"
+            },
+            {
+              "name": "Flying Blue",
+              "ratio": "5:2"
+            },
+            {
+              "name": "BA Avios",
+              "ratio": "5:1"
+            },
+            {
+              "name": "Finnair",
+              "ratio": "5:1"
+            },
+            {
+              "name": "Vietnam Airlines",
+              "ratio": "5:1"
+            },
+            {
+              "name": "ITC",
+              "ratio": "5:2"
+            },
+            {
+              "name": "IHG",
+              "ratio": "5:2"
+            }
           ]
         },
         "_source": "Supplied CSV, 2026-07-28."
@@ -2308,6 +2673,7 @@
         "rate": "Up to 50 Pts per 200",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "Unlimited Base",
       "base_rate_summary": "15 Pts per 200",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -2339,16 +2705,58 @@
         "supplied": {
           "ratio": null,
           "partners": [
-            "KrisFlyer (5:2)",
-            "Aeroplan (5:2)",
-            "JAL (5:2)",
-            "Air India (5:2)",
-            "Flying Blue (5:2)",
-            "BA Avios (5:1)",
-            "Finnair (5:1)",
-            "Vietnam Airlines (5:1)",
-            "ITC (5:2)",
-            "IHG (5:2)"
+            "KrisFlyer",
+            "Aeroplan",
+            "JAL",
+            "Air India",
+            "Flying Blue",
+            "BA Avios",
+            "Finnair",
+            "Vietnam Airlines",
+            "ITC",
+            "IHG"
+          ],
+          "partner_ratios": [
+            {
+              "name": "KrisFlyer",
+              "ratio": "5:2"
+            },
+            {
+              "name": "Aeroplan",
+              "ratio": "5:2"
+            },
+            {
+              "name": "JAL",
+              "ratio": "5:2"
+            },
+            {
+              "name": "Air India",
+              "ratio": "5:2"
+            },
+            {
+              "name": "Flying Blue",
+              "ratio": "5:2"
+            },
+            {
+              "name": "BA Avios",
+              "ratio": "5:1"
+            },
+            {
+              "name": "Finnair",
+              "ratio": "5:1"
+            },
+            {
+              "name": "Vietnam Airlines",
+              "ratio": "5:1"
+            },
+            {
+              "name": "ITC",
+              "ratio": "5:2"
+            },
+            {
+              "name": "IHG",
+              "ratio": "5:2"
+            }
           ]
         },
         "_source": "Supplied CSV, 2026-07-28."
@@ -2358,6 +2766,7 @@
         "rate": "Up to 5X Pts",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "Unlimited Base / Travel Edge multiplier capped",
       "base_rate_summary": "12 Pts per 200",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -2389,7 +2798,13 @@
         "supplied": {
           "ratio": null,
           "partners": [
-            "Club Vistara (1:1)"
+            "Club Vistara"
+          ],
+          "partner_ratios": [
+            {
+              "name": "Club Vistara",
+              "ratio": "1:1"
+            }
           ]
         },
         "_source": "Supplied CSV, 2026-07-28."
@@ -2399,6 +2814,7 @@
         "rate": "6 CV Pts per 200",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "Unlimited Base",
       "base_rate_summary": "6 CV Pts per 200",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -2430,7 +2846,13 @@
         "supplied": {
           "ratio": null,
           "partners": [
-            "Club Vistara (1:1)"
+            "Club Vistara"
+          ],
+          "partner_ratios": [
+            {
+              "name": "Club Vistara",
+              "ratio": "1:1"
+            }
           ]
         },
         "_source": "Supplied CSV, 2026-07-28."
@@ -2440,6 +2862,7 @@
         "rate": "4 CV Pts per 200",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "Unlimited Base",
       "base_rate_summary": "4 CV Pts per 200",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -2471,7 +2894,13 @@
         "supplied": {
           "ratio": null,
           "partners": [
-            "Club Vistara (1:1)"
+            "Club Vistara"
+          ],
+          "partner_ratios": [
+            {
+              "name": "Club Vistara",
+              "ratio": "1:1"
+            }
           ]
         },
         "_source": "Supplied CSV, 2026-07-28."
@@ -2481,6 +2910,7 @@
         "rate": "2 CV Pts per 200",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "Unlimited Base",
       "base_rate_summary": "2 CV Pts per 200",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -2509,6 +2939,7 @@
         "rate": "25% & 10% Cashback",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "25% capped at 2X Base Cashback / 10% capped at 1X Base Cashback",
       "base_rate_summary": "1% Cashback",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -2540,11 +2971,33 @@
         "supplied": {
           "ratio": null,
           "partners": [
-            "KrisFlyer (10:1)",
-            "BA Avios (10:1)",
-            "Flying Blue (10:1)",
-            "ITC (10:1)",
-            "IHG (10:1)"
+            "KrisFlyer",
+            "BA Avios",
+            "Flying Blue",
+            "ITC",
+            "IHG"
+          ],
+          "partner_ratios": [
+            {
+              "name": "KrisFlyer",
+              "ratio": "10:1"
+            },
+            {
+              "name": "BA Avios",
+              "ratio": "10:1"
+            },
+            {
+              "name": "Flying Blue",
+              "ratio": "10:1"
+            },
+            {
+              "name": "ITC",
+              "ratio": "10:1"
+            },
+            {
+              "name": "IHG",
+              "ratio": "10:1"
+            }
           ]
         },
         "_source": "Supplied CSV, 2026-07-28."
@@ -2554,6 +3007,7 @@
         "rate": "20% Discount",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "Unlimited Base / Capped discounts on partner apps",
       "base_rate_summary": "10 Pts per 200",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -2585,11 +3039,33 @@
         "supplied": {
           "ratio": null,
           "partners": [
-            "KrisFlyer (10:1)",
-            "BA Avios (10:1)",
-            "Flying Blue (10:1)",
-            "ITC (10:1)",
-            "IHG (10:1)"
+            "KrisFlyer",
+            "BA Avios",
+            "Flying Blue",
+            "ITC",
+            "IHG"
+          ],
+          "partner_ratios": [
+            {
+              "name": "KrisFlyer",
+              "ratio": "10:1"
+            },
+            {
+              "name": "BA Avios",
+              "ratio": "10:1"
+            },
+            {
+              "name": "Flying Blue",
+              "ratio": "10:1"
+            },
+            {
+              "name": "ITC",
+              "ratio": "10:1"
+            },
+            {
+              "name": "IHG",
+              "ratio": "10:1"
+            }
           ]
         },
         "_source": "Supplied CSV, 2026-07-28."
@@ -2599,6 +3075,7 @@
         "rate": "2X Reward Points",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "Unlimited Base",
       "base_rate_summary": "10 Pts per 200",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -2631,6 +3108,7 @@
         "rate": "10-40% Discount",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "Unlimited Base / Capped discounts on partner apps",
       "base_rate_summary": "1 Pt per 200",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -2663,6 +3141,7 @@
         "rate": "Up to 120 INR Discount",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "Unlimited Base / 120 INR Max discount per Swiggy order (Twice a month)",
       "base_rate_summary": "4 Pts per 200",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -2696,7 +3175,8 @@
             "indianoil"
           ],
           "points_per_200": 40.0,
-          "note": "From the supplied CSV: \"20 Pts per 100\" at IndianOil Pumps. Any cap on this rate is not in that file."
+          "monthly_cap_points": 250.0,
+          "note": "From the supplied CSV: \"20 Pts per 100\" at IndianOil Pumps."
         }
       ],
       "exclusions": [],
@@ -2705,6 +3185,7 @@
         "rate": "20 Pts per 100",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "250 Pts Max per month on Fuel",
       "base_rate_summary": "1 Pt per 100",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -2736,8 +3217,13 @@
         "supplied": {
           "ratio": null,
           "partners": [
-            "Miles",
-            "More (1:1)"
+            "Miles & More"
+          ],
+          "partner_ratios": [
+            {
+              "name": "Miles & More",
+              "ratio": "1:1"
+            }
           ]
         },
         "_source": "Supplied CSV, 2026-07-28."
@@ -2747,6 +3233,7 @@
         "rate": "Up to 10 Miles per 200",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "Unlimited Base",
       "base_rate_summary": "4 Miles per 200",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -2779,6 +3266,7 @@
         "rate": "10% Cashback",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "2500 INR Max per month on Samsung / 10000 INR per year",
       "base_rate_summary": "5 Pts per 100",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -2811,6 +3299,7 @@
         "rate": "10% Cashback",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "5000 INR Max per month on Samsung / 20000 INR per year",
       "base_rate_summary": "5 Pts per 100",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -2842,7 +3331,13 @@
         "supplied": {
           "ratio": null,
           "partners": [
-            "SpiceJet (1:1)"
+            "SpiceJet"
+          ],
+          "partner_ratios": [
+            {
+              "name": "SpiceJet",
+              "ratio": "1:1"
+            }
           ]
         },
         "_source": "Supplied CSV, 2026-07-28."
@@ -2852,6 +3347,7 @@
         "rate": "28 SpiceClub Pts per 200",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "Unlimited Base",
       "base_rate_summary": "4 SpiceClub Pts per 200",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -2883,11 +3379,33 @@
         "supplied": {
           "ratio": null,
           "partners": [
-            "KrisFlyer (10:1)",
-            "BA Avios (10:1)",
-            "Flying Blue (10:1)",
-            "ITC (10:1)",
-            "IHG (10:1)"
+            "KrisFlyer",
+            "BA Avios",
+            "Flying Blue",
+            "ITC",
+            "IHG"
+          ],
+          "partner_ratios": [
+            {
+              "name": "KrisFlyer",
+              "ratio": "10:1"
+            },
+            {
+              "name": "BA Avios",
+              "ratio": "10:1"
+            },
+            {
+              "name": "Flying Blue",
+              "ratio": "10:1"
+            },
+            {
+              "name": "ITC",
+              "ratio": "10:1"
+            },
+            {
+              "name": "IHG",
+              "ratio": "10:1"
+            }
           ]
         },
         "_source": "Supplied CSV, 2026-07-28."
@@ -2897,6 +3415,7 @@
         "rate": "10X Pts per 125",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "1008 Pts Max on 10X category per month",
       "base_rate_summary": "2 Pts per 125",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -2930,14 +3449,48 @@
         "supplied": {
           "ratio": null,
           "partners": [
-            "KrisFlyer (2:1)",
-            "BA Avios (2:1)",
-            "Air India (2:1)",
-            "Etihad (2:1)",
-            "Flying Blue (2:1)",
-            "Marriott Bonvoy (2:1)",
-            "Asia Miles (2:1)",
-            "Emirates (2:1)"
+            "KrisFlyer",
+            "BA Avios",
+            "Air India",
+            "Etihad",
+            "Flying Blue",
+            "Marriott Bonvoy",
+            "Asia Miles",
+            "Emirates"
+          ],
+          "partner_ratios": [
+            {
+              "name": "KrisFlyer",
+              "ratio": "2:1"
+            },
+            {
+              "name": "BA Avios",
+              "ratio": "2:1"
+            },
+            {
+              "name": "Air India",
+              "ratio": "2:1"
+            },
+            {
+              "name": "Etihad",
+              "ratio": "2:1"
+            },
+            {
+              "name": "Flying Blue",
+              "ratio": "2:1"
+            },
+            {
+              "name": "Marriott Bonvoy",
+              "ratio": "2:1"
+            },
+            {
+              "name": "Asia Miles",
+              "ratio": "2:1"
+            },
+            {
+              "name": "Emirates",
+              "ratio": "2:1"
+            }
           ]
         },
         "_source": "Supplied CSV, 2026-07-28."
@@ -2947,6 +3500,7 @@
         "rate": "Up to 5X MR Pts",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "Unlimited Base / Multiplier capped at 25000 Pts per month",
       "base_rate_summary": "1 MR per 40",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -2978,14 +3532,48 @@
         "supplied": {
           "ratio": null,
           "partners": [
-            "KrisFlyer (2:1)",
-            "BA Avios (2:1)",
-            "Air India (2:1)",
-            "Etihad (2:1)",
-            "Flying Blue (2:1)",
-            "Marriott Bonvoy (2:1)",
-            "Asia Miles (2:1)",
-            "Emirates (2:1)"
+            "KrisFlyer",
+            "BA Avios",
+            "Air India",
+            "Etihad",
+            "Flying Blue",
+            "Marriott Bonvoy",
+            "Asia Miles",
+            "Emirates"
+          ],
+          "partner_ratios": [
+            {
+              "name": "KrisFlyer",
+              "ratio": "2:1"
+            },
+            {
+              "name": "BA Avios",
+              "ratio": "2:1"
+            },
+            {
+              "name": "Air India",
+              "ratio": "2:1"
+            },
+            {
+              "name": "Etihad",
+              "ratio": "2:1"
+            },
+            {
+              "name": "Flying Blue",
+              "ratio": "2:1"
+            },
+            {
+              "name": "Marriott Bonvoy",
+              "ratio": "2:1"
+            },
+            {
+              "name": "Asia Miles",
+              "ratio": "2:1"
+            },
+            {
+              "name": "Emirates",
+              "ratio": "2:1"
+            }
           ]
         },
         "_source": "Supplied CSV, 2026-07-28."
@@ -2995,6 +3583,7 @@
         "rate": "5X MR Pts",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "Unlimited Base / Multiplier capped at 25000 Pts per month",
       "base_rate_summary": "1 MR per 50",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -3026,14 +3615,48 @@
         "supplied": {
           "ratio": null,
           "partners": [
-            "KrisFlyer (2:1)",
-            "BA Avios (2:1)",
-            "Air India (2:1)",
-            "Etihad (2:1)",
-            "Flying Blue (2:1)",
-            "Marriott Bonvoy (2:1)",
-            "Asia Miles (2:1)",
-            "Emirates (2:1)"
+            "KrisFlyer",
+            "BA Avios",
+            "Air India",
+            "Etihad",
+            "Flying Blue",
+            "Marriott Bonvoy",
+            "Asia Miles",
+            "Emirates"
+          ],
+          "partner_ratios": [
+            {
+              "name": "KrisFlyer",
+              "ratio": "2:1"
+            },
+            {
+              "name": "BA Avios",
+              "ratio": "2:1"
+            },
+            {
+              "name": "Air India",
+              "ratio": "2:1"
+            },
+            {
+              "name": "Etihad",
+              "ratio": "2:1"
+            },
+            {
+              "name": "Flying Blue",
+              "ratio": "2:1"
+            },
+            {
+              "name": "Marriott Bonvoy",
+              "ratio": "2:1"
+            },
+            {
+              "name": "Asia Miles",
+              "ratio": "2:1"
+            },
+            {
+              "name": "Emirates",
+              "ratio": "2:1"
+            }
           ]
         },
         "_source": "Supplied CSV, 2026-07-28."
@@ -3043,6 +3666,7 @@
         "rate": "3X to 5X MR Pts",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "Unlimited Base / Multiplier capped at 25000 Pts per month",
       "base_rate_summary": "1 MR per 50",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -3074,14 +3698,48 @@
         "supplied": {
           "ratio": null,
           "partners": [
-            "KrisFlyer (2:1)",
-            "BA Avios (2:1)",
-            "Air India (2:1)",
-            "Etihad (2:1)",
-            "Flying Blue (2:1)",
-            "Marriott Bonvoy (2:1)",
-            "Asia Miles (2:1)",
-            "Emirates (2:1)"
+            "KrisFlyer",
+            "BA Avios",
+            "Air India",
+            "Etihad",
+            "Flying Blue",
+            "Marriott Bonvoy",
+            "Asia Miles",
+            "Emirates"
+          ],
+          "partner_ratios": [
+            {
+              "name": "KrisFlyer",
+              "ratio": "2:1"
+            },
+            {
+              "name": "BA Avios",
+              "ratio": "2:1"
+            },
+            {
+              "name": "Air India",
+              "ratio": "2:1"
+            },
+            {
+              "name": "Etihad",
+              "ratio": "2:1"
+            },
+            {
+              "name": "Flying Blue",
+              "ratio": "2:1"
+            },
+            {
+              "name": "Marriott Bonvoy",
+              "ratio": "2:1"
+            },
+            {
+              "name": "Asia Miles",
+              "ratio": "2:1"
+            },
+            {
+              "name": "Emirates",
+              "ratio": "2:1"
+            }
           ]
         },
         "_source": "Supplied CSV, 2026-07-28."
@@ -3091,6 +3749,7 @@
         "rate": "5X MR Pts",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "Unlimited Base / Multiplier capped at 25000 Pts per month",
       "base_rate_summary": "1 MR per 50",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -3122,14 +3781,48 @@
         "supplied": {
           "ratio": null,
           "partners": [
-            "KrisFlyer (2:1)",
-            "BA Avios (2:1)",
-            "Air India (2:1)",
-            "Etihad (2:1)",
-            "Flying Blue (2:1)",
-            "Marriott Bonvoy (2:1)",
-            "Asia Miles (2:1)",
-            "Emirates (2:1)"
+            "KrisFlyer",
+            "BA Avios",
+            "Air India",
+            "Etihad",
+            "Flying Blue",
+            "Marriott Bonvoy",
+            "Asia Miles",
+            "Emirates"
+          ],
+          "partner_ratios": [
+            {
+              "name": "KrisFlyer",
+              "ratio": "2:1"
+            },
+            {
+              "name": "BA Avios",
+              "ratio": "2:1"
+            },
+            {
+              "name": "Air India",
+              "ratio": "2:1"
+            },
+            {
+              "name": "Etihad",
+              "ratio": "2:1"
+            },
+            {
+              "name": "Flying Blue",
+              "ratio": "2:1"
+            },
+            {
+              "name": "Marriott Bonvoy",
+              "ratio": "2:1"
+            },
+            {
+              "name": "Asia Miles",
+              "ratio": "2:1"
+            },
+            {
+              "name": "Emirates",
+              "ratio": "2:1"
+            }
           ]
         },
         "_source": "Supplied CSV, 2026-07-28."
@@ -3139,6 +3832,7 @@
         "rate": "1000 Bonus MR Pts",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "Unlimited Base / 1000 Pts Max milestone bonus per month",
       "base_rate_summary": "1 MR per 50",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -3170,14 +3864,48 @@
         "supplied": {
           "ratio": null,
           "partners": [
-            "KrisFlyer (2:1)",
-            "BA Avios (2:1)",
-            "Air India (2:1)",
-            "Etihad (2:1)",
-            "Flying Blue (2:1)",
-            "Marriott Bonvoy (2:1)",
-            "Asia Miles (2:1)",
-            "Emirates (2:1)"
+            "KrisFlyer",
+            "BA Avios",
+            "Air India",
+            "Etihad",
+            "Flying Blue",
+            "Marriott Bonvoy",
+            "Asia Miles",
+            "Emirates"
+          ],
+          "partner_ratios": [
+            {
+              "name": "KrisFlyer",
+              "ratio": "2:1"
+            },
+            {
+              "name": "BA Avios",
+              "ratio": "2:1"
+            },
+            {
+              "name": "Air India",
+              "ratio": "2:1"
+            },
+            {
+              "name": "Etihad",
+              "ratio": "2:1"
+            },
+            {
+              "name": "Flying Blue",
+              "ratio": "2:1"
+            },
+            {
+              "name": "Marriott Bonvoy",
+              "ratio": "2:1"
+            },
+            {
+              "name": "Asia Miles",
+              "ratio": "2:1"
+            },
+            {
+              "name": "Emirates",
+              "ratio": "2:1"
+            }
           ]
         },
         "_source": "Supplied CSV, 2026-07-28."
@@ -3187,6 +3915,7 @@
         "rate": "10X & 5X MR Pts",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "500 Pts Max on 10X / 250 Pts Max on 5X per month",
       "base_rate_summary": "1 MR per 50",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -3218,14 +3947,48 @@
         "supplied": {
           "ratio": null,
           "partners": [
-            "KrisFlyer (2:1)",
-            "BA Avios (2:1)",
-            "Air India (2:1)",
-            "Etihad (2:1)",
-            "Flying Blue (2:1)",
-            "Marriott Bonvoy (2:1)",
-            "Asia Miles (2:1)",
-            "Emirates (2:1)"
+            "KrisFlyer",
+            "BA Avios",
+            "Air India",
+            "Etihad",
+            "Flying Blue",
+            "Marriott Bonvoy",
+            "Asia Miles",
+            "Emirates"
+          ],
+          "partner_ratios": [
+            {
+              "name": "KrisFlyer",
+              "ratio": "2:1"
+            },
+            {
+              "name": "BA Avios",
+              "ratio": "2:1"
+            },
+            {
+              "name": "Air India",
+              "ratio": "2:1"
+            },
+            {
+              "name": "Etihad",
+              "ratio": "2:1"
+            },
+            {
+              "name": "Flying Blue",
+              "ratio": "2:1"
+            },
+            {
+              "name": "Marriott Bonvoy",
+              "ratio": "2:1"
+            },
+            {
+              "name": "Asia Miles",
+              "ratio": "2:1"
+            },
+            {
+              "name": "Emirates",
+              "ratio": "2:1"
+            }
           ]
         },
         "_source": "Supplied CSV, 2026-07-28."
@@ -3235,6 +3998,7 @@
         "rate": "Accelerated MR",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "Unlimited Base",
       "base_rate_summary": "1 MR per 50",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -3265,7 +4029,7 @@
           "category": "travel_flights_hotels",
           "label": "Travel Bookings",
           "points_per_200": 20.0,
-          "note": "From the supplied CSV: \"5X Credits\" at Travel Bookings, read as 5 times the base rate. Any cap on this rate is not in that file."
+          "note": "From the supplied CSV: \"5X Credits\" at Travel Bookings, read as 5 times the base rate."
         }
       ],
       "exclusions": [],
@@ -3273,13 +4037,43 @@
         "supplied": {
           "ratio": null,
           "partners": [
-            "Air India (1:1)",
-            "Flying Blue (1:1)",
-            "KrisFlyer (1:1)",
-            "Accor (1:1)",
-            "IHG (1:1)",
-            "Marriott (1:1)",
-            "Club Vistara (1:1)"
+            "Air India",
+            "Flying Blue",
+            "KrisFlyer",
+            "Accor",
+            "IHG",
+            "Marriott",
+            "Club Vistara"
+          ],
+          "partner_ratios": [
+            {
+              "name": "Air India",
+              "ratio": "1:1"
+            },
+            {
+              "name": "Flying Blue",
+              "ratio": "1:1"
+            },
+            {
+              "name": "KrisFlyer",
+              "ratio": "1:1"
+            },
+            {
+              "name": "Accor",
+              "ratio": "1:1"
+            },
+            {
+              "name": "IHG",
+              "ratio": "1:1"
+            },
+            {
+              "name": "Marriott",
+              "ratio": "1:1"
+            },
+            {
+              "name": "Club Vistara",
+              "ratio": "1:1"
+            }
           ]
         },
         "_source": "Supplied CSV, 2026-07-28."
@@ -3289,6 +4083,7 @@
         "rate": "5X Credits",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "Unlimited Base",
       "base_rate_summary": "2 Credits per 100",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -3319,7 +4114,7 @@
           "category": "travel_flights_hotels",
           "label": "Travel Bookings",
           "points_per_200": 16.0,
-          "note": "From the supplied CSV: \"4X Credits\" at Travel Bookings, read as 4 times the base rate. Any cap on this rate is not in that file."
+          "note": "From the supplied CSV: \"4X Credits\" at Travel Bookings, read as 4 times the base rate."
         }
       ],
       "exclusions": [],
@@ -3327,13 +4122,43 @@
         "supplied": {
           "ratio": null,
           "partners": [
-            "Air India (1:1)",
-            "Flying Blue (1:1)",
-            "KrisFlyer (1:1)",
-            "Accor (1:1)",
-            "IHG (1:1)",
-            "Marriott (1:1)",
-            "Club Vistara (1:1)"
+            "Air India",
+            "Flying Blue",
+            "KrisFlyer",
+            "Accor",
+            "IHG",
+            "Marriott",
+            "Club Vistara"
+          ],
+          "partner_ratios": [
+            {
+              "name": "Air India",
+              "ratio": "1:1"
+            },
+            {
+              "name": "Flying Blue",
+              "ratio": "1:1"
+            },
+            {
+              "name": "KrisFlyer",
+              "ratio": "1:1"
+            },
+            {
+              "name": "Accor",
+              "ratio": "1:1"
+            },
+            {
+              "name": "IHG",
+              "ratio": "1:1"
+            },
+            {
+              "name": "Marriott",
+              "ratio": "1:1"
+            },
+            {
+              "name": "Club Vistara",
+              "ratio": "1:1"
+            }
           ]
         },
         "_source": "Supplied CSV, 2026-07-28."
@@ -3343,6 +4168,7 @@
         "rate": "4X Credits",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "Unlimited Base",
       "base_rate_summary": "2 Credits per 100",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -3373,7 +4199,7 @@
           "category": "travel_flights_hotels",
           "label": "Travel Bookings",
           "points_per_200": 6.0,
-          "note": "From the supplied CSV: \"3X Credits\" at Travel Bookings, read as 3 times the base rate. Any cap on this rate is not in that file."
+          "note": "From the supplied CSV: \"3X Credits\" at Travel Bookings, read as 3 times the base rate."
         }
       ],
       "exclusions": [],
@@ -3381,13 +4207,43 @@
         "supplied": {
           "ratio": null,
           "partners": [
-            "Air India (1:1)",
-            "Flying Blue (1:1)",
-            "KrisFlyer (1:1)",
-            "Accor (1:1)",
-            "IHG (1:1)",
-            "Marriott (1:1)",
-            "Club Vistara (1:1)"
+            "Air India",
+            "Flying Blue",
+            "KrisFlyer",
+            "Accor",
+            "IHG",
+            "Marriott",
+            "Club Vistara"
+          ],
+          "partner_ratios": [
+            {
+              "name": "Air India",
+              "ratio": "1:1"
+            },
+            {
+              "name": "Flying Blue",
+              "ratio": "1:1"
+            },
+            {
+              "name": "KrisFlyer",
+              "ratio": "1:1"
+            },
+            {
+              "name": "Accor",
+              "ratio": "1:1"
+            },
+            {
+              "name": "IHG",
+              "ratio": "1:1"
+            },
+            {
+              "name": "Marriott",
+              "ratio": "1:1"
+            },
+            {
+              "name": "Club Vistara",
+              "ratio": "1:1"
+            }
           ]
         },
         "_source": "Supplied CSV, 2026-07-28."
@@ -3397,6 +4253,7 @@
         "rate": "3X Credits",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "Unlimited Base",
       "base_rate_summary": "1 Credit per 100",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -3431,7 +4288,8 @@
             "bookmyshow"
           ],
           "points_per_200": 20.0,
-          "note": "From the supplied CSV: \"10X Reward Points\" at Amazon / BookMyShow, read as 10 times the base rate. Any cap on this rate is not in that file."
+          "monthly_cap_points": 10000.0,
+          "note": "From the supplied CSV: \"10X Reward Points\" at Amazon / BookMyShow, read as 10 times the base rate."
         }
       ],
       "exclusions": [],
@@ -3440,6 +4298,7 @@
         "rate": "10X Reward Points",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "Unlimited Base / 10000 Pts Max on 10X per month",
       "base_rate_summary": "1 Pt per 100",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -3472,6 +4331,7 @@
         "rate": "10X Reward Points",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "Unlimited Base",
       "base_rate_summary": "1 Pt per 100",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -3505,7 +4365,13 @@
         "supplied": {
           "ratio": null,
           "partners": [
-            "Club Vistara (4:1)"
+            "Club Vistara"
+          ],
+          "partner_ratios": [
+            {
+              "name": "Club Vistara",
+              "ratio": "4:1"
+            }
           ]
         },
         "_source": "Supplied CSV, 2026-07-28."
@@ -3515,6 +4381,7 @@
         "rate": "Up to 4X Reward Points",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "Unlimited Base",
       "base_rate_summary": "4 Pts per 100",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -3545,7 +4412,7 @@
           "category": "dining",
           "label": "Dining / Groceries",
           "points_per_200": 20.0,
-          "note": "From the supplied CSV: \"5X Reward Points\" at Dining / Groceries, read as 5 times the base rate. Any cap on this rate is not in that file."
+          "note": "From the supplied CSV: \"5X Reward Points\" at Dining / Groceries, read as 5 times the base rate."
         }
       ],
       "exclusions": [],
@@ -3553,7 +4420,13 @@
         "supplied": {
           "ratio": null,
           "partners": [
-            "Club Vistara (4:1)"
+            "Club Vistara"
+          ],
+          "partner_ratios": [
+            {
+              "name": "Club Vistara",
+              "ratio": "4:1"
+            }
           ]
         },
         "_source": "Supplied CSV, 2026-07-28."
@@ -3563,6 +4436,7 @@
         "rate": "5X Reward Points",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "Unlimited Base",
       "base_rate_summary": "2 Pts per 100",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -3593,7 +4467,7 @@
           "category": "dining",
           "label": "Dining / Groceries",
           "points_per_200": 20.0,
-          "note": "From the supplied CSV: \"10 Pts per 100\" at Dining / Groceries. Any cap on this rate is not in that file."
+          "note": "From the supplied CSV: \"10 Pts per 100\" at Dining / Groceries."
         }
       ],
       "exclusions": [],
@@ -3601,7 +4475,13 @@
         "supplied": {
           "ratio": null,
           "partners": [
-            "Club Vistara (4:1)"
+            "Club Vistara"
+          ],
+          "partner_ratios": [
+            {
+              "name": "Club Vistara",
+              "ratio": "4:1"
+            }
           ]
         },
         "_source": "Supplied CSV, 2026-07-28."
@@ -3611,6 +4491,7 @@
         "rate": "10 Pts per 100",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "Unlimited Base",
       "base_rate_summary": "2 Pts per 100",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -3642,7 +4523,13 @@
         "supplied": {
           "ratio": null,
           "partners": [
-            "Club Vistara (1:1)"
+            "Club Vistara"
+          ],
+          "partner_ratios": [
+            {
+              "name": "Club Vistara",
+              "ratio": "1:1"
+            }
           ]
         },
         "_source": "Supplied CSV, 2026-07-28."
@@ -3652,6 +4539,7 @@
         "rate": "4 CV Pts per 200",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "Unlimited Base",
       "base_rate_summary": "4 CV Pts per 200",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -3683,7 +4571,13 @@
         "supplied": {
           "ratio": null,
           "partners": [
-            "Club Vistara (1:1)"
+            "Club Vistara"
+          ],
+          "partner_ratios": [
+            {
+              "name": "Club Vistara",
+              "ratio": "1:1"
+            }
           ]
         },
         "_source": "Supplied CSV, 2026-07-28."
@@ -3693,6 +4587,7 @@
         "rate": "3 CV Pts per 200",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "Unlimited Base",
       "base_rate_summary": "3 CV Pts per 200",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -3725,6 +4620,7 @@
         "rate": "25 Pts per 100",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "2500 Pts Max on Fuel per cycle",
       "base_rate_summary": "2 Pts per 100",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -3757,6 +4653,7 @@
         "rate": "13 Pts per 100",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "1300 Pts Max on Fuel per cycle",
       "base_rate_summary": "1 Pt per 100",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -3788,7 +4685,13 @@
         "supplied": {
           "ratio": null,
           "partners": [
-            "IRCTC (1:1)"
+            "IRCTC"
+          ],
+          "partner_ratios": [
+            {
+              "name": "IRCTC",
+              "ratio": "1:1"
+            }
           ]
         },
         "_source": "Supplied CSV, 2026-07-28."
@@ -3798,6 +4701,7 @@
         "rate": "10% Value back",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "Unlimited Base / Capped Value back on IRCTC",
       "base_rate_summary": "1 Pt per 125",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -3829,7 +4733,13 @@
         "supplied": {
           "ratio": null,
           "partners": [
-            "IRCTC (1:1)"
+            "IRCTC"
+          ],
+          "partner_ratios": [
+            {
+              "name": "IRCTC",
+              "ratio": "1:1"
+            }
           ]
         },
         "_source": "Supplied CSV, 2026-07-28."
@@ -3839,6 +4749,7 @@
         "rate": "10% Value back",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "Unlimited Base / Capped Value back on IRCTC",
       "base_rate_summary": "1 Pt per 125",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -3872,7 +4783,7 @@
             "yatra"
           ],
           "points_per_200": 12.0,
-          "note": "From the supplied CSV: \"6X Reward Points\" at Yatra App / Groceries, read as 6 times the base rate. Any cap on this rate is not in that file."
+          "note": "From the supplied CSV: \"6X Reward Points\" at Yatra App / Groceries, read as 6 times the base rate."
         }
       ],
       "exclusions": [],
@@ -3881,6 +4792,7 @@
         "rate": "6X Reward Points",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "Unlimited Base",
       "base_rate_summary": "1 Pt per 100",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -3909,7 +4821,7 @@
             "air india"
           ],
           "points_per_200": 60.0,
-          "note": "From the supplied CSV: \"30 Pts per 100\" at Air India App. Any cap on this rate is not in that file."
+          "note": "From the supplied CSV: \"30 Pts per 100\" at Air India App. The file caps this in words only: \"Unlimited Base / Capped Air India points up to 1 Lakh Pts per year\"."
         }
       ],
       "exclusions": [],
@@ -3917,7 +4829,13 @@
         "supplied": {
           "ratio": null,
           "partners": [
-            "Air India (1:1)"
+            "Air India"
+          ],
+          "partner_ratios": [
+            {
+              "name": "Air India",
+              "ratio": "1:1"
+            }
           ]
         },
         "_source": "Supplied CSV, 2026-07-28."
@@ -3927,6 +4845,7 @@
         "rate": "30 Pts per 100",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "Unlimited Base / Capped Air India points up to 1 Lakh Pts per year",
       "base_rate_summary": "4 Pts per 100",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -3955,7 +4874,7 @@
             "air india"
           ],
           "points_per_200": 30.0,
-          "note": "From the supplied CSV: \"15 Pts per 100\" at Air India App. Any cap on this rate is not in that file."
+          "note": "From the supplied CSV: \"15 Pts per 100\" at Air India App."
         }
       ],
       "exclusions": [],
@@ -3963,7 +4882,13 @@
         "supplied": {
           "ratio": null,
           "partners": [
-            "Air India (1:1)"
+            "Air India"
+          ],
+          "partner_ratios": [
+            {
+              "name": "Air India",
+              "ratio": "1:1"
+            }
           ]
         },
         "_source": "Supplied CSV, 2026-07-28."
@@ -3973,6 +4898,7 @@
         "rate": "15 Pts per 100",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "Unlimited Base",
       "base_rate_summary": "2 Pts per 100",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -4005,6 +4931,7 @@
         "rate": "5 Pts per 100",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "Unlimited Base",
       "base_rate_summary": "2 Pts per 100",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -4037,6 +4964,7 @@
         "rate": "10 Pts per 100",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "Unlimited Base",
       "base_rate_summary": "2 Pts per 100",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -4065,6 +4993,7 @@
         "rate": "5% Cashback",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "Capped based on Paytm ecosystem rules",
       "base_rate_summary": "1% Cashback",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -4097,6 +5026,7 @@
         "rate": "10 Pts per 100",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "Unlimited Base",
       "base_rate_summary": "2 Pts per 100",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -4125,6 +5055,7 @@
         "rate": "7% Cashback",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "Unlimited Base / 500 INR Max on OLA per month",
       "base_rate_summary": "1% Cashback",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -4159,6 +5090,7 @@
         "rate": "6 Pts per 100",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "Unlimited Base",
       "base_rate_summary": "6 Pts per 200",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -4191,6 +5123,7 @@
         "rate": "4 Pts per 100",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "Unlimited Base",
       "base_rate_summary": "4 Pts per 100",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -4223,6 +5156,7 @@
         "rate": "4 Pts per 100",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "Unlimited Base",
       "base_rate_summary": "2 Pts per 100",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -4255,6 +5189,7 @@
         "rate": "4 Pts per 100",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "Unlimited Base",
       "base_rate_summary": "2 Pts per 100",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -4285,7 +5220,7 @@
           "category": "dining",
           "label": "Dining & Groceries",
           "points_per_200": 4.0,
-          "note": "From the supplied CSV: \"2 Pts per 100\" at Dining & Groceries. Any cap on this rate is not in that file."
+          "note": "From the supplied CSV: \"2 Pts per 100\" at Dining & Groceries."
         }
       ],
       "exclusions": [],
@@ -4294,6 +5229,7 @@
         "rate": "2 Pts per 100",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "Unlimited Base",
       "base_rate_summary": "2 Pts per 100",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -4322,6 +5258,7 @@
         "rate": "5% & 2% Cashback",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "Unlimited Earnings (No Cap)",
       "base_rate_summary": "1% Cashback",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -4353,7 +5290,13 @@
         "supplied": {
           "ratio": null,
           "partners": [
-            "MakeMyTrip (1:1)"
+            "MakeMyTrip"
+          ],
+          "partner_ratios": [
+            {
+              "name": "MakeMyTrip",
+              "ratio": "1:1"
+            }
           ]
         },
         "_source": "Supplied CSV, 2026-07-28."
@@ -4363,6 +5306,7 @@
         "rate": "Up to 2 My Cash per 200",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "Unlimited Base",
       "base_rate_summary": "1.25 My Cash per 200",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -4394,7 +5338,13 @@
         "supplied": {
           "ratio": null,
           "partners": [
-            "MakeMyTrip (1:1)"
+            "MakeMyTrip"
+          ],
+          "partner_ratios": [
+            {
+              "name": "MakeMyTrip",
+              "ratio": "1:1"
+            }
           ]
         },
         "_source": "Supplied CSV, 2026-07-28."
@@ -4404,6 +5354,7 @@
         "rate": "Up to 1.5 My Cash per 200",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "Unlimited Base",
       "base_rate_summary": "1 My Cash per 200",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -4436,6 +5387,7 @@
         "rate": "5% Value Back",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "200 Pts Max on Fuel per month",
       "base_rate_summary": "2 Pts per 100",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -4468,6 +5420,7 @@
         "rate": "5 Pts per 100",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "Unlimited Base",
       "base_rate_summary": "3 Pts per 100",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -4500,6 +5453,7 @@
         "rate": "3 Pts per 100",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "Unlimited Base",
       "base_rate_summary": "2 Pts per 100",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -4532,6 +5486,7 @@
         "rate": "10 Pts per 100",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "Unlimited Base",
       "base_rate_summary": "2 Pts per 100",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -4563,7 +5518,13 @@
         "supplied": {
           "ratio": null,
           "partners": [
-            "Emirates Skywards (1:1)"
+            "Emirates Skywards"
+          ],
+          "partner_ratios": [
+            {
+              "name": "Emirates Skywards",
+              "ratio": "1:1"
+            }
           ]
         },
         "_source": "Supplied CSV, 2026-07-28."
@@ -4573,6 +5534,7 @@
         "rate": "2.5 Miles per 100",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "Unlimited Base",
       "base_rate_summary": "1 Skyward Mile per 100",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -4604,7 +5566,13 @@
         "supplied": {
           "ratio": null,
           "partners": [
-            "Emirates Skywards (1:1)"
+            "Emirates Skywards"
+          ],
+          "partner_ratios": [
+            {
+              "name": "Emirates Skywards",
+              "ratio": "1:1"
+            }
           ]
         },
         "_source": "Supplied CSV, 2026-07-28."
@@ -4614,6 +5582,7 @@
         "rate": "2 Miles per 100",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "Unlimited Base",
       "base_rate_summary": "1 Skyward Mile per 100",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -4645,7 +5614,13 @@
         "supplied": {
           "ratio": null,
           "partners": [
-            "Emirates Skywards (1:1)"
+            "Emirates Skywards"
+          ],
+          "partner_ratios": [
+            {
+              "name": "Emirates Skywards",
+              "ratio": "1:1"
+            }
           ]
         },
         "_source": "Supplied CSV, 2026-07-28."
@@ -4655,6 +5630,7 @@
         "rate": "1.5 Miles per 100",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "Unlimited Base",
       "base_rate_summary": "0.75 Skyward Mile per 100",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -4687,6 +5663,7 @@
         "rate": "2 Pts per 100",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "Unlimited Base",
       "base_rate_summary": "2 Pts per 100",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -4719,6 +5696,7 @@
         "rate": "2X Pts",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "Unlimited Base",
       "base_rate_summary": "2 Pts per 100",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -4753,6 +5731,7 @@
         "rate": "10X Pts",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "Unlimited Base / 10X points capped depending on milestone",
       "base_rate_summary": "3 Pts per 100",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -4785,6 +5764,8 @@
         "rate": "10X Pts",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "accelerated_spend_trigger_inr": 30000.0,
+      "capping_summary": "Unlimited Base / 10X triggers only above 30000 INR spend",
       "base_rate_summary": "3 Pts per 100",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -4817,6 +5798,8 @@
         "rate": "10X Pts",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "accelerated_spend_trigger_inr": 20000.0,
+      "capping_summary": "Unlimited Base / 10X triggers only above 20000 INR spend",
       "base_rate_summary": "3 Pts per 100",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -4849,6 +5832,8 @@
         "rate": "10X Pts",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "accelerated_spend_trigger_inr": 20000.0,
+      "capping_summary": "Unlimited Base / 10X triggers only above 20000 INR spend",
       "base_rate_summary": "3 Pts per 100",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -4881,6 +5866,7 @@
         "rate": "4X Pts",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "Unlimited Base",
       "base_rate_summary": "1 Pt per 100",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -4912,7 +5898,13 @@
         "supplied": {
           "ratio": null,
           "partners": [
-            "Club Vistara (1:1)"
+            "Club Vistara"
+          ],
+          "partner_ratios": [
+            {
+              "name": "Club Vistara",
+              "ratio": "1:1"
+            }
           ]
         },
         "_source": "Supplied CSV, 2026-07-28."
@@ -4922,6 +5914,7 @@
         "rate": "6 CV Pts per 200",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "Unlimited Base",
       "base_rate_summary": "6 CV Pts per 200",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -4954,6 +5947,7 @@
         "rate": "15000 Bonus Pts",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "Unlimited Base",
       "base_rate_summary": "3 Pts per 150",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -4982,6 +5976,7 @@
         "rate": "Up to 27000 White Pass Value",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "Unlimited Base / Pass limits tied to yearly spends",
       "base_rate_summary": "White Pass Value",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Its earning (\"White Pass Value\") has no per-transaction rate the app can price, so it is listed but never ranked.",
@@ -5010,6 +6005,7 @@
         "rate": "Up to 250000 White Pass Value",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "Unlimited Base / Pass limits tied to yearly spends",
       "base_rate_summary": "White Pass Value",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Its earning (\"White Pass Value\") has no per-transaction rate the app can price, so it is listed but never ranked.",
@@ -5042,6 +6038,7 @@
         "rate": "4X Pts",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "Unlimited Base",
       "base_rate_summary": "2 Pts per 150",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -5071,7 +6068,7 @@
             "myntra"
           ],
           "rate_pct": 7.5,
-          "note": "From the supplied CSV: \"7.5% Cashback\" at Myntra. Any cap on this rate is not in that file."
+          "note": "From the supplied CSV: \"7.5% Cashback\" at Myntra. Capped per transaction rather than per month, which the app does not model — the figure shown may be high on a large purchase."
         }
       ],
       "exclusions": [],
@@ -5080,6 +6077,7 @@
         "rate": "7.5% Cashback",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "750 INR Max per transaction on Myntra",
       "base_rate_summary": "1.25% Cashback",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -5112,6 +6110,7 @@
         "rate": "8 Pts per 150",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "Unlimited Base",
       "base_rate_summary": "4 Pts per 150",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -5142,7 +6141,8 @@
           "category": "groceries",
           "label": "Groceries",
           "points_per_200": 40.0,
-          "note": "From the supplied CSV: \"20 Pts per 100\" at Groceries. Any cap on this rate is not in that file."
+          "monthly_cap_points": 1000.0,
+          "note": "From the supplied CSV: \"20 Pts per 100\" at Groceries."
         }
       ],
       "exclusions": [],
@@ -5151,6 +6151,7 @@
         "rate": "20 Pts per 100",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "1000 Pts Max on Groceries per month",
       "base_rate_summary": "1 Pt per 100",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -5183,6 +6184,7 @@
         "rate": "5 Travel Pts per 100",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "Unlimited Base",
       "base_rate_summary": "2 Travel Pts per 100",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",
@@ -5213,7 +6215,8 @@
           "category": "dining",
           "label": "Dining & International",
           "points_per_200": 40.0,
-          "note": "From the supplied CSV: \"20 Pts per 100\" at Dining & International. Any cap on this rate is not in that file."
+          "monthly_cap_points": 2000.0,
+          "note": "From the supplied CSV: \"20 Pts per 100\" at Dining & International."
         }
       ],
       "exclusions": [],
@@ -5222,6 +6225,7 @@
         "rate": "20 Pts per 100",
         "_source": "Supplied CSV, 2026-07-28."
       },
+      "capping_summary": "2000 Pts Max on Dining per month",
       "base_rate_summary": "2 Pts per 100",
       "last_changed": "2026-07-28",
       "change_summary": "Added 28 Jul 2026 from the supplied CSV. Base rate and point value are as given there and have not been re-checked against the issuer. Caps, minimum spends and exclusions are not in that file and are absent here, so this card may look better than it is on a capped category.",

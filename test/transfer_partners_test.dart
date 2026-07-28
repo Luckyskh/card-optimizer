@@ -55,6 +55,31 @@ void main() {
       expect(transfers.removedOn, '2026-04-02');
     });
 
+    test('each partner carries its own ratio, not one for the group', () {
+      // Infinia moves 1:1 to KrisFlyer but 1:0.5 to Club ITC. A single group
+      // ratio would hide that the same balance is worth half as much at one
+      // partner as another, which is the decision this tab exists to inform.
+      final infinia = rules.cardById('hdfc-infinia')!;
+      final group = infinia.transferPartners!.groups.first;
+
+      expect(group.partnerRatios, isNotEmpty);
+
+      final kris = group.partnerRatios
+          .firstWhere((p) => p.name.contains('KrisFlyer'));
+      final itc =
+          group.partnerRatios.firstWhere((p) => p.name.contains('ITC'));
+
+      expect(kris.multiplier, 1.0);
+      expect(itc.multiplier, 0.5);
+      expect(kris.multiplier! > itc.multiplier!, isTrue);
+    });
+
+    test('a ratio that is not a plain N:M yields no arithmetic', () {
+      const odd = TransferPartnerRatio(name: 'Somewhere', ratio: 'varies');
+      expect(odd.multiplier, isNull);
+      expect(const TransferPartnerRatio(name: 'X').multiplier, isNull);
+    });
+
     test('a card with no transfer programme reports none', () {
       expect(rules.cardById('sbi-cashback')!.transferPartners, isNull);
     });

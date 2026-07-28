@@ -266,20 +266,74 @@ class _Group extends StatelessWidget {
                 style: theme.textTheme.bodySmall),
           ),
         const SizedBox(height: 6),
-        Wrap(
-          spacing: 6,
-          runSpacing: 6,
-          children: [
-            for (final partner in group.partners)
-              Chip(
-                label: Text(partner, style: theme.textTheme.bodySmall),
-                visualDensity: VisualDensity.compact,
-                materialTapTargetSize: MaterialTapTargetSize.shrinkWrap,
-              ),
-          ],
-        ),
+
+        // Where each programme has its own ratio, show them as a ranked list
+        // rather than chips: the whole question is which partner is worth
+        // most, and Infinia moving 1:1 to KrisFlyer but 1:0.5 to Club ITC is
+        // the difference between a balance being worth full value or half.
+        if (group.partnerRatios.isNotEmpty)
+          ..._rankedPartners(context, group, points)
+        else
+          Wrap(
+            spacing: 6,
+            runSpacing: 6,
+            children: [
+              for (final partner in group.partners)
+                Chip(
+                  label: Text(partner, style: theme.textTheme.bodySmall),
+                  visualDensity: VisualDensity.compact,
+                  materialTapTargetSize: MaterialTapTargetSize.shrinkWrap,
+                ),
+            ],
+          ),
       ],
     );
+  }
+
+  /// Partners ordered by what the balance actually becomes, best first.
+  List<Widget> _rankedPartners(
+      BuildContext context, TransferGroup group, double points) {
+    final theme = Theme.of(context);
+
+    final ranked = [...group.partnerRatios]..sort((a, b) {
+        final ma = a.multiplier ?? -1;
+        final mb = b.multiplier ?? -1;
+        final byValue = mb.compareTo(ma);
+        return byValue != 0 ? byValue : a.name.compareTo(b.name);
+      });
+
+    final best = ranked.first.multiplier;
+
+    return [
+      for (final p in ranked)
+        Padding(
+          padding: const EdgeInsets.symmetric(vertical: 2),
+          child: Row(
+            children: [
+              Expanded(child: Text(p.name, style: theme.textTheme.bodySmall)),
+              if (p.ratio != null)
+                Padding(
+                  padding: const EdgeInsets.only(right: 10),
+                  child: Text(p.ratio!,
+                      style: theme.textTheme.bodySmall
+                          ?.copyWith(color: theme.disabledColor)),
+                ),
+              if (p.multiplier != null && points > 0)
+                Text(
+                  _thousands(points * p.multiplier!),
+                  style: theme.textTheme.bodySmall?.copyWith(
+                    fontWeight: p.multiplier == best
+                        ? FontWeight.w700
+                        : FontWeight.w400,
+                    color: p.multiplier == best
+                        ? theme.colorScheme.primary
+                        : null,
+                  ),
+                ),
+            ],
+          ),
+        ),
+    ];
   }
 
   static String _pretty(String groupName) {

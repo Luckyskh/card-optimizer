@@ -414,11 +414,20 @@ class TransferGroup {
   final double? annualCapMiles;
   final List<String> partners;
 
+  /// A ratio per programme, where the source gives them individually.
+  ///
+  /// Issuers rarely offer one rate to everyone: HDFC Infinia moves points 1:1
+  /// to KrisFlyer but 1:0.5 to Club ITC, so the same balance is worth half as
+  /// much at one partner as another. Showing a single group ratio would hide
+  /// exactly the decision this tab exists to inform.
+  final List<TransferPartnerRatio> partnerRatios;
+
   const TransferGroup({
     required this.name,
     this.ratio,
     this.annualCapMiles,
     this.partners = const [],
+    this.partnerRatios = const [],
   });
 
   /// The multiplier in "1:2", when it is that simple. Null otherwise, and the
@@ -439,6 +448,39 @@ class TransferGroup {
         ratio: json['ratio'] as String?,
         annualCapMiles: _toDouble(json['annual_cap_miles']),
         partners: _stringList(json['partners']),
+        partnerRatios: (json['partner_ratios'] as List<dynamic>? ?? [])
+            .whereType<Map<String, dynamic>>()
+            .map(TransferPartnerRatio.fromJson)
+            .toList(),
+      );
+}
+
+/// One programme and the rate at which points move to it.
+class TransferPartnerRatio {
+  final String name;
+
+  /// "1:2" — one card point becomes two partner miles. Null when the source
+  /// lists the partner without a rate.
+  final String? ratio;
+
+  const TransferPartnerRatio({required this.name, this.ratio});
+
+  /// What one card point becomes at this partner, when the ratio is a plain
+  /// N:M. A partner quoted any other way is shown without arithmetic.
+  double? get multiplier {
+    final m = RegExp(r'^\s*(\d+(?:\.\d+)?)\s*:\s*(\d+(?:\.\d+)?)\s*$')
+        .firstMatch(ratio ?? '');
+    if (m == null) return null;
+    final from = double.tryParse(m.group(1)!);
+    final to = double.tryParse(m.group(2)!);
+    if (from == null || to == null || from == 0) return null;
+    return to / from;
+  }
+
+  factory TransferPartnerRatio.fromJson(Map<String, dynamic> json) =>
+      TransferPartnerRatio(
+        name: json['name'] as String? ?? '',
+        ratio: json['ratio'] as String?,
       );
 }
 
