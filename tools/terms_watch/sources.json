@@ -37,7 +37,6 @@
     "EVERY url below was fetched for real on 2026-07-27. Nothing here is",
     "guessed. The notes record what actually happened, including the failures."
   ],
-
   "_coverage_note": [
     "card_ids below include cards that are not yet in assets/rules.json. That is",
     "deliberate: monitoring a document costs nothing extra, and when you do add",
@@ -47,64 +46,108 @@
     "own it, so its alerts stay invisible to them. Nothing breaks - the alert is",
     "written and simply never matches an owned card."
   ],
-
   "card_names": {
-    "hdfc-infinia": "HDFC Bank Infinia Metal Edition",
-    "hdfc-diners-privilege": "HDFC Bank Diners Club Privilege",
-    "hdfc-diners-black": "HDFC Bank Diners Club Black Metal",
-    "hdfc-moneyback-plus": "HDFC Bank MoneyBack+",
-    "hdfc-indianoil": "IndianOil HDFC Bank",
-    "hdfc-marriott": "Marriott Bonvoy HDFC Bank",
-    "sbi-simplyclick": "SimplyCLICK SBI Card",
-    "sbi-simplysave": "SimplySAVE SBI Card",
-    "sbi-bpcl-octane": "BPCL SBI Card Octane",
-    "sbi-prime": "SBI Card PRIME",
-    "sbi-elite": "SBI Card ELITE",
-    "sbi-air-india-signature": "Air India SBI Signature",
-    "icici-coral": "ICICI Bank Coral",
-    "icici-sapphiro": "ICICI Bank Sapphiro",
-    "icici-emeralde": "ICICI Bank Emeralde",
-    "icici-emeralde-private": "ICICI Bank Emeralde Private Metal",
-    "yes-marquee": "YES Bank Marquee",
-    "yes-reserv": "YES Bank Reserv",
-    "yes-paisasave": "YES Bank PaisaSave",
-    "icici-hpcl-super-saver": "HPCL ICICI Bank Super Saver",
-    "icici-makemytrip": "MakeMyTrip ICICI Bank",
+    "amex-gold-charge": "American Express Gold Charge",
+    "amex-mrcc": "American Express Membership Rewards",
+    "amex-platinum-charge": "American Express Platinum Charge",
+    "amex-platinum-travel": "American Express Platinum Travel",
+    "amex-smartearn": "American Express SmartEarn",
+    "axis-ace": "Axis Bank Ace",
     "axis-airtel": "Airtel Axis Bank",
-    "axis-myzone": "Axis Bank MY ZONE",
-    "axis-select": "Axis Bank SELECT",
+    "axis-atlas": "Axis Bank Atlas",
+    "axis-aura": "Axis Bank Aura",
+    "axis-fibe": "Axis Bank Fibe",
+    "axis-flipkart-super-elite": "Axis Bank Flipkart Super Elite",
+    "axis-freecharge": "Axis Bank Freecharge",
+    "axis-freecharge-plus": "Axis Bank Freecharge Plus",
+    "axis-google-pay-flex": "Axis Bank Google Pay Flex",
+    "axis-indianoil": "Axis Bank Indianoil",
+    "axis-indianoil-premium": "Axis Bank Indianoil Premium",
+    "axis-indigo": "Axis Bank Indigo",
+    "axis-indigo-premium": "Axis Bank Indigo Premium",
+    "axis-kwik": "Axis Bank Kwik",
+    "axis-lic-platinum": "Axis Bank Lic Platinum",
+    "axis-lic-signature": "Axis Bank Lic Signature",
     "axis-magnus": "Axis Bank Magnus",
     "axis-magnus-burgundy": "Axis Bank MAGNUS for Burgundy",
     "axis-miles-and-more": "Axis Bank Miles & More",
-    "icici-platinum-chip": "ICICI Bank Platinum Chip",
-    "idfc-first-millennia": "IDFC FIRST Millennia",
-    "idfc-first-wealth": "IDFC FIRST Wealth",
-    "amex-mrcc": "American Express Membership Rewards",
-    "amex-smartearn": "American Express SmartEarn",
-    "amex-platinum-travel": "American Express Platinum Travel",
-    "amex-platinum-charge": "American Express Platinum Charge",
-    "amex-gold-charge": "American Express Gold Charge",
+    "axis-my-zone-easy": "Axis Bank My Zone Easy",
+    "axis-myzone": "Axis Bank MY ZONE",
+    "axis-neo": "Axis Bank Neo",
+    "axis-pride-platinum": "Axis Bank Pride Platinum",
+    "axis-pride-signature": "Axis Bank Pride Signature",
+    "axis-privilege-easy": "Axis Bank Privilege Easy",
+    "axis-reserve": "Axis Bank Reserve",
+    "axis-samsung-infinite": "Axis Bank Samsung Infinite",
+    "axis-samsung-signature": "Axis Bank Samsung Signature",
+    "axis-select": "Axis Bank SELECT",
+    "axis-shoppers-stop": "Axis Bank Shoppers Stop",
+    "axis-spicejet-voyage": "Axis Bank Spicejet Voyage",
+    "axis-spicejet-voyage-black": "Axis Bank Spicejet Voyage Black",
+    "axis-vistara": "Axis Bank Vistara",
+    "axis-vistara-infinite": "Axis Bank Vistara Infinite",
+    "axis-vistara-signature": "Axis Bank Vistara Signature",
+    "hdfc-diners-black": "HDFC Bank Diners Club Black Metal",
+    "hdfc-diners-privilege": "HDFC Bank Diners Club Privilege",
+    "hdfc-indianoil": "IndianOil HDFC Bank",
+    "hdfc-infinia": "HDFC Bank Infinia Metal Edition",
+    "hdfc-marriott": "Marriott Bonvoy HDFC Bank",
+    "hdfc-moneyback-plus": "HDFC Bank MoneyBack+",
     "hsbc-cashback": "HSBC Cashback",
     "hsbc-live-plus": "HSBC Live+",
     "hsbc-premier": "HSBC Premier",
-    "hsbc-travelone": "HSBC TravelOne",
+    "hsbc-rupay-cashback": "HSBC Rupay Cashback",
+    "hsbc-rupay-platinum": "HSBC Rupay Platinum",
     "hsbc-smart-value": "HSBC Smart Value",
-    "onecard-federal": "OneCard (Federal Bank)",
+    "hsbc-taj": "HSBC Taj",
+    "hsbc-travelone": "HSBC TravelOne",
+    "hsbc-visa-platinum": "HSBC Visa Platinum",
+    "icici-amazon-pay": "Amazon Pay ICICI Bank",
+    "icici-coral": "ICICI Bank Coral",
+    "icici-coral-rupay": "ICICI Bank Coral RuPay",
+    "icici-csk": "ICICI Bank Chennai Super Kings",
+    "icici-emeralde": "ICICI Bank Emeralde",
+    "icici-emeralde-private": "ICICI Bank Emeralde Private Metal",
+    "icici-emirates-emeralde": "Emirates Skywards ICICI Emeralde",
+    "icici-emirates-rubyx": "Emirates Skywards ICICI Rubyx",
+    "icici-expressions": "ICICI Bank Expressions",
+    "icici-hpcl-coral": "HPCL ICICI Bank Coral",
+    "icici-hpcl-super-saver": "HPCL ICICI Bank Super Saver",
+    "icici-makemytrip": "MakeMyTrip ICICI Bank",
+    "icici-platinum-chip": "ICICI Bank Platinum Chip",
+    "icici-rubyx": "ICICI Bank Rubyx",
+    "icici-sapphiro": "ICICI Bank Sapphiro",
+    "icici-times-black": "Times Black ICICI Bank",
+    "idfc-first-millennia": "IDFC FIRST Millennia",
+    "idfc-first-wealth": "IDFC FIRST Wealth",
     "onecard-csb": "OneCard (CSB Bank)",
-    "onecard-sbm": "OneCard (SBM Bank)",
+    "onecard-federal": "OneCard (Federal Bank)",
     "onecard-idbi": "OneCard (IDBI Bank)",
-    "sc-ultimate": "Standard Chartered Ultimate",
-    "sc-smart": "Standard Chartered Smart",
+    "onecard-sbm": "OneCard (SBM Bank)",
+    "sbi-air-india-signature": "Air India SBI Signature",
+    "sbi-bpcl-octane": "BPCL SBI Card Octane",
+    "sbi-elite": "SBI Card ELITE",
+    "sbi-prime": "SBI Card PRIME",
+    "sbi-simplyclick": "SimplyCLICK SBI Card",
+    "sbi-simplysave": "SimplySAVE SBI Card",
     "sc-easemytrip": "Standard Chartered EaseMyTrip",
-    "sc-platinum-rewards": "Standard Chartered Platinum Rewards"
+    "sc-platinum-rewards": "Standard Chartered Platinum Rewards",
+    "sc-smart": "Standard Chartered Smart",
+    "sc-ultimate": "Standard Chartered Ultimate",
+    "yes-marquee": "YES Bank Marquee",
+    "yes-paisasave": "YES Bank PaisaSave",
+    "yes-reserv": "YES Bank Reserv"
   },
-
   "documents": [
     {
       "doc_id": "sbi-customer-notices",
       "card_ids": [
-        "sbi-cashback", "sbi-simplyclick", "sbi-simplysave",
-        "sbi-bpcl-octane", "sbi-prime", "sbi-elite",
+        "sbi-cashback",
+        "sbi-simplyclick",
+        "sbi-simplysave",
+        "sbi-bpcl-octane",
+        "sbi-prime",
+        "sbi-elite",
         "sbi-air-india-signature"
       ],
       "label": "SBI Card customer notices",
@@ -115,8 +158,12 @@
     {
       "doc_id": "sbi-revised-charges",
       "card_ids": [
-        "sbi-cashback", "sbi-simplyclick", "sbi-simplysave",
-        "sbi-bpcl-octane", "sbi-prime", "sbi-elite",
+        "sbi-cashback",
+        "sbi-simplyclick",
+        "sbi-simplysave",
+        "sbi-bpcl-octane",
+        "sbi-prime",
+        "sbi-elite",
         "sbi-air-india-signature"
       ],
       "label": "SBI Card revision of charges",
@@ -126,7 +173,9 @@
     },
     {
       "doc_id": "sbi-cashback-tnc",
-      "card_ids": ["sbi-cashback"],
+      "card_ids": [
+        "sbi-cashback"
+      ],
       "label": "Cashback SBI Card terms booklet",
       "scope": "card",
       "url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/cashback-tnc-booklet.pdf",
@@ -135,8 +184,12 @@
     {
       "doc_id": "sbi-mitc",
       "card_ids": [
-        "sbi-cashback", "sbi-simplyclick", "sbi-simplysave",
-        "sbi-bpcl-octane", "sbi-prime", "sbi-elite",
+        "sbi-cashback",
+        "sbi-simplyclick",
+        "sbi-simplysave",
+        "sbi-bpcl-octane",
+        "sbi-prime",
+        "sbi-elite",
         "sbi-air-india-signature"
       ],
       "label": "SBI Card Most Important Terms and Conditions",
@@ -146,7 +199,9 @@
     },
     {
       "doc_id": "sbi-bpcl-octane-tnc",
-      "card_ids": ["sbi-bpcl-octane"],
+      "card_ids": [
+        "sbi-bpcl-octane"
+      ],
       "label": "BPCL SBI Card Octane terms and MITC",
       "scope": "card",
       "url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/bpcl-tnc-mitc-booklet-combined.pdf",
@@ -154,7 +209,9 @@
     },
     {
       "doc_id": "sbi-simplyclick-tnc",
-      "card_ids": ["sbi-simplyclick"],
+      "card_ids": [
+        "sbi-simplyclick"
+      ],
       "label": "SimplyCLICK SBI Card terms booklet",
       "scope": "card",
       "url": null,
@@ -162,18 +219,25 @@
     },
     {
       "doc_id": "sbi-simplysave-tnc",
-      "card_ids": ["sbi-simplysave"],
+      "card_ids": [
+        "sbi-simplysave"
+      ],
       "label": "SimplySAVE SBI Card terms booklet",
       "scope": "card",
       "url": null,
       "note": "NEEDS URL. Same situation as SimplyCLICK above."
     },
-
     {
       "doc_id": "axis-announcements",
       "card_ids": [
-        "axis-ace", "flipkart-axis", "axis-atlas", "axis-airtel",
-        "axis-myzone", "axis-select", "axis-magnus", "axis-magnus-burgundy",
+        "axis-ace",
+        "flipkart-axis",
+        "axis-atlas",
+        "axis-airtel",
+        "axis-myzone",
+        "axis-select",
+        "axis-magnus",
+        "axis-magnus-burgundy",
         "axis-miles-and-more"
       ],
       "label": "Axis Bank credit card important announcements",
@@ -183,7 +247,9 @@
     },
     {
       "doc_id": "axis-miles-and-more-page",
-      "card_ids": ["axis-miles-and-more"],
+      "card_ids": [
+        "axis-miles-and-more"
+      ],
       "label": "Axis Bank Miles & More card page",
       "scope": "card",
       "url": "https://www.axisbank.com/retail/cards/credit-card/miles-and-more-credit-card",
@@ -191,7 +257,9 @@
     },
     {
       "doc_id": "axis-magnus-burgundy-tnc",
-      "card_ids": ["axis-magnus-burgundy"],
+      "card_ids": [
+        "axis-magnus-burgundy"
+      ],
       "label": "Axis Bank MAGNUS for Burgundy terms and conditions",
       "scope": "card",
       "url": "https://www.axisbank.com/docs/default-source/default-document-library/credit-cards/magnus-for-burgundy-terms-and-conditions.pdf",
@@ -199,7 +267,9 @@
     },
     {
       "doc_id": "axis-ace-tnc",
-      "card_ids": ["axis-ace"],
+      "card_ids": [
+        "axis-ace"
+      ],
       "label": "Axis Bank ACE terms and conditions",
       "scope": "card",
       "url": "https://campaign.axisbank.com/generic/axis-bank-ace-credit-card-terms-and-conditions.pdf",
@@ -207,7 +277,9 @@
     },
     {
       "doc_id": "axis-airtel-tnc",
-      "card_ids": ["axis-airtel"],
+      "card_ids": [
+        "axis-airtel"
+      ],
       "label": "Airtel Axis Bank card terms and conditions",
       "scope": "card",
       "url": "https://campaign.axisbank.com/generic/airtel-axis-bank-credit-card-terms-and-conditions.pdf",
@@ -216,8 +288,14 @@
     {
       "doc_id": "axis-mitc",
       "card_ids": [
-        "axis-ace", "flipkart-axis", "axis-atlas", "axis-airtel",
-        "axis-myzone", "axis-select", "axis-magnus", "axis-miles-and-more"
+        "axis-ace",
+        "flipkart-axis",
+        "axis-atlas",
+        "axis-airtel",
+        "axis-myzone",
+        "axis-select",
+        "axis-magnus",
+        "axis-miles-and-more"
       ],
       "label": "Axis Bank credit cards MITC",
       "scope": "issuer",
@@ -226,7 +304,9 @@
     },
     {
       "doc_id": "flipkart-axis-tnc",
-      "card_ids": ["flipkart-axis"],
+      "card_ids": [
+        "flipkart-axis"
+      ],
       "label": "Flipkart Axis Bank card terms",
       "scope": "card",
       "url": null,
@@ -234,19 +314,25 @@
     },
     {
       "doc_id": "axis-atlas-tnc",
-      "card_ids": ["axis-atlas"],
+      "card_ids": [
+        "axis-atlas"
+      ],
       "label": "Axis Bank Atlas terms and transfer partners",
       "scope": "card",
       "url": null,
       "note": "NEEDS URL. The EDGE Miles transfer partner list is what changes on this card, and it lives on a page we have not located."
     },
-
     {
       "doc_id": "icici-mitc",
       "card_ids": [
-        "amazon-pay-icici", "icici-coral", "icici-sapphiro",
-        "icici-hpcl-super-saver", "icici-makemytrip", "icici-platinum-chip",
-        "icici-emeralde", "icici-emeralde-private"
+        "amazon-pay-icici",
+        "icici-coral",
+        "icici-sapphiro",
+        "icici-hpcl-super-saver",
+        "icici-makemytrip",
+        "icici-platinum-chip",
+        "icici-emeralde",
+        "icici-emeralde-private"
       ],
       "label": "ICICI Bank credit card MITC",
       "scope": "issuer",
@@ -255,7 +341,9 @@
     },
     {
       "doc_id": "icici-amazon-pay-tnc",
-      "card_ids": ["amazon-pay-icici"],
+      "card_ids": [
+        "amazon-pay-icici"
+      ],
       "label": "Amazon Pay ICICI card terms",
       "scope": "card",
       "url": "https://www.icicibank.com/terms-condition/tnc-for-amazon-pay.page",
@@ -263,16 +351,19 @@
     },
     {
       "doc_id": "icici-coral-page",
-      "card_ids": ["icici-coral"],
+      "card_ids": [
+        "icici-coral"
+      ],
       "label": "ICICI Bank Coral card page",
       "scope": "card",
       "url": "https://www.icicibank.com/personal-banking/cards/credit-card/coral-credit-card",
       "note": "Verified as HTML, 444 KB."
     },
-
     {
       "doc_id": "icici-platinum-chip-page",
-      "card_ids": ["icici-platinum-chip"],
+      "card_ids": [
+        "icici-platinum-chip"
+      ],
       "label": "ICICI Platinum Chip card page",
       "scope": "card",
       "url": "https://www.icicibank.com/personal-banking/cards/credit-card/platinum-chip-credit-card",
@@ -280,7 +371,9 @@
     },
     {
       "doc_id": "icici-emeralde-private-page",
-      "card_ids": ["icici-emeralde-private"],
+      "card_ids": [
+        "icici-emeralde-private"
+      ],
       "label": "ICICI Emeralde Private Metal card page",
       "scope": "card",
       "url": "https://www.icicibank.com/personal-banking/cards/credit-card/emeralde-private-metal-credit-card",
@@ -288,16 +381,21 @@
     },
     {
       "doc_id": "icici-emeralde-page",
-      "card_ids": ["icici-emeralde"],
+      "card_ids": [
+        "icici-emeralde"
+      ],
       "label": "ICICI Emeralde card page",
       "scope": "card",
       "url": "https://www.icicibank.com/personal-banking/cards/credit-card/emeralde-credit-card",
       "note": "Verified as HTML, 468 KB."
     },
-
     {
       "doc_id": "yes-credit-cards-index",
-      "card_ids": ["yes-marquee", "yes-reserv", "yes-paisasave"],
+      "card_ids": [
+        "yes-marquee",
+        "yes-reserv",
+        "yes-paisasave"
+      ],
       "label": "YES Bank credit cards index",
       "scope": "issuer",
       "url": null,
@@ -305,17 +403,20 @@
     },
     {
       "doc_id": "yes-marquee-tnc",
-      "card_ids": ["yes-marquee"],
+      "card_ids": [
+        "yes-marquee"
+      ],
       "label": "YES Bank Marquee card terms",
       "scope": "card",
       "url": null,
       "note": "NEEDS URL. YES Bank serves documents from a JS-rendered asset API whose content ids rotate; every asset URL found via search returned 404 when fetched, with and without the channelToken query string, and the product page slug 404s too. Open the Marquee page in a browser, copy the terms PDF link, and paste it here."
     },
-
     {
       "doc_id": "idfc-notice-board",
       "card_ids": [
-        "idfc-first-select", "idfc-first-millennia", "idfc-first-wealth"
+        "idfc-first-select",
+        "idfc-first-millennia",
+        "idfc-first-wealth"
       ],
       "label": "IDFC FIRST Bank notice board",
       "scope": "notices",
@@ -325,7 +426,9 @@
     {
       "doc_id": "idfc-mitc",
       "card_ids": [
-        "idfc-first-select", "idfc-first-millennia", "idfc-first-wealth"
+        "idfc-first-select",
+        "idfc-first-millennia",
+        "idfc-first-wealth"
       ],
       "label": "IDFC FIRST Bank credit card MITC",
       "scope": "issuer",
@@ -334,7 +437,10 @@
     },
     {
       "doc_id": "idfc-card-terms",
-      "card_ids": ["idfc-first-select", "idfc-first-millennia"],
+      "card_ids": [
+        "idfc-first-select",
+        "idfc-first-millennia"
+      ],
       "label": "IDFC FIRST credit card documents index",
       "scope": "issuer",
       "url": "https://idfcfirstbank.com/credit-card/terms",
@@ -342,19 +448,27 @@
     },
     {
       "doc_id": "idfc-millennia-page",
-      "card_ids": ["idfc-first-millennia"],
+      "card_ids": [
+        "idfc-first-millennia"
+      ],
       "label": "IDFC FIRST Millennia card page",
       "scope": "card",
       "url": "https://www.idfcfirstbank.com/content/idfcfirstbank/en/credit-card/millennia.html",
       "note": "Verified as HTML, 1.8 MB."
     },
-
     {
       "doc_id": "hdfc-mitc",
       "card_ids": [
-        "hdfc-millennia", "tata-neu-infinity-hdfc", "swiggy-ornge-hdfc",
-        "swiggy-blck-hdfc", "hdfc-regalia-gold", "hdfc-infinia",
-        "hdfc-diners-privilege", "hdfc-diners-black", "hdfc-moneyback-plus", "hdfc-indianoil",
+        "hdfc-millennia",
+        "tata-neu-infinity-hdfc",
+        "swiggy-ornge-hdfc",
+        "swiggy-blck-hdfc",
+        "hdfc-regalia-gold",
+        "hdfc-infinia",
+        "hdfc-diners-privilege",
+        "hdfc-diners-black",
+        "hdfc-moneyback-plus",
+        "hdfc-indianoil",
         "hdfc-marriott"
       ],
       "label": "HDFC Bank MITC document index",
@@ -365,9 +479,16 @@
     {
       "doc_id": "hdfc-mitc-english",
       "card_ids": [
-        "hdfc-millennia", "tata-neu-infinity-hdfc", "swiggy-ornge-hdfc",
-        "swiggy-blck-hdfc", "hdfc-regalia-gold", "hdfc-infinia",
-        "hdfc-diners-privilege", "hdfc-diners-black", "hdfc-moneyback-plus", "hdfc-indianoil",
+        "hdfc-millennia",
+        "tata-neu-infinity-hdfc",
+        "swiggy-ornge-hdfc",
+        "swiggy-blck-hdfc",
+        "hdfc-regalia-gold",
+        "hdfc-infinia",
+        "hdfc-diners-privilege",
+        "hdfc-diners-black",
+        "hdfc-moneyback-plus",
+        "hdfc-indianoil",
         "hdfc-marriott"
       ],
       "label": "HDFC Bank credit card MITC (English)",
@@ -377,7 +498,10 @@
     },
     {
       "doc_id": "hdfc-swiggy",
-      "card_ids": ["swiggy-ornge-hdfc", "swiggy-blck-hdfc"],
+      "card_ids": [
+        "swiggy-ornge-hdfc",
+        "swiggy-blck-hdfc"
+      ],
       "label": "Swiggy HDFC Bank card page",
       "scope": "card",
       "url": "https://www.hdfcbank.com/personal/pay/cards/credit-cards/swiggy-hdfc-bank-credit-card",
@@ -385,7 +509,9 @@
     },
     {
       "doc_id": "hdfc-tata-neu",
-      "card_ids": ["tata-neu-infinity-hdfc"],
+      "card_ids": [
+        "tata-neu-infinity-hdfc"
+      ],
       "label": "Tata Neu Infinity HDFC Bank card page",
       "scope": "card",
       "url": "https://www.hdfcbank.com/personal/pay/cards/credit-cards/tata-neu-infinity-hdfc-bank-credit-card",
@@ -393,7 +519,9 @@
     },
     {
       "doc_id": "hdfc-millennia",
-      "card_ids": ["hdfc-millennia"],
+      "card_ids": [
+        "hdfc-millennia"
+      ],
       "label": "HDFC Millennia card page",
       "scope": "card",
       "url": "https://www.hdfcbank.com/personal/pay/cards/credit-cards/millennia-credit-card",
@@ -401,7 +529,9 @@
     },
     {
       "doc_id": "hdfc-regalia-gold",
-      "card_ids": ["hdfc-regalia-gold"],
+      "card_ids": [
+        "hdfc-regalia-gold"
+      ],
       "label": "HDFC Regalia Gold card page",
       "scope": "card",
       "url": "https://www.hdfcbank.com/personal/pay/cards/credit-cards/regalia-gold-credit-card",
@@ -409,7 +539,9 @@
     },
     {
       "doc_id": "hdfc-diners-black",
-      "card_ids": ["hdfc-diners-black"],
+      "card_ids": [
+        "hdfc-diners-black"
+      ],
       "label": "HDFC Diners Club Black Metal Edition card page",
       "scope": "card",
       "url": "https://www.hdfcbank.com/personal/pay/cards/credit-cards/diners-club-black-metal-edition",
@@ -417,7 +549,9 @@
     },
     {
       "doc_id": "hdfc-infinia",
-      "card_ids": ["hdfc-infinia"],
+      "card_ids": [
+        "hdfc-infinia"
+      ],
       "label": "HDFC Infinia Metal Edition card page",
       "scope": "card",
       "url": "https://www.hdfcbank.com/personal/pay/cards/credit-cards/infinia-credit-card",
@@ -425,7 +559,9 @@
     },
     {
       "doc_id": "hdfc-infinia-rewards-tnc",
-      "card_ids": ["hdfc-infinia"],
+      "card_ids": [
+        "hdfc-infinia"
+      ],
       "label": "HDFC Infinia reward points programme terms",
       "scope": "card",
       "url": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/infinia-credit-card/rewards-points-program-terms-and-conditions.pdf",
@@ -433,7 +569,9 @@
     },
     {
       "doc_id": "hdfc-infinia-fees",
-      "card_ids": ["hdfc-infinia"],
+      "card_ids": [
+        "hdfc-infinia"
+      ],
       "label": "HDFC Infinia fees and charges",
       "scope": "card",
       "url": "https://www.hdfc.bank.in/credit-cards/infinia-credit-card/fees-and-charges",
@@ -441,7 +579,9 @@
     },
     {
       "doc_id": "hdfc-infinia-lounge",
-      "card_ids": ["hdfc-infinia"],
+      "card_ids": [
+        "hdfc-infinia"
+      ],
       "label": "HDFC Infinia airport lounge access programme",
       "scope": "card",
       "url": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/infinia-credit-card/airport-lounge-access-program-30sep2025.pdf",
@@ -449,7 +589,9 @@
     },
     {
       "doc_id": "hdfc-infinia-golf",
-      "card_ids": ["hdfc-infinia"],
+      "card_ids": [
+        "hdfc-infinia"
+      ],
       "label": "HDFC Infinia golf programme terms",
       "scope": "card",
       "url": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/infinia-credit-card/Golf-T-and-C-for-INFINIA-05-08-25.pdf",
@@ -457,7 +599,9 @@
     },
     {
       "doc_id": "hdfc-infinia-club-marriott",
-      "card_ids": ["hdfc-infinia"],
+      "card_ids": [
+        "hdfc-infinia"
+      ],
       "label": "HDFC Infinia Club Marriott membership terms",
       "scope": "card",
       "url": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/infinia-credit-card/Club_Marriott_Membership_T_C.pdf",
@@ -465,7 +609,9 @@
     },
     {
       "doc_id": "hdfc-infinia-concierge",
-      "card_ids": ["hdfc-infinia"],
+      "card_ids": [
+        "hdfc-infinia"
+      ],
       "label": "HDFC Infinia concierge terms",
       "scope": "card",
       "url": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/infinia-credit-card/Concierge-T-and-C.pdf",
@@ -473,7 +619,9 @@
     },
     {
       "doc_id": "hdfc-infinia-fuel",
-      "card_ids": ["hdfc-infinia"],
+      "card_ids": [
+        "hdfc-infinia"
+      ],
       "label": "HDFC Infinia fuel transaction terms",
       "scope": "card",
       "url": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/infinia-credit-card/Fuel_Transaction.pdf",
@@ -481,7 +629,9 @@
     },
     {
       "doc_id": "hdfc-infinia-insurance",
-      "card_ids": ["hdfc-infinia"],
+      "card_ids": [
+        "hdfc-infinia"
+      ],
       "label": "HDFC Infinia insurance cover terms",
       "scope": "card",
       "url": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/infinia-credit-card/Insurance-Infinia.pdf",
@@ -489,7 +639,9 @@
     },
     {
       "doc_id": "hdfc-moneyback-plus",
-      "card_ids": ["hdfc-moneyback-plus"],
+      "card_ids": [
+        "hdfc-moneyback-plus"
+      ],
       "label": "HDFC MoneyBack+ card page",
       "scope": "card",
       "url": "https://www.hdfcbank.com/personal/pay/cards/credit-cards/moneyback-plus",
@@ -497,16 +649,20 @@
     },
     {
       "doc_id": "hdfc-indianoil",
-      "card_ids": ["hdfc-indianoil"],
+      "card_ids": [
+        "hdfc-indianoil"
+      ],
       "label": "IndianOil HDFC Bank card page",
       "scope": "card",
       "url": "https://www.hdfcbank.com/personal/pay/cards/credit-cards/indianoil-hdfc-bank-credit-card",
       "note": "Verified as HTML."
     },
-
     {
       "doc_id": "amex-cardmember-agreement",
-      "card_ids": ["amex-mrcc", "amex-smartearn"],
+      "card_ids": [
+        "amex-mrcc",
+        "amex-smartearn"
+      ],
       "label": "American Express credit card member agreement",
       "scope": "issuer",
       "url": "https://www.americanexpress.com/content/dam/amex/in/legal/mitc/Card_Member_Aggreement.pdf",
@@ -514,18 +670,23 @@
     },
     {
       "doc_id": "amex-charge-mitc",
-      "card_ids": ["amex-platinum-charge", "amex-platinum-travel"],
+      "card_ids": [
+        "amex-platinum-charge",
+        "amex-platinum-travel"
+      ],
       "label": "American Express charge card MITC",
       "scope": "issuer",
       "url": "https://www.americanexpress.com/content/dam/amex/in/legal/mitc/charge-english-mitc.pdf",
       "note": "Verified, 272 KB PDF. Charge cards are a separate product line from the lending cards above."
     },
-
     {
       "doc_id": "hsbc-mitc",
       "card_ids": [
-        "hsbc-cashback", "hsbc-live-plus", "hsbc-premier",
-        "hsbc-travelone", "hsbc-smart-value"
+        "hsbc-cashback",
+        "hsbc-live-plus",
+        "hsbc-premier",
+        "hsbc-travelone",
+        "hsbc-smart-value"
       ],
       "label": "HSBC India credit card MITC",
       "scope": "issuer",
@@ -534,7 +695,9 @@
     },
     {
       "doc_id": "hsbc-cashback-tnc",
-      "card_ids": ["hsbc-cashback"],
+      "card_ids": [
+        "hsbc-cashback"
+      ],
       "label": "HSBC Visa Cashback card terms",
       "scope": "card",
       "url": "https://www.hsbc.co.in/content/dam/hsbc/in/documents/credit-cards/visa-cashback/terms-and-condition.pdf",
@@ -542,16 +705,19 @@
     },
     {
       "doc_id": "hsbc-smartvalue-mitc",
-      "card_ids": ["hsbc-smart-value"],
+      "card_ids": [
+        "hsbc-smart-value"
+      ],
       "label": "HSBC Smart Value card MITC and tariff",
       "scope": "card",
       "url": "https://www.hsbc.co.in/content/dam/hsbc/in/documents/mitc-tariff-for-hsbc-smart-value-cc.pdf",
       "note": "Verified, 3.6 MB PDF."
     },
-
     {
       "doc_id": "onecard-federal-mitc",
-      "card_ids": ["onecard-federal"],
+      "card_ids": [
+        "onecard-federal"
+      ],
       "label": "OneCard MITC (Federal Bank issued)",
       "scope": "card",
       "url": "https://www.federalbank.co.in/documents/10180/58403423/OneCard+Credit+Card+Most+Important+Terms+and+Conditions+(MITC).pdf/26708306-296f-6e30-f41a-a05212bcbd2e?t=1630319988048",
@@ -559,7 +725,9 @@
     },
     {
       "doc_id": "onecard-csb-mitc",
-      "card_ids": ["onecard-csb"],
+      "card_ids": [
+        "onecard-csb"
+      ],
       "label": "OneCard MITC (CSB Bank issued)",
       "scope": "card",
       "url": "https://www.csb.bank.in/pdf/CSB_Bank_OneCard_Credit_Card_MITC.pdf",
@@ -567,7 +735,9 @@
     },
     {
       "doc_id": "onecard-csb-tnc",
-      "card_ids": ["onecard-csb"],
+      "card_ids": [
+        "onecard-csb"
+      ],
       "label": "OneCard terms and conditions (CSB Bank)",
       "scope": "card",
       "url": "https://www.csb.bank.in/pdf/CC-T&C21122022.pdf",
@@ -575,7 +745,9 @@
     },
     {
       "doc_id": "onecard-sbm-mitc",
-      "card_ids": ["onecard-sbm"],
+      "card_ids": [
+        "onecard-sbm"
+      ],
       "label": "OneCard MITC (SBM Bank issued)",
       "scope": "card",
       "url": "https://www.sbm.bank.in/pdf/notice-board/SBM-one-card-MITC.pdf",
@@ -583,17 +755,21 @@
     },
     {
       "doc_id": "onecard-idbi-mitc",
-      "card_ids": ["onecard-idbi"],
+      "card_ids": [
+        "onecard-idbi"
+      ],
       "label": "OneCard MITC (IDBI Bank issued)",
       "scope": "card",
       "url": "https://assets.getonecard.app/assets/legal/English_MITC_IDBI_1740546529194.pdf",
       "note": "Verified, 1.3 MB PDF. Served from OneCard's own asset host rather than the bank's, so this one may be versioned by filename - if it starts 404ing, look for a new timestamp suffix."
     },
-
     {
       "doc_id": "sc-credit-cards-help",
       "card_ids": [
-        "sc-ultimate", "sc-smart", "sc-easemytrip", "sc-platinum-rewards"
+        "sc-ultimate",
+        "sc-smart",
+        "sc-easemytrip",
+        "sc-platinum-rewards"
       ],
       "label": "Standard Chartered India credit card help pages",
       "scope": "issuer",
@@ -603,24 +779,549 @@
     {
       "doc_id": "sc-download-centre",
       "card_ids": [
-        "sc-ultimate", "sc-smart", "sc-easemytrip", "sc-platinum-rewards"
+        "sc-ultimate",
+        "sc-smart",
+        "sc-easemytrip",
+        "sc-platinum-rewards"
       ],
       "label": "Standard Chartered India form and document centre",
       "scope": "issuer",
       "url": "https://www.sc.com/in/help/download-centre/",
       "note": "Verified as HTML, 336 KB. Watched because a new terms document would be linked from here first."
     },
-
     {
       "doc_id": "amex-in-cards-index",
       "card_ids": [
-        "amex-mrcc", "amex-smartearn", "amex-platinum-travel",
-        "amex-platinum-charge", "amex-gold-charge"
+        "amex-mrcc",
+        "amex-smartearn",
+        "amex-platinum-travel",
+        "amex-platinum-charge",
+        "amex-gold-charge"
       ],
       "label": "American Express India card range",
       "scope": "issuer",
       "url": "https://www.americanexpress.com/in/credit-cards/",
       "note": "Watched so a new card or a withdrawn one shows up. Amex India is a small range, and the MITC PDFs above carry the actual terms."
+    },
+    {
+      "doc_id": "axis-airtel-page",
+      "card_ids": [
+        "axis-airtel"
+      ],
+      "label": "Axis Bank Airtel card page",
+      "scope": "card",
+      "url": "https://www.axis.bank.in/cards/credit-card/airtel-axis-bank-credit-card",
+      "note": "Page verified reachable. Monitored for change only - no reward rate has been read from it, so this card is not yet rankable in the app."
+    },
+    {
+      "doc_id": "axis-ace-page",
+      "card_ids": [
+        "axis-ace"
+      ],
+      "label": "Axis Bank Ace card page",
+      "scope": "card",
+      "url": "https://www.axis.bank.in/cards/credit-card/axis-bank-ace-credit-card",
+      "note": "Page verified reachable. Monitored for change only - no reward rate has been read from it, so this card is not yet rankable in the app."
+    },
+    {
+      "doc_id": "axis-atlas-page",
+      "card_ids": [
+        "axis-atlas"
+      ],
+      "label": "Axis Bank Atlas card page",
+      "scope": "card",
+      "url": "https://www.axis.bank.in/cards/credit-card/axis-bank-atlas-credit-card",
+      "note": "Page verified reachable. Monitored for change only - no reward rate has been read from it, so this card is not yet rankable in the app."
+    },
+    {
+      "doc_id": "axis-aura-page",
+      "card_ids": [
+        "axis-aura"
+      ],
+      "label": "Axis Bank Aura card page",
+      "scope": "card",
+      "url": "https://www.axis.bank.in/cards/credit-card/axis-bank-aura-credit-card",
+      "note": "Page verified reachable. Monitored for change only - no reward rate has been read from it, so this card is not yet rankable in the app."
+    },
+    {
+      "doc_id": "axis-freecharge-page",
+      "card_ids": [
+        "axis-freecharge"
+      ],
+      "label": "Axis Bank Freecharge card page",
+      "scope": "card",
+      "url": "https://www.axis.bank.in/cards/credit-card/axis-bank-freecharge-credit-card",
+      "note": "Page verified reachable. Monitored for change only - no reward rate has been read from it, so this card is not yet rankable in the app."
+    },
+    {
+      "doc_id": "axis-freecharge-plus-page",
+      "card_ids": [
+        "axis-freecharge-plus"
+      ],
+      "label": "Axis Bank Freecharge Plus card page",
+      "scope": "card",
+      "url": "https://www.axis.bank.in/cards/credit-card/axis-bank-freecharge-plus-credit-card",
+      "note": "Page verified reachable. Monitored for change only - no reward rate has been read from it, so this card is not yet rankable in the app."
+    },
+    {
+      "doc_id": "axis-kwik-page",
+      "card_ids": [
+        "axis-kwik"
+      ],
+      "label": "Axis Bank Kwik card page",
+      "scope": "card",
+      "url": "https://www.axis.bank.in/cards/credit-card/axis-bank-kwik-credit-card",
+      "note": "Page verified reachable. Monitored for change only - no reward rate has been read from it, so this card is not yet rankable in the app."
+    },
+    {
+      "doc_id": "axis-magnus-page",
+      "card_ids": [
+        "axis-magnus"
+      ],
+      "label": "Axis Bank Magnus card page",
+      "scope": "card",
+      "url": "https://www.axis.bank.in/cards/credit-card/axis-bank-magnus-credit-card",
+      "note": "Page verified reachable. Monitored for change only - no reward rate has been read from it, so this card is not yet rankable in the app."
+    },
+    {
+      "doc_id": "axis-my-zone-page",
+      "card_ids": [
+        "axis-myzone"
+      ],
+      "label": "Axis Bank My Zone card page",
+      "scope": "card",
+      "url": "https://www.axis.bank.in/cards/credit-card/axis-bank-my-zone-credit-card",
+      "note": "Page verified reachable. Monitored for change only - no reward rate has been read from it, so this card is not yet rankable in the app."
+    },
+    {
+      "doc_id": "axis-neo-page",
+      "card_ids": [
+        "axis-neo"
+      ],
+      "label": "Axis Bank Neo card page",
+      "scope": "card",
+      "url": "https://www.axis.bank.in/cards/credit-card/axis-bank-neo-credit-card",
+      "note": "Page verified reachable. Monitored for change only - no reward rate has been read from it, so this card is not yet rankable in the app."
+    },
+    {
+      "doc_id": "axis-select-page",
+      "card_ids": [
+        "axis-select"
+      ],
+      "label": "Axis Bank Select card page",
+      "scope": "card",
+      "url": "https://www.axis.bank.in/cards/credit-card/axis-bank-select-credit-card",
+      "note": "Page verified reachable. Monitored for change only - no reward rate has been read from it, so this card is not yet rankable in the app."
+    },
+    {
+      "doc_id": "axis-shoppers-stop-page",
+      "card_ids": [
+        "axis-shoppers-stop"
+      ],
+      "label": "Axis Bank Shoppers Stop card page",
+      "scope": "card",
+      "url": "https://www.axis.bank.in/cards/credit-card/axis-bank-shoppers-stop-credit-card",
+      "note": "Page verified reachable. Monitored for change only - no reward rate has been read from it, so this card is not yet rankable in the app."
+    },
+    {
+      "doc_id": "axis-vistara-page",
+      "card_ids": [
+        "axis-vistara"
+      ],
+      "label": "Axis Bank Vistara card page",
+      "scope": "card",
+      "url": "https://www.axis.bank.in/cards/credit-card/axis-bank-vistara-credit-card",
+      "note": "Page verified reachable. Monitored for change only - no reward rate has been read from it, so this card is not yet rankable in the app."
+    },
+    {
+      "doc_id": "axis-vistara-infinite-page",
+      "card_ids": [
+        "axis-vistara-infinite"
+      ],
+      "label": "Axis Bank Vistara Infinite card page",
+      "scope": "card",
+      "url": "https://www.axis.bank.in/cards/credit-card/axis-bank-vistara-infinite-credit-card",
+      "note": "Page verified reachable. Monitored for change only - no reward rate has been read from it, so this card is not yet rankable in the app."
+    },
+    {
+      "doc_id": "axis-vistara-signature-page",
+      "card_ids": [
+        "axis-vistara-signature"
+      ],
+      "label": "Axis Bank Vistara Signature card page",
+      "scope": "card",
+      "url": "https://www.axis.bank.in/cards/credit-card/axis-bank-vistara-signature-credit-card",
+      "note": "Page verified reachable. Monitored for change only - no reward rate has been read from it, so this card is not yet rankable in the app."
+    },
+    {
+      "doc_id": "axis-axis-horizon-page",
+      "card_ids": [
+        "axis-horizon"
+      ],
+      "label": "Axis Bank Axis Horizon card page",
+      "scope": "card",
+      "url": "https://www.axis.bank.in/cards/credit-card/axis-horizon-credit-card",
+      "note": "Page verified reachable. Monitored for change only - no reward rate has been read from it, so this card is not yet rankable in the app."
+    },
+    {
+      "doc_id": "axis-fibe-page",
+      "card_ids": [
+        "axis-fibe"
+      ],
+      "label": "Axis Bank Fibe card page",
+      "scope": "card",
+      "url": "https://www.axis.bank.in/cards/credit-card/fibe-axis-bank-credit-card",
+      "note": "Page verified reachable. Monitored for change only - no reward rate has been read from it, so this card is not yet rankable in the app."
+    },
+    {
+      "doc_id": "axis-flipkart-super-elite-page",
+      "card_ids": [
+        "axis-flipkart-super-elite"
+      ],
+      "label": "Axis Bank Flipkart Super Elite card page",
+      "scope": "card",
+      "url": "https://www.axis.bank.in/cards/credit-card/flipkart-axis-bank-super-elite-credit-card",
+      "note": "Page verified reachable. Monitored for change only - no reward rate has been read from it, so this card is not yet rankable in the app."
+    },
+    {
+      "doc_id": "axis-google-pay-flex-page",
+      "card_ids": [
+        "axis-google-pay-flex"
+      ],
+      "label": "Axis Bank Google Pay Flex card page",
+      "scope": "card",
+      "url": "https://www.axis.bank.in/cards/credit-card/google-pay-flex-axis-bank-credit-card",
+      "note": "Page verified reachable. Monitored for change only - no reward rate has been read from it, so this card is not yet rankable in the app."
+    },
+    {
+      "doc_id": "axis-indianoil-page",
+      "card_ids": [
+        "axis-indianoil"
+      ],
+      "label": "Axis Bank Indianoil card page",
+      "scope": "card",
+      "url": "https://www.axis.bank.in/cards/credit-card/indianoil-axis-bank-credit-card",
+      "note": "Page verified reachable. Monitored for change only - no reward rate has been read from it, so this card is not yet rankable in the app."
+    },
+    {
+      "doc_id": "axis-indianoil-premium-page",
+      "card_ids": [
+        "axis-indianoil-premium"
+      ],
+      "label": "Axis Bank Indianoil Premium card page",
+      "scope": "card",
+      "url": "https://www.axis.bank.in/cards/credit-card/indianoil-premium-credit-card",
+      "note": "Page verified reachable. Monitored for change only - no reward rate has been read from it, so this card is not yet rankable in the app."
+    },
+    {
+      "doc_id": "axis-indigo-page",
+      "card_ids": [
+        "axis-indigo"
+      ],
+      "label": "Axis Bank Indigo card page",
+      "scope": "card",
+      "url": "https://www.axis.bank.in/cards/credit-card/indigo-axis-bank-credit-card",
+      "note": "Page verified reachable. Monitored for change only - no reward rate has been read from it, so this card is not yet rankable in the app."
+    },
+    {
+      "doc_id": "axis-indigo-premium-page",
+      "card_ids": [
+        "axis-indigo-premium"
+      ],
+      "label": "Axis Bank Indigo Premium card page",
+      "scope": "card",
+      "url": "https://www.axis.bank.in/cards/credit-card/indigo-axis-bank-premium-credit-card",
+      "note": "Page verified reachable. Monitored for change only - no reward rate has been read from it, so this card is not yet rankable in the app."
+    },
+    {
+      "doc_id": "axis-lic-platinum-page",
+      "card_ids": [
+        "axis-lic-platinum"
+      ],
+      "label": "Axis Bank Lic Platinum card page",
+      "scope": "card",
+      "url": "https://www.axis.bank.in/cards/credit-card/lic-axis-bank-platinum-credit-card",
+      "note": "Page verified reachable. Monitored for change only - no reward rate has been read from it, so this card is not yet rankable in the app."
+    },
+    {
+      "doc_id": "axis-lic-signature-page",
+      "card_ids": [
+        "axis-lic-signature"
+      ],
+      "label": "Axis Bank Lic Signature card page",
+      "scope": "card",
+      "url": "https://www.axis.bank.in/cards/credit-card/lic-axis-bank-signature-credit-card",
+      "note": "Page verified reachable. Monitored for change only - no reward rate has been read from it, so this card is not yet rankable in the app."
+    },
+    {
+      "doc_id": "axis-my-zone-easy-page",
+      "card_ids": [
+        "axis-my-zone-easy"
+      ],
+      "label": "Axis Bank My Zone Easy card page",
+      "scope": "card",
+      "url": "https://www.axis.bank.in/cards/credit-card/my-zone-easy-credit-card",
+      "note": "Page verified reachable. Monitored for change only - no reward rate has been read from it, so this card is not yet rankable in the app."
+    },
+    {
+      "doc_id": "axis-pride-platinum-page",
+      "card_ids": [
+        "axis-pride-platinum"
+      ],
+      "label": "Axis Bank Pride Platinum card page",
+      "scope": "card",
+      "url": "https://www.axis.bank.in/cards/credit-card/pride-platinum-credit-card",
+      "note": "Page verified reachable. Monitored for change only - no reward rate has been read from it, so this card is not yet rankable in the app."
+    },
+    {
+      "doc_id": "axis-pride-signature-page",
+      "card_ids": [
+        "axis-pride-signature"
+      ],
+      "label": "Axis Bank Pride Signature card page",
+      "scope": "card",
+      "url": "https://www.axis.bank.in/cards/credit-card/pride-signature-credit-card",
+      "note": "Page verified reachable. Monitored for change only - no reward rate has been read from it, so this card is not yet rankable in the app."
+    },
+    {
+      "doc_id": "axis-privilege-with-unlimited-benefits-page",
+      "card_ids": [
+        "axis-privilege"
+      ],
+      "label": "Axis Bank Privilege With Unlimited Benefits card page",
+      "scope": "card",
+      "url": "https://www.axis.bank.in/cards/credit-card/privilege-credit-card-with-unlimited-benefits",
+      "note": "Page verified reachable. Monitored for change only - no reward rate has been read from it, so this card is not yet rankable in the app."
+    },
+    {
+      "doc_id": "axis-privilege-easy-page",
+      "card_ids": [
+        "axis-privilege-easy"
+      ],
+      "label": "Axis Bank Privilege Easy card page",
+      "scope": "card",
+      "url": "https://www.axis.bank.in/cards/credit-card/privilege-easy-credit-card",
+      "note": "Page verified reachable. Monitored for change only - no reward rate has been read from it, so this card is not yet rankable in the app."
+    },
+    {
+      "doc_id": "axis-reserve-page",
+      "card_ids": [
+        "axis-reserve"
+      ],
+      "label": "Axis Bank Reserve card page",
+      "scope": "card",
+      "url": "https://www.axis.bank.in/cards/credit-card/reserve-credit-card",
+      "note": "Page verified reachable. Monitored for change only - no reward rate has been read from it, so this card is not yet rankable in the app."
+    },
+    {
+      "doc_id": "axis-samsung-infinite-page",
+      "card_ids": [
+        "axis-samsung-infinite"
+      ],
+      "label": "Axis Bank Samsung Infinite card page",
+      "scope": "card",
+      "url": "https://www.axis.bank.in/cards/credit-card/samsung-axis-bank-infinite-credit-card",
+      "note": "Page verified reachable. Monitored for change only - no reward rate has been read from it, so this card is not yet rankable in the app."
+    },
+    {
+      "doc_id": "axis-samsung-signature-page",
+      "card_ids": [
+        "axis-samsung-signature"
+      ],
+      "label": "Axis Bank Samsung Signature card page",
+      "scope": "card",
+      "url": "https://www.axis.bank.in/cards/credit-card/samsung-axis-bank-signature-credit-card",
+      "note": "Page verified reachable. Monitored for change only - no reward rate has been read from it, so this card is not yet rankable in the app."
+    },
+    {
+      "doc_id": "axis-spicejet-voyage-black-page",
+      "card_ids": [
+        "axis-spicejet-voyage-black"
+      ],
+      "label": "Axis Bank Spicejet Voyage Black card page",
+      "scope": "card",
+      "url": "https://www.axis.bank.in/cards/credit-card/spicejet-axis-bank-voyage-black-credit-card",
+      "note": "Page verified reachable. Monitored for change only - no reward rate has been read from it, so this card is not yet rankable in the app."
+    },
+    {
+      "doc_id": "axis-spicejet-voyage-page",
+      "card_ids": [
+        "axis-spicejet-voyage"
+      ],
+      "label": "Axis Bank Spicejet Voyage card page",
+      "scope": "card",
+      "url": "https://www.axis.bank.in/cards/credit-card/spicejet-axis-bank-voyage-credit-card",
+      "note": "Page verified reachable. Monitored for change only - no reward rate has been read from it, so this card is not yet rankable in the app."
+    },
+    {
+      "doc_id": "hsbc-live-plus-page",
+      "card_ids": [
+        "hsbc-live-plus"
+      ],
+      "label": "HSBC Live Plus card page",
+      "scope": "card",
+      "url": "https://www.hsbc.co.in/credit-cards/products/live-plus/",
+      "note": "Page verified reachable. Monitored for change only - no reward rate has been read from it, so this card is not yet rankable in the app."
+    },
+    {
+      "doc_id": "hsbc-premier-page",
+      "card_ids": [
+        "hsbc-premier"
+      ],
+      "label": "HSBC Premier card page",
+      "scope": "card",
+      "url": "https://www.hsbc.co.in/credit-cards/products/premier/",
+      "note": "Page verified reachable. Monitored for change only - no reward rate has been read from it, so this card is not yet rankable in the app."
+    },
+    {
+      "doc_id": "hsbc-rupay-cashback-page",
+      "card_ids": [
+        "hsbc-rupay-cashback"
+      ],
+      "label": "HSBC Rupay Cashback card page",
+      "scope": "card",
+      "url": "https://www.hsbc.co.in/credit-cards/products/rupay-cashback-credit-card/",
+      "note": "Page verified reachable. Monitored for change only - no reward rate has been read from it, so this card is not yet rankable in the app."
+    },
+    {
+      "doc_id": "hsbc-rupay-platinum-page",
+      "card_ids": [
+        "hsbc-rupay-platinum"
+      ],
+      "label": "HSBC Rupay Platinum card page",
+      "scope": "card",
+      "url": "https://www.hsbc.co.in/credit-cards/products/rupay-platinum-credit-card/",
+      "note": "Page verified reachable. Monitored for change only - no reward rate has been read from it, so this card is not yet rankable in the app."
+    },
+    {
+      "doc_id": "hsbc-taj-page",
+      "card_ids": [
+        "hsbc-taj"
+      ],
+      "label": "HSBC Taj card page",
+      "scope": "card",
+      "url": "https://www.hsbc.co.in/credit-cards/products/taj/",
+      "note": "Page verified reachable. Monitored for change only - no reward rate has been read from it, so this card is not yet rankable in the app."
+    },
+    {
+      "doc_id": "hsbc-travelone-page",
+      "card_ids": [
+        "hsbc-travelone"
+      ],
+      "label": "HSBC Travelone card page",
+      "scope": "card",
+      "url": "https://www.hsbc.co.in/credit-cards/products/travelone/",
+      "note": "Page verified reachable. Monitored for change only - no reward rate has been read from it, so this card is not yet rankable in the app."
+    },
+    {
+      "doc_id": "hsbc-visa-platinum-page",
+      "card_ids": [
+        "hsbc-visa-platinum"
+      ],
+      "label": "HSBC Visa Platinum card page",
+      "scope": "card",
+      "url": "https://www.hsbc.co.in/credit-cards/products/visa-platinum/",
+      "note": "Page verified reachable. Monitored for change only - no reward rate has been read from it, so this card is not yet rankable in the app."
+    },
+    {
+      "doc_id": "icici-amazon-pay-page",
+      "card_ids": [
+        "icici-amazon-pay"
+      ],
+      "label": "Amazon Pay ICICI Bank card page",
+      "scope": "card",
+      "url": "https://www.icici.bank.in/personal-banking/cards/credit-card/amazon-pay-credit-card",
+      "note": "Page verified reachable. Monitored for change only - no reward rate has been read from it, so this card is not yet rankable in the app."
+    },
+    {
+      "doc_id": "icici-coral-rupay-page",
+      "card_ids": [
+        "icici-coral-rupay"
+      ],
+      "label": "ICICI Bank Coral RuPay card page",
+      "scope": "card",
+      "url": "https://www.icici.bank.in/personal-banking/cards/credit-card/coral-rupay-card",
+      "note": "Page verified reachable. Monitored for change only - no reward rate has been read from it, so this card is not yet rankable in the app."
+    },
+    {
+      "doc_id": "icici-csk-page",
+      "card_ids": [
+        "icici-csk"
+      ],
+      "label": "ICICI Bank Chennai Super Kings card page",
+      "scope": "card",
+      "url": "https://www.icici.bank.in/personal-banking/cards/credit-card/csk-card",
+      "note": "Page verified reachable. Monitored for change only - no reward rate has been read from it, so this card is not yet rankable in the app."
+    },
+    {
+      "doc_id": "icici-emirates-emeralde-page",
+      "card_ids": [
+        "icici-emirates-emeralde"
+      ],
+      "label": "Emirates Skywards ICICI Emeralde card page",
+      "scope": "card",
+      "url": "https://www.icici.bank.in/personal-banking/cards/credit-card/emirates-emeralde-credit-card",
+      "note": "Page verified reachable. Monitored for change only - no reward rate has been read from it, so this card is not yet rankable in the app."
+    },
+    {
+      "doc_id": "icici-emirates-rubyx-page",
+      "card_ids": [
+        "icici-emirates-rubyx"
+      ],
+      "label": "Emirates Skywards ICICI Rubyx card page",
+      "scope": "card",
+      "url": "https://www.icici.bank.in/personal-banking/cards/credit-card/emirates-rubyx-credit-card",
+      "note": "Page verified reachable. Monitored for change only - no reward rate has been read from it, so this card is not yet rankable in the app."
+    },
+    {
+      "doc_id": "icici-expressions-page",
+      "card_ids": [
+        "icici-expressions"
+      ],
+      "label": "ICICI Bank Expressions card page",
+      "scope": "card",
+      "url": "https://www.icici.bank.in/personal-banking/cards/credit-card/expressions-card",
+      "note": "Page verified reachable. Monitored for change only - no reward rate has been read from it, so this card is not yet rankable in the app."
+    },
+    {
+      "doc_id": "icici-hpcl-coral-page",
+      "card_ids": [
+        "icici-hpcl-coral"
+      ],
+      "label": "HPCL ICICI Bank Coral card page",
+      "scope": "card",
+      "url": "https://www.icici.bank.in/personal-banking/cards/credit-card/hpcl-coral-credit-card",
+      "note": "Page verified reachable. Monitored for change only - no reward rate has been read from it, so this card is not yet rankable in the app."
+    },
+    {
+      "doc_id": "icici-rubyx-page",
+      "card_ids": [
+        "icici-rubyx"
+      ],
+      "label": "ICICI Bank Rubyx card page",
+      "scope": "card",
+      "url": "https://www.icici.bank.in/personal-banking/cards/credit-card/rubyx-credit-card",
+      "note": "Page verified reachable. Monitored for change only - no reward rate has been read from it, so this card is not yet rankable in the app."
+    },
+    {
+      "doc_id": "icici-sapphiro-page",
+      "card_ids": [
+        "icici-sapphiro"
+      ],
+      "label": "ICICI Bank Sapphiro card page",
+      "scope": "card",
+      "url": "https://www.icici.bank.in/personal-banking/cards/credit-card/sapphiro-card",
+      "note": "Page verified reachable. Monitored for change only - no reward rate has been read from it, so this card is not yet rankable in the app."
+    },
+    {
+      "doc_id": "icici-times-black-page",
+      "card_ids": [
+        "icici-times-black"
+      ],
+      "label": "Times Black ICICI Bank card page",
+      "scope": "card",
+      "url": "https://www.icici.bank.in/personal-banking/cards/credit-card/times-black-icici-credit-card",
+      "note": "Page verified reachable. Monitored for change only - no reward rate has been read from it, so this card is not yet rankable in the app."
     }
   ]
 }

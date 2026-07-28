@@ -2,118 +2,380 @@
   "documents": {
     "amex-in-cards-index": {
       "sha256": "7a16a80c7e9e19a0b560586e8f2e8c0232b90b316bc7e400a5b2186ddf733ba2",
-      "last_checked_utc": "2026-07-28T02:36:40.509682Z",
+      "last_checked_utc": "2026-07-28T02:54:03.509440Z",
+      "consecutive_failures": 0
+    },
+    "axis-ace-page": {
+      "sha256": "e6e359fa4c9cc87265fbc7885131fc2339c99b95d4f8ddb61a67786fc74ed15b",
+      "last_checked_utc": "2026-07-28T02:54:03.509440Z",
+      "consecutive_failures": 0
+    },
+    "axis-airtel-page": {
+      "sha256": "2bc3656d3d5021d40c21f7f770ca75929595f24d11fade4820fea0d2a755a05e",
+      "last_checked_utc": "2026-07-28T02:54:03.509440Z",
       "consecutive_failures": 0
     },
     "axis-announcements": {
       "sha256": "bbdfbaf153223570796580f659b1c13d2e19831c22b1da3f1b1f9203fd5c3d38",
-      "last_checked_utc": "2026-07-28T02:36:40.509682Z",
+      "last_checked_utc": "2026-07-28T02:54:03.509440Z",
+      "consecutive_failures": 0
+    },
+    "axis-atlas-page": {
+      "sha256": "78f5be65e8a8e84c75b519cb630057baa5f374f0c7ee5ae647a580deccadc62e",
+      "last_checked_utc": "2026-07-28T02:54:03.509440Z",
+      "consecutive_failures": 0
+    },
+    "axis-aura-page": {
+      "sha256": "fbe60e9b90c8837a192da648c5df9afc5319ab4393fc55a2521fd776ebe3019f",
+      "last_checked_utc": "2026-07-28T02:54:03.509440Z",
+      "consecutive_failures": 0
+    },
+    "axis-axis-horizon-page": {
+      "sha256": "95db4072c439d878369eef56f81619e8616de95c4a3b41e3aff1dc997233f48a",
+      "last_checked_utc": "2026-07-28T02:54:03.509440Z",
+      "consecutive_failures": 0
+    },
+    "axis-fibe-page": {
+      "sha256": "d0ab0d97d602a12b390da015fe471b1b647e5c8601e6db57fb743e0b2207eed2",
+      "last_checked_utc": "2026-07-28T02:54:03.509440Z",
+      "consecutive_failures": 0
+    },
+    "axis-flipkart-super-elite-page": {
+      "sha256": "c26c085f79320146886daea082e608297999585fdcce298e244c8794e8f81f83",
+      "last_checked_utc": "2026-07-28T02:54:03.509440Z",
+      "consecutive_failures": 0
+    },
+    "axis-freecharge-page": {
+      "sha256": "95ae47b64da56cd450f6eee860d16925d39f76ec8aa4677f9b9687542d827f80",
+      "last_checked_utc": "2026-07-28T02:54:03.509440Z",
+      "consecutive_failures": 0
+    },
+    "axis-freecharge-plus-page": {
+      "sha256": "4fb043023bdf370807cbb0f4397d868eca0a590e14d5ce9eb80256806a16545a",
+      "last_checked_utc": "2026-07-28T02:54:03.509440Z",
+      "consecutive_failures": 0
+    },
+    "axis-google-pay-flex-page": {
+      "sha256": "b5bc6c78e6e6eb165ac91deda58da7bc1195fc5cfac81a61eb349fbea8ec62eb",
+      "last_checked_utc": "2026-07-28T02:54:03.509440Z",
+      "consecutive_failures": 0
+    },
+    "axis-indianoil-page": {
+      "sha256": "227e238b9003cb1b81e380f5d7cc4c154d136b42205929b82ea047ae6844c1ec",
+      "last_checked_utc": "2026-07-28T02:54:03.509440Z",
+      "consecutive_failures": 0
+    },
+    "axis-indianoil-premium-page": {
+      "sha256": "e7606f6977da670a1cf985eb3c74a882106cc810578482cbc01deb7cbbba8b73",
+      "last_checked_utc": "2026-07-28T02:54:03.509440Z",
+      "consecutive_failures": 0
+    },
+    "axis-indigo-page": {
+      "sha256": "e1124d03b15b993e1de9303943137611c9538a41e86e3ea7cf5e29ada2a4cf7b",
+      "last_checked_utc": "2026-07-28T02:54:03.509440Z",
+      "consecutive_failures": 0
+    },
+    "axis-indigo-premium-page": {
+      "sha256": "0358a61b6d13f15d19cc11343a1c3925d85729372372531379d41fb72e04c04e",
+      "last_checked_utc": "2026-07-28T02:54:03.509440Z",
+      "consecutive_failures": 0
+    },
+    "axis-kwik-page": {
+      "sha256": "38f9f47073f88ec6dcbb54028c5cf5a050197cc3941dc7f342acfa6431c16fad",
+      "last_checked_utc": "2026-07-28T02:54:03.509440Z",
+      "consecutive_failures": 0
+    },
+    "axis-lic-platinum-page": {
+      "sha256": "071abb4ddf9817270168c0e1a26f7ba7a84021212c04b2e7979289de4bdb1c6a",
+      "last_checked_utc": "2026-07-28T02:54:03.509440Z",
+      "consecutive_failures": 0
+    },
+    "axis-lic-signature-page": {
+      "sha256": "e2e9bb06932e14e233c286cdb13ae4193141e6dd7dd474d1e5b0ce62a1c442d7",
+      "last_checked_utc": "2026-07-28T02:54:03.509440Z",
+      "consecutive_failures": 0
+    },
+    "axis-magnus-page": {
+      "sha256": "9409c429476fd205f93bec82f1929187db62a666e320baf695112dc274a77bb7",
+      "last_checked_utc": "2026-07-28T02:54:03.509440Z",
       "consecutive_failures": 0
     },
     "axis-miles-and-more-page": {
       "sha256": "cf4af2d5cf245199270c586e9df19ae03fab7204574977d85ae67c66bb3ae3db",
-      "last_checked_utc": "2026-07-28T02:36:40.509682Z",
+      "last_checked_utc": "2026-07-28T02:54:03.509440Z",
       "last_changed_utc": "2026-07-28T02:36:40.509682Z",
+      "consecutive_failures": 0
+    },
+    "axis-my-zone-easy-page": {
+      "sha256": "f3d605ea8221e9ffc96c2bbb01cc067e457fb53547d1ba77cb464db04cc11c08",
+      "last_checked_utc": "2026-07-28T02:54:03.509440Z",
+      "consecutive_failures": 0
+    },
+    "axis-my-zone-page": {
+      "sha256": "27c437f991b923b1db665bc2c74f1a85fe39a470d9772afa301534963dd1a505",
+      "last_checked_utc": "2026-07-28T02:54:03.509440Z",
+      "consecutive_failures": 0
+    },
+    "axis-neo-page": {
+      "sha256": "c34886fa029a4cc71693d7db19b462ad2459cfba9494dad5b6d105817db641de",
+      "last_checked_utc": "2026-07-28T02:54:03.509440Z",
+      "consecutive_failures": 0
+    },
+    "axis-pride-platinum-page": {
+      "sha256": "8d7c96afd17502be09b540d053b8eb05c13823d192ab04eefacfd12dac9be762",
+      "last_checked_utc": "2026-07-28T02:54:03.509440Z",
+      "consecutive_failures": 0
+    },
+    "axis-pride-signature-page": {
+      "sha256": "c81bc1485c91dd00ca1fbc61476f2d77ba1ac8a106364af883b5c35c4dcd01ec",
+      "last_checked_utc": "2026-07-28T02:54:03.509440Z",
+      "consecutive_failures": 0
+    },
+    "axis-privilege-easy-page": {
+      "sha256": "011d8e29588919f8606f9f665a6aad8e2491f85ee05c43f544f3817c6dd2dd5f",
+      "last_checked_utc": "2026-07-28T02:54:03.509440Z",
+      "consecutive_failures": 0
+    },
+    "axis-privilege-with-unlimited-benefits-page": {
+      "sha256": "59c21ecbdc5b5ed9ca264706f8698e1fc0c621c0ec97888e25811cae92727610",
+      "last_checked_utc": "2026-07-28T02:54:03.509440Z",
+      "consecutive_failures": 0
+    },
+    "axis-reserve-page": {
+      "sha256": "b80aa1cedaf6a95ce18175290b7d18c78a00077a00919e9645f6502d1b395979",
+      "last_checked_utc": "2026-07-28T02:54:03.509440Z",
+      "consecutive_failures": 0
+    },
+    "axis-samsung-infinite-page": {
+      "sha256": "3a1774e4cd2b468f9e3bd2a08eeaadca9c8067cb37d8a87c3801460487372e12",
+      "last_checked_utc": "2026-07-28T02:54:03.509440Z",
+      "consecutive_failures": 0
+    },
+    "axis-samsung-signature-page": {
+      "sha256": "339bb0f51f1129a85b7e7743d86a2b7238c8ffb0481b7e016068623dca06d672",
+      "last_checked_utc": "2026-07-28T02:54:03.509440Z",
+      "consecutive_failures": 0
+    },
+    "axis-select-page": {
+      "sha256": "a277d537a5e22d29817ddc52657aa651d31e96ca4a0edeedd42a74420f25137a",
+      "last_checked_utc": "2026-07-28T02:54:03.509440Z",
+      "consecutive_failures": 0
+    },
+    "axis-shoppers-stop-page": {
+      "sha256": "bfad46cd3565c8a047096d86d1b4a2ab47ba28f66ef346f649b09bb0748d24c0",
+      "last_checked_utc": "2026-07-28T02:54:03.509440Z",
+      "consecutive_failures": 0
+    },
+    "axis-spicejet-voyage-black-page": {
+      "sha256": "d43dfaceb57d3484641e6e39f7b459752f92b77bb2d85c857606f7a0080bc47d",
+      "last_checked_utc": "2026-07-28T02:54:03.509440Z",
+      "consecutive_failures": 0
+    },
+    "axis-spicejet-voyage-page": {
+      "sha256": "673498dd022eecdd7cdcafddbf554209f55209ee8edbc45a8e9a109a77446b87",
+      "last_checked_utc": "2026-07-28T02:54:03.509440Z",
+      "consecutive_failures": 0
+    },
+    "axis-vistara-infinite-page": {
+      "sha256": "0d3bbb10e0c0b308a21d156f8c7f94c0720a228db9fdf4f15881db8661f5e2e9",
+      "last_checked_utc": "2026-07-28T02:54:03.509440Z",
+      "consecutive_failures": 0
+    },
+    "axis-vistara-page": {
+      "sha256": "a77ac5f494c3b58e21cd9c49383cfaf831ff02ab36becc6c301f137e4363b418",
+      "last_checked_utc": "2026-07-28T02:54:03.509440Z",
+      "consecutive_failures": 0
+    },
+    "axis-vistara-signature-page": {
+      "sha256": "f6c43a94b8607cf522e7f1af51cd790f438e03b2a28e3c8cd9bc90eea2bfcba3",
+      "last_checked_utc": "2026-07-28T02:54:03.509440Z",
       "consecutive_failures": 0
     },
     "hdfc-diners-black": {
       "sha256": "ac993d776b3cc64e0e2b10168e91c9bf9122a7b0a03c22238a0f8aea5e47fd36",
-      "last_checked_utc": "2026-07-28T02:36:40.509682Z",
+      "last_checked_utc": "2026-07-28T02:54:03.509440Z",
       "consecutive_failures": 0
     },
     "hdfc-indianoil": {
       "sha256": "bb346db82e3592023ad6da08c01c60e35648aeb1e03504fe6e6a2974e402c1c0",
-      "last_checked_utc": "2026-07-28T02:36:40.509682Z",
+      "last_checked_utc": "2026-07-28T02:54:03.509440Z",
       "consecutive_failures": 0
     },
     "hdfc-infinia": {
       "sha256": "e11faf192da62efc67a7fd5046151264aa917607267c18c8d7a0ea4a7e368afc",
-      "last_checked_utc": "2026-07-28T02:36:40.509682Z",
+      "last_checked_utc": "2026-07-28T02:54:03.509440Z",
       "consecutive_failures": 0
     },
     "hdfc-infinia-fees": {
       "sha256": "f000a4905259d54fbc67a08a9e4cca7541c90cfc0512681e6f3d82532773a234",
-      "last_checked_utc": "2026-07-28T02:36:40.509682Z",
+      "last_checked_utc": "2026-07-28T02:54:03.509440Z",
       "consecutive_failures": 0
     },
     "hdfc-millennia": {
       "sha256": "153576858649bfae525ac70428ae3ecea0f34219418bef2aa91979e2bfe1670b",
-      "last_checked_utc": "2026-07-28T02:36:40.509682Z",
+      "last_checked_utc": "2026-07-28T02:54:03.509440Z",
       "consecutive_failures": 0
     },
     "hdfc-mitc": {
       "sha256": "f8172052e5b82a37a8f5e5d1389a56f52b22e3832a102bc00e1a4495d19b1734",
-      "last_checked_utc": "2026-07-28T02:36:40.509682Z",
+      "last_checked_utc": "2026-07-28T02:54:03.509440Z",
       "consecutive_failures": 0
     },
     "hdfc-moneyback-plus": {
       "sha256": "ade53418fa78bf91f2620b8ac3cf0120825d0d65a2ed90aad4ba5dc10bae4465",
-      "last_checked_utc": "2026-07-28T02:36:40.509682Z",
+      "last_checked_utc": "2026-07-28T02:54:03.509440Z",
       "consecutive_failures": 0
     },
     "hdfc-regalia-gold": {
       "sha256": "65a0709a6ce2134e9a2c814f3ceaf9f308bff3a8acb10723d529ebba510d65b7",
-      "last_checked_utc": "2026-07-28T02:36:40.509682Z",
+      "last_checked_utc": "2026-07-28T02:54:03.509440Z",
       "consecutive_failures": 0
     },
     "hdfc-swiggy": {
       "sha256": "176853ce9681ce6d282c92e001938556057033e6b39d2fd0ac2adf896a998001",
-      "last_checked_utc": "2026-07-28T02:36:40.509682Z",
+      "last_checked_utc": "2026-07-28T02:54:03.509440Z",
       "consecutive_failures": 0
     },
     "hdfc-tata-neu": {
       "sha256": "acd7149b64ec3193ca492c701233e6a645e40db58ef836898981c70c917c281f",
-      "last_checked_utc": "2026-07-28T02:36:40.509682Z",
+      "last_checked_utc": "2026-07-28T02:54:03.509440Z",
+      "consecutive_failures": 0
+    },
+    "hsbc-live-plus-page": {
+      "sha256": "778e070d59b4b1d4eb8fe5c0ace3e4d6582377fc49f4a84557cbc7e3744dc542",
+      "last_checked_utc": "2026-07-28T02:54:03.509440Z",
+      "consecutive_failures": 0
+    },
+    "hsbc-premier-page": {
+      "sha256": "21ff6128e92519a9d542d4e806a9649f2ca819b830fef6b1f9fb6e215555d880",
+      "last_checked_utc": "2026-07-28T02:54:03.509440Z",
+      "consecutive_failures": 0
+    },
+    "hsbc-rupay-cashback-page": {
+      "sha256": "7cb5ff66c2eb562b6675e8dfd5126bc96696672b85a2868504135ece528b0a01",
+      "last_checked_utc": "2026-07-28T02:54:03.509440Z",
+      "consecutive_failures": 0
+    },
+    "hsbc-rupay-platinum-page": {
+      "sha256": "c868f28bf47668ce238df8d6441f1bd225f6ff56de8a91f929ba746c6ece712a",
+      "last_checked_utc": "2026-07-28T02:54:03.509440Z",
+      "consecutive_failures": 0
+    },
+    "hsbc-taj-page": {
+      "sha256": "4e6e0a871b5431a7869a0700418a22aebdf91bce6ed659bc09005d333dc7d0cb",
+      "last_checked_utc": "2026-07-28T02:54:03.509440Z",
+      "consecutive_failures": 0
+    },
+    "hsbc-travelone-page": {
+      "sha256": "51f9047eb9517cc01a1dc4524afc0cdac0a86298e68a20c41328c320cf591922",
+      "last_checked_utc": "2026-07-28T02:54:03.509440Z",
+      "consecutive_failures": 0
+    },
+    "hsbc-visa-platinum-page": {
+      "sha256": "dc8cba0fb7e733e94a6cc2b54f86336d347d280cd5c9c36482efd05f94a2fb3b",
+      "last_checked_utc": "2026-07-28T02:54:03.509440Z",
+      "consecutive_failures": 0
+    },
+    "icici-amazon-pay-page": {
+      "sha256": "0e0d2b9c84932214a20dec0fe827ae73559795e6e3c754772e17f27192b7109c",
+      "last_checked_utc": "2026-07-28T02:54:03.509440Z",
       "consecutive_failures": 0
     },
     "icici-coral-page": {
-      "sha256": "6b89e291fee50ce6e2e502f649051f3a0af36e3a2f243e38e42d3eac41cc9d2a",
-      "last_checked_utc": "2026-07-28T02:36:40.509682Z",
+      "sha256": "34dd4e908939fd088b93c59d28dbf464f7ed44a05780fe4050f6ae9c43eee4b7",
+      "last_checked_utc": "2026-07-28T02:54:03.509440Z",
+      "last_changed_utc": "2026-07-28T02:54:03.509440Z",
+      "consecutive_failures": 0
+    },
+    "icici-coral-rupay-page": {
+      "sha256": "1b2d3b0e421efe5a91dd2fa318bcd6a7141fe5fec518ab8dda7e0e4d1a5ebe60",
+      "last_checked_utc": "2026-07-28T02:54:03.509440Z",
+      "consecutive_failures": 0
+    },
+    "icici-csk-page": {
+      "sha256": "f7669aff1b5a5b7dc0b4580c1eb28b8bc27d31d29ea5787757dccf22b35a6032",
+      "last_checked_utc": "2026-07-28T02:54:03.509440Z",
       "consecutive_failures": 0
     },
     "icici-emeralde-page": {
       "sha256": "8ff9a0b9c4ce76b15bfb93c4104d320d7070711152a14efe23fdb7e6049678a5",
-      "last_checked_utc": "2026-07-28T02:36:40.509682Z",
+      "last_checked_utc": "2026-07-28T02:54:03.509440Z",
       "consecutive_failures": 0
     },
     "icici-emeralde-private-page": {
       "sha256": "814c15e2b3dc84d63cfbb84db26f97e4a75e8eb5c48633bb362439c52a3ef6d9",
-      "last_checked_utc": "2026-07-28T02:36:40.509682Z",
+      "last_checked_utc": "2026-07-28T02:54:03.509440Z",
+      "consecutive_failures": 0
+    },
+    "icici-emirates-emeralde-page": {
+      "sha256": "2ab583d56667df4cc20a53862c1f7251069f5197f85f8788a66b9703b11ac4c0",
+      "last_checked_utc": "2026-07-28T02:54:03.509440Z",
+      "consecutive_failures": 0
+    },
+    "icici-emirates-rubyx-page": {
+      "sha256": "485210802e0bd17c5595b96f503c1764a75b79eecbafc2e6c3dae29cb94d7b01",
+      "last_checked_utc": "2026-07-28T02:54:03.509440Z",
+      "consecutive_failures": 0
+    },
+    "icici-expressions-page": {
+      "sha256": "146281226e074f3648cdd2dd2d21d97c1407a585d380edec9e0bafc4bce2581a",
+      "last_checked_utc": "2026-07-28T02:54:03.509440Z",
+      "consecutive_failures": 0
+    },
+    "icici-hpcl-coral-page": {
+      "sha256": "75b5e7fd84ee647244784a1ea43c3d5efb407eed08b916e608fee51af878cb73",
+      "last_checked_utc": "2026-07-28T02:54:03.509440Z",
       "consecutive_failures": 0
     },
     "icici-platinum-chip-page": {
-      "sha256": "1a135ada7bf8fa9d84596764e025523aa7c9e7914b074cd1e35cbec648bdbab5",
-      "last_checked_utc": "2026-07-28T02:36:40.509682Z",
+      "sha256": "41378e4e156e19442d72d01bbdbe88d9eb5d801c2ec815e5cbd39eef157a0312",
+      "last_checked_utc": "2026-07-28T02:54:03.509440Z",
+      "last_changed_utc": "2026-07-28T02:54:03.509440Z",
+      "consecutive_failures": 0
+    },
+    "icici-rubyx-page": {
+      "sha256": "a7f57ec768d889bb86633c28af4292bfaf9d47f7347e6bda5ccb428367955565",
+      "last_checked_utc": "2026-07-28T02:54:03.509440Z",
+      "consecutive_failures": 0
+    },
+    "icici-sapphiro-page": {
+      "sha256": "27ecaba1c89a9fad2b18e11410c43c745949a2adbea909c1e437262750cc5168",
+      "last_checked_utc": "2026-07-28T02:54:03.509440Z",
+      "consecutive_failures": 0
+    },
+    "icici-times-black-page": {
+      "sha256": "e1a1f114ddf61b1f29e2ecd055a545ee6c9d3becc209c1c2478d4dfff817ebe3",
+      "last_checked_utc": "2026-07-28T02:54:03.509440Z",
       "consecutive_failures": 0
     },
     "idfc-card-terms": {
       "sha256": "100528c84642484d9a2e3467fe8d1ac45ecaaf71af2fbf582ad32c3704db8b8a",
-      "last_checked_utc": "2026-07-28T02:36:40.509682Z",
+      "last_checked_utc": "2026-07-28T02:54:03.509440Z",
       "consecutive_failures": 0
     },
     "idfc-millennia-page": {
       "sha256": "d57a8233537d89609ae534bcd08be6d8fe309fde86caaf4eb715b50fdd493c81",
-      "last_checked_utc": "2026-07-28T02:36:40.509682Z",
+      "last_checked_utc": "2026-07-28T02:54:03.509440Z",
       "consecutive_failures": 0
     },
     "idfc-notice-board": {
       "sha256": "c1f595351ce9e6d0ae3aed5b6c60bb6f4d9a57ec99eacab08e29597f411d590f",
-      "last_checked_utc": "2026-07-28T02:36:40.509682Z",
+      "last_checked_utc": "2026-07-28T02:54:03.509440Z",
       "consecutive_failures": 0
     },
     "sbi-customer-notices": {
       "sha256": "01d648ef344247458dada4be02a9e50b24497006c20a4490412fab67e1c43db1",
-      "last_checked_utc": "2026-07-28T02:36:40.509682Z",
+      "last_checked_utc": "2026-07-28T02:54:03.509440Z",
       "consecutive_failures": 0
     },
     "sc-credit-cards-help": {
       "sha256": "fd29bcd06b0df244a09cf3cc66f5dffc8d3013d572245188f5568018a25d72bc",
-      "last_checked_utc": "2026-07-28T02:36:40.509682Z",
+      "last_checked_utc": "2026-07-28T02:54:03.509440Z",
       "consecutive_failures": 0
     },
     "sc-download-centre": {
       "sha256": "6dfc97053488c43f655959d08a3cd802b7d424abfc083301127afb7bf54f67be",
-      "last_checked_utc": "2026-07-28T02:36:40.509682Z",
+      "last_checked_utc": "2026-07-28T02:54:03.509440Z",
       "consecutive_failures": 0
     }
   }

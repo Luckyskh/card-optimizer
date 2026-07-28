@@ -1,6 +1,6 @@
 {
-  "generated_on": "2026-07-28T02:36:40.509682Z",
-  "rules_version": 1,
+  "generated_on": "2026-07-28T02:54:03.509440Z",
+  "rules_version": 2,
   "note": "Each alert means an issuer document changed. It does not state a new reward rate - check the linked document before relying on it.",
   "alerts": [
     {
@@ -15,6 +15,40 @@
         {
           "before": "",
           "after": "The Terms & Conditions of Miles & More Axis Bank Credit Card will be updated w.e.f 28th August'26. Please click here to know more."
+        }
+      ]
+    },
+    {
+      "id": "2026-07-28-icici-coral-page-icici-coral",
+      "card_id": "icici-coral",
+      "card_name": "ICICI Bank Coral",
+      "doc_label": "ICICI Bank Coral card page",
+      "detected_on": "2026-07-28",
+      "summary": "2 changed lines mentioning rates, caps or fees",
+      "source_url": "https://www.icicibank.com/personal-banking/cards/credit-card/coral-credit-card",
+      "excerpts": [
+        {
+          "before": "72,220 PEOPLE ARE INTERESTED",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "81,912 PEOPLE ARE INTERESTED"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-28-icici-platinum-chip-page-icici-platinum-chip",
+      "card_id": "icici-platinum-chip",
+      "card_name": "ICICI Bank Platinum Chip",
+      "doc_label": "ICICI Platinum Chip card page",
+      "detected_on": "2026-07-28",
+      "summary": "1 changed line mentioning rates, caps or fees",
+      "source_url": "https://www.icicibank.com/personal-banking/cards/credit-card/platinum-chip-credit-card",
+      "excerpts": [
+        {
+          "before": "24,742 PEOPLE ARE INTERESTED",
+          "after": "24,778 PEOPLE ARE INTERESTED"
         }
       ]
     }
