@@ -15,6 +15,7 @@ import 'data/rules_repository.dart';
 import 'data/user_cards_store.dart';
 import 'screens/my_cards_screen.dart';
 import 'screens/recommend_screen.dart';
+import 'screens/transfer_partners_screen.dart';
 import 'widgets/alert_banner.dart';
 
 void main() {
@@ -122,6 +123,11 @@ class _HomePageState extends State<HomePage> {
                   refreshSignal: _refreshSignal,
                   alertedCardIds: alertedCardIds,
                 ),
+                TransferPartnersScreen(
+                  rulesRepository: _rulesRepository,
+                  store: _store,
+                  refreshSignal: _refreshSignal,
+                ),
                 MyCardsScreen(
                   rulesRepository: _rulesRepository,
                   store: _store,
@@ -139,6 +145,10 @@ class _HomePageState extends State<HomePage> {
           NavigationDestination(
             icon: Icon(Icons.search),
             label: 'Which card?',
+          ),
+          NavigationDestination(
+            icon: Icon(Icons.flight_takeoff),
+            label: 'Transfers',
           ),
           NavigationDestination(
             icon: Icon(Icons.credit_card),

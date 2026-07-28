@@ -216,6 +216,13 @@ class CardRule {
   /// outweigh what it pays.
   final List<Surcharge> surcharges;
 
+  /// Airline and hotel programmes this card's points can be moved to.
+  final TransferPartners? transferPartners;
+
+  /// What one point is worth if transferred, where that differs from the
+  /// ordinary redemption value.
+  final String? pointValueNote;
+
   /// Set when the card's rate depends on something about the user rather than
   /// the purchase — currently only Amazon Prime membership.
   final String? conditionalCondition;
@@ -247,6 +254,8 @@ class CardRule {
     this.maxAnnualCashbackInr,
     this.exclusions = const [],
     this.surcharges = const [],
+    this.transferPartners,
+    this.pointValueNote,
     this.conditionalCondition,
     this.conditionalNote,
     this.lastChanged,
@@ -343,12 +352,97 @@ class CardRule {
           .whereType<Map<String, dynamic>>()
           .map(Surcharge.fromJson)
           .toList(),
+      transferPartners: json['transfer_partners'] == null
+          ? null
+          : TransferPartners.fromJson(
+              json['transfer_partners'] as Map<String, dynamic>),
+      pointValueNote: json['point_value_note'] as String?,
       conditionalCondition: conditional?['condition'] as String?,
       conditionalNote: conditional?['note'] as String?,
       lastChanged: json['last_changed'] as String?,
       changeSummary: json['change_summary'] as String?,
       lastVerified: json['last_verified'] as String?,
       unverified: _stringList(json['_verify']),
+    );
+  }
+}
+
+/// One tier of transfer partners — a set of programmes that share a ratio and
+/// an annual ceiling.
+///
+/// Issuers group partners rather than listing a ratio per airline, and the
+/// groups have different caps, so "how many miles can I actually move" depends
+/// on which group the partner sits in.
+class TransferGroup {
+  /// `group_a`, `group_b` — the issuer's own naming.
+  final String name;
+
+  /// "1:2" means one card point becomes two partner miles. Kept as the
+  /// dataset's own string rather than parsed into a number, because these are
+  /// occasionally not simple ratios and rewriting one would change its meaning.
+  final String? ratio;
+
+  final double? annualCapMiles;
+  final List<String> partners;
+
+  const TransferGroup({
+    required this.name,
+    this.ratio,
+    this.annualCapMiles,
+    this.partners = const [],
+  });
+
+  /// The multiplier in "1:2", when it is that simple. Null otherwise, and the
+  /// screen then shows the ratio without doing arithmetic on it.
+  double? get multiplier {
+    final match = RegExp(r'^\s*(\d+(?:\.\d+)?)\s*:\s*(\d+(?:\.\d+)?)\s*$')
+        .firstMatch(ratio ?? '');
+    if (match == null) return null;
+    final from = double.tryParse(match.group(1)!);
+    final to = double.tryParse(match.group(2)!);
+    if (from == null || to == null || from == 0) return null;
+    return to / from;
+  }
+
+  factory TransferGroup.fromJson(String name, Map<String, dynamic> json) =>
+      TransferGroup(
+        name: name,
+        ratio: json['ratio'] as String?,
+        annualCapMiles: _toDouble(json['annual_cap_miles']),
+        partners: _stringList(json['partners']),
+      );
+}
+
+/// Where a card's points can be moved, and what has been taken away.
+class TransferPartners {
+  final List<TransferGroup> groups;
+
+  /// Partners the issuer has dropped. Worth keeping visible: Axis removed
+  /// Accor, Marriott and Qatar from Atlas overnight in April 2026, and a
+  /// programme that has already lost three partners is telling you something
+  /// about how safe the remaining ones are.
+  final List<String> removed;
+  final String? removedOn;
+
+  const TransferPartners({
+    this.groups = const [],
+    this.removed = const [],
+    this.removedOn,
+  });
+
+  bool get isEmpty => groups.isEmpty && removed.isEmpty;
+
+  factory TransferPartners.fromJson(Map<String, dynamic> json) {
+    final groups = <TransferGroup>[];
+    json.forEach((key, value) {
+      if (value is Map<String, dynamic> && value.containsKey('partners')) {
+        groups.add(TransferGroup.fromJson(key, value));
+      }
+    });
+    return TransferPartners(
+      groups: groups,
+      removed: _stringList(json['removed']),
+      removedOn: json['removed_on'] as String?,
     );
   }
 }
