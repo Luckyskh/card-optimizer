@@ -1,0 +1,6 @@
+Fuel Transaction
+Convenience fee waiver of 1% on all fuel transactions. The waiver on convenience fee is
+applicable only for fuel transactions between Rs. 400 to Rs. 1,00,000 (Maximum waiver of INR
+1000 per statement cycle)
+Fuel surcharge varies from 2.5% to 1% of fuel transaction amount. The rate of surcharge may
+vary depending on the fuel station and their acquiring bank. GST is as applicable.

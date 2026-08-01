@@ -1,0 +1,701 @@
+The OneCard Credit Card Terms and Conditions
+These Terms and Conditions (Terms) apply to OneCard Credit Card (OneCard) issued by CSB Bank
+Limited (“Bank”) in partnership with FPL Technologies Private Limited (FPL or “Company”). Activating
+your card from the OneCard application or clicking on ‘Submit’ or ‘I Agree’ or any similar tab/icon
+would mean acceptance of the below terms and conditions by the Cardholder/ Cardmember (You).
+These Terms presently in force were last updated on <date> and are subject to changes
+from time to time. The most recent version will always be available on this website.
+1. Definitions and Interpretation
+1.1 “Applicant” means person(s) who have applied for a OneCard credit card;
+1.2 “Application/App” means the OneCard App, through which the Cardmember can control all
+aspects of the OneCard;
+1.3 “App PIN” means the Personal Identification Number created by the Cardmember from the
+OneCard Mobile Application, to password protect and secure the OneCard Mobile Application;
+1.4 “Authorised Dealer” means an authorised dealer as defined in the Foreign Exchange Management
+Act, 1999, as amended from time to time;
+1.5 “Bank” **shall mean CSB Bank Limited, issuers of the OneCard credit card;
+1.6 “Business Day” means a day on which the relevant office of the Bank is open for normal business
+transactions;
+1.7 “Cardmember/Cardholder” means an individual who has been issued the OneCard credit card;
+1.8 “Cash Limit” means the maximum amount of cash that a Cardmember can withdraw from an
+Automated Teller Machine (ATM) using the OneCard credit card. This Cash Limit forms part of
+the Cardmember’s approved credit limit;
+1.9 “Charges” **means such charges as are set out in Clause 8 hereof or mentioned anywhere in
+these Terms. All details of Charges mentioned herein shall be as provided in the MITC unless
+specifically communicated to the Cardmember, as amended from time to time;
+1.10 “Credit Limit/ Purchase Limit” means the limit up to which a Cardmember is authorised to use
+the OneCard credit card for a purchase transaction at an online/offline merchant establishment;
+1.11 “Customer Care” refers to customer service and support systems provided by FPL Technologies
+Private Limited;
+1.12 “Fingerprint Lock” refers to securing the OneCard mobile application by using the
+Cardmember’s fingerprint as a locking mechanism;
+1.13 “FPL” means FPL Technologies Private Limited, responsible for managing the OneCard credit
+card;
+1.14 “Merchant Establishment” means an establishment which honours the OneCard credit card and
+shall include among others, stores, shops, restaurants, hotels, airlines, cash advance points
+including ATMs and mail order advertisers (whether retailers, distributors or manufacturers) and
+shall include establishments which honour the OneCard credit card for online transactions;
+1.15 “Merchant” means any person who owns or manages or operates the Merchant Establishment, its
+successors and permitted assigns;
+1.16 “Minimum Amount Due” or “MAD” means the amount mentioned in the OneCard credit card
+statement, which is the minimum payment a Cardmember must make by the payment due date to
+keep the card account in good standing;
+1.17 “MITC” means the document containing the Most Important Terms and Conditions along with
+the schedule of charges applicable for the services offered on the OneCard credit card (as
+provided in Annexure I herein). These charges are subject to changes at the sole discretion of
+FPL. However, such changes in charges may be made only with prospective effect giving prior
+notice of 30 days to the Cardmember.
+1.18 “OneCard” means the co-branded credit card managed by FPL Technologies Pvt. Ltd. and issued
+by CSB Bank Limited;
+1.19 “OneCard Account” means the account opened in the name of the Cardmember for the purpose of
+usage of the OneCard credit card as per the terms and conditions set out herein;
+1.20 “OneCard PIN” means the Personal Identification Number created by the Cardmember from the
+OneCard Mobile Application, to act as a security measure against potential misuse of the
+OneCard;
+1.21 “Payment Due Date” means the date every month, on which the payment is due, towards charges
+incurred on usage of the OneCard;
+1.22 “Primary Cardmember” is the person in whose name the Card Account has been opened and to
+whom the OneCard has been issued; (“You”)
+1.23 “RBI” means the Reserve Bank of India;
+1.24 “Statement” means the monthly statement of account sent to a Cardmember containing the list of
+charges incurred on the card as well as the amount due and the date by which it is to be paid
+1.25 “Supplementary Cardmember” means the family member(s) of the Primary Cardmember who
+become(s) a Cardmember by virtue of relationship with the Primary Cardmember.
+1.26 “Total Amount Due” or “TAD” means the overall outstanding amount mentioned in the
+Statement;
+1.27 “Transaction Instruction” means any instruction given by a Cardmember directly or indirectly to
+FPL and/or through the App or Customer Care to effect the transaction;
+1.28 “Virtual Credit Card” shall mean a virtual rendition of the OneCard which can be used for online
+or app-based transactions;
+1.29 “Website” shall mean the OneCard website, owned and maintained by FPL at the URL
+https://www.getonecard.app
+2. Card Services 💳
+CSB Bank Limited is an issuer of the Credit Card, and FPL is a Outsourced Service Provider
+appointed by the Bank. FPL, who reserves the right to:
+2.1 Ascertain your credit worthiness by obtaining a credit bureau report and any other reports as it
+may deem necessary; and
+2.2 Decline to issue the OneCard to you at their sole discretion. The OneCard is not transferable, and
+its usage is subject to the Terms mentioned here and any additional conditions stipulated by the
+Bank from time to time.
+2.3 Change the credit limit from when the card is reserved to when it is issued
+2.4 Proceed with activation of the card subject to completion of KYC (Know Your Customer) norms
+and other guidelines
+Please sign on the reverse of the OneCard immediately once you have received it. The OneCard
+App and Customer Care options are available to all Cardmembers.
+The Cardmembers availing of any services/ facilities including but not limited to, enhancement of
+credit limit, enquiry on transactions, Total Amount Due, statement details, payment due date, etc.
+through the App and/ or Customer Care shall at all times continue to be bound by the Terms
+stipulated by FPL with respect to the services/ facilities and the mode of availing of such
+facilities/ services, as amended from time to time.
+3. The OneCard Mobile Application📱
+You can control the OneCard entirely from the powerful OneCard Mobile Application, some of
+the actions being:
+3.1 Set your App PIN
+3.2 Activate your OneCard
+3.3 Make credit card bill payments
+3.4 Manage your virtual credit card
+3.5 Control your credit and cash withdrawal limits
+3.6 Enable online, domestic and international usage
+3.7 Set your OneCard PIN (For use at Point of Sale and ATMs)
+3.8 Raise disputes or service queries on any aspect of your OneCard
+4. Virtual Credit Card 💳📲
+4.1 In addition to the physical OneCard, you will also receive a virtual rendition of the same OneCard
+which will be available on the App, as part of the on-boarding process.
+4.2 This virtual card is also a Mastercard powered credit card which you can use for any online or
+mobile application-based transactions or purchases. The security parameters are set as per
+industry standards.
+5. Use of the OneCard 🛒
+5.1 Your OneCard is an internationally valid credit card and valid world-wide except as provided in
+Clause 5.12 below. The OneCard is acceptable at any Merchant Establishments accepting
+Mastercard cards. Please use the OneCard for your bona fide personal or official purpose only.
+5.2 However, FPL reserves the right to decline the use of the OneCard on account of but not
+restricted to regulatory restrictions, technical difficulties and unforeseen circumstances.
+5.3 A Merchant Establishment has the right, at any time, to refuse the use of the OneCard at that
+Merchant Establishment for any reason whatsoever.
+5.4 For any charges levied by the Merchant Establishment towards the services availed by you, the
+same shall be settled with the Merchant Establishment directly and FPL shall in no manner be
+held liable for them or the quality of service received or items purchased. On use of the OneCard
+at the Merchant Establishment, it is recommended that you collect a copy of the
+transaction/payment slip.
+5.5 All the contents of the statement will be deemed to be correct and accepted if you do not inform
+us of any discrepancies within [30 days] of the statement date and not later than [60 days] from
+the date of transaction. In the event of billing disputes/discrepancies, we shall investigate and
+confirm the liability for such transactions. For certain disputes, we may offer a temporary credit
+during the period of investigation, which may be reversed along with applicable charges subject
+to outcome of the investigation. GST levied will not be reversed on any dispute on fees and
+charges or interest.
+5.6 You can use the OneCard:
+5.6.1 within the Credit Limit notified by FPL to you; and
+5.6.2 not after the last date of the month of the expiry date displayed on the card.
+5.7 Your right to use the OneCard shall be determined forthwith:
+5.7.1 in the event of termination pursuant to Clause 7 below; or
+5.7.2 in the event of loss / misuse or theft of the card.
+5.7.3 By usage of the Card, you are deemed to have made a standing request that
+renewal of period of the Card and / or replacement OneCards be issued to you
+until you request closure of the OneCard from the App or by contacting
+Customer Care, and such renewal and/or replacement shall be subject to the sole
+discretion of FPL.
+5.8 The Total Credit Limit and Total Cash Limit on every OneCard, at any point in time are assigned
+at the sole discretion of FPL.
+5.9 You shall act in good faith at all times in relation to all dealings with the Card and FPL.
+5.10 The OneCard issued to you is valid world-wide for payment in foreign exchange except at
+Merchant Establishments in Nepal and Bhutan. Use of the card in Nepal or Bhutan for payment in
+foreign exchange would be a breach of the “Foreign Exchange Management Act” (FEMA) or any
+other corresponding law. You accept full responsibility for wrongful use in contravention to these
+conditions and undertake and agree to indemnify FPL and the Bank to make good any loss,
+damage, interest, conversion, any other financial charge that FPL or the Bank may incur and/or
+suffer as a result of your violations of the provisions thereof.
+5.11 In compliance with RBI’s circular of January 15, 2020, at the time of issue, your card shall be
+enabled for use only at contact based PoS or ATMs within India. The facility to enable or disable
+online transactions (domestic and international), international transactions and contactless
+transactions will be provided to you from the App.
+5.12 Do not use your Internationally valid Card on the Internet or otherwise for purchase of prohibited
+items like lottery tickets, banned or proscribed magazines, participation in sweepstakes, payment
+for callback services, remittance in any form towards overseas forex trading, margin calls to
+overseas exchanges/overseas counterparty, trading in foreign exchange in domestic/overseas
+markets etc.
+5.13 Authorised Dealers can accept payment by debit to the OneCard for exports made out of India
+irrespective of whether the importer client is on a visit to India or not. Therefore, Authorised
+Dealers may receive payment for exports made out of India by debit to the Credit Card of an
+importer, where the reimbursement from the Card issuing bank/organisation will be received in
+foreign exchange.
+5.14 FPL reserves the absolute discretion and liberty to decline or honour the authorisation requests on
+the OneCard without providing any reason to the Cardmember. In certain cases, subject to its sole
+discretion, FPL may require you to contact Customer Care to authenticate the transaction before
+approving it and charging to the Card Account.
+5.15 Further, You agree that you will not use the OneCard as payment for any illegal / unlawful
+purchase/purposes. The OneCard should be used only for lawful, bona fide personal purposes and
+must not be used for any money laundering, anti-social or speculative activities or must not be
+exploited commercially in business (e.g. for working capital purposes).
+5.16 If the OneCard is found to be used for prohibited, restricted, commercial purposes or any
+purposes as mentioned above in Clause 5.15, FPL may, at its sole discretion, exercise its right to
+close the concerned OneCard and Supplementary Cards without any notice to you.
+5.17 FPL has the right to enquire over phone or through any other means of formal communication
+and seek details, information, proof etc. about the OneCard transactions, pattern of use, etc. and
+you are contractually bound to provide the information sought by FPL when requested.
+Unsatisfactory responses or no responses from you may lead to blocking or termination of your
+OneCard account by FPL. Transactions on the OneCard will be allowed only up to the unused
+amount of Total Credit Limit on the Card Account at the time.
+6. Identity Verification for OneCard and App usage 🔐
+6.1 We have ensured that you can carry out transactions only in a secure environment after you
+authenticate yourself with your preferred authentication mechanism (Fingerprint Lock or App
+PIN) on the App. As a Cardmember, you should be aware of the features and impact of these
+transactions as you would be responsible for your actions within the App.
+6.2 To prevent any unauthorised access, please secure the App with an App PIN or fingerprint lock.
+Further, to enable you to use the OneCard in a secure manner, a Personal Identification Number
+(OneCard PIN) for the OneCard will be issued. The OneCard PIN can be generated by you from
+the App , and may subsequently be changed by you from the App at any time.
+6.3 The App PIN provides access to the Card Account and you accept the sole responsibility for use,
+confidentiality and protection of the App PIN, as well as for all orders and information changes
+entered into the Card Account using this App PIN.
+6.4 Please do not share either your App PIN or OneCard PIN with anyone or store it in a way that a
+third party can access it. FPL is authorised by you for carrying out transactions and instructions
+authenticated by the PIN and shall not revoke the same.
+6.5 For online purchases, we have ensured that the verification/authentication is not only secure but
+convenient. As a Cardmember, you can authenticate your online purchases using the following
+methods:
+6.5.1 “Swipe to Pay” - We will send a notification on App whenever you make e-
+commerce purchases at domestic merchants. You would need to authenticate
+yourself using the App PIN or biometric credentials (as applicable) to access this
+notification. On successful verification, you will have to swipe to confirm the
+purchase. In case you do not wish to use this service, you can switch this off
+using the App controls.
+6.5.2 One-Time Password (OTP): In case you wish to authenticate yourself using an
+OTP, you can always request an OTP during the purchase, based on which the
+transaction will be approved using the OTP sent on your registered mobile
+number. You shall at all times take all appropriate steps to maintain the security
+of the OneCard PIN. If you fail to observe the security requirements, you may
+incur a liability for FPL, who may, at its absolute discretion, issue a new
+OneCard PIN on the existing OneCard or ask you to create a new OneCard PIN
+from the App.
+6.6 In case you have added your OneCard for any subscriptions or recurring payments, then the
+registration for these services and/or first transaction will be authenticated using any of the above
+methods provided in Clause 6.5. The subsequent transactions will not be authenticated and will
+be approved based purely on the first verification. In case you wish to change your subscription
+plan at any time, you can do that directly from the merchants website or app. You should note
+that the subscriptions/recurring payments arrangement is subject to the following conditions set
+forth by the RBI, which may be amended from time to time.
+6.6.1 Any modification to these subscriptions/recurring payments will require
+authentication using any of the above methods stated in Clause 6.5.
+6.6.2 The maximum permissible limit for these subscriptions/recurring payments is
+[Rs. 5,000]. At the time of registering for the aforesaid payments, you can set a
+fixed rupee value or a variable range within the [Rs. 5,000] limit which will be
+charged to your OneCard for the validity period of the subscriptions/recurring
+payments arrangement.
+6.6.3 You will be given a pre-transaction notification at least [24 hours] prior to the
+amount being charged to your OneCard. The pre-transaction notification will be
+received by you on your preferred mode of communication provided by you at
+the time of registering for this kind of payment arrangement.
+6.6.4 This pre-transaction notification will contain the name of the merchant,
+transaction amount, date/time the OneCard will be charged, reference number of
+the transaction and reason for charge (which will be provided by Cardmember at
+the time of registering the subscription/recurring payment arrangement).
+6.6.5 On receiving the pre-transaction notification, the Cardmember will have the
+facility to opt-out of paying for that transaction. If you choose to opt-out, the
+action will have to be authenticated using one of the methods provided in Clause
+6.5. On receipt of intimation of such an opt-out FPL shall ensure that the
+particular transaction is not effected and subsequent recurring transactions are not
+effected as well. FPL shall send you an intimation to confirm the same to your
+preferred mode of communication.
+6.6.6 You shall, at your sole discretion, have the option, to withdraw/revoke this
+subscription/recurring payments arrangement through the App or Website. Such
+withdrawal/revocation shall be authenticated using one of the methods provided
+in Clause 6.5. Any withdrawal/revocation from these subscriptions/recurring
+payments shall result in FPL not processing/effecting subsequent transactions for
+that particular arrangement. However, you may note that any pipeline
+transactions shall be effected.
+“Pipeline transactions” shall mean those transactions for which pre-transaction
+notifications were sent to the Cardmember and the opt-out facility was not
+exercised however, the Cardmember chose to withdraw the payment arrangement
+before the transaction alert could be sent to or received by the Cardmember.
+6.6.7 No charge shall be levied or recovered from you for availing this
+subscriptions/recurring payments arrangement.
+7. Breach, Surrender and Termination/Revocation of Card Membership 😢
+7.1 Breach:
+In the event of breach of any of these Terms by any Cardmember:
+7.1.1 Notwithstanding any other provision of these Terms the Cardmember will remain
+liable for any loss directly or indirectly resulting from such a breach; and
+7.1.2 The Cardmember will be liable to pay upon demand, all amounts outstanding
+from the Cardmember, whether due and payable at the date of such demand or
+not.
+7.2 Procedure for surrender of card by card holder – due notice
+7.2.1 You can close your OneCard account any time by calling our Customer Care
+team or by emailing us. The entire card outstanding dues and loans / EMI
+facilities linked to your OneCard (if applicable and/or availed of) will
+immediately become due.
+7.2.2 Any refund/reversal that is received after the card closure will be intimated to
+you and refunded electronically to the account number shared with customer care
+after verifying the ownership.
+7.2.3 Once the virtual OneCard is activated, the physical card will be sent to you. If
+you choose to cancel card membership within 6 months of activating the virtual
+card, a charge of [Rs. 3,000] will be levied. This would be added to the overall
+outstanding amount and the card account will be closed once all dues are paid.
+7.2.4 Upon termination/revocation of OneCard membership for any reason
+whatsoever, whether at the instance of the Cardmember or FPL, the Cardmember
+shall remain liable for all charges incurred by the use of the OneCard.
+7.2.5 You specifically acknowledge that once your OneCard account is closed, the
+privileges (including but not limited to all benefits and services accrued, reward
+points not redeemed etc) of the OneCard stand nullified. Reinstatement of the
+same is neither automatic nor attendant and will take place solely at the
+discretion of FPL.
+7.2.6 For avoiding misuse, it is advised to destroy the OneCard ensuring that the
+hologram, magnetic strip and chip are destroyed permanently.
+7.2.7 Your OneCard account will be closed only once FPL receives the payment of all
+amounts due and outstanding in respect of the said OneCard account.
+7.3 Procedure for revocation of card membership
+Your access to your OneCard may be cancelled / revoked at any time without prior
+notice, if we consider it necessary for business or security reasons, including but not
+limited to:
+7.3.1 Delayed or dishonoured payments, improper use of the OneCard potentially in
+violation of RBI and Foreign Exchange rules.
+7.3.2 Misleading or incorrect information / documents given along with card
+application;
+7.3.3 Failure to furnish information or documents as required under the Know Your
+Customer (KYC)/ Anti Money Laundering (AML) / Combating the Financing of
+Terrorism (CFT) guidelines;
+7.3.4 Involvement in any civil litigation or criminal offense / proceedings by any
+authority, court of law or professional body or association; and
+7.3.5 Changes in credit policy due to prevailing conditions / unforeseen circumstances.
+7.3.6 Credit scores below the threshold limit fixed from time to time
+You may continue to get your OneCard statements with actual outstanding, even after
+closure of the Card Account.
+8. Charges and Payments 📅
+Here are some of the charges payable by you on the payment date (currently on 18th), which will
+be shown in the App:
+8.1 The amount of any purchase of goods and/or services or a cash withdrawal;
+8.2 Any fees as specified in Clause A of the MITC.
+8.3 Service charges on specific types of transactions as decided by FPL from time to time may be
+levied.
+8.4 All statutory taxes, Goods and Services Tax (GST), and other taxes (of any description
+whatsoever) as may be levied from time to time by the Government or other authority in respect
+of or in connection with the OneCard.
+8.5 Delayed or Amended Charges:
+8.5.1 A Merchant may process delayed or amended charges if you have consented to
+be liable for delayed or amended charges for a hotel, car rental company, cruise
+line transaction or any other transactions; and
+8.5.2 Delayed or amended charges shall be processed to the Card Account within 90
+calendar days of the transaction date of the related transaction.
+8.6 These transactions may include room, food or beverage charges, taxes, fuel, insurance, rental
+fees, damage to rental vehicles, parking tickets and other traffic violations, and goods and
+services purchased aboard a cruise line vessel.
+8.7 Transactions at Fuel Stations: When you use the OneCard to pay for fuel, you will be levied a
+surcharge. This will be completely waived for the fuel transactions made on OneCard. Such
+reversal will not include the applicable tax paid on such purchase.
+8.8 You shall become liable to pay as soon as a Charge has been incurred by use of the OneCard. If
+there is a previous outstanding amount, interest would be levied on those amounts as well.
+8.9 The Charge is computed on an average daily balance method and will be levied from either of the
+following dates:
+8.9.1 Where the Charge is in respect of purchase of goods or services, from the date of
+it being included in the records of FPL; and
+8.9.2 Where the Charge is in respect of cash withdrawal, then from the date of cash
+withdrawal up to the date of receipt of payment by FPL.
+8.10 When you get your Statement (currently on 1st), you can choose to pay the Total Amount Due
+(TAD) or the Minimum Amount Due (MAD) as per your statement. The remaining balance can
+be carried forward to subsequent months..
+This Minimum Amount Due will be:
+8.10.1 5% of the outstanding amount or Rs.100 (whichever is greater); PLUS
+8.10.2 Previous unpaid minimum amount dues, if any; PLUS
+8.10.3 Any amount exceeding the credit limit; PLUS
+8.10.4 Entire amount of any instalments (EMI) due (if/as applicable)
+Besides the Total Amount Due or Minimum Amount Due, you can also pay an amount
+between the Minimum Amount Due and Total Amount Due. Payment should be made
+before Payment Due Date to avoid Late Payment Charges.
+8.11 If the Total Amount Due is less than [Rs.100], Minimum Amount Due would be equal to the
+Total Amount Due, i.e. Rs.100. You can pay the outstanding dues through the App using the
+following modes:
+8.11.1 From any UPI Handle
+8.11.2 Using your Debit Card
+8.11.3 Via Netbanking
+8.11.4 Via IMPS or NEFT, to the unique OneCard account number provided in the app
+We know you believe in digital payments, so we do not accept repayments via cash or
+cheque 😉
+8.12 Any payments received from you against the amounts specified in a particular Statement shall be
+adjusted towards such dues in the following order:
+8.12.1 Billed cash advance (including interest, fees & taxes)
+8.12.2 Billed purchases with interest, fees & taxes as applicable
+8.12.3 Unbilled cash advance (including interest, fees & taxes)
+8.12.4 Unbilled purchases with interest, fees & taxes as applicable
+Within the above, the order of adjustment shall be: Taxes, Fees, Interest, Purchases.
+8.13 The above order of appropriation stated in Clause 8.12 may be modified by FPL at its discretion.
+Excess amounts, if any, remaining after such appropriation may be appropriated against the
+amounts, which are to be specified in the immediate next Statement(s) to be generated by FPL,
+and no interest will be paid on such excess amounts.
+8.14 FPL will assign a Credit Limit which must not be exceeded at any time. However, if the total
+outstanding amount exceeds the Total Credit Limit, an additional charge will be levied on the
+excess amount. The Cardmember can request for a review of the Total Credit Limit on the App.
+Increase in the Total Credit Limit, if any, will be at the sole discretion of FPL.
+8.15 FPL also reserves the right to recommend a credit limit increase to you based on your OneCard
+usage, inside the OneCard app. This recommendation and its associated Terms and conditions
+will be made available to you to consider before accepting the recommendation.
+8.15.1 Once you read and agree to the Terms related to credit limit increase displayed
+inside the OneCard app and provide your consent to increase the limit, FPL will
+enhance the credit limit on your card. Your acceptance of the limit increase
+recommendation received through electronic means inside the OneCard app
+where you specifically validate the limit increase and agree to the MITC will be
+treated as a consent.
+8.15.2 FPL will keep the digital records of such consent, and will treat it as proof of
+consent in case of any dispute arising later on account of limit increase.
+8.16 FPL will review your account periodically, and reserves the right to decrease your credit limit
+based on your transaction patterns, repayment behaviour and other internal criteria. This will be
+informed to you via the OneCard app and/or via email and SMS.
+8.17 In case the payment instrument or instruction given by the Cardmember towards payment of
+OneCard dues is not honoured, or must be returned to you because it cannot be processed, FPL
+reserves the right to initiate legal proceedings against you and will levy a fee at its sole discretion
+and/or temporarily disable / permanently cancel the OneCard. You will also be liable to pay the
+late payment charges or any other charges as may be decided by FPL.
+9. Cash Withdrawal 🏧
+9.1 You can use the OneCard to access emergency cash from ATMs. The total amount that can be
+withdrawn under this facility at any point in time should not exceed the available Cash Limit as
+shown in your App.
+9.2 You shall be required to retain the record of the transaction generated by the ATM.
+9.3 A transaction fee would be levied on all charges and would be billed to you in the next Statement.
+All cash withdrawals will also attract a service charge calculated on an average daily outstanding
+balance method from the date of such withdrawal till the payment is received by FPL. This
+service charge will be debited to the Card Account. The transaction fees and service charges as
+stated above are non-refundable.
+9.4 The Cash Limit is a part of the overall Credit Limit assigned to you though unavailable to
+cardholders for the time being. An intimation will be shared once it is enabled.
+10. Lost, Stolen or Misused Credit Cards/Lost Phone 😠
+10.1 Procedure to be followed in case of loss, theft or misuse of the OneCard
+10.1.1 In case your OneCard is lost, stolen, misplaced, or if the OneCard PIN has been
+compromised, report this immediately from the App or call us on 1800 210 9111
+or email us on help@getonecard.app. If your OneCard is misplaced, you can
+freeze the card temporarily from the App.
+10.1.2 If your OneCard is lost or stolen, you can block the lost or stolen OneCard from
+the OneCard Mobile Application and a new card will be sent to you. You can
+also reset the OneCard PIN from the App.
+10.1.3 In case the mobile phone with the OneCard Mobile Application is lost or stolen,
+inform us immediately by calling on 1800 210 9111.
+10.1.4 Please also report the theft of the OneCard or phone to the police by lodging a
+First Information Report (FIR) and share a copy of that with us when requested.
+10.1.5 If you wish to change your registered mobile number or e-mail address, please
+inform us immediately via email to help@getonecard.app.
+10.2 Liability of card holder in case of Clause 10.1 above
+10.2.1 You will not be liable for any misuse on the OneCard after informing us of the
+loss, unless you have acted with gross negligence.
+10.2.2 You will be liable for all losses owing to any misuse that happened with your
+consent or knowledge or prior to informing us about loss of card / phone.
+Never share your OneCard PIN and App PIN with anyone!
+11. Liability: 🖥
+11.1 We shall be responsible for direct losses incurred by you due to a system failure or malfunction
+within our control.
+11.2 However, our responsibility for the non-execution or defective execution of the transaction is
+limited to the principal sum and the loss of interest subject to applicable laws for the time being
+in force.
+12. Exclusion of Liability 👈
+12.1 Without prejudice to the remedies available to FPL and these Terms, FPL shall be under no
+liability whatsoever to the Cardmember you in respect of any loss or damage arising directly or
+indirectly out of:
+12.1.1 any defect in any goods or services supplied;
+12.1.2 the refusal of any person/ Merchant Establishment to honour or accept the
+OneCard;
+12.1.3 the malfunction of any computer terminal;
+12.1.4 the giving of transaction instruction by any person other than by a Cardmember;
+12.1.5 handing over of your OneCard by you to anybody other than FPL or its
+representatives;
+12.1.6 FPL exercising its right to demand and procure the surrender of the OneCard
+prior to the expiry date stated on the OneCard;
+12.1.7 FPL exercising its right to terminate any OneCard and the corresponding Card
+Account; or
+12.1.8 any injury to your credit character and reputation alleged to have been caused by
+the repossession of the OneCard and/or, any request for its return or the refusal of
+any Merchant Establishment to honour or accept the OneCard.
+12.2 You acknowledge that the facility of receiving alerts on the registered mobile phone number or
+email provided by you while applying for the OneCard, is dependent on the infrastructure,
+connectivity and services to be provided by service providers engaged by FPL or otherwise.
+12.3 The Cardmember accepts that timelines, accuracy and readability of alerts sent by FPL will
+depend on factors affecting other service providers engaged by FPL or otherwise. FPL shall not
+be liable for non-delivery or delayed delivery of alerts, error, loss or distortion in transmission of
+alerts to you.
+13. Supplementary Card 👨👩👧👦
+13.1 You can request for an add-on / supplementary card for your family members from the App.
+(currently unavailable in the beta version)
+13.2 Use of the Supplementary Card shall be deemed acceptance of these Terms and the MITC . The
+Supplementary Cardmember and you, by authorising its issuance, are jointly bound by these
+Terms and the MITC.
+13.3 It shall be the Primary Cardmember’s responsibility to ensure payment of all Charges due and
+payable under the Supplementary Card. The Supplementary Card can be used so long as the
+primary card is active.
+14. Collections 📞
+14.1 You agree that if you fail to make the payment when due, FPL shall, without prejudice, exercise
+all or any of its rights and remedies available to it in these Terms, the MITC and/or applicable
+laws.
+14.2 If you do not pay at least the Minimum Amount Due [3 days] beyond the Payment Due Date, the
+OneCard will be reported as delinquent by the Bank to the Credit Information Companies (CICs)
+authorised by the RBI. Non-payment of Minimum Amount Due may also lead to discontinuation
+of credit card services.
+14.3 Once reported to the Credit Information Companies (CICs), there is no withdrawal of the report.
+However, if dues are settled by you, this information will be provided to the Bank for sharing
+with Credit Information Companies (CICs) in the subsequent month.
+14.4 In the event of a default, you will be sent reminders by SMS, Email, telephone, post for
+settlement of any outstanding dues. If no response is received from you via regular channels, third
+parties may be engaged to remind, follow up and collect dues.
+14.5 A message may be left with your spouse / parent / other direct adult family member / secretary /
+accountant / other colleague, as available, at your residence / office / phone. Any such third party
+appointed shall adhere fully to the code of conduct on debt collection.
+14.6 In case of accidental death of the primary cardholder, a waiver on outstanding amount due up to
+[Rs. 50,000] will be offered subject to approval of claim by the Insurance Company. This will be
+applicable only for an active card (a card with at least one ATM/POS/E-Commerce transaction in
+the [90 days] prior to date of death). Claim documents are to be submitted by Bank/Cardholder to
+[ICICI Lombard General Insurance Company Limited] within [60 days] from the date of
+intimation. This waiver does not apply to any amount spent by family/friends after the primary
+cardholder’s death. If the outstanding amount is more than [Rs. 50,000], FPL will follow up with
+the cardholder’s legal heirs, informing them about the outstanding amount and requesting them to
+clear these dues.
+15. Charges made in Foreign Countries/Currency 💲
+15.1 When using your OneCard abroad, you agree to use it strictly in accordance with the relevant
+exchange control regulations, issued and as amended by RBI from time to time.
+15.2 In the event you exceed your entitlements as per the exchange control guidelines of RBI, you
+shall bring the same to the notice of FPL via email. If the passport is required to be endorsed for
+any such charges incurred as stipulated by RBI, the onus of getting the passport endorsed shall lie
+entirely on the Cardmember.
+15.3 In the event of any failure to comply with the prevailing exchange control guidelines issued by
+RBI, the Cardmember you shall be liable for any action under the Foreign Exchange Management
+Act, 1999 as amended from time to time, and be debarred from the credit card facility either at
+FPL’s instance or by RBI.
+15.4 FPL shall be under no liability in respect of any loss or damage arising directly or indirectly out
+of decline of a charge because of exceeding foreign exchange entitlements as prescribed by RBI
+guidelines issued from time to time, on FPL becoming aware of you exceeding your entitlements.
+15.5 If a transaction is made in a currency other than Indian Rupees, that transaction will be converted
+into Indian Rupees and shown in your Statement. The conversion will take place on the date the
+transaction is settled with FPL, which may not be the same date on which the transaction was
+done.
+15.6 If the transaction is not in US Dollars (USD), the conversion will be made through US Dollars, by
+converting the charged amount into US Dollars and then by converting the US Dollar amount into
+Indian Rupees (INR), at the rate provided by Mastercard on the settlement date. On this amount, a
+forex markup fee will be leviedfor every foreign transaction made with OneCard.
+15.7 A forex markup fee for every foreign transaction made with OneCard will also be levied in case
+of an Indian Rupee (INR) transaction done at a merchant or payment gateway that is based out of
+India.
+16. Disputes 💬
+16.1 Any requisition received from a Merchant Establishment by FPL for payment shall be conclusive
+proof that the Charges were properly incurred by you, unless the OneCard is lost, stolen or
+fraudulently misused and the same is reported as provided in Clause 8 above - which you would
+need to prove.
+16.2 Your signature on any chargeslips or authentication of the transaction by input of your OneCard
+Credit Card PIN, OneCard App PIN, One-Time-Password (OTP) sent on your registered mobile
+number or the gesture of swiping the transaction confirmation notification i.e. Swipe to Pay shall
+be conclusive evidence of the liability incurred by you.
+16.3 In case of any facility availed of through Customer Care or the App by using the OneCard PIN,
+App PIN or User ID will be conclusive proof that you have effected the transaction. FPL shall not
+be required to ensure that you have received the purchased goods or services.
+16.4 In the event you disagree with a Charge indicated in the Statement, please let us know within [60
+days] of receipt of the Statement, failing which it would be assumed that all Charges indicated in
+the Statement are in order.
+17. Quality of Goods and Services 👍👎
+17.1 FPL shall not, in any way, be responsible for merchandise, merchandise warranty or services
+purchased, or availed by you from Merchant Establishments, including on account of delay in
+delivery, non-delivery, non-receipt of goods or receipt of defective goods by you.
+17.2 OneCard is purely a facility to you to purchase goods and/or avail of services, and FPL holds out
+no warranty or makes no representation about quality, delivery or otherwise of the merchandise.
+17.3 Any dispute or claim regarding the merchandise or service must be resolved by you directly with
+the Merchant Establishment. The existence of the claim or dispute shall not relieve you of your
+obligation to pay all the Charges to FPL and you agree to pay such charges promptly.
+18. Credit Transaction 💰
+18.1 A debit for a purchase and a subsequent credit for cancellation of goods / services are considered
+to be two separate transactions. You must pay for the purchase transaction as it appears in the
+Statement to avoid any additional charges being levied.
+18.2 On cancellation, the refund will only be credited to the Card Account (less cancellation charges)
+as and when received by FPL. If the credit is not posted to the Card Account within a period of
+[30 days], you can notify FPL via email or phone.
+19. Disclosures 📣
+19.1 The Bank will share credit information including but not limited to the current balance, loans /
+EMI facilities linked to the OneCard (if applicable and/or availed of), balance outstanding on the
+OneCard / loan, payment history etc. with Credit Information Companies (CICs) authorised by
+RBI, as per the Credit Information Companies (Regulation) Act, 2005.
+19.2 Banks have all responsibility for adherence to all regulatory rules, directions, and guidelines
+including guidelines on outsourcing of financial services by banks or NBFCs issued by the RBI.
+The company does not provide any services in contravention of the guideline on outsourcing of
+financial services by banks or NBFCs issued by the RBI.
+19.3 FPL will provide particulars of the Card Account to the statutory authorities and the Bank, as
+needed.
+19.4 Transaction alerts received may not be assumed as a confirmation of transaction completion.
+19.5 If you do not wish to receive any marketing calls from FPL for other products, you can register
+your request by sending us an email on help@getonecard.app as well as opt-out from
+promotional/marketing emails via the Unsubscribe link which will be provided in such emails.
+19.6 You will continue to receive communications about transactions and core features of OneCard.
+20. Settlement of Disputes ⚖
+All disputes are subject to the exclusive jurisdiction of the competent courts in Pune only.
+21. Reward Points 🎁
+By using your OneCard, you are automatically enrolled in the OneCard Rewards Programme.
+When you transact with your OneCard, reward points are credited to your OneCard account
+depending on the transaction value and the purchase category. These reward points can be
+accumulated and further used to repay other purchases or redeemed for exciting offers shown in
+the OneCard App from time to time.
+I. Earn Reward Points
+a) Reward points will be credited only on regular purchases across any category at
+the discretion of FPL/Bank.
+b) Reward points will not accrue for money transfers, rent payments, cash
+withdrawals and digital wallet loading or top-up transactions. Sometimes, when
+you purchase a service/product on a digital wallet app which also offers in-app
+purchases, you may not get reward points, as it involves actual wallet load, which
+is then used to make payment to the merchant.
+c) Currently, you will get 1 Reward Point on every purchase of Rs. 50.
+d) For purchase amounts below Rs. 50, fractional points will be credited. For
+example, if you spend Rs. 25 on a recharge, 0.5 reward points will be credited.
+e) Bonus Rewards: Valid and confirmed purchases across the Top 2 categories in a
+month are eligible for “5X” rewards, which means you would receive 5 times the
+reward points on those categories for that month.
+To qualify, you must make purchases across at least 3 categories in a month. From these,
+the top 2 categories would be eligible for 5X rewards.
+Points accruing due to 5X rewards will be credited to your points balance on the 10th day
+of the subsequent month. For example, if your purchases in July are eligible, 5X points
+will be credited to your points balance on August 10.
+II. Redeem Reward Points:
+a) No fee is levied if you wish to redeem reward points.
+b) Rewards points can be redeemed including in the following ways:
+- Pay with points: which lets you pay for previous transactions
+- Redeem points for other offers/benefits as applicable from time to time
+c) The “Pay With Points” functionality will be available against transactions that
+are less than two months old. For example, if you make a purchase on July 15,
+you can repay it with points till September 14 only (subject to available points
+balance).
+d) On redemption, the rewards points so redeemed will be automatically subtracted
+from the accumulated reward points in your OneCard account.
+e) To pay with points, simply swipe right on a transaction. In case available points
+are inadequate, a message will be shown to indicate how many points are needed.
+III. Other Terms:
+a) Reward points which have been credited or debited to or from your OneCard
+account shall be reflected on the OneCard app. You can also view the reward
+points accumulated by you on the OneCard app.
+b) FPL reserves the right to wholly or partly modify the OneCard Rewards
+Programme. FPL also reserves the right to change the reward point conversion
+rate, withdraw reward points awarded or to vary any of the terms and conditions
+herein in its absolute discretion without prior notice to the cardholder.
+c) In case this OneCard Rewards Programme comes in conflict with any rule,
+regulation or order or any statutory authority, then FPL has the absolute authority
+and right to modify or cancel this rewards programme to give effect to said
+requirements.
+d) Reward points do not expire and have lifetime validity, except in circumstances
+detailed below:
+- If the OneCard is not used for more than 365 days, the accrued reward
+points will be nullified.
+- FPL reserves the right to cancel or suspend the accrued reward points if
+the OneCard account is in arrears, suspension or default or if the
+OneCard account is or is reasonably suspected to be operated
+fraudulently.
+- In case of cardmember’s death, the reward points earned but not
+redeemed at that time will be forfeited.
+- If a transaction is reversed by way of a
+refund/chargeback/reimbursement, the transaction amount shall be
+credited back to your OneCard account. In such instances, the reward
+points accrued on those transactions will be reduced from the overall
+points balance.
+- In case a cardmember cancels vouchers that were availed of by
+redeeming reward points, points can be reinstated at FPL’s discretion at
+the same rate at which they were redeemed.
+- On closure/termination of OneCard membership, any reward points
+pending to be claimed in the cardmember’s account will be forfeited.
+e) FPL will not be held responsible if any supplier of products / services offered to
+you withdraws, cancels, alters or amends those products / services.
+f) FPL makes no warranties for the quality of products / services provided by the
+merchant establishments participating in the OneCard Rewards Programme.
+g) You may note that every purchase is assigned a different “Category” depending
+upon the Merchant Category Code (“MCC”) defined by Mastercard. According
+to this, the merchant acquiring bank classifies the merchant depending on the
+service provided by them. For example, Food & Dining, Shopping, Travel,
+Entertainment, Groceries, Bills & Utilities, Fuel, and so on. FPL does not have
+any control over this MCC classification.
+22. Referral Programme 💳💳
+These referral programme terms and conditions shall apply to the customer who uses the
+OneCard (“Cardholder”/”You”) and the person who agrees to be referred to the OneCard
+(“Referred User”). Participation in this referral programme is entirely voluntary and it is
+understood that participation by the Cardholder, shall be deemed to have been made on a
+voluntary basis.
+You will receive [Two Thousand Five Hundred (2,500) bonus] reward points for every new user
+who joins OneCard through your referral link.
+22.1 The Referred User will have to download OneScore App and fill details to get their OneCard
+unlocked. Once the OneCard is unlocked, the Referred User has to download OneCard app and
+activate their virtual OneCard. Only for Referred Users who successfully activate the OneCard,
+will the Cardholder receive bonus points.
+22.2 If a Referred User does not join OneCard through your referral link, then you will lose out on the
+bonus points.
+22.3 Points earned for referring users will not be eligible for the monthly [5X rewards] boost.
+22.4 If a Referred User is already a OneScore App user and has applied for OneCard, then such a
+Referred User will not be considered for bonus reward points.
+22.5 If more than one Cardholder provides the same reference, the Referred User shall receive a
+referral link from both the Cardholders and the Referred User can choose to apply using any
+referral link and the corresponding Cardholder shall receive the reward points.
+22.6 The referral link shall be valid only for 30 days. In case a Referred User joins after 30 days, then
+the Cardholder will not receive points for the same.
+22.7 The decision of issuing OneCard to the Referred User will be at the sole discretion of FPL
+Technologies, as per our evaluation policy.
+22.8 IMPORTANT Sharing of personal information between the Cardholder and the Referred User:
+As part of this referral programme and the Cardholder being able to receive reward points
+for successful referrals using a referral link, the Referred User acknowledges,
+understands and agrees that when the Referred User accepts the invitation via the referral
+link and successfully activates the virtual OneCard, the Cardholder will know that the
+Referred User has received the OneCard. If the Referred User desires to avoid disclosing
+this personal information, then the Referred User may choose to apply independently and
+not via the referral link sent by the Cardholder.
+Likewise, by sending a referral link, the Cardholder, acknowledges, understands and
+agrees that the Referred User will know that the Cardholder stands a chance to get
+rewarded by way of bonus points. If the Cardholder does not desire to disclose this
+information, the Cardholder should not send a referral link. All communications related
+to the OneCard approval or rejection will be communicated to the Referred User only and
+not to the Cardholder. Only a successful referral will trigger a communication to the
+Cardholder along with the reward redemption details.
+22.9 FPL reserves the right to disqualify the Cardholder from the benefits of this programme, if any
+fraudulent activity is identified as being carried out for the purpose of availing the benefits under
+this programme or otherwise by use of the OneCard.
+22.10 FPL has the sole discretion to change, suspend or modify, from time to time, the referral
+programme and the terms and conditions herein in accordance with applicable laws.
+23. Terms and Conditions 🛠
+23.1 A soft copy of these Terms, the MITC, relevant credit card guidelines and FAQs are all available
+on https://www.getonecard.app. FPL shall have the absolute discretion to amend or supplement
+any of the Terms, features and benefits offered on the OneCard including, without limitation to,
+changes which affect existing balances, interest charges or rates and methods of calculation at any
+time.
+23.2 You will be liable for all charges incurred and all other obligations under these revised Terms
+until all the amounts under the OneCard are repaid in full. Changes in charges (other than
+interest) may be made upon giving notice via email or SMS of at least one month. FPL may also
+communicate the amended Terms by hosting the same on https://www.getonecard.app/ or in any
+other manner as decided by FPL.
+23.3 You shall be responsible for regularly reviewing these Terms including amendments thereto as
+may be posted on the website and shall be deemed to have accepted as the amended Terms by
+continuing to use the OneCard.
+Any change in the Terms shall be communicated to you, in the above manner, one month prior to the date
+of their implementation. I/We hereby accord our consent to OneCard for sharing or transferring data or
+information about me/us, which is either provided by me/us to OneCard directly or fetched by OneCard
+from external sources (including UIDAI, CIBIL etc.), to OneCard’s partners/service providers as part of
+providing the credit card services or any other services/products to me/us by OneCard.

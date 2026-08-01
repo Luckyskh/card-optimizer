@@ -13,7 +13,7 @@ INOX Offers
 Know more
 APPLY
 SAVE
-81,912 PEOPLE ARE INTERESTED
+81,925 PEOPLE ARE INTERESTED
 BEST FOR
 Everyday or on-the-go spends
 BookMyShow Offers
@@ -76,23 +76,22 @@ Self-employed individual with an annual income of ₹2,40,000
 Proof of identity
 Proof of address
 Income Proof
-No physical documents required
 ICICI Bank Plus Card
 Extend Benefits To Your Loved Ones
 Coral Credit Card Frequently Asked Questions (FAQs)
-Is the ICICI Bank Coral Credit Card free?
-No, the card has a joining fee of ₹500 + GST and an annual fee of ₹500 + GST.
+Is there a joining fee and Annual fee for the Coral Credit Card?
+Yes, the card has a joining fee of ₹500 + GST and an annual fee of ₹500 + GST.
 What are the criteria for availing domestic lounge access?
-To enjoy domestic airport lounge access, you must spend ₹75,000 or more on your Coral Credit Card in a Spends quarter. This entitles you to avail the lounge access benefit in the following calendar quarter. The benefit is exclusively applicable to the primary Cardholder.
+To enjoy domestic airport lounge access, you must spend ₹75,000 or more on your Coral Credit Card in a calendar quarter. This entitles you to avail the lounge access benefit in the following calendar quarter. The benefit is exclusively applicable to the primary Cardholder.
 Please note that the airport lounge access benefit is available only for primary Cardholders. For more details on the criteria,  click here . To view the complete list of lounges,  click here .
 What is the criteria for being eligible for the movie benefits offer with BookMyShow?
-Starting Apr 1, 2026, to be eligible for availing complimentary tickets offer on movie/ events tickets with BookMyShow, you must spend ₹25,000 or more on your Coral Credit Card within the preceding spends quarter. This entitles you to avail the offer in the following calendar quarter. Please go through the illustration below to understand spends and offer eligibility period.
+Starting Apr 1, 2026, to be eligible for availing complimentary tickets offer on movie/ events tickets with BookMyShow, you must spend ₹25,000 or more on your Coral Credit Card within the preceding spends quarter. This entitles you to avail the 2 offers in the following calendar quarter. Please go through the illustration below to understand spends and offer eligibility period.
 Please go through the below illustration to understand the spends period along with the lounge eligibility period:
 Spends period offer -  eligibility period
 Spend ₹25,000 between Dec 26, 2025 and Mar 25, 2026 - Get movie offer benefit between Apr 01, 2026 and June 30, 2026.
 Spend ₹25,000 between Mar 26, 2026 and June 25, 2026 - Get movie offer benefit between July 01, 2026 and Sep 30, 2026.
-Customers with Credit Card on dual networks (Mastercard & Amex | Visa & RuPay) can avail one movie offer per month, per variant. Any additional bookings beyond the complimentary benefit will be charged as per the rates decided by the service provider. To book your movie ticket and for detailed terms & conditions, please click here .
-Plus (Add-on) Card members need to individually spend ₹25,000 in the preceding spends quarter, to be eligible for the offer in the subsequent calendar quarter
+Any additional bookings beyond the complimentary benefit will be charged as per the rates decided by the service provider. To book your movie ticket and for detailed terms & conditions, please click here .
+Plus (Add-On) members need to individually spend ₹25,000 in the preceding spends quarter, to be eligible for the offer in the subsequent calendar quarter
 Is there any cashback offer on American Express Credit Card variant while booking movie tickets on BookMyShow?
 Cashback offers on the Amex variant have been revoked effective from 01 Jan 2025.
 Customers can avail upfront offers while booking tickets on BookMyShow by following the steps below-
@@ -101,8 +100,6 @@ Click on the tab - Credit/ Debit/ Net Banking
 Choose ICICI Bank Credit Card 25% Discount Offer on selected ICICI Bank Credit Cards
 Enter the Card Number and click ‘Apply Offer’
 Once the success message shows up, the offer will be applied on the billing page.
-What are the movie ticket benefits available?
-Cardholders are eligible for a 25% off on movie ticket offer worth up to ₹100 on the purchase of a minimum of two tickets. Any additional bookings beyond the complimentary benefit will be charged as per the rates decided by the service provider. To book your movie ticket and for detailed Terms & Conditions, please click here
 What are the criteria for availing domestic railway lounge access?
 Upgrade your travel experience with complimentary access to select railway lounges with your ICICI Bank Coral Credit Card. Get 1 complimentary access to select railway lounges in India every quarter. Simply present your ICICI Bank Coral Credit Card to enjoy the privileges
 Over and above the permitted number of complimentary access, each subsequent access will be charged as per rates laid out by each lounge service provider.
@@ -123,6 +120,8 @@ How can I get the annual fee waived off for the ICICI Bank Coral Credit Card?
 If you spend over ₹1.5 lakh, you can get your annual fee waived off for the next year.
 What is the fuel surcharge waiver offered to Cardholders?
 A 1% fuel surcharge waiver is eligible for transactions between ₹400 to ₹4000 on HPCL Fuel Stations when the transaction is conducted on ICICI Bank Merchant Services Swipe Machine. This benefit applies to both the primary cardholder and the plus (supplementary) cardholder, helping them save on regular fuel expenses.
+Where can I find the list of lounges available for ICICI Bank Coral Credit Card Holders?
+you can check participating lounge websites to clarify if the ICICI Bank Coral Credit Card is accepted.
 View all FAQs
 Blogs and Videos
 Explore more blogs</p>","cardText":"", "cardLinkUrl":"/blogs/credit-card", "cardLinkTarget":"_self"}' data-cta-region="Blogs-and-Videos-Widget:Blogs" data-cta-type="tab link" data-cta-landing-page-type="Non Application" data-cta-component-info="CMS">

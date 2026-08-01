@@ -1,0 +1,24 @@
+REVISION OF CHARGES ON SBI CREDIT CARD
+With effect from 1st Nov 2025, following fee and charges will be applicable on
+your Credit Card as per the details given below:
+Charges Details
+1% of the transaction amount applicable on Education
+Payments made through third-party apps^.
+Fee on Education
+However, payments made directly to colleges or
+Payments*
+schools via their websites or POS machines will not
+attract any fee.
+Fee on Wallet 1% of the transaction amount. Applicable on every
+Load** wallet load transaction exceeding ₹1,000
+* Identified under Merchant Category Code (MCC) 8211, 8220, 8241, 8244, 8249 and 8299, on best
+effort basis.
+^Third Party Apps like (but not limited to) CRED, Cheq, MobiKwik etc.
+**Identified under Merchant Category Code (MCC) 6540 and 6541, on best effort basis.
+The MCCs are defined by the network partners and are subject to change basis their discretion and
+such changes shall be implemented basis communication from the networks without any requirement
+for intimation/information to the customers.
+For more details, please refer MITC or call us at 1860 500 1290, 1860 180 1290,
+39 02 02 02 (Prefix local STD code) or 1800 180 1290 (Toll Free).
+Warm regards,
+SBI Card

@@ -1,20 +1,1190 @@
 {
-  "generated_on": "2026-07-28T03:58:22.193170Z",
-  "rules_version": 2,
+  "generated_on": "2026-08-01T06:04:37.099217Z",
+  "rules_version": 5,
   "note": "Each alert means an issuer document changed. It does not state a new reward rate - check the linked document before relying on it.",
   "alerts": [
     {
-      "id": "2026-07-28-axis-miles-and-more-page-axis-miles-and-more",
+      "id": "2026-08-01-axis-my-zone-page-axis-myzone",
+      "card_id": "axis-myzone",
+      "card_name": "Axis Bank MY ZONE",
+      "doc_label": "Axis Bank My Zone card page",
+      "detected_on": "2026-08-01",
+      "summary": "4 changed lines, none of which mention rates, caps or fees",
+      "source_url": "https://www.axis.bank.in/cards/credit-card/axis-bank-my-zone-credit-card",
+      "excerpts": [
+        {
+          "before": "1 Views",
+          "after": ""
+        },
+        {
+          "before": "1 Views",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "720 Views"
+        },
+        {
+          "before": "",
+          "after": "600 Views"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-01-icici-hpcl-coral-page-icici-hpcl-coral",
+      "card_id": "icici-hpcl-coral",
+      "card_name": "HPCL ICICI Bank Coral",
+      "doc_label": "HPCL ICICI Bank Coral card page",
+      "detected_on": "2026-08-01",
+      "summary": "1 changed line mentioning rates, caps or fees",
+      "source_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/hpcl-coral-credit-card",
+      "excerpts": [
+        {
+          "before": "13,392 PEOPLE ARE INTERESTED",
+          "after": "13,505 PEOPLE ARE INTERESTED"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-01-icici-expressions-page-icici-expressions",
+      "card_id": "icici-expressions",
+      "card_name": "ICICI Bank Expressions",
+      "doc_label": "ICICI Bank Expressions card page",
+      "detected_on": "2026-08-01",
+      "summary": "1 changed line mentioning rates, caps or fees",
+      "source_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/expressions-card",
+      "excerpts": [
+        {
+          "before": "2,859 PEOPLE ARE INTERESTED",
+          "after": "2,856 PEOPLE ARE INTERESTED"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-01-axis-miles-and-more-page-axis-miles-and-more",
       "card_id": "axis-miles-and-more",
       "card_name": "Axis Bank Miles & More",
       "doc_label": "Axis Bank Miles & More card page",
-      "detected_on": "2026-07-28",
-      "summary": "1 changed line mentioning rates, caps or fees",
+      "detected_on": "2026-08-01",
+      "summary": "2 changed lines mentioning rates, caps or fees",
       "source_url": "https://www.axisbank.com/retail/cards/credit-card/miles-and-more-credit-card",
       "excerpts": [
         {
+          "before": "Welcome benefits worth ₹350 upon card activation (not applicable on First year free offer)",
+          "after": "Welcome benefits worth ₹350 upon card activation."
+        },
+        {
+          "before": "Joining Fee: Nil",
+          "after": "Joining Fee: ₹500"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-01-axis-burgundy-private-page-axis-burgundy-private",
+      "card_id": "axis-burgundy-private",
+      "card_name": "Axis Bank Burgundy Private",
+      "doc_label": "Axis Bank Burgundy Private programme page",
+      "detected_on": "2026-08-01",
+      "summary": "4 changed lines, none of which mention rates, caps or fees",
+      "source_url": "https://www.axis.bank.in/burgundy-private",
+      "excerpts": [
+        {
+          "before": "Neelkanth Mishra - Chief Economist",
+          "after": ""
+        },
+        {
+          "before": "Neelkanth Mishra - Chief Economist",
+          "after": ""
+        },
+        {
           "before": "",
-          "after": "The Terms & Conditions of Miles & More Axis Bank Credit Card will be updated w.e.f 28th August'26. Please click here to know more."
+          "after": "Axis Bank Business Economic Research Team"
+        },
+        {
+          "before": "",
+          "after": "Axis Bank Business Economic Research Team"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-01-icici-coral-page-icici-coral",
+      "card_id": "icici-coral",
+      "card_name": "ICICI Bank Coral",
+      "doc_label": "ICICI Bank Coral card page",
+      "detected_on": "2026-08-01",
+      "summary": "11 changed lines mentioning rates, caps or fees",
+      "source_url": "https://www.icicibank.com/personal-banking/cards/credit-card/coral-credit-card",
+      "excerpts": [
+        {
+          "before": "81,912 PEOPLE ARE INTERESTED",
+          "after": "81,925 PEOPLE ARE INTERESTED"
+        },
+        {
+          "before": "Is the ICICI Bank Coral Credit Card free?",
+          "after": "you can check participating lounge websites to clarify if the ICICI Bank Coral Credit Card is accepted."
+        },
+        {
+          "before": "No, the card has a joining fee of ₹500 + GST and an annual fee of ₹500 + GST.",
+          "after": "Yes, the card has a joining fee of ₹500 + GST and an annual fee of ₹500 + GST."
+        },
+        {
+          "before": "To enjoy domestic airport lounge access, you must spend ₹75,000 or more on your Coral Credit Card in a Spends quarter. This entitles you to avail the lounge access benefit in the following calendar quarter. The benefit i...",
+          "after": "To enjoy domestic airport lounge access, you must spend ₹75,000 or more on your Coral Credit Card in a calendar quarter. This entitles you to avail the lounge access benefit in the following calendar quarter. The benefit..."
+        },
+        {
+          "before": "Starting Apr 1, 2026, to be eligible for availing complimentary tickets offer on movie/ events tickets with BookMyShow, you must spend ₹25,000 or more on your Coral Credit Card within the preceding spends quarter. This e...",
+          "after": "Starting Apr 1, 2026, to be eligible for availing complimentary tickets offer on movie/ events tickets with BookMyShow, you must spend ₹25,000 or more on your Coral Credit Card within the preceding spends quarter. This e..."
+        }
+      ]
+    },
+    {
+      "id": "2026-08-01-icici-platinum-chip-page-icici-platinum-chip",
+      "card_id": "icici-platinum-chip",
+      "card_name": "ICICI Bank Platinum Chip",
+      "doc_label": "ICICI Platinum Chip card page",
+      "detected_on": "2026-08-01",
+      "summary": "1 changed line mentioning rates, caps or fees",
+      "source_url": "https://www.icicibank.com/personal-banking/cards/credit-card/platinum-chip-credit-card",
+      "excerpts": [
+        {
+          "before": "24,778 PEOPLE ARE INTERESTED",
+          "after": "24,942 PEOPLE ARE INTERESTED"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-01-icici-emeralde-private-page-icici-emeralde-private",
+      "card_id": "icici-emeralde-private",
+      "card_name": "ICICI Bank Emeralde Private Metal",
+      "doc_label": "ICICI Emeralde Private Metal card page",
+      "detected_on": "2026-08-01",
+      "summary": "1 changed line mentioning rates, caps or fees",
+      "source_url": "https://www.icicibank.com/personal-banking/cards/credit-card/emeralde-private-metal-credit-card",
+      "excerpts": [
+        {
+          "before": "33,117 PEOPLE ARE INTERESTED",
+          "after": "33,438 PEOPLE ARE INTERESTED"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-01-icici-emeralde-page-icici-emeralde",
+      "card_id": "icici-emeralde",
+      "card_name": "ICICI Bank Emeralde",
+      "doc_label": "ICICI Emeralde card page",
+      "detected_on": "2026-08-01",
+      "summary": "1 changed line mentioning rates, caps or fees",
+      "source_url": "https://www.icicibank.com/personal-banking/cards/credit-card/emeralde-credit-card",
+      "excerpts": [
+        {
+          "before": "33,439 PEOPLE ARE INTERESTED",
+          "after": "33,471 PEOPLE ARE INTERESTED"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-01-hdfc-regalia-gold-hdfc-regalia-gold",
+      "card_id": "hdfc-regalia-gold",
+      "card_name": "HDFC Bank Regalia Gold",
+      "doc_label": "HDFC Regalia Gold card page",
+      "detected_on": "2026-08-01",
+      "summary": "2 changed lines mentioning rates, caps or fees",
+      "source_url": "https://www.hdfcbank.com/personal/pay/cards/credit-cards/regalia-gold-credit-card",
+      "excerpts": [
+        {
+          "before": "3 Lounge visits within India per calendar quarter on spends of ₹60,000 or more in the preceding calendar quarter using the HDFC Bank Regalia Gold Credit Card. Track your lounge benefit eligibility on Netbanking - Click h...",
+          "after": "3 Lounge visits within India per calendar quarter on spends of ₹60,000 or more in the preceding calendar quarter using the HDFC Bank Regalia Gold Credit Card. Track your lounge benefit eligibility on Smartbuy"
+        },
+        {
+          "before": "",
+          "after": "Steps - Login to Smartbuy ➔ Milestone Benefits ➔ Airport Lounge Benefit within India"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-01-hdfc-infinia-hdfc-infinia",
+      "card_id": "hdfc-infinia",
+      "card_name": "HDFC Bank Infinia Metal Edition",
+      "doc_label": "HDFC Infinia Metal Edition card page",
+      "detected_on": "2026-08-01",
+      "summary": "1 changed line mentioning rates, caps or fees",
+      "source_url": "https://www.hdfcbank.com/personal/pay/cards/credit-cards/infinia-credit-card",
+      "excerpts": [
+        {
+          "before": "Up to 25% discounts for Dining & stay across Asia – Pacific region .",
+          "after": "Up to 50% discounts for Dining & stay across Asia - Pacific region."
+        }
+      ]
+    },
+    {
+      "id": "2026-08-01-axis-airtel-page-axis-airtel",
+      "card_id": "axis-airtel",
+      "card_name": "Axis Bank Airtel",
+      "doc_label": "Axis Bank Airtel card page",
+      "detected_on": "2026-08-01",
+      "summary": "4 changed lines, none of which mention rates, caps or fees",
+      "source_url": "https://www.axis.bank.in/cards/credit-card/airtel-axis-bank-credit-card",
+      "excerpts": [
+        {
+          "before": "1 Views",
+          "after": ""
+        },
+        {
+          "before": "1 Views",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "720 Views"
+        },
+        {
+          "before": "",
+          "after": "600 Views"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-01-axis-ace-page-axis-ace",
+      "card_id": "axis-ace",
+      "card_name": "Axis Bank ACE",
+      "doc_label": "Axis Bank Ace card page",
+      "detected_on": "2026-08-01",
+      "summary": "4 changed lines, none of which mention rates, caps or fees",
+      "source_url": "https://www.axis.bank.in/cards/credit-card/axis-bank-ace-credit-card",
+      "excerpts": [
+        {
+          "before": "1 Views",
+          "after": ""
+        },
+        {
+          "before": "1 Views",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "720 Views"
+        },
+        {
+          "before": "",
+          "after": "600 Views"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-01-axis-aura-page-axis-aura",
+      "card_id": "axis-aura",
+      "card_name": "Axis Bank Aura",
+      "doc_label": "Axis Bank Aura card page",
+      "detected_on": "2026-08-01",
+      "summary": "4 changed lines, none of which mention rates, caps or fees",
+      "source_url": "https://www.axis.bank.in/cards/credit-card/axis-bank-aura-credit-card",
+      "excerpts": [
+        {
+          "before": "1 Views",
+          "after": ""
+        },
+        {
+          "before": "1 Views",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "720 Views"
+        },
+        {
+          "before": "",
+          "after": "600 Views"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-01-axis-freecharge-page-axis-freecharge",
+      "card_id": "axis-freecharge",
+      "card_name": "Axis Bank Freecharge",
+      "doc_label": "Axis Bank Freecharge card page",
+      "detected_on": "2026-08-01",
+      "summary": "4 changed lines, none of which mention rates, caps or fees",
+      "source_url": "https://www.axis.bank.in/cards/credit-card/axis-bank-freecharge-credit-card",
+      "excerpts": [
+        {
+          "before": "1 Views",
+          "after": ""
+        },
+        {
+          "before": "1 Views",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "720 Views"
+        },
+        {
+          "before": "",
+          "after": "600 Views"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-01-axis-freecharge-plus-page-axis-freecharge-plus",
+      "card_id": "axis-freecharge-plus",
+      "card_name": "Axis Bank Freecharge Plus",
+      "doc_label": "Axis Bank Freecharge Plus card page",
+      "detected_on": "2026-08-01",
+      "summary": "2 changed lines mentioning rates, caps or fees",
+      "source_url": "https://www.axis.bank.in/cards/credit-card/axis-bank-freecharge-plus-credit-card",
+      "excerpts": [
+        {
+          "before": "This card unlocks a world of cashback on your freecharge spending, daily commute and all other spending. It can be used to pay your utility bills, cover your daily commute, and enjoy a host of benefits for entertainment ...",
+          "after": "The Terms & Conditions of Axis Bank Freecharge Plus Credit Card will be updated w.e.f 28th August'26. Please click here to know more."
+        },
+        {
+          "before": "",
+          "after": "This card unlocks a world of cashback on your freecharge spending, daily commute and all other spending. It can be used to pay your utility bills, cover your daily commute, and enjoy a host of benefits for entertainment ..."
+        }
+      ]
+    },
+    {
+      "id": "2026-08-01-axis-kwik-page-axis-kwik",
+      "card_id": "axis-kwik",
+      "card_name": "Axis Bank Kwik",
+      "doc_label": "Axis Bank Kwik card page",
+      "detected_on": "2026-08-01",
+      "summary": "4 changed lines, none of which mention rates, caps or fees",
+      "source_url": "https://www.axis.bank.in/cards/credit-card/axis-bank-kwik-credit-card",
+      "excerpts": [
+        {
+          "before": "1 Views",
+          "after": ""
+        },
+        {
+          "before": "1 Views",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "720 Views"
+        },
+        {
+          "before": "",
+          "after": "600 Views"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-01-axis-magnus-page-axis-magnus",
+      "card_id": "axis-magnus",
+      "card_name": "Axis Bank Magnus",
+      "doc_label": "Axis Bank Magnus card page",
+      "detected_on": "2026-08-01",
+      "summary": "2 changed lines mentioning rates, caps or fees",
+      "source_url": "https://www.axis.bank.in/cards/credit-card/axis-bank-magnus-credit-card",
+      "excerpts": [
+        {
+          "before": "The Terms & Conditions of Axis Bank Magnus Credit Card have been updated w.e.f 28th August'26. Please click here to Know More.",
+          "after": "The Terms & Conditions of Axis Bank Magnus Credit Card will be updated w.e.f 28th August'26. Please click here to Know More."
+        },
+        {
+          "before": "The Terms & Conditions of Axis Bank Magnus for Burgundy Credit Card have been updated w.e.f 28th August'26. Please click here to Know More.",
+          "after": "The Terms & Conditions of Axis Bank Magnus for Burgundy Credit Card will be updated w.e.f 28th August'26. Please click here to Know More."
+        }
+      ]
+    },
+    {
+      "id": "2026-08-01-icici-emirates-rubyx-page-icici-emirates-rubyx",
+      "card_id": "icici-emirates-rubyx",
+      "card_name": "Emirates Skywards ICICI Rubyx",
+      "doc_label": "Emirates Skywards ICICI Rubyx card page",
+      "detected_on": "2026-08-01",
+      "summary": "1 changed line mentioning rates, caps or fees",
+      "source_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/emirates-rubyx-credit-card",
+      "excerpts": [
+        {
+          "before": "6,249 PEOPLE ARE INTERESTED",
+          "after": "6,234 PEOPLE ARE INTERESTED"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-01-axis-neo-page-axis-neo",
+      "card_id": "axis-neo",
+      "card_name": "Axis Bank Neo",
+      "doc_label": "Axis Bank Neo card page",
+      "detected_on": "2026-08-01",
+      "summary": "4 changed lines, none of which mention rates, caps or fees",
+      "source_url": "https://www.axis.bank.in/cards/credit-card/axis-bank-neo-credit-card",
+      "excerpts": [
+        {
+          "before": "1 Views",
+          "after": ""
+        },
+        {
+          "before": "1 Views",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "720 Views"
+        },
+        {
+          "before": "",
+          "after": "600 Views"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-01-axis-select-page-axis-select",
+      "card_id": "axis-select",
+      "card_name": "Axis Bank Select",
+      "doc_label": "Axis Bank Select card page",
+      "detected_on": "2026-08-01",
+      "summary": "4 changed lines mentioning rates, caps or fees",
+      "source_url": "https://www.axis.bank.in/cards/credit-card/axis-bank-select-credit-card",
+      "excerpts": [
+        {
+          "before": "The Terms & Conditions of Axis Bank Select Credit Card have been updated w.e.f 28th August'26. Please click here to know more.",
+          "after": "The Terms & Conditions of Axis Bank Select Credit Card will be updated w.e.f 28th August'26. Please click here to know more."
+        },
+        {
+          "before": "The Terms & Conditions of Axis Bank Select Credit Card have been updated w.e.f 28th August'26. Please click here to know more.",
+          "after": "The Terms & Conditions of Axis Bank Select Credit Card will be updated w.e.f 28th August'26. Please click here to know more."
+        },
+        {
+          "before": "Welcome benefits worth ₹350 upon card activation (not applicable on First year free offer)",
+          "after": "Welcome benefits worth ₹350 upon card activation."
+        },
+        {
+          "before": "Joining Fee: Nil",
+          "after": "Joining Fee: ₹500"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-01-axis-shoppers-stop-page-axis-shoppers-stop",
+      "card_id": "axis-shoppers-stop",
+      "card_name": "Axis Bank Shoppers Stop",
+      "doc_label": "Axis Bank Shoppers Stop card page",
+      "detected_on": "2026-08-01",
+      "summary": "4 changed lines, none of which mention rates, caps or fees",
+      "source_url": "https://www.axis.bank.in/cards/credit-card/axis-bank-shoppers-stop-credit-card",
+      "excerpts": [
+        {
+          "before": "1 Views",
+          "after": ""
+        },
+        {
+          "before": "1 Views",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "720 Views"
+        },
+        {
+          "before": "",
+          "after": "600 Views"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-01-axis-vistara-page-axis-vistara",
+      "card_id": "axis-vistara",
+      "card_name": "Axis Bank Vistara",
+      "doc_label": "Axis Bank Vistara card page",
+      "detected_on": "2026-08-01",
+      "summary": "4 changed lines, none of which mention rates, caps or fees",
+      "source_url": "https://www.axis.bank.in/cards/credit-card/axis-bank-vistara-credit-card",
+      "excerpts": [
+        {
+          "before": "1 Views",
+          "after": ""
+        },
+        {
+          "before": "1 Views",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "720 Views"
+        },
+        {
+          "before": "",
+          "after": "600 Views"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-01-axis-vistara-infinite-page-axis-vistara-infinite",
+      "card_id": "axis-vistara-infinite",
+      "card_name": "Axis Bank Vistara Infinite",
+      "doc_label": "Axis Bank Vistara Infinite card page",
+      "detected_on": "2026-08-01",
+      "summary": "4 changed lines, none of which mention rates, caps or fees",
+      "source_url": "https://www.axis.bank.in/cards/credit-card/axis-bank-vistara-infinite-credit-card",
+      "excerpts": [
+        {
+          "before": "1 Views",
+          "after": ""
+        },
+        {
+          "before": "1 Views",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "720 Views"
+        },
+        {
+          "before": "",
+          "after": "600 Views"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-01-axis-vistara-signature-page-axis-vistara-signature",
+      "card_id": "axis-vistara-signature",
+      "card_name": "Axis Bank Vistara Signature",
+      "doc_label": "Axis Bank Vistara Signature card page",
+      "detected_on": "2026-08-01",
+      "summary": "4 changed lines, none of which mention rates, caps or fees",
+      "source_url": "https://www.axis.bank.in/cards/credit-card/axis-bank-vistara-signature-credit-card",
+      "excerpts": [
+        {
+          "before": "1 Views",
+          "after": ""
+        },
+        {
+          "before": "1 Views",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "720 Views"
+        },
+        {
+          "before": "",
+          "after": "600 Views"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-01-axis-axis-horizon-page-axis-horizon",
+      "card_id": "axis-horizon",
+      "card_name": "axis-horizon",
+      "doc_label": "Axis Bank Axis Horizon card page",
+      "detected_on": "2026-08-01",
+      "summary": "6 changed lines, none of which mention rates, caps or fees",
+      "source_url": "https://www.axis.bank.in/cards/credit-card/axis-horizon-credit-card",
+      "excerpts": [
+        {
+          "before": "1 Views",
+          "after": ""
+        },
+        {
+          "before": "1 Views",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "Apply Now"
+        },
+        {
+          "before": "",
+          "after": "Apply Now"
+        },
+        {
+          "before": "",
+          "after": "720 Views"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-01-axis-fibe-page-axis-fibe",
+      "card_id": "axis-fibe",
+      "card_name": "Axis Bank Fibe",
+      "doc_label": "Axis Bank Fibe card page",
+      "detected_on": "2026-08-01",
+      "summary": "4 changed lines, none of which mention rates, caps or fees",
+      "source_url": "https://www.axis.bank.in/cards/credit-card/fibe-axis-bank-credit-card",
+      "excerpts": [
+        {
+          "before": "1 Views",
+          "after": ""
+        },
+        {
+          "before": "1 Views",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "720 Views"
+        },
+        {
+          "before": "",
+          "after": "600 Views"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-01-axis-flipkart-super-elite-page-axis-flipkart-super-elite",
+      "card_id": "axis-flipkart-super-elite",
+      "card_name": "Axis Bank Flipkart Super Elite",
+      "doc_label": "Axis Bank Flipkart Super Elite card page",
+      "detected_on": "2026-08-01",
+      "summary": "4 changed lines, none of which mention rates, caps or fees",
+      "source_url": "https://www.axis.bank.in/cards/credit-card/flipkart-axis-bank-super-elite-credit-card",
+      "excerpts": [
+        {
+          "before": "1 Views",
+          "after": ""
+        },
+        {
+          "before": "1 Views",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "720 Views"
+        },
+        {
+          "before": "",
+          "after": "600 Views"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-01-axis-google-pay-flex-page-axis-google-pay-flex",
+      "card_id": "axis-google-pay-flex",
+      "card_name": "Axis Bank Google Pay Flex",
+      "doc_label": "Axis Bank Google Pay Flex card page",
+      "detected_on": "2026-08-01",
+      "summary": "4 changed lines, none of which mention rates, caps or fees",
+      "source_url": "https://www.axis.bank.in/cards/credit-card/google-pay-flex-axis-bank-credit-card",
+      "excerpts": [
+        {
+          "before": "1 Views",
+          "after": ""
+        },
+        {
+          "before": "1 Views",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "720 Views"
+        },
+        {
+          "before": "",
+          "after": "600 Views"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-01-axis-indianoil-page-axis-indianoil",
+      "card_id": "axis-indianoil",
+      "card_name": "Axis Bank IndianOil",
+      "doc_label": "Axis Bank Indianoil card page",
+      "detected_on": "2026-08-01",
+      "summary": "4 changed lines, none of which mention rates, caps or fees",
+      "source_url": "https://www.axis.bank.in/cards/credit-card/indianoil-axis-bank-credit-card",
+      "excerpts": [
+        {
+          "before": "1 Views",
+          "after": ""
+        },
+        {
+          "before": "1 Views",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "720 Views"
+        },
+        {
+          "before": "",
+          "after": "600 Views"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-01-axis-indianoil-premium-page-axis-indianoil-premium",
+      "card_id": "axis-indianoil-premium",
+      "card_name": "Axis Bank Indianoil Premium",
+      "doc_label": "Axis Bank Indianoil Premium card page",
+      "detected_on": "2026-08-01",
+      "summary": "4 changed lines, none of which mention rates, caps or fees",
+      "source_url": "https://www.axis.bank.in/cards/credit-card/indianoil-premium-credit-card",
+      "excerpts": [
+        {
+          "before": "1 Views",
+          "after": ""
+        },
+        {
+          "before": "1 Views",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "720 Views"
+        },
+        {
+          "before": "",
+          "after": "600 Views"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-01-axis-indigo-page-axis-indigo",
+      "card_id": "axis-indigo",
+      "card_name": "Axis Bank Indigo",
+      "doc_label": "Axis Bank Indigo card page",
+      "detected_on": "2026-08-01",
+      "summary": "3 changed lines, none of which mention rates, caps or fees",
+      "source_url": "https://www.axis.bank.in/cards/credit-card/indigo-axis-bank-credit-card",
+      "excerpts": [
+        {
+          "before": "Apply for the IndiGo Axis Bank Credit Card between 1 June'26 - 31 July'26 and enjoy Double welcome bonus. Click here to know more.",
+          "after": "Apply for the IndiGo Axis Bank Credit Card between 1 June'26 - 31 August'26 and enjoy Double welcome bonus. Click here to know more."
+        },
+        {
+          "before": "",
+          "after": "Apply Now"
+        },
+        {
+          "before": "",
+          "after": "Apply Now"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-01-axis-indigo-premium-page-axis-indigo-premium",
+      "card_id": "axis-indigo-premium",
+      "card_name": "Axis Bank Indigo Premium",
+      "doc_label": "Axis Bank Indigo Premium card page",
+      "detected_on": "2026-08-01",
+      "summary": "2 changed lines mentioning rates, caps or fees",
+      "source_url": "https://www.axis.bank.in/cards/credit-card/indigo-axis-bank-premium-credit-card",
+      "excerpts": [
+        {
+          "before": "Joining Fee: Nil",
+          "after": "Joining Fee: ₹500"
+        },
+        {
+          "before": "Welcome benefits worth ₹350 upon card activation (not applicable on First year free offer)",
+          "after": "Welcome benefits worth ₹350 upon card activation."
+        }
+      ]
+    },
+    {
+      "id": "2026-08-01-axis-lic-platinum-page-axis-lic-platinum",
+      "card_id": "axis-lic-platinum",
+      "card_name": "Axis Bank Lic Platinum",
+      "doc_label": "Axis Bank Lic Platinum card page",
+      "detected_on": "2026-08-01",
+      "summary": "4 changed lines, none of which mention rates, caps or fees",
+      "source_url": "https://www.axis.bank.in/cards/credit-card/lic-axis-bank-platinum-credit-card",
+      "excerpts": [
+        {
+          "before": "1 Views",
+          "after": ""
+        },
+        {
+          "before": "1 Views",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "720 Views"
+        },
+        {
+          "before": "",
+          "after": "600 Views"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-01-icici-sapphiro-page-icici-sapphiro",
+      "card_id": "icici-sapphiro",
+      "card_name": "ICICI Bank Sapphiro",
+      "doc_label": "ICICI Bank Sapphiro card page",
+      "detected_on": "2026-08-01",
+      "summary": "2 changed lines mentioning rates, caps or fees",
+      "source_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/sapphiro-card",
+      "excerpts": [
+        {
+          "before": "159,260 PEOPLE ARE INTERESTED",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "161,093 PEOPLE ARE INTERESTED"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-01-axis-my-zone-easy-page-axis-my-zone-easy",
+      "card_id": "axis-my-zone-easy",
+      "card_name": "Axis Bank My Zone Easy",
+      "doc_label": "Axis Bank My Zone Easy card page",
+      "detected_on": "2026-08-01",
+      "summary": "1 changed line mentioning rates, caps or fees",
+      "source_url": "https://www.axis.bank.in/cards/credit-card/my-zone-easy-credit-card",
+      "excerpts": [
+        {
+          "before": "",
+          "after": "The Terms & Conditions of My Zone Easy credit card will be updated w.e.f 28th August'26. Please click here to know more."
+        }
+      ]
+    },
+    {
+      "id": "2026-08-01-axis-pride-platinum-page-axis-pride-platinum",
+      "card_id": "axis-pride-platinum",
+      "card_name": "Axis Bank Pride Platinum",
+      "doc_label": "Axis Bank Pride Platinum card page",
+      "detected_on": "2026-08-01",
+      "summary": "4 changed lines, none of which mention rates, caps or fees",
+      "source_url": "https://www.axis.bank.in/cards/credit-card/pride-platinum-credit-card",
+      "excerpts": [
+        {
+          "before": "1 Views",
+          "after": ""
+        },
+        {
+          "before": "1 Views",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "720 Views"
+        },
+        {
+          "before": "",
+          "after": "600 Views"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-01-axis-pride-signature-page-axis-pride-signature",
+      "card_id": "axis-pride-signature",
+      "card_name": "Axis Bank Pride Signature",
+      "doc_label": "Axis Bank Pride Signature card page",
+      "detected_on": "2026-08-01",
+      "summary": "4 changed lines, none of which mention rates, caps or fees",
+      "source_url": "https://www.axis.bank.in/cards/credit-card/pride-signature-credit-card",
+      "excerpts": [
+        {
+          "before": "1 Views",
+          "after": ""
+        },
+        {
+          "before": "1 Views",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "720 Views"
+        },
+        {
+          "before": "",
+          "after": "600 Views"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-01-axis-privilege-with-unlimited-benefits-page-axis-privilege",
+      "card_id": "axis-privilege",
+      "card_name": "Axis Bank Privilege",
+      "doc_label": "Axis Bank Privilege With Unlimited Benefits card page",
+      "detected_on": "2026-08-01",
+      "summary": "4 changed lines, none of which mention rates, caps or fees",
+      "source_url": "https://www.axis.bank.in/cards/credit-card/privilege-credit-card-with-unlimited-benefits",
+      "excerpts": [
+        {
+          "before": "705 Views",
+          "after": ""
+        },
+        {
+          "before": "653 Views",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "772 Views"
+        },
+        {
+          "before": "",
+          "after": "663 Views"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-01-axis-privilege-easy-page-axis-privilege-easy",
+      "card_id": "axis-privilege-easy",
+      "card_name": "Axis Bank Privilege Easy",
+      "doc_label": "Axis Bank Privilege Easy card page",
+      "detected_on": "2026-08-01",
+      "summary": "4 changed lines, none of which mention rates, caps or fees",
+      "source_url": "https://www.axis.bank.in/cards/credit-card/privilege-easy-credit-card",
+      "excerpts": [
+        {
+          "before": "1 Views",
+          "after": ""
+        },
+        {
+          "before": "1 Views",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "720 Views"
+        },
+        {
+          "before": "",
+          "after": "600 Views"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-01-axis-samsung-infinite-page-axis-samsung-infinite",
+      "card_id": "axis-samsung-infinite",
+      "card_name": "Axis Bank Samsung Infinite",
+      "doc_label": "Axis Bank Samsung Infinite card page",
+      "detected_on": "2026-08-01",
+      "summary": "8 changed lines, none of which mention rates, caps or fees",
+      "source_url": "https://www.axis.bank.in/cards/credit-card/samsung-axis-bank-infinite-credit-card",
+      "excerpts": [
+        {
+          "before": "2.1k Views",
+          "after": ""
+        },
+        {
+          "before": "1.8k Views",
+          "after": ""
+        },
+        {
+          "before": "705 Views",
+          "after": ""
+        },
+        {
+          "before": "653 Views",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "2k Views"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-01-axis-samsung-signature-page-axis-samsung-signature",
+      "card_id": "axis-samsung-signature",
+      "card_name": "Axis Bank Samsung Signature",
+      "doc_label": "Axis Bank Samsung Signature card page",
+      "detected_on": "2026-08-01",
+      "summary": "7 changed lines, none of which mention rates, caps or fees",
+      "source_url": "https://www.axis.bank.in/cards/credit-card/samsung-axis-bank-signature-credit-card",
+      "excerpts": [
+        {
+          "before": "Got more questions?",
+          "after": ""
+        },
+        {
+          "before": "Locate the nearest branch for best assessment.",
+          "after": ""
+        },
+        {
+          "before": "Locate Branches",
+          "after": ""
+        },
+        {
+          "before": "706 Views",
+          "after": ""
+        },
+        {
+          "before": "653 Views",
+          "after": ""
+        }
+      ]
+    },
+    {
+      "id": "2026-08-01-axis-spicejet-voyage-black-page-axis-spicejet-voyage-black",
+      "card_id": "axis-spicejet-voyage-black",
+      "card_name": "Axis Bank Spicejet Voyage Black",
+      "doc_label": "Axis Bank Spicejet Voyage Black card page",
+      "detected_on": "2026-08-01",
+      "summary": "8 changed lines, none of which mention rates, caps or fees",
+      "source_url": "https://www.axis.bank.in/cards/credit-card/spicejet-axis-bank-voyage-black-credit-card",
+      "excerpts": [
+        {
+          "before": "1.9k Views",
+          "after": ""
+        },
+        {
+          "before": "1.1k Views",
+          "after": ""
+        },
+        {
+          "before": "801 Views",
+          "after": ""
+        },
+        {
+          "before": "636 Views",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "2.1k Views"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-01-axis-spicejet-voyage-page-axis-spicejet-voyage",
+      "card_id": "axis-spicejet-voyage",
+      "card_name": "Axis Bank Spicejet Voyage",
+      "doc_label": "Axis Bank Spicejet Voyage card page",
+      "detected_on": "2026-08-01",
+      "summary": "8 changed lines, none of which mention rates, caps or fees",
+      "source_url": "https://www.axis.bank.in/cards/credit-card/spicejet-axis-bank-voyage-credit-card",
+      "excerpts": [
+        {
+          "before": "1.9k Views",
+          "after": ""
+        },
+        {
+          "before": "1.1k Views",
+          "after": ""
+        },
+        {
+          "before": "801 Views",
+          "after": ""
+        },
+        {
+          "before": "636 Views",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "2.1k Views"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-01-hsbc-live-plus-page-hsbc-live-plus",
+      "card_id": "hsbc-live-plus",
+      "card_name": "HSBC Live+",
+      "doc_label": "HSBC Live Plus card page",
+      "detected_on": "2026-08-01",
+      "summary": "1 changed line mentioning rates, caps or fees",
+      "source_url": "https://www.hsbc.co.in/credit-cards/products/live-plus/",
+      "excerpts": [
+        {
+          "before": "Get up to INR250 cashback per year on contactless fuel purchases when you spend INR10,000 per quarter. T&Cs apply .",
+          "after": "Get INR250 cashback on contactless fuel purchases when you spend INR10,000 per quarter. T&Cs apply ."
+        }
+      ]
+    },
+    {
+      "id": "2026-08-01-hsbc-visa-platinum-page-hsbc-visa-platinum",
+      "card_id": "hsbc-visa-platinum",
+      "card_name": "HSBC Visa Platinum",
+      "doc_label": "HSBC Visa Platinum card page",
+      "detected_on": "2026-08-01",
+      "summary": "1 changed line mentioning rates, caps or fees",
+      "source_url": "https://www.hsbc.co.in/credit-cards/products/visa-platinum/",
+      "excerpts": [
+        {
+          "before": "Get INR250 cashback when you pay for fuel contactlessly using your physical HSBC Visa Platinum Credit Card (available on contactless fuel spends of up to INR10,000 per quarter). T&Cs apply (PDF) .",
+          "after": "Get INR250 cashback on contactless fuel purchases when you spend INR10,000 per quarter. T&Cs apply (PDF) ."
+        }
+      ]
+    },
+    {
+      "id": "2026-08-01-icici-amazon-pay-page-icici-amazon-pay",
+      "card_id": "icici-amazon-pay",
+      "card_name": "ICICI Bank Amazon Pay",
+      "doc_label": "Amazon Pay ICICI Bank card page",
+      "detected_on": "2026-08-01",
+      "summary": "2 changed lines mentioning rates, caps or fees",
+      "source_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/amazon-pay-credit-card",
+      "excerpts": [
+        {
+          "before": "76,699 PEOPLE ARE INTERESTED",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "75,900 PEOPLE ARE INTERESTED"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-01-icici-coral-rupay-page-icici-coral-rupay",
+      "card_id": "icici-coral-rupay",
+      "card_name": "ICICI Bank Coral RuPay",
+      "doc_label": "ICICI Bank Coral RuPay card page",
+      "detected_on": "2026-08-01",
+      "summary": "1 changed line mentioning rates, caps or fees",
+      "source_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/coral-rupay-card",
+      "excerpts": [
+        {
+          "before": "39,534 PEOPLE ARE INTERESTED",
+          "after": "39,865 PEOPLE ARE INTERESTED"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-01-icici-csk-page-icici-csk",
+      "card_id": "icici-csk",
+      "card_name": "ICICI Bank Chennai Super Kings",
+      "doc_label": "ICICI Bank Chennai Super Kings card page",
+      "detected_on": "2026-08-01",
+      "summary": "1 changed line mentioning rates, caps or fees",
+      "source_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/csk-card",
+      "excerpts": [
+        {
+          "before": "2,028 PEOPLE ARE INTERESTED",
+          "after": "2,025 PEOPLE ARE INTERESTED"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-01-axis-lic-signature-page-axis-lic-signature",
+      "card_id": "axis-lic-signature",
+      "card_name": "Axis Bank Lic Signature",
+      "doc_label": "Axis Bank Lic Signature card page",
+      "detected_on": "2026-08-01",
+      "summary": "4 changed lines, none of which mention rates, caps or fees",
+      "source_url": "https://www.axis.bank.in/cards/credit-card/lic-axis-bank-signature-credit-card",
+      "excerpts": [
+        {
+          "before": "1 Views",
+          "after": ""
+        },
+        {
+          "before": "1 Views",
+          "after": ""
+        },
+        {
+          "before": "",
+          "after": "720 Views"
+        },
+        {
+          "before": "",
+          "after": "600 Views"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-28-icici-platinum-chip-page-icici-platinum-chip",
+      "card_id": "icici-platinum-chip",
+      "card_name": "ICICI Bank Platinum Chip",
+      "doc_label": "ICICI Platinum Chip card page",
+      "detected_on": "2026-07-28",
+      "summary": "1 changed line mentioning rates, caps or fees",
+      "source_url": "https://www.icicibank.com/personal-banking/cards/credit-card/platinum-chip-credit-card",
+      "excerpts": [
+        {
+          "before": "24,742 PEOPLE ARE INTERESTED",
+          "after": "24,778 PEOPLE ARE INTERESTED"
         }
       ]
     },
@@ -38,17 +1208,17 @@
       ]
     },
     {
-      "id": "2026-07-28-icici-platinum-chip-page-icici-platinum-chip",
-      "card_id": "icici-platinum-chip",
-      "card_name": "ICICI Bank Platinum Chip",
-      "doc_label": "ICICI Platinum Chip card page",
+      "id": "2026-07-28-axis-miles-and-more-page-axis-miles-and-more",
+      "card_id": "axis-miles-and-more",
+      "card_name": "Axis Bank Miles & More",
+      "doc_label": "Axis Bank Miles & More card page",
       "detected_on": "2026-07-28",
       "summary": "1 changed line mentioning rates, caps or fees",
-      "source_url": "https://www.icicibank.com/personal-banking/cards/credit-card/platinum-chip-credit-card",
+      "source_url": "https://www.axisbank.com/retail/cards/credit-card/miles-and-more-credit-card",
       "excerpts": [
         {
-          "before": "24,742 PEOPLE ARE INTERESTED",
-          "after": "24,778 PEOPLE ARE INTERESTED"
+          "before": "",
+          "after": "The Terms & Conditions of Miles & More Axis Bank Credit Card will be updated w.e.f 28th August'26. Please click here to know more."
         }
       ]
     }

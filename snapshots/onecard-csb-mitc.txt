@@ -1,0 +1,592 @@
+The OneCard Credit Card Most
+Important Terms and Conditions (MITC)
+• March 03, 2023
+The OneCard Credit Card Terms and Conditions (In Hindi)
+These Most Important Terms and Conditions apply to OneCard Credit Card
+issued by The CSB Bank Ltd (Bank) in partnership with its co -branding
+partner Oneconsumer Services Private Limited (OneCard Credit Card). Your
+OneCard Credit Card is managed by FPL Technologies Private Limited which
+is the outsourced technology service provider of the Bank.
+Activating your card from the OneCard app or clicking on ‘Submit’ or ‘I Agree’
+or any similar tab/icon would mean acceptance of the below terms and
+conditions by the cardholder/cardmember/user (You).
+The MITCs are in addition to and are to be read along with the detailed Terms
+and Conditions , and are subject to changes from time to time. The most recent
+version will always be available on this website.
+Welcome to a world of convenience!
+The OneCard Mobile App📱
+You can control the OneCard Credit Card entirely from the powerful OneCard
+Mobile App, some of the actions being:
+- Set your App PIN
+- Activate your OneCard Credit Card
+- Make credit card bill payments
+- Manage your virtual credit card
+- Control your credit and cash withdrawal limits
+- Enable online, domestic and international usage
+- Set your OneCard Credit Card PIN (For use at Point of Sale and ATMs)
+- Raise disputes or service queries on any aspect of your OneCard Credit Card
+We have ensured that you can do the above transactions only in a secure
+environment after you authenticate yourself with your preferred
+authentication mechanism (Fingerprint/PIN). As a cardholder, you should be
+aware of the features and impact of these transactions as you would be
+responsible for your actions within the OneCard App.
+Virtual Credit Card 💳📲
+In addition to the physical OneCard Credit Card, you will receive as part of the
+on-boarding process, a virtual rendition of the same OneCard Credit Card
+which will be available on the OneCard App.
+This virtual card is also a MasterCard powered credit card so that you can use
+it for any online or mobile application-based transactions or purchases. The
+security parameters are set as per industry standards.
+A) FEES AND CHARGES 👀
+We believe in keeping your life simple and our charges reflect our endeavor in
+that direction.
+As long as you use the OneCard Credit Card within your approved credit limit,
+and pay the full outstanding by the due date, we wont charge you anything.
+However, in cases of delays in payments or part payments or using your card
+beyond the limit, there would be some charges levied.
+Here’s a list of these charges:
+* Cash Withdrawal from ATMs
+You can use the OneCard Credit Card to withdraw cash from ATMs in India
+and/or overseas (except foreign currency transactions in Nepal and Bhutan)
+in accordance with the compatibility of the OneCard Credit Card at the said
+ATM(s). Cash withdrawal charges or ATM withdrawal fee as mentioned above
+shall be levied on all such withdrawals and would be billed to you in the
+next/forthcoming OneCard Credit Card statement.
+** Interest Free Period
+Please remember that this facility of an interest free period will not be
+available to you if you have not paid the previous month’s outstanding
+amount in entirety.
+*** Interest Rate
+At the end of each day, the current balance/outstanding amount will be
+multiplied by the daily rate to arrive at the daily interest charges, which then
+get added to your outstanding balance. A simple formula would be as below:
+((Number of days X Entire outstanding amount X (Interest rate per month x
+12 months))/365 days.Currently, the interest rate on unpaid dues is 36% per
+annum or 3% per month.
+With effect from April 02, 2023 it will be upto 41.88% per annum, or upto
+3.49% per month, for all OneCard Credit Card members on their unpaid dues.
+Sample Illustration 1 (dues not paid in full)
+Purchase: Rs.10,000 on January 15, 2021
+Statement Date: February 01, 2021
+Total Amount Due: Rs.10,000
+Payment Due Date: February 18, 2021
+Payment Done: Rs.500 on February 10, 2021
+No other transactions in February.
+As per the formula shared above, the interest will be charged as follows:
+Goods & Services Tax (GST) at the prevailing rate (currently 18%) will be
+levied on this interest charged, which is Rs. 90.98.
+This will be added to the outstanding amount so in your statement on March
+01, 2021, the Total Amount Due will be Rs.10,096.41 (Rs.9,500 + Rs. 505.43 +
+Rs.90.98)
+Sample Illustration 2 (Dues revolved, fresh purchase)
+Statement Date: March 01, 2021
+Total Amount Due: Rs.9,927.23
+Payment Due Date: March 18, 2021
+Payment Done: Rs.500 on March 10, 2021
+New Purchase: Rs.5,000 on March 20, 2021
+Interest will be charged as follows:
+Goods & Services Tax (GST) at the prevailing rate (currently 18%) will be
+levied on this interest charged, which is Rs.73.68.
+This will be added to the outstanding amount so in your statement on April
+01, 2020, the Total Amount Due will be Rs.14,910.24 (Rs.14,427.23 + Rs.
+409.33 + Rs.73.68).
+Note: These illustrations are meant to be indicative and to show how interest is
+calculated and charged. Actual amounts can vary depending on specific cases.
+The Minimum Amount Due is a variable percentage of Net Debits + Full Over.
+The Limit amount + EMI billed for the month inclusive of EMI interest, fees
+and taxes + Previous statement unpaid minimum amount dues if any.
+The Minimum Amount Due variable percentage can range between (5% -
+100%) and will be based upon the cardholder’s repayment status.
+The Interest rates are subject to changes made by the Bank and Reserve Bank
+of India from time to time.
+**** Late Payment Fee
+You are charged a Late Payment Fee if there has been no payment or a
+payment less than the Minimum Amount Due is received by the Payment Due
+Date.
+Example:
+Consider the Total Amount Due (TAD) is Rs.5,000 and Payment Due Date is 4
+May, 2020. In case the cardholder does not pay the Minimum Amount Due by
+the Payment Due Date, a Late Payment Fee of Rs. 250 will be levied on the
+next bill due date. Late Payment Fee is Rs 250 if the TAD is in the range of
+1001-5000.
+Forex Markup Fee:
+When you use your OneCard Credit Card to transact in a foreign currency, that
+transaction amount is converted to Indian Rupees (INR) on the settlement
+date. This could be different from your transaction date.
+If the transaction is not in USD (US Dollars), the amount will first be converted
+to USD, and then the USD amount will be converted to INR as per rate
+provided by MasterCard. On this amount, a forex markup fee will be levied,
+and GST will be applicable on the markup fee. If this transaction is reversed
+within 30 days, the markup fee and GST will be reversed to the cardholder.
+A forex markup fee will also be levied in case of an Indian Rupee (INR)
+transaction done at a merchant or payment gateway that is based out of India.
+B) DRAWAL LIMITS 💸
+Your Credit Limit and Cash Withdrawal Limit are both dynamic. You can
+request for an increase in your credit limit from the app if you’re eligible for
+this option. Once approved, this revised amount would be your new Credit
+Limit.
+FPL also reserves the right to recommend a credit limit increase to you based
+on your OneCard Credit Card usage, inside the OneCard app. This
+recommendation and its associated Terms and conditions will be made
+available to you to consider before accepting the recommendation.
+Once you read and agree to the Terms related to credit limit increase
+displayed inside the OneCard app and provide your consent to increase the
+limit, FPL will enhance the credit limit on your card. Your acceptance of the
+limit increase recommendation received through electronic means inside the
+OneCard app where you specifically validate the limit increase and agree to
+the MITC will be treated as a consent. FPL will keep the digital records of such
+consent and will treat it as proof of consent in case of any dispute arising later
+on account of limit increase.
+FPL will review your account periodically and reserves the right to decrease
+your credit limit based on your transaction patterns, repayment behavior and
+other internal criteria. This will be informed to you via the OneCard app
+and/or via email and SMS.
+“Available Credit Limit” or “Available Cash Limit” is the limit up to which you
+can make purchases or withdraw cash from an ATM respectively. The Cash
+Limit is a part of the overall Credit Limit assigned to you though unavailable to
+cardholders for the time being. An intimation will be shared once it is enabled.
+C) BILLING 📅
+i) Billing statements (periodicity and mode of sending)
+Your billing statement will be generated every month (currently on 5th) and
+can be modified once to 18th as per your convenience. You can view the
+statement in the OneCard App. It will contain a break-up of all purchases,
+repayments, fees, interest charges, refunds and taxes. In case the card was not
+used in a month, the statement will mention there were no spends in that
+month. The app also has an option to view the statement in PDF format, which
+can then be downloaded from the phone. The billing statement will be sent to
+the registered E mail ID as well if you opt so. The billing statement shall be
+deemed to be a demand notice for payment and no separate intimation would
+be made in this regard.
+ii) Minimum Amount Due
+When you get your Statement (currently on 5th and changed to 18th post
+onboarding from the OneCard App), you can choose to pay the Total Amount
+Due (TAD) or the Minimum Amount Due (MAD) as per your statement. The
+remaining balance can be carried forward to subsequent months. This
+Minimum Amount Due will be:
+i) 5% of the outstanding amount or Rs.100 (whichever is greater) PLUS
+ii) Previous unpaid minimum amount dues, if any; PLUS
+iii) Any amount exceeding the credit limit; PLUS
+iv) Entire amount of any installments (EMI) due (if/as applicable)
+You can also pay the Total Amount Due or an amount between the Minimum
+Amount Due and Total Amount Due. Payment should be made before Payment
+Due Date to avoid Late Payment Charges.
+When you make a payment, it is adjusted in this order:
+Billed Cash Advance Fees with Interest and Taxes ⏩ Billed Purchases with
+Fees, Interest and Taxes (as applicable) ⏩ UnBilled Cash Advance Fees with
+Interest and Taxes ⏩ UnBilled Purchases with Fees, Interest and Taxes (as
+applicable).
+Within these, the payment is further adjusted as below:
+Taxes ⏩ Fees ⏩ Interest ⏩ Purchases.
+If Total Amount Due is less than Rs.100, Minimum Amount Due would be
+equal to the Total Amount Due, ie. Rs.100.
+iii) Refunds/Chargebacks/Reimbursements
+You must pay for the transactions billed in the OneCard statement to avoid
+any additional charges being levied. Any refunds, chargebacks or
+reimbursements which are not shown in the OneCard statement, should not
+be adjusted or reduced by you from the Total Amount Due (TAD) on your own
+when making the payment. Refunds/chargebacks/reimbursements if any, will
+be reflected in your OneCard Account, as and when such
+refunds/chargeback/reimbursement are received and these will be adjusted
+against your dues in your next OneCard statement.
+iv) Method of payment
+You can pay the outstanding dues from the App itself, through the following
+modes:
+a) Debit Card b) Netbanking c) UPI
+You can also make the payment via IMPS or NEFT to the unique OneCard
+Credit Card bank account number provided in the app.
+(v) Billing disputes resolution
+All the contents of the statement will be deemed to be correct and accepted if
+you do not inform us of any discrepancies within 30 days of the statement
+date. In the event of billing disputes/discrepancies, we shall investigate and
+confirm the liability for such transactions. For certain disputes, we may offer a
+temporary credit during the period of investigation, which may be reversed
+along with applicable charges subject to outcome of the investigation. GST
+levied will not be reversed on any dispute on fees and charges or interest.
+(vi) Contact particulars of card issuer
+In case you need any help or want to raise a grievance, you can:
+📱 Select “Need Help?” from the Profile section in the OneCard App
+📧 Email your query or concern to help@getonecard.app
+📞 Call us on our helpline number at 1800-210-9111
+🏢 Write to us or visit us at: FPL Technologies Pvt. Ltd., Disha Bldg, Survey No
+127, Mahavir Park, Opposite Sarjaa, Aundh, Pune 411007
+(vii) Grievance Redressal Escalation
+The Grievance will be acknowledged via registered E mail with a unique
+grievance reference number Response to the grievance will be offered in 7
+working days and the same will be intimated via registered Email.
+If you are not satisfied with the response from regular channels, you can send
+an email to grievances@fplabs.tech and a response will be offered in 7
+working days and intimated to the registered E mail.
+Beyond this level, you can reach out to the bank as per their complaint
+redressal system as detailed below.
+Escalation Email Contact No.
+CSB Bank customercare@csb.co.in 18002669090
+If the issue remains unresolved beyond 30 days even after reaching out to the
+above channels, or if the response is unsatisfactory, you may write to the
+Banking Ombudsman for an independent review. Details of the Banking
+Ombudsman Scheme are available on the Reserve Bank of India (RBI) website
+at https://www.rbi.org.in/
+viii) Refund of credit balance/excess amount
+In case there is a credit balance/excess amount lying in your OneCard Credit
+Card account due to additional repayment or a refund, this amount can be
+adjusted against future pending dues or it can be refunded to you as per your
+request.
+a) if this credit balance/excess amount is to be adjusted against future
+pending dues, no action is required by you.
+b) if this credit balance/excess amount is to be refunded, the following
+procedure must be followed by you:
+- request a refund of this credit balance/excess amount in writing by sending
+an email to help@getonecard.app from your registered email id, along with
+the reason for making a repayment in excess of the current dues
+- submit the bank statement of the account from where the last two
+repayments towards your OneCard Credit Card have been made
+- submit a copy of your PAN card, if the credit balance/excess amount is more
+than Rs. 49,000
+- if your OneCard Credit Card account has been closed, provide details of the
+savings bank account to which the credit balance/excess amount can be
+refunded
+c) Requests for refund of credit balance/excess amount less than Rs. 1,000
+will not be processed
+d) If the credit balance/excess amount is due to an additional repayment, it
+will be reversed within 7-10 working days into the source account from which
+the cardholder made the repayment
+e) If the OneCard Credit Card account stands canceled, the credit
+balance/excess amount will be refunded to the cardholder’s savings bank
+account as per the procedure outlined in clause b) above. Bank account details
+must be provided in the email.
+f) No interest will be payable on any credit balance/excess amount lying in the
+cardholder’s OneCard Credit Card account.
+g) Cardholders are not permitted to make excess payment into their OneCard
+Credit Card account to artificially enhance their sanctioned credit limit for
+honouring high value transactions. In case there is a need for enhancement of
+credit limit, a request can be placed separately for that.
+D) DEFAULT AND CIRCUMSTANCES 😩
+i) Procedure including notice period for reporting a cardholder as
+defaulter
+If you do not pay at least the Minimum Amount Due even 3 days after the
+Payment Due Date, the card will be reported as delinquent by the Bank to the
+Credit Information Companies (CICs), authorized by the Reserve Bank of India
+(RBI). Non-payment of Minimum Amount Due may also lead to
+discontinuation of the credit card services.
+ii) Procedure for withdrawal of default report and the period within
+which the default report would be withdrawn after settlement of dues
+Once reported to the Credit Information Companies (CICs) there is no
+withdrawal of the report. However, if dues are settled by you, this information
+will be provided to the Bank for sharing with Credit Information Companies
+(CICs) in the subsequent month.
+iii) Recovery procedure in case of default
+In the event of a default, you will be sent reminders by SMS, email, telephone
+& post for settlement of any outstanding dues. If no response is received from
+you via regular channels, third parties may be engaged to remind, follow up
+and collect dues. A message may be left with your spouse / parent / other
+direct adult family member / secretary / accountant or other colleague, as
+available, at your residence / office / phone. Any such third party appointed
+shall adhere fully to the code of conduct on debt collection.
+(iv) Recovery of dues in case of death/permanent incapacitance of
+Cardholder
+In case of accidental death of the primary cardholder, a waiver of the
+outstanding amount due up to Rs. 50,000 or as per the credit limit held by the
+cardholder will be offered if the claim is honored by the Insurance Company.
+This will be applicable only for an active card (a card with at least one
+ATM/POS/E-Commerce transaction in the 90 days prior to date of death).
+Claim documents are to be submitted by Bank/Cardholder to ICICI Lombard
+General Insurance Company Limited within 60 days from the date of
+intimation. This waiver does not apply to any amount spent by family/friends
+after the primary cardholder’s death. If the outstanding amount is more than
+Rs. 50,000, FPL will follow up with the cardholder’s legal heirs, informing
+them about the outstanding amount and requesting them to clear these dues.
+E) TERMINATION/REVOCATION OF CARD MEMBERSHIP 😢
+i) Procedure for surrender of card by Cardholder - due notice –
+a) You can close your OneCard Credit Card account any time by calling the
+Customer Care team at 1800 210 9111 or by writing an email
+at help@onecard.app. The entire card outstanding dues and loans / EMI
+facilities linked to your OneCard Credit Card (if applicable and/or availed of)
+will immediately become due.
+b) Any refund/reversal that is received after the card closure will be intimated
+to you and refunded electronically to the account number shared with
+customer care after verifying the ownership.
+c) Once the virtual OneCard Credit Card is activated, the physical card will be
+sent to you. If you choose to cancel card membership within 6 months of
+activating the virtual card, a charge of Rs. 3,000 will be levied. This would be
+added to the overall outstanding amount and the card account will be closed
+once all dues are paid.
+d) Upon termination/revocation of OneCard Credit Card membership for any
+reason whatsoever, whether at the instance of the Cardmember or the Bank
+or FPL, the Cardmember shall remain liable for all charges incurred by the use
+of the OneCard Credit Card.
+e) You specifically acknowledge that once your OneCard Credit Card account
+is closed, the privileges (including but not limited to all benefits and services
+accrued, reward points not redeemed etc) of the OneCard Credit Card stand
+nullified. Reinstatement of the same is neither automatic nor attendant and
+will take place solely at the discretion of FPL.
+f) For avoiding misuse, it is advised to destroy the OneCard Credit Card
+ensuring that the hologram, magnetic strip and chip are destroyed
+permanently.
+g) Your OneCard Credit Card account will be closed only once the Bank
+receives the payment of all amounts due and outstanding in respect of the said
+OneCard Credit Card account.
+h) You can call the customer care via phone on 1800 210 9111 or raise a ticket
+in the OneCard App for initiating closure of card subject to the outstanding
+dues being cleared.
+ii) Procedure for revocation of card membership
+Your access to your OneCard Credit Card may be cancelled or revoked at any
+time without prior notice, if we consider it necessary for business or security
+reasons, which may include but are not limited to:
+a) Delayed or dishonoured payments, improper use of credit card (in violation
+of RBI and Foreign Exchange rules).
+b) Misleading or incorrect information / documents given along with card
+application.
+c) Failure to furnish information or documents as required under the Know
+Your Customer (KYC)/ Anti Money Laundering (AML)/ Combating the
+Financing of Terrorism (CFT) guidelines.
+d) Involvement in any civil litigation or criminal offence / proceedings by any
+authority, court of law or professional body or association.
+e) Changes in credit policy due to prevailing conditions / unforeseen
+circumstances.
+Credit scores below the level as fixed from time to time
+You may continue to get your OneCard Credit Card statements with actual
+outstanding, even after closure of the card account.
+f)In case your OneCard Credit Card has not been used for more than one year
+then we will notify you of the dormancy within 30 days. If the card is still not
+used or no reply is received for the continuation of OneCard Credit Card,
+OneCard Credit Card will be closed and reported to the bureau, subject to
+payment of all dues by the cardholder .
+F) LOSS/THEFT/MISUSE OF CARD 😠
+i) Procedure to be followed in case of loss/theft/misuse of card
+In case your OneCard Credit Card is lost, stolen, misplaced, or if the credit card
+PIN has been compromised, report this immediately from the OneCard App or
+via phone on 1800-210-9111 or email us on help@getonecard.app.
+If your OneCard Credit Card is misplaced, you can lock the card temporarily
+from the OneCard App.
+If your OneCard Credit Card s lost or stolen, you can block the OneCard Credit
+Card from the OneCard App and a new card will be sent to you. You can also
+reset the Card PIN from the OneCard App.
+In case the mobile phone with the OneCard App is lost or stolen, inform us
+immediately by calling on 1800-210-9111. Please also report the theft of the
+OneCard Credit Card or phone to the police by lodging a First Information
+Report (FIR) and share a copy of that with us when requested.
+If you wish to change the registered mobile number or e-mail address, you can
+intimate us by sending an email to help@getonecard.app.
+ii) Liability of cardholder in case of (i) above
+You will not be liable for any misuse on a card or PIN after informing us of the
+loss, unless you have acted with gross negligence.
+You will be liable for all losses owing to any misuse that happened with your
+consent or knowledge or prior to informing us about loss of card/phone.
+NEVER share your OneCard App PIN and credit card PIN with anyone!
+G) DISCLOSURES 📣
+i) Bank will share credit information including but not limited to the current
+balance, loans / EMI facilities linked to the OneCard Credit Card (if applicable
+and/or availed of), balance outstanding on the OneCard Credit Card / loan,
+payment history etc. with Credit Information Companies (CICs) authorised by
+RBI, as per the Credit Information Companies (Regulation) Act, 2005.
+ii) Banks have all responsibility for adherence to all regulatory rules,
+directions, and guidelines including guidelines on outsourcing of financial
+services by banks or NBFCs issued by the RBI. FPL does not provide any
+services in contravention of the guideline on outsourcing of financial services
+by banks or NBFCs issued by the RBI.
+iii) FPL will provide particulars of the OneCard Credit Card account to the
+statutory authorities and the Bank, as needed.
+iv) Transaction alerts received may not be assumed as a confirmation of
+transaction completion.
+v) If you do not wish to receive any marketing calls/emails from Oneconsumer
+or FPL for other products, you can register for the Do Not Disturb service and
+also unsubscribe from promotional emails by clicking on the link which will
+be provided in such emails.
+vi) You will continue to receive communications about transactions and core
+features of OneCard Credit Card. A copy of this MITC document, Terms and
+Conditions, and FAQ will always be available on www.getonecard.app.
+H) Grievance Redressal and Compensation Framework
+i) Grievance redressal and escalation process and Timeline for redressal
+of grievance
+a) Timeline for redressal of grievance
+If your grievance is not satisfactorily resolved after reaching out
+to grievances@fplabs.tech, you can reach out to the bank as per their
+escalation matrix.
+If the issue remains unresolved beyond 30 days even after reaching out to the
+above channels, or if the response is unsatisfactory, you may write to the
+Banking Ombudsman for an independent review. Details of the Banking
+Ombudsman Scheme are available on the Reserve Bank of India (RBI) website
+at https://www.rbi.org.in/
+ii) Below compensation framework will be followed in case of delay in
+resolving
+iii) Contact details of the card-issuer are as following
+📧 Email your query or concern to help@getonecard.app
+📞 Call us on our helpline number at 1800-210-9111
+🏢 Write to us or visit us at: FPL Technologies Pvt. Ltd., Disha Bldg, Survey No
+127, Mahavir Park, Opposite Sarjaa, Aundh, Pune 411007
+If you are not satisfied with the response from regular channels, you can send
+an email to grievances@fplabs.tech
+I) REWARD POINTS 🎁
+By using your OneCard Credit Card, you are automatically enrolled in the
+OneCard Rewards Programme. When you transact with your OneCard Credit
+Card, reward points are credited to your OneCard Credit Card account
+depending on the transaction value and the purchase category. These reward
+points can be accumulated and further used to repay other purchases or
+redeemed for exciting offers shown in the OneCard App from time to time.
+I. Earn Reward Points
+a) Reward points will be credited only on regular purchases across any
+category and at the discretion of Bank/FPL and you shall have no right to
+claim the Reward points if not credited.
+b) Reward points will not accrue for money transfers, rent payments, cash
+withdrawals and digital wallet loading or top-up transactions. Sometimes,
+when you purchase a service/product on a digital wallet app which also offers
+in-app purchases, you may not get reward points, as it involves actual wallet
+load, which is then used to make payment to the merchant.
+c) Currently, you will get 1 Reward Point on every purchase of Rs. 50.
+d) For purchase amounts below Rs. 50, fractional points will be credited. For
+example, if you spend Rs. 25 on a recharge, 0.5 reward points will be credited.
+e) Bonus Rewards: Valid and confirmed purchases across the Top 2 categories
+in a month are eligible for “5X” rewards, which means you would receive 5
+times the reward points on those categories for that month.
+- To qualify, you must make purchases across at least 3 categories in a month.
+From these, the top 2 categories would be eligible for 5X rewards.
+- Points accruing due to 5X rewards will be credited to your points balance on
+the 10th day of the subsequent month. For example, if your purchases in July
+are eligible, 5X points will be credited to your points balance on August 10.
+II. Redeem Reward Points:
+a) No fee is levied if you wish to redeem reward points.
+b) Rewards points can be redeemed including in the following ways:
+- Pay with points: which lets you pay for previous transactions
+- Redeem points for other offers/benefits as applicable from time to time
+c) The “Pay With Points” functionality will be available against transactions
+that are less than two months old. For example, if you make a purchase on July
+15, you can repay it with points till September 14 only (subject to available
+points balance).
+d) On redemption, the rewards points so redeemed will be automatically
+subtracted from the accumulated reward points in your OneCard Credit Card
+account.
+e) To pay with points, simply swipe right on a transaction. In case available
+points are inadequate, a message will be shown to indicate how many points
+are needed.
+III. Other Terms:
+a) Reward points which have been credited or debited to or from your
+OneCard Credit Card account shall be reflected on the OneCard app. You can
+also view the reward points accumulated by you on the OneCard app.
+b) FPL reserves the right to wholly or partly modify the OneCard Rewards
+Programme. FPL also reserves the right to change the reward point
+conversion rate, withdraw reward points awarded or to vary any of the terms
+and conditions herein in its absolute discretion without prior notice to the
+cardholder.
+c) In case this OneCard Rewards Programme comes in conflict with any rule,
+regulation or order or any statutory authority, then FPL has the absolute
+authority and right to modify or cancel this rewards programme to give effect
+to said requirements.
+d) Reward points do not expire and have lifetime validity, except in
+circumstances detailed below:
+- If the OneCard Credit Card is not used for more than 365 days, the accrued
+reward points will be nullified.
+- FPL reserves the right to cancel or suspend the accrued reward points if the
+OneCard Credit Card account is in arrears, suspension or default or if the
+OneCard Credit Card account is or is reasonably suspected to be operated
+fraudulently.
+- In case of cardmember’s death, the reward points earned but not redeemed
+at that time will be forfeited.
+- If a transaction is reversed by way of a refund/chargeback/reimbursement,
+the transaction amount shall be credited back to your OneCard Credit Card
+account. In such instances, the reward points accrued on those transactions
+will be reduced from the overall points balance.
+- In case a cardmember cancels vouchers that were availed of by redeeming
+reward points, points can be reinstated at FPL’s discretion at the same rate at
+which they were redeemed.
+- On closure/termination of OneCard membership, any reward points pending
+to be claimed in the cardmember’s account will be forfeited.
+e) FPL will not be held responsible if any supplier of products / services
+offered to you withdraws, cancels, alters or amends those products / services.
+f) FPL makes no warranties for the quality of products / services provided by
+the merchant establishments participating in the OneCard Rewards
+Programme.
+g) You may note that every purchase is assigned a different “Category”
+depending upon the Merchant Category Code (“MCC”) defined by MasterCard.
+According to this, the merchant acquiring bank classifies the merchant
+depending on the service provided by them. For example, Food & Dining,
+Shopping, Travel, Entertainment, Groceries, Bills & Utilities, Fuel, and so on.
+FPL does not have any control over this MCC classification.
+J) REFERRAL PROGRAMME 💳💳
+These referral programme terms and conditions shall apply to the customer
+who uses the OneCard Credit Card (“Cardholder”/”You”) and the person who
+agrees to be referred to the OneCard (“Referred User”). Participation in this
+referral programme is entirely voluntary and it is understood that
+participation by the Cardholder, shall be deemed to have been made on a
+voluntary basis.
+This programme will be applicable for all OneCards Credit Card activated via
+referral links
+You will receive Two Thousand Five Hundred (2,500) bonus reward points for
+every new user who joins OneCard Credit Card through your referral link.
+b) The Referred User will have to download the OneCard app using the link
+provided by you and activate their virtual OneCard Credit Card. You will
+receive bonus points only for Referred Users who successfully activate the
+OneCard Credit Card.
+c) If a Referred User does not join OneCard Credit Card through your referral
+link, then you will lose out on the bonus points.
+d) Points earned for referring users will not be eligible for the monthly 5X
+rewards boost.
+e) If a Referred User is already a OneScore App user and has applied for
+OneCard Credit Card, then such a Referred User will not be considered for
+bonus reward points.
+f) If more than one Cardholder provides the same reference, the Referred User
+shall receive a referral link from both the Cardholders and the Referred User
+can choose to apply using any referral link and the corresponding Cardholder
+shall receive the reward points.
+g) The referral link shall be valid only for 30 days. In case a Referred User
+joins after 30 days, then the Cardholder will not receive points for the same.
+h) Along with the referral rewards value and applicable limits, the decision of
+issuing OneCard Credit Card to the Referred User will be at the sole discretion
+of FPL Technologies, as per our evaluation policy, and is subject to change
+without prior notice.
+i) IMPORTANT Sharing of personal information between the Cardholder and
+the Referred User:
+As part of this referral programme and the Cardholder being able to receive
+reward points for successful referrals using a referral link, the Referred User
+acknowledges, understands and agrees that when the Referred User accepts
+the invitation via the referral link and successfully activates the virtual
+OneCard Credit Card, the Cardholder will know that the Referred User has
+received the OneCard Credit Card. If the Referred User desires to avoid
+disclosing this personal information, then the Referred User may choose to
+apply independently and not via the referral link sent by the Cardholder.
+Likewise, by sending a referral link, the Cardholder, acknowledges,
+understands and agrees that the Referred User will know that the Cardholder
+stands a chance to get rewarded by way of bonus points. If the Cardholder
+does not desire to disclose this information, the Cardholder should not send a
+referral link. All communications related to the OneCard Credit Card approval
+or rejection will be communicated to the Referred User only and not to the
+Cardholder. Only a successful referral will trigger a communication to the
+Cardholder along with the reward redemption details.
+j) FPL reserves the right to disqualify the Cardholder from the benefits of this
+programme, if any fraudulent activity is identified as being carried out for the
+purpose of availing the benefits under this programme or otherwise by use of
+the OneCard Credit Card.
+k) You can earn bonus reward points for a maximum of 25 referrals in any
+calendar month, and a maximum of 100 referrals in a calendar year.
+l) FPL has the sole discretion to change, suspend or modify, from time to time,
+the referral programme and the terms and conditions herein in accordance
+with applicable laws.
+IMPORTANT REGULATORY INFORMATION
+i) Your OneCard Credit Card is valid for use both in India as well as abroad. It
+is, however, not valid for making foreign currency transactions in Nepal and
+Bhutan.
+ii) Foreign exchange trading through Internet trading portals is not permitted.
+In the event of any violations or failure to comply, you may be liable for penal
+action and/or closure of the card.
+Declaration And Consent
+I hereby acknowledge that I have applied for the OneCard Credit Card issued
+by the Bank in partnership with Oneconsumer Services Ltd and declare that I
+am a resident Indian o<version> years of age. I declare that all the particulars and
+information given as part of application are true, correct and complete and
+that OneCard is entitled to verify these details directly or through any third-
+party agent. I further understand that OneCard may at its sole discretion
+sanction or decline this application for the Card, without assigning any reason
+whatsoever. I undertake to inform OneCard regarding any change in my
+application credentials originally submitted and to provide any further
+information that they may require to process the Application and/or
+continued usage on the OneCard. I hereby authorize and give express consent
+to OneCard (including the Bank and FPL) to disclose, without notice to me, my
+Personally Identifiable Information (PII) and other Non-Personally
+Identifiable Information (NII) furnished by me in any application form(s) or
+related documents executed or furnished by me in relation to the OneCard to
+other branches of the Bank, subsidiaries or affiliates of OneCard, Credit
+Information bureaus, rating agencies, service providers, service partners
+(including any insurance partners) other banks or financial institution,
+governmental/ regulatory authorities or third parties for KYC verification ,
+bank account statement verification, credit risk analysis, or for other related
+purposes that OneCard may deem fit to process my application and/or for
+continued usage of the OneCard and/ or for any other marketing objectives. I
+hereby specifically waive the privilege of privacy and privity of contract.
