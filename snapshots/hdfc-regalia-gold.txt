@@ -8,40 +8,48 @@ spends of Rs 1.5 lakhs.
 Swiggy One and MMTBLACK Gold membership on
 spends of Rs. 1 lakh in first 90 days
 Apply Now
+<a href="/content/dam/hdfcbankpws/in/en/pdf/common/Credit-Cards/Regalia-Gold-Product-feature-change.pdf" target="_blank">Click here</a> to view the changes in HDFC Bank Regalia Gold Credit Card effective 15th May 2026.</p>
+">
 Click here to view the changes in HDFC Bank Regalia Gold Credit Card effective 15th May 2026.
+<span class="quicktitle">What's in store for you</span></p>
+<ul>
+<li><a href="#features" target="_self" title="Card Benefits &amp; Features">Card Benefits &amp; Features<span class="viewarrow-icon icon-arrow-right-bold"></span></a></li>
+<li><a class="manualRedirect" title="Eligibility Criteria" href="#eligibility" target="_self">Eligibility Criteria<span class="viewarrow-icon icon-arrow-right-bold"></span></a></li>
+<li><a title="Documents Required to Apply" href="#documents" target="_self">Documents Required to Apply<span class="viewarrow-icon icon-arrow-right-bold"></span></a></li>
+<li><a href="#d" title="Application Process">Application Process<span class="viewarrow-icon icon-arrow-right-bold"></span></a></li>
+<li><a title="Card Management &amp; Controls" href="#e">Card Management &amp; Controls<span class="viewarrow-icon icon-arrow-right-bold"></span></a></li>
+</ul>
+">
 What's in store for you
 Card Benefits & Features
 Eligibility Criteria
 Documents Required to Apply
 Application Process
 Card Management & Controls
+<span class="section-title">Regalia Gold Savings Calculator</span></h2>
+<p><span class="sub-title">Track your expenses. Maximize your savings.</span></p>
+">
 Regalia Gold Savings Calculator
 Track your expenses. Maximize your savings.
 Tell us how much you spend on :
 Flight booking via SmartBUY
 ₹
-Please enter a value between 0 and 1,00,000.
 ₹ 0 ₹ 1,00,000
 Groceries
 ₹
-Please enter a value between 0 and 1,00,000.
 ₹ 0 ₹ 1,00,000
 Dining
 ₹
-Please enter a value between 0 and 1,00,000.
 ₹ 0 ₹ 1,00,000
 Shopping
 ₹
-Please enter a value between 0 and 1,00,000.
 ₹ 0 ₹ 1,00,000
 Lifestyle brands 5X rewards on select brands
 ₹
-Please enter a value between 0 and 1,00,000.
 ₹ 0 ₹ 1,00,000
 Regalia Gold SmartBUY Rewards
 Know more
 ₹
-Please enter a value between 0 and 1,00,000.
 ₹ 0 ₹ 1,00,000
 Your total monthly spends are
 ₹
@@ -72,6 +80,8 @@ Premium Vouchers from - Club Marriott, Marks & Spencers, Myntra, Make my Trip, R
 Annual milestone of ₹ 5000 worth flight vouchers on spends of ₹ 5 lakhs and 7.5 lakhs
 ₹ 2,500
 Apply Now
+<span class="card-subtitle"><span class="section-title"><span class="pd-millennia_title">More benefits than ever before</span></span></span></p>
+">
 More benefits than ever before
 Welcome Benefits
 Complimentary Swiggy One and MMT Black Gold membership as Welcome benefits.
@@ -99,6 +109,8 @@ Click Here to view Milestone Benefits T&Cs and Brand-wise T&Cs.
 Login to Smartbuy to track your milestone spends and avail unlocked benefits. Click Here
 Milestone benefits once unlocked, have a 60 days validity to avail
 View More
+<span class="section-title">Additional Benefits</span></h2>
+">
 Additional Benefits
 Welcome Benefits
 On spends of 1 lakh in first 90 days,
@@ -146,6 +158,8 @@ Credit Liability cover: Up to Rs. 9 Lakhs
 Click here to update your nominee details.
 Click here for claim procedure and policy details.
 View More
+<span class="card-subtitle">Wondering if you are eligible?</span></h2>
+">
 Wondering if you are eligible?
 Salaried
 Nationality: Indian
@@ -159,6 +173,8 @@ Income: ITR > Rs 18 Lakhs per annum
 Experience the Golden Side of Life with
 Regalia Gold Credit Card
 Apply Now
+<span class="text-center"><span class="section-title">Know more about the card</span></span></h2>
+">
 Know more about the card
 Credit Card Management & Controls
 Application Process
@@ -312,6 +328,16 @@ Please Click Here to view reward points TnC.
 Most Important Terms and Conditions*
 The Most Important Terms and Conditions for each of our banking offerings features all the specific terms and conditions that govern their use. You must go through it thoroughly to fully understand the terms and conditions applicable to any banking product you choose.
 Click here to access all important links related to your Credit Card.
+<span class="sub-sec-heading">Types of Credit Card</span></p>
+<ul>
+<li><span class="item-title"><a href="/credit-cards" target="_self">Credit Card</a><span class="viewarrow-icon icon-arrow-right-bold"></span></span></li>
+<li><span class="item-title"><a href="/credit-cards/travel-credit-card" target="_self">Travel Credit Card</a><span class="viewarrow-icon icon-arrow-right-bold"></span></span></li>
+<li><span class="item-title"><a href="/credit-cards/rewards-credit-card" target="_self">Rewards Credit Card</a><span class="viewarrow-icon icon-arrow-right-bold"></span></span></li>
+<li><span class="item-title"><a href="/credit-cards/lifestyle-credit-card" target="_self">Lifestyle Credit Card</a><span class="viewarrow-icon icon-arrow-right-bold"></span></span></li>
+<li><span class="item-title"><a href="/credit-cards/premium-and-super-premium-credit-cards">Premium &amp; Super <br />
+Premium Credit Card</a><span class="viewarrow-icon icon-arrow-right-bold"></span></span></li>
+</ul>
+">
 Types of Credit Card
 Credit Card
 Travel Credit Card
@@ -319,6 +345,16 @@ Rewards Credit Card
 Lifestyle Credit Card
 Premium & Super
 Premium Credit Card
+<span class="sub-sec-heading" data-font-size="22" data-line-height="27.5008" data-letter-spacing="normal">Credit Card Services</span></p>
+<ul>
+<li data-font-size="16" data-line-height="19.2" data-letter-spacing="normal"><span class="item-title" data-font-size="16" data-line-height="19.2" data-letter-spacing="normal"><a href="/credit-cards/netbanking" target="_self" data-font-size="14" data-line-height="21" data-letter-spacing="normal">Credit Card Netbanking</a><span class="viewarrow-icon icon-arrow-right-bold" data-font-size="12" data-line-height="12" data-letter-spacing="normal"></span></span></li>
+<li data-font-size="16" data-line-height="19.2" data-letter-spacing="normal"><span class="item-title" data-font-size="16" data-line-height="19.2" data-letter-spacing="normal"><a href="/credit-cards/services/limit-enhancement" target="_self" data-font-size="14" data-line-height="21" data-letter-spacing="normal">Credit Card Limit <br>
+Enhancement</a><span class="viewarrow-icon icon-arrow-right-bold" data-font-size="12" data-line-height="12" data-letter-spacing="normal"></span></span></li>
+<li data-font-size="16" data-line-height="19.2" data-letter-spacing="normal"><span class="item-title" data-font-size="16" data-line-height="19.2" data-letter-spacing="normal"><a href="/credit-cards/services/credit-card-upgrade" target="_self" data-font-size="14" data-line-height="21" data-letter-spacing="normal">Credit Card Upgrade</a><span class="viewarrow-icon icon-arrow-right-bold" data-font-size="12" data-line-height="12" data-letter-spacing="normal"></span></span></li>
+<li data-font-size="16" data-line-height="19.2" data-letter-spacing="normal"><span class="item-title" data-font-size="16" data-line-height="19.2" data-letter-spacing="normal"><a href="/credit-cards/services/track-credit-card-status" target="_self" data-font-size="14" data-line-height="21" data-letter-spacing="normal">Track Your Credit Card</a><span class="viewarrow-icon icon-arrow-right-bold" data-font-size="12" data-line-height="12" data-letter-spacing="normal"></span></span></li>
+<li data-font-size="16" data-line-height="19.2" data-letter-spacing="normal"><span class="item-title" data-font-size="16" data-line-height="19.2" data-letter-spacing="normal"><a href="/credit-cards/services" target="_self" data-font-size="14" data-line-height="21" data-letter-spacing="normal">Other Credit Card Services</a><span class="viewarrow-icon icon-arrow-right-bold" data-font-size="12" data-line-height="12" data-letter-spacing="normal"></span></span></li>
+</ul>
+">
 Credit Card Services
 Credit Card Netbanking
 Credit Card Limit
@@ -326,12 +362,31 @@ Enhancement
 Credit Card Upgrade
 Track Your Credit Card
 Other Credit Card Services
+<span class="sub-sec-heading">Credit Card Important Links</span></p>
+<ul>
+<li><span class="item-title"><a href="https://mycards.hdfc.bank.in/?mc_id=cc-cat-pg&amp;icid=cc-cat-pg" target="_blank">MyCards</a><span class="viewarrow-icon icon-arrow-right-bold"></span></span></li>
+<li><span class="item-title"><a href="/credit-cards/services/claim-rewards" target="_self">Redeem Reward Points</a><span class="viewarrow-icon icon-arrow-right-bold"></span></span></li>
+<li><span class="item-title"><a href="/credit-cards/services/credit-cards-bill-payment" target="_self">Credit Card Bill Payment</a><span class="viewarrow-icon icon-arrow-right-bold"></span></span></li>
+<li><span class="item-title"><a href="/loan-on-credit-card" target="_self">Loan On Credit Card</a><span class="viewarrow-icon icon-arrow-right-bold"></span></span></li>
+<li><span class="item-title"><a href="/credit-cards/emi-calculator" target="_self">Credit Card EMI Calculator</a><span class="viewarrow-icon icon-arrow-right-bold"></span></span></li>
+</ul>
+">
 Credit Card Important Links
 MyCards
 Redeem Reward Points
 Credit Card Bill Payment
 Loan On Credit Card
 Credit Card EMI Calculator
+<span class="sub-sec-heading">Related Articles</span></p>
+<ul>
+<li><span class="item-title"><a href="https://www.hdfc.bank.in/blogs/credit-cards/what-are-the-benefits-of-a-credit-card" target="_self">Benefits of Credit Card<span class="viewarrow-icon icon-arrow-right-bold"></span></a></span></li>
+<li><span class="item-title"><a href="/blogs/credit-cards/debit-card-or-credit-card-which-is-better" target="_self">Difference Between<br>
+Credit Card &amp; Debit Card</a><span class="viewarrow-icon icon-arrow-right-bold"></span></span></li>
+<li><span class="item-title"><a href="https://www.hdfc.bank.in/blogs/credit-cards/what-is-airport-lounge-access-credit-card" target="_self">Airport Lounge Access Credit Card</a><span class="viewarrow-icon icon-arrow-right-bold"></span></span></li>
+<li><span class="item-title"><a href="/blogs/upi/step-by-step-guide-upi-payments-with-credit-cards" target="_self">How to make UPI Payments with Credit Card<span class="viewarrow-icon icon-arrow-right-bold"></span></a></span></li>
+<li><span class="item-title"><a href="https://www.hdfc.bank.in/blogs/credit-cards/7-tips-to-use-credit-card-wisely" target="_self">How To Use Credit Card Wisely<span class="viewarrow-icon icon-arrow-right-bold"></span></a></span></li>
+</ul>
+">
 Related Articles
 Benefits of Credit Card
 Difference Between

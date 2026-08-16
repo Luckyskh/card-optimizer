@@ -5,11 +5,21 @@ Tata Neu Infinity Credit Card
 Additional 5% back as NeuCoins on selected Tata Neu Spends, post registering for Tata NeuPass
 1.5% back as NeuCoins on other Non-UPI spends
 Apply Now
+<span class="quicktitle">What's in store for you&nbsp;</span></p>
+<ul>
+<li><a href="#exclusive" target="_self" title="Card Benefits &amp; Features">Card Benefits &amp; Features<span class="viewarrow-icon icon-arrow-right-bold"></span></a></li>
+<li><a href="#eligibility" target="_self" title="Eligibility Criteria">Eligibility Criteria<span class="viewarrow-icon icon-arrow-right-bold"></span></a></li>
+<li><a title="Application Process" href="#e" target="_self">Application Process<span class="viewarrow-icon icon-arrow-right-bold"></span></a></li>
+<li><a title="Card Management &amp; Control" href="#c" target="_self">Card Management &amp; Controls<span class="viewarrow-icon icon-arrow-right-bold"></span></a></li>
+</ul>
+">
 What's in store for you
 Card Benefits & Features
 Eligibility Criteria
 Application Process
 Card Management & Controls
+<span class="card-subtitle"><span class="section-title"><span class="pd-millennia_title">More&nbsp;benefits than ever before</span></span></span></p>
+">
 More benefits than ever before
 Reward Benefits (Non-UPI)
 5% back as NeuCoins on Non-EMI Spends on Tata Neu and partner Tata Brands.
@@ -23,6 +33,8 @@ Domestic Lounge Access
 International Lounge Access
 4 Complimentary Lounge Access per calendar year (1 per Quarter), outside India.
 View More
+<span class="section-title"><span class="breakline">Additional benefits</span></span></h2>
+">
 Additional benefits
 Reward Benefits (Non-UPI)
 5% back as NeuCoins on Non-EMI Spends on Tata Neu and partner Tata Brands. For list of eligible partner brands  click here
@@ -87,6 +99,8 @@ Fuel Surcharge Waiver
 View More
 Renewal Offer
 Spend ₹3,00,000 or more in a year, before your Credit Card renewal date and get your renewal fee waived off.
+<span class="card-subtitle">Wondering if you are eligible?</span></h2>
+">
 Wondering if you are eligible?
 Salaried
 Nationality: Indian
@@ -99,6 +113,8 @@ Annual ITR > ₹12,00,000
 Save up to ₹1,21,779 * annually
 Get extraordinary rewards with savings of more than a month on your spends......
 Apply Now
+<span class="section-Title"><span class="section-title">Documents required to get you started</span></span></h2>
+">
 Documents required to get you started
 Identity Proof
 Passport
@@ -126,6 +142,8 @@ Step 3- Select your Card
 Step 4- Submit & Receive your Card*
 *In certain cases, uploading documents and completing video KYC might be required.
 Check Eligibility
+<span class="text-center"><span class="section-title">Know more about the card</span></span></h2>
+">
 Know more about the card
 Credit Card Management & Controls
 Fees & Charges
@@ -248,6 +266,16 @@ You can choose any of the following easy options to apply for your HDFC Bank Cre
 You can quickly apply online by clicking here .
 2. HDFC Bank Branch
 Prefer a face-to-face interaction? Just visit your nearest branch and our staff will help you with the application.
+<span class="sub-sec-heading">Types of Credit Card</span></p>
+<ul>
+<li><span class="item-title"><a href="/credit-cards" target="_self">Credit Card</a><span class="viewarrow-icon icon-arrow-right-bold"></span></span></li>
+<li><span class="item-title"><a href="/credit-cards/travel-credit-card" target="_self">Travel Credit Card</a><span class="viewarrow-icon icon-arrow-right-bold"></span></span></li>
+<li><span class="item-title"><a href="/credit-cards/rewards-credit-card" target="_self">Rewards Credit Card</a><span class="viewarrow-icon icon-arrow-right-bold"></span></span></li>
+<li><span class="item-title"><a href="/credit-cards/lifestyle-credit-card" target="_self">Lifestyle Credit Card</a><span class="viewarrow-icon icon-arrow-right-bold"></span></span></li>
+<li><span class="item-title"><a href="/credit-cards/premium-and-super-premium-credit-cards">Premium &amp; Super <br />
+Premium Credit Card</a><span class="viewarrow-icon icon-arrow-right-bold"></span></span></li>
+</ul>
+">
 Types of Credit Card
 Credit Card
 Travel Credit Card
@@ -255,6 +283,16 @@ Rewards Credit Card
 Lifestyle Credit Card
 Premium & Super
 Premium Credit Card
+<span class="sub-sec-heading" data-font-size="22" data-line-height="27.5008" data-letter-spacing="normal">Credit Card Services</span></p>
+<ul>
+<li data-font-size="16" data-line-height="19.2" data-letter-spacing="normal"><span class="item-title" data-font-size="16" data-line-height="19.2" data-letter-spacing="normal"><a href="/credit-cards/netbanking" target="_self" data-font-size="14" data-line-height="21" data-letter-spacing="normal">Credit Card Netbanking</a><span class="viewarrow-icon icon-arrow-right-bold" data-font-size="12" data-line-height="12" data-letter-spacing="normal"></span></span></li>
+<li data-font-size="16" data-line-height="19.2" data-letter-spacing="normal"><span class="item-title" data-font-size="16" data-line-height="19.2" data-letter-spacing="normal"><a href="/credit-cards/services/limit-enhancement" target="_self" data-font-size="14" data-line-height="21" data-letter-spacing="normal">Credit Card Limit <br>
+Enhancement</a><span class="viewarrow-icon icon-arrow-right-bold" data-font-size="12" data-line-height="12" data-letter-spacing="normal"></span></span></li>
+<li data-font-size="16" data-line-height="19.2" data-letter-spacing="normal"><span class="item-title" data-font-size="16" data-line-height="19.2" data-letter-spacing="normal"><a href="/credit-cards/services/credit-card-upgrade" target="_self" data-font-size="14" data-line-height="21" data-letter-spacing="normal">Credit Card Upgrade</a><span class="viewarrow-icon icon-arrow-right-bold" data-font-size="12" data-line-height="12" data-letter-spacing="normal"></span></span></li>
+<li data-font-size="16" data-line-height="19.2" data-letter-spacing="normal"><span class="item-title" data-font-size="16" data-line-height="19.2" data-letter-spacing="normal"><a href="/credit-cards/services/track-credit-card-status" target="_self" data-font-size="14" data-line-height="21" data-letter-spacing="normal">Track Your Credit Card</a><span class="viewarrow-icon icon-arrow-right-bold" data-font-size="12" data-line-height="12" data-letter-spacing="normal"></span></span></li>
+<li data-font-size="16" data-line-height="19.2" data-letter-spacing="normal"><span class="item-title" data-font-size="16" data-line-height="19.2" data-letter-spacing="normal"><a href="/credit-cards/services" target="_self" data-font-size="14" data-line-height="21" data-letter-spacing="normal">Other Credit Card Services</a><span class="viewarrow-icon icon-arrow-right-bold" data-font-size="12" data-line-height="12" data-letter-spacing="normal"></span></span></li>
+</ul>
+">
 Credit Card Services
 Credit Card Netbanking
 Credit Card Limit
@@ -262,12 +300,31 @@ Enhancement
 Credit Card Upgrade
 Track Your Credit Card
 Other Credit Card Services
+<span class="sub-sec-heading">Credit Card Important Links</span></p>
+<ul>
+<li><span class="item-title"><a href="https://mycards.hdfc.bank.in/?mc_id=cc-cat-pg&amp;icid=cc-cat-pg" target="_blank">MyCards</a><span class="viewarrow-icon icon-arrow-right-bold"></span></span></li>
+<li><span class="item-title"><a href="/credit-cards/services/claim-rewards" target="_self">Redeem Reward Points</a><span class="viewarrow-icon icon-arrow-right-bold"></span></span></li>
+<li><span class="item-title"><a href="/credit-cards/services/credit-cards-bill-payment" target="_self">Credit Card Bill Payment</a><span class="viewarrow-icon icon-arrow-right-bold"></span></span></li>
+<li><span class="item-title"><a href="/loan-on-credit-card" target="_self">Loan On Credit Card</a><span class="viewarrow-icon icon-arrow-right-bold"></span></span></li>
+<li><span class="item-title"><a href="/credit-cards/emi-calculator" target="_self">Credit Card EMI Calculator</a><span class="viewarrow-icon icon-arrow-right-bold"></span></span></li>
+</ul>
+">
 Credit Card Important Links
 MyCards
 Redeem Reward Points
 Credit Card Bill Payment
 Loan On Credit Card
 Credit Card EMI Calculator
+<span class="sub-sec-heading">Related Articles</span></p>
+<ul>
+<li><span class="item-title"><a href="https://www.hdfc.bank.in/blogs/credit-cards/what-are-the-benefits-of-a-credit-card" target="_self">Benefits of Credit Card<span class="viewarrow-icon icon-arrow-right-bold"></span></a></span></li>
+<li><span class="item-title"><a href="/blogs/credit-cards/debit-card-or-credit-card-which-is-better" target="_self">Difference Between<br>
+Credit Card &amp; Debit Card</a><span class="viewarrow-icon icon-arrow-right-bold"></span></span></li>
+<li><span class="item-title"><a href="https://www.hdfc.bank.in/blogs/credit-cards/what-is-airport-lounge-access-credit-card" target="_self">Airport Lounge Access Credit Card</a><span class="viewarrow-icon icon-arrow-right-bold"></span></span></li>
+<li><span class="item-title"><a href="/blogs/upi/step-by-step-guide-upi-payments-with-credit-cards" target="_self">How to make UPI Payments with Credit Card<span class="viewarrow-icon icon-arrow-right-bold"></span></a></span></li>
+<li><span class="item-title"><a href="https://www.hdfc.bank.in/blogs/credit-cards/7-tips-to-use-credit-card-wisely" target="_self">How To Use Credit Card Wisely<span class="viewarrow-icon icon-arrow-right-bold"></span></a></span></li>
+</ul>
+">
 Related Articles
 Benefits of Credit Card
 Difference Between

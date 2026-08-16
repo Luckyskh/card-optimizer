@@ -17,8 +17,10 @@ Times Black ICICI 20,000 Nil 20,000 3,500***** 25,00,000****
 Bank Credit
 Card
 ICICI Bank Emeralde
-Private Metal Credit 12,499 Nil 12,499 3,500****** 10,00,000***
-Card (w.e.f. Jan 15,
+12,499 Nil 12,499 3,500****** 10,00,000***
+Private Metal Credit
+(w.e.f. Jan 15,
+Card
 2026)
 ICICI Bank Emeralde 12,000 Nil 12,000 Nil 10,00,000***
 Private Credit Card
@@ -140,16 +142,7 @@ have these charges levied in the statement cycles. However, the Bank reserves th
 revise the policy and charge Annual Fee on the Card in future with due intimation to customer
 as per regulatory guidelines.
 Sourcing (Issuance) of ICICI Bank Emeralde Credit Card and ICICI Bank Emeralde Private
-Credit Card with monthly membership plan has been discontinued w.e.f. Jul 24, 2025. Also,
-customers need to spend at least ₹<1,00,000> in the preceding month for the monthly
-charge’s reversal (Spends made from the first day of card issuance to the next 1 month will
-be considered, as per the reversal T&Cs).
-The Emeralde Private Metal Credit Card is issued as a relationship-based product and is
-subject to the Cardholder maintaining a minimum relationship value with ICICI Bank, as
-prescribed by the Bank from time to time. If the Cardholder does not maintain such minimum
-relationship value, ICICI Bank reserves the right at its discretion and with prior notice, to
-downgrade, withdraw or discontinue the Card and / or any benefits, features or privileges
-associated with the Card.
+Credit Card with monthly membership plan has been discontinued w.e.f. Jul 24, 2025.
 Mine Credit Card by ICICI Bank
 Starter Free Premium 149
 Monthly Plan Name Pro 49 Plan
@@ -247,14 +240,16 @@ annum.)
 3. Other Service Charges and Fees :
 Card replacement fee With effect from July 1,
 Current Charges
-₹100 for all cards ₹200 for all cards
-Exception: Exception:
-₹199 for ICICI Bank ₹3500 for Emeralde
-Expressions Credit Card) Private
-₹3500 for Emeralde Metal Credit Card
-Private ₹3500 for Times Black
-Metal Credit Card ICICI Bank
-₹3500 for Times Black Credit Card
+₹200 for all cards
+₹100 for all cards
+Exception:
+Exception: ₹3500 for Emeralde
+₹199 for ICICI Bank Private
+Expressions Credit Card) Metal Credit Card
+₹3500 for Emeralde ₹3500 for Times Black
+Private ICICI Bank
+Metal Credit Card Credit Card
+₹3500 for Times Black
 ICICI Bank
 Credit Card
 Foreign currency Mark-up of 3.50%. A refund initiated by the customer on
@@ -270,8 +265,8 @@ Bank Signature Credit Card and MakeMyTrip ICICI Bank
 Platinum Credit Card).
 3. Mark-up of 1.49% will be levied on Times Black ICICI
 Bank Credit Card.
-4. Mark-up of 1.99% will be levied for the Amazon Pay ICICI
-Bank Credit Card.
+4. Mark-up of 1.99% will be levied for the Amazon Pay
+ICICI Bank Credit Card.
 Dynamic Currency
 Conversion Current Charges w.e.f. <date>
 Fee Charges
@@ -291,10 +286,11 @@ carried out in Metal Credit Card, ICICI Bank
 Indian Emeralde Private Credit Card
 currency at and ICICI Bank Emeralde Credit
 merchants Card.
-located in 2. 0.99% Dynamic Currency
-India but Conversion fee will be levied for
-registered in a MakeMyTrip ICICI Bank Credit
-foreign nation. Card (not applicable on
+located in
+India but 2. 0.99% Dynamic Currency
+registered in a Conversion fee will be levied for
+foreign nation. MakeMyTrip ICICI Bank Credit
+Card (not applicable on
 MakeMyTrip ICICI Bank
 Signature Credit Card and
 MakeMyTrip ICICI Bank
@@ -307,25 +303,22 @@ Card.
 Conversion fee will be levied for
 Amazon Pay ICICI Bank Credit
 Card.
-Dynamic Currency Conversion (DCC) Fee:
-Any refund initiated by the customer will also attract a DCC fee
-based on the variant rate.
 Rent Pay 1% fee on transaction amount
 Transactions*** Merchant Category Code: 6513****
 Fuel Transaction (w.e.f. A fee of 1% of the transaction amount will be charged for fuel
 Nov 15, transactions exceeding Rs. 10,000
-2024) Merchant Category Code: 1361, 5172, 5541, 5542, 5983,
+2024) Merchant Category Codes: 1361, 5172, 5541, 5542, 5983,
 9752, 5555, 3851****
 Utility Transaction (w.e.f. A fee of 1% of the transaction amount will be charged for utility
 Nov 15, 2024) payment transactions exceeding Rs. 50,000
-Merchant Category Code: 4899, 4900, 4901, 4814, 4821****
+Merchant Category Codes: 4899, 4900, 4901, 4814, 4821****
 Transportation A fee of 1% of the transaction amount will be charged on
 Transaction transactions exceeding ₹ 50,000 that are categorised under
 (w.e.f. Jan 15, 2026) the merchant category ‘Transportation’
-Merchant Category Code: 4111, 4112, 4784, 4131****
+Merchant Category Codes: 4111, 4112, 4784, 4131****
 Education Payment A fee of 1% of the transaction amount will be charged for
 (w.e.f. Nov education payments made through third-party apps
-15, 2024) Merchant Category Code: 8211, 8220, 8241, 8244, 8249,
+15, 2024) Merchant Category Codes: 8211, 8220, 8241, 8244, 8249,
 8299, 8493, 8494, 7911****
 Skill-Based Gaming A fee of 2% of the transaction amount will be charged for skill-
 Transactions (w.e.f. Jan based gaming transactions
@@ -345,6 +338,9 @@ Fee (GST) will be charged towards handling and delivery on every
 redemption request for reward points earned on ICICI Bank
 Credit Cards.
 Reward Scheme Reward Handling Fee
+Hand-picked Rewards
+₹99
+Scheme
 ICICI Bank Rewards
 ₹99
 Scheme
@@ -359,8 +355,7 @@ scheme
 Reward Scheme Reward Handling Fee
 Catalogue Based ₹99
 Redemptions
-Nil
-Emeralde Private Metal
+Emeralde Private Metal Nil
 Credit/
 Times Black ICICI Bank
 Credit
@@ -693,7 +688,7 @@ Payment due date - Oct 26, 2025
 Purchase on Oct 15, 2025, Rent Pay 2,000.00
 Convenience Fee on Rent Pay on Oct 15, 2025 20.00
 Tax on Convenience Fee 3.60
-LPC charged on Oct 30, 2025* 600
+LPC charged on Oct 29, 2025* 600
 Tax on LPC 108
 On statement dated Nov 08, 2025, following interest charges will be
 levied:
@@ -746,9 +741,9 @@ For a credit cards account the statement for the period from April 15, 2025 to M
 the payment due date would be June 2, 2025. Assuming that you have paid your Total
 Amount Due of the previous month statement by the payment due date, then interest free
 period would be:
-1.For a purchase dated April 24, 2025, the interest free period is from April 24, 2025 to June
+1. For a purchase dated April 24, 2025, the interest free period is from April 24, 2025 to June
 2, 2025, i.e. 40 days.
-2.For a purchase dated May 14, 2025, the interest-free period is from May 14, 2025 to June
+2. For a purchase dated May 14, 2025, the interest-free period is from May 14, 2025 to June
 2, 2025, i.e. 20 days.
 Thus, the interest free period can vary depending upon the date of purchase. Post the
 payment due date there will 3 days grace period given to customer and if the Total Amount
@@ -814,7 +809,7 @@ included in the Minimum Amount Due. Minimum Amount Due shall also include unpaid
 Minimum Amount Due of the previous statements, if any. Interest will be charged if the
 Total Amount Due is not paid by the payment due, date even if the Minimum Amount Due
 has been paid.
-W.E.F 26th Oct 2023, Fees / Charges Taxes on customer’s statement post 26th Oct 2023
+W.E.F 26th Oct 2023, Fees / Charges s Taxes on customer’s statement post 26 th Oct 2023
 will also be included in the Minimum Amount Due.
 Illustration of Minimum Amount Due Calculation:
 The following illustration will indicate the method of calculating Minimum Amount Due:
@@ -856,52 +851,48 @@ j) GST on Processing Fee - Post deployment 3.60
 k) 5% on remaining Balance 1,142.09
 L) Total Minimum Amount Due 5,258.49
 Minimum Amount Due* 5,260.00
-* Rounded-up to next tenth digit provided total amount due is not equal to minimum amount
-due
+* Rounded-up to nearest tenth digit provided total amount due is not equal to minimum
+amount due
 With effect from Mar 01, 2026, the calculation of Minimum Amount Due (MAD) will be revised as
 explained below.
 Scenario A:
-If <5>% of (Finance Charge + Retail Spends + Cash Advance) is higher than the Finance
-Charge, then:
+If 5% of (Finance Charge + Retail Spends + Cash Advance) is higher than the Finance Charge,
+then:
 MAD = GST^ + EMI Principal + EMI Interest + Fees & Charges (excluding GST) + Overlimit
-Amount + Unpaid MAD from the previous statement + <5>% of (Retail Spends + Cash
-Advance + Finance Charge).
-^
-GST is levied on Finance Charge and Fees & Charges
-The following illustration will indicate the method of calculating the Minimum Amount Due
-(MAD) in this scenario:
-Particulars Amount in ₹
+Amount + Unpaid MAD from the previous statement + 5% of (Retail Spends + Cash Advance +
+Finance Charge).
+^GST is levied on Finance Charge and Fees & Charges
+The following illustration will indicate the method of calculating the Minimum Amount Due (MAD)
+in this scenario:
+Amount
+Particulars
+in ₹
 Credit Limit 35,000.00
-MAD MAD Amt in
-Transaction Type Amount in ₹
-% ₹
+MAD Amt in
+Transaction Type Amount in ₹ MAD %
+₹
 A Retail Spends + Cash Advance 30,000.00 5% 1,500.00
 B Finance Charge (if any) excluding GST 1,000.00 5% 50.00
 C EMI Principal + EMI Interest 5,500.00 100% 5,500.00
 D Fees & Charges including GST (18%) 1,180.00 100% 1,180.00
 E Unpaid MAD from the previous statement* 150.00 100% 150.00
 F Overlimit Amount 2,830.00 100% 2,830.00
-Total Amount Due (TAD)
-G 37,830.00
-(A)+(B)+(C)+(D)+(E)
-H MAD (5% of (A+B)) + (C)+(D)+(E)+(F) 11,210.00
-*Unpaid Minimum Amount Due is as per the previous statement, which is overdue in
-current statement.
-Finance Charge is levied in the case of ATM transactions, cash withdrawal through Credit
-Card and delayed/non-payment of dues, as applicable.
-In the illustration above 5>% of (Finance Charge + Retail Spends + Cash Advance) =
-₹1,550> which is higher than the Finance Charge (excluding GST) = ₹1,000>.
+G Total Amount Due= (TAD) (A)+(B)+(C)+(D)+(E) 37,830.00
+H MAD = (5% of (A+B)) + (C)+(D)+(E)+(F) 11,210.00
+*Unpaid Minimum Amount Due is as per the previous statement, which is overdue in current statement.
+Finance Charge is levied in the case of ATM transactions, cash withdrawal through Credit Card
+and delayed/non-payment of dues, as applicable.
+In the illustration above 5% of (Finance Charge + Retail Spends + Cash Advance) = ₹1,550
+which is higher than the Finance Charge (excluding GST) = ₹1,000.
 Hence, MAD = GST + EMI Principal + EMI Interest + Fees & Charges (excluding GST) +
-Overlimit Amount + Unpaid MAD from the previous statement + 5>% of (Retail Spends +
-Cash Advance + Finance Charge) = 180 + 5,500 + 2,830 + + 1,000 + 150 + 1,550 = ₹11,210
+Overlimit Amount + Unpaid MAD from the previous statement + 5% of (Retail Spends + Cash
+Advance + Finance Charge) = 180 + 5,500 + 2,830 + + 1,000 + 150 + 1,550 = ₹11,210
 Scenario B:
-If <5>% of (Finance Charge + Retail Spends + Cash Advance) is less than the Finance
-Charge, then:
+If 5% of (Finance Charge + Retail Spends + Cash Advance) is less than the Finance Charge,
+then:
 MAD = GST + EMI Principal + EMI Interest + Fees & Charges + Finance Charge + Overlimit
-Amount + Unpaid MAD from the previous statement + 5>% of (Retail Spends + Cash
-Advance).
-The following illustration will indicate the method of calculating the MAD in this
-scenario
+Amount + Unpaid MAD from the previous statement + 5% of (Retail Spends + Cash Advance).
+The following illustration will indicate the method of calculating the MAD in this scenario
 Particulars Amount in ₹
 Credit Limit 1,15,000.00
 Transaction Type Amount in ₹ MAD % MAD Amt in ₹
@@ -911,22 +902,22 @@ C EMI Principal + EMI Interest 5,500.00 100% 5,500.00
 D Fees & Charges including GST (18%) 2,360.00 100% 2,360.00
 E Unpaid MAD from the previous statement* 150.00 100% 150.00
 F Overlimit Amount 810.00 100% 810.00
-Total Amount Due (TAD)
+Total Amount Due (TAD) =
 G 1,15,810.00
 (A)+(B)+(C)+(D)+(E)
-H MAD (5% of (A)) + (B)+ (C)+(D)+ (E)+(F) 21,620.00
-*Unpaid Minimum Amount Due is as per the previous statement, which is overdue in
-current statement.
-Finance Charge is levied in the case of ATM transactions, cash withdrawal through Credit
-Card and delayed/non-payment of dues, as applicable.
-In the illustration above 5>% of (Finance Charge + Retail Spends + Cash Advance) =
-₹5,390> which is less than the Finance Charge = ₹7,800>. Hence, Finance Charge is
-considered at 100>% in the MAD calculation.
-MAD = (5% of Retail Spends + Cash Advance) + Finance Charge + EMI Principal + EMI
-Interest + Fees and Charges + Unpaid MAD from previous statement + Overlimit Amount
-= (5% of 1,00,000) + 7,800 + 5,500 + 2,360 + 150 + 810 = ₹21,620
-Minimum Amount Due rounded-up to nearest tenth digit, provided the Total Amount Due
-is not equal to the Minimum Amount Due.
+H MAD = (5% of (A)) + (B)+ (C)+(D)+ (E)+(F) 21,620.00
+*Unpaid Minimum Amount Due is as per the previous statement, which is overdue in current
+statement.
+Finance Charge is levied in the case of ATM transactions, cash withdrawal through Credit Card
+and delayed/non-payment of dues, as applicable.
+In the illustration above 5% of (Finance Charge + Retail Spends + Cash Advance) = ₹5,390 which
+is less than the Finance Charge = ₹7,800. Hence, Finance Charge is considered at 100% in the
+MAD calculation.
+MAD = (5% of Retail Spends + Cash Advance) + Finance Charge + EMI Principal + EMI Interest +
+Fees and Charges + Unpaid MAD from previous statement + Overlimit Amount = (5% of 1,00,000)
++ 7,800 + 5,500 + 2,360 + 150 + 810 = ₹21,620
+Minimum Amount Due rounded-up to nearest tenth digit, provided the Total Amount Due is not
+equal to the Minimum Amount Due.
 If customer has registered for Auto Debit facility towards Credit Card repayment and has
 selected Minimum Amount Due option then the same will be executed on the due date
 provided no amount is paid by the customer before due date.
@@ -1008,7 +999,7 @@ payment of all dues by the cardholder.
 For new card: The card needs to be activated by the customer within 30 days of card
 issuance. If the cards has not been activated by the customer, the Bank shall keep the
 card active, only with OTP based consent / activation by the customer. All other cards,
-shall be closed in next seven working days (by 37th day from card issuance date) without
+shall be closed in next seven working days (by 37 th day from card issuance date) without
 any cost to customer. Bank will not levy fee for the card and also not report the card
 information to bureau unless the new card is activated by customer.
 5) Changes in fees s Charges: Changes in fees / charges shall be made only with
@@ -1072,20 +1063,19 @@ March 26, between
 Customer spends ₹75,000 between Complimentary lounge access(es)
 June 26, between
 4 2025 to Sept 25, 2025 Oct 1, 2025 to Dec 31, 2025
-The updated criteria to avail complimentary domestic airport lounge access will be
+This updated criteria to avail complimentary domestic airport lounge access will be
 applicable for all eligible ICICI Bank Credit Cards except:
 • ICICI Bank Diamant Credit Card
 • ICICI Bank Emeralde Private Metal Credit Card
 • ICICI Bank Emeralde Private Credit Card
 • ICICI Bank Emeralde Credit Card
 • ICICI Bank Emirates Emeralde Credit Card
+• Times Black ICICI Bank Credit Card
 • Adani One ICICI Bank Signature Credit Card (valid till Jun 30, 2026)
 • Adani One ICICI Bank Platinum Credit Card (valid till Jun 30, 2026)
-• MakeMyTrip ICICI Bank Credit Card(valid till Jun 30, 2026)
-• Times Black ICICI Bank Credit Card
-The following Credit Card variants will require spends of ₹ 75,000 to be made in a calendar
-quarter to unlock airport lounge access in the next calendar quarter, with effect from Jul 01,
-2026:
+• MakeMyTrip ICICI Bank Credit Card (valid till Jun 30, 2026)
+The following Credit Card variants will require spends of ₹ 75,000 to be made in a calendar quarter to
+unlock airport lounge access in the next calendar quarter, with effect from Jul 01, 2026:
 • Adani One ICICI Bank Signature Credit Card
 • Adani One ICICI Bank Platinum Credit Card
 • MakeMyTrip ICICI Bank Credit Card
@@ -1121,18 +1111,14 @@ Adani One ICICI Bank Platinum Credit Card, Adani One ICICI Bank Signature Credit
 ICICI Bank Parakram Credit Card, ICICI Bank Parakram Select Credit Card, ICICI Bank
 Expressions Credit Card, Chennai Super Kings ICICI Bank Credit Card & ICICI Bank
 Manchester United Credit Card (All Variants)
-BookMyShow offer on ICICI Bank Secured Platinum Credit Card will be discontinued
+BookMyShow benefit on ICICI Bank Secured Platinum Credit Card will be discontinued
 w.e.f. Feb 01, 2026.
 11. Terms and Conditions pertinent to ICICI Bank Rewards:
 1) Reward Points will be credited to your rewards account within 5 working days from
 statement generation date.
 2) Reward points have expiry of 36 months from the date of issuance.
-3) In case of a single cardholder account, all ICICI Bank Reward Points accrued shall lapse
-upon cancellation of the Card and shall not be reinstated.
-In case of multiple Cards linked to a single count, Reward points accrued at the account
-level shall continue to remain valid as long as at least one Card under such account
-remains active. If all cards under the account are cancelled, all Reward Points shall lapse
-and shall not be reinstated.
+3) The ICICI Bank Reward points accrued will lapse upon card cancellation and cannot be
+reinstated.
 4) ICICI Bank Reward points can be redeemed on ICICI Bank Rewards Platform via iMobile
 or Internet Banking. ICICI Bank Reward points can also be redeemed on iShop.
 5) Order once placed through redeeming the reward points cannot be cancelled or modified.
@@ -1210,7 +1196,7 @@ inconsistent with typical personal usage patterns, may be deemed to be in breach
 authorised end-use of the Card. The Bank reserves the right to review and restrict such usage
 and the customer agrees to be bound by such determination.
 Credit Card Usage Policy
- Primary Card Members are not permitted to make excess payments into their Credit Card
+Primary Card Members are not permitted to make excess payments into their Credit Card
 accounts with the intention of enhancing their Card usage limits beyond their sanctioned
 credit limit for the purpose of honouring high-value transactions. Further, the customer shall
 refrain from making credit payments into the Credit Card account which are in excess of the
@@ -1218,58 +1204,57 @@ to-tal amount due. In such cases, ICICI Bank reserves the right to restrict, sus
 transactions undertaken during a calendar month that exceeds the sanctioned credit limit on
 the Credit Card. In the event the Card Member requires an in-crease in the credit limit
 available on their Credit Card, they are advised to request the Bank for the same.
- The Bank reserves the right to block a Credit Card if transactions are observed on restricted
+The Bank reserves the right to block a Credit Card if transactions are observed on restricted
 MCCs as per the RBI mandate.
- To ensure that Credit Card usage aligns with applicable regulatory guidelines, the Credit Card
-Terms and Conditions and internal policies of the Bank, the Bank may conduct periodic reviews
-of Credit Card usage. This includes, but is not limited to, identifying any excessive utilisation
-beyond the sanctioned credit limit within a single billing cycle, disproportionate usage at a few
-merchant establishments, use of the Card for repayment of other Credit Cards / loans, fund
-transfers to Savings Accounts, potential merchant collusion, usage for business or non-
-personal expenses and misuse of features / programmes for accumulating undue reward
-points, cashback or other benefits and usage for business or non-personal expenses
-(commercial usage) that includes scenarios not in line with retail usage such as purchase of
-electronics or mobile phones in high quantities together or over a period of time, high volume
-of bill payments, excessive insurance payments, excessive spends on fuel, multiple EMI
-booking followed by cancellations, self-funding, multiple usage of Card on own POS/QR offered
-by the Bank etc. Please note that this list of scenarios is indicative and not exhaustive.
+To ensure that Credit Card usage aligns with applicable regulatory guidelines, the Credit
+Card Terms and Conditions and internal policies of the Bank, the Bank may conduct periodic
+reviews of Credit Card usage. This includes, but is not limited to, identifying any excessive
+utilisation beyond the sanctioned credit limit within a single billing cycle, disproportionate
+usage at a few merchant establishments, use of the card for repayment of other Credit Cards
+/ loans, fund transfers to Savings Accounts, potential merchant collusion, misuse of features
+/ programmes for accumulating undue reward points, cashback or other benefits and usage
+for business or non-personal expenses (commercial usage) that includes scenarios not in
+line with retail usage such as purchase of electronics or mobile phones in high quantities
+together or over a period of time, high volume of bill payments, excessive insurance pay-
+ments, excessive spends on fuel, multiple EMI booking followed by cancellations, self-fund-
+ing, multiple usage of Card on own POS/QR offered by the Bank etc. Please note that this
+list of scenarios is indicative and not exhaustive.
 In such cases, ICICI Bank may, at its sole discretion, cancel the concerned Credit Card(s),
 including any add-on Cards and withhold or cancel accrued reward points or cashback at the
 customer level without prior notice. ICICI Bank may also contact the Card Member via phone
 or other formal channels to seek clarification or documentation regarding the Card usage.
 Failure to provide satisfactory responses may lead to Card blocking/closure.
- In the event that the ICICI Bank Credit Card is terminated, whether voluntarily by the Primary
+In the event that the ICICI Bank Credit Card is terminated, whether voluntarily by the Primary
 Card Member or by the Bank, the Card Member will immediately cease to be eligible for
 earning reward points or cashback. All unused or unredeemed reward points or cashback
 shall automatically be forfeited immediately after voluntary or involuntary cancellation.
- The Bank may, at its sole discretion and without prior notice or assigning any reason, refuse
+The Bank may, at its sole discretion and without prior notice or assigning any reason, refuse
 authorisation for a transaction at a merchant establishment, restrict or defer usage of the
 Card, or suspend / cancel the Card. The Bank, the acquiring bank or the concerned merchant
 establishment may retain or confiscate the Card if it believes such action is necessary for
 managing credit or business risk, or in case of misuse or suspected misuse of the Credit Card
 or account.
- Suspension or termination of the Credit Card by the Bank will result in immediate withdrawal
+Suspension or termination of the Credit Card by the Bank will result in immediate withdrawal
 of all associated privileges, benefits and facilities without being liable in any manner.
 f) Loss/Theft/Misuse of Card:
 In case of loss/theft/misuse of the Card, it must be reported immediately to ICICI Bank either
-through the Customer Care by calling on 1800 1080 or by sending an SMS ‘BLOCK’ <last
-four digits of your card> to 9215676766 from your registered mobile number only.
-The Bank shall thereupon suspend the Card. The Card Member is advised to file an FIR
-with the local police station so that the Card Member can produce its copy whenever
-requested by the Bank. The Card Member shall be primarily responsible for the security of
-the Card including theft and for the transactions using the Card. The Card Member shall not
-be liable for any transaction/s made on the Card post reporting its loss/theft/damage.
-However, in case of any dispute relating to the time of reporting such loss/ theft/damage
-and/or transactions made on the Card post reporting of the loss/theft/damage/ misuse, the
-Bank reserves the right to ascertain such time and or the authenticity of the disputed
-transactions. ICICI Bank reserves the right to block the Credit Card on suspected risk of
-compromise in order to protect the interest of the Card Member and to avoid misuse in any
-manner on the Card Account. The Card Member shall not be able to use the blocked Card
-for any transaction/s and shall receive a replacement Card within 7 (seven) working days. In
-the event, the Card Member, after being informed by ICICI Bank of the probable fraud risk,
-still requests to unblock the Card, ICICI Bank shall not stand liable or responsible in any
-manner for any fraudulent transactions reported to it thereafter on account of fraudulent
-usage of the Card or otherwise.
+through the Customer Care or through Simply SMS CCBLK last four digits of your card> to
+5676766 from your registered mobile number only. The Bank shall thereupon suspend the
+Card. The Card Member is advised to file an FIR with the local police station so that the
+Card Member can produce its copy whenever requested by the Bank. The Card Member
+shall be primarily responsible for the security of the Card including theft and for the
+transactions using the Card. The Card Member shall not be liable for any transaction/s made
+on the Card post reporting its loss/theft/damage. However, in case of any dispute relating to
+the time of reporting such loss/ theft/damage and/or transactions made on the Card post
+reporting of the loss/theft/damage/ misuse, the Bank reserves the right to ascertain such
+time and or the authenticity of the disputed transactions. ICICI Bank reserves the right to
+block the Credit Card on suspected risk of compromise in order to protect the interest of the
+Card Member and to avoid misuse in any manner on the Card Account. The Card Member
+shall not be able to use the blocked Card for any transaction/s and shall receive a
+replacement Card within 7 (seven) working days. In the event, the Card Member, after being
+informed by ICICI Bank of the probable fraud risk, still requests to unblock the Card, ICICI
+Bank shall not stand liable or responsible in any manner for any fraudulent transactions
+reported to it thereafter on account of fraudulent usage of the Card or otherwise.
 In case of ICICI Bank Credit Card replacement, the card can be replaced up to 3 times. After
 the 3rd replacement, the Cardholder will need to apply for a new ICICI Bank Credit Card.
 Compensation Policy https://www.icici.bank.in/content/dam/icicibank/india/managed-
@@ -1300,7 +1285,7 @@ Dues mean, the principal / interest / any charges levied on the loan account whi
 within the period stipulated as per the terms of sanction of the credit facility.
 Overdue:
 Overdue mean, the principal I interest / any charges levied on the loan account which are
-payable, but have not been paid within the period stipulated as per the terms of sanction of
+payable but have not been paid within the period stipulated as per the terms of sanction of
 the credit facility. In other words, any amount due to the bank under any credit facility is
 'overdue' if it is not paid on the due date fixed by the bank.
 i) Classification as Special Mention Account and Non-Performing Asset-
@@ -1328,24 +1313,22 @@ days zation class date
 22 2022 (MAD) up to
 01.01.2022
 01.02.20 01.02. Partly paid 1 SMA 0 01.02.20 NA NA
-22 2022 dues (MAD) 22
-of
+22 2022 dues (MAD)of 22
 01.02.2022
 01.02.20 02.02. Partly paid 2 SMA 0 01.02.20 NA NA
-22 2022 dues (MAD) 22
-of
+22 2022 dues (MAD) of 22
 01.02.2022
-01.03.20 Dues (MAD) 29 SMA 0 01.02.20 NA NA
-01.02.2022
+01.03.20 Dues (MAD) of 29 SMA 0 01.02.20 NA NA
+22 01.02.2022 22
 not fully paid
 01.03.2022 is
 also due at
 EOD
 01.03.2022
-Dues (MAD) 1 SMA 0 01.03.20 NA NA
-of 01.02.2022 22
+Dues (MAD) of 1 SMA 0 01.03.20 NA NA
+01.02.2022 22
 fully paid, for
-Dues (MAD)
+Dues (MAD) of
 01.03.2022
 not paid at
 EOD
@@ -1358,8 +1341,8 @@ and 01.03.2 22
 022 at
 EOD
 03.03.2022
-Dues (MAD) 1 SMA 0 01.03.20 NA NA
-of 01.02.2022 22
+Dues (MAD) of 1 SMA 0 01.03.20 NA NA
+01.02.2022 22
 fully paid,
 Due for
 01.03.2022
@@ -1370,37 +1353,33 @@ Due date Payme Payment Age of SMA / NPA SMA since NPA NPA
 of payment nt covers oldest Categorizati Date / Categorisati Date
 Date dues in on SMA class on
 days date
-01.04.20 No payment 6 SMA 1 01.02.2022 / NA NA
-22 of dues 0 03.03.2022
-(MAD) of
+01.04.20 No payment of 60 SMA 1 01.02.2022 / NA NA
+22 dues (MAD) of 03.03.2022
 01.02.2022,
-01.03.202
-2 and
+01.03.2022
+and
 amount
 due on
 01.4.2022 at
 EOD
 01.04.2022
 No payment 61 SMA 2 01.02.202 NA NA
-of dues 2/
-(MAD) of 02.04.20
-01.02.20
-22 till
+of dues (MAD) 2/
+of 01.02.20 02.04.20
+22 till 22
 01.04.20
 22 at
 EOD
 02.04.2022
-01.05.20 No payment 9 SMA 2 01.02.202 NA NA
-22 of dues 0 2/
-(MAD) of 02.04.20
-01.02.2022 22
-till
+01.05.20 No payment of 90 SMA 2 01.02.202 NA NA
+22 (MAD) of 2/
+01.02.2022 02.04.20
+till 22
 01.05.2022
 at EOD
 01.05.2022
-No 91 NPA NA NPA 2.05.20
-payment 22
-of dues
+No payment 91 NPA NA NPA 2.05.20
+of dues 22
 (MAD) of
 01.02.202
 2 till
@@ -1442,8 +1421,8 @@ dues of
 01.09.202 with no
 2s over dues
 01.10.202
-III. Reporting to Credit Bureau - All overdue accounts are reported to Credit bureaus on a
-fortnightly basis.
+III. Reporting to Credit Bureau - All overdue accounts are reported to Credit bureau on a
+monthly basis.
 I/We understand that the clarifications/examples mentioned herein are only illustrative in nature
 covering common scenarios and that the norms and clarifications provided by Reserve Bank of India
 from time to time will prevail.

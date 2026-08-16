@@ -1240,8 +1240,8 @@ account, whether an enhancement or reduction, shall
 automatically apply to all associated Add-on Credit
 Cardholders.
 • Cash Limit: This is the Cash Advance Limit assigned to the
-Cardholder. This limit is lower than the Credit Limit and is a
-subset of the overall Credit Limit.
+Cardholder. This limit is lower than the Credit Limit and is
+included within your overall Credit Limit.
 A transaction fee is levied on cash withdrawn from ATMs. Also,
 cash transactions always accrue interest from the transaction
 date, unlike retail purchases, where interest accrual depends
@@ -1804,11 +1804,18 @@ You must notify the Bank immediately on phone if the Card is
 lost, stolen, if someone else knows your PIN or other security
 information or if it being used without your permission. (Refer
 Section “Contact Channels”).
+Customers can block and replace their credit cards through
+multiple channels, including the Axis Bank support page, Axis
+Aha!, Axis Mobile app, Internet Banking, SMS, and Phone
+Banking. For more information on blocking and replacement of
+Axis Bank|Public
+credit cards, customer can visit:
+https://application.axis.bank.in/webforms/axis-support/sub-
+issues/Cards-Credit-BlockReplaceCreditCard-1.aspx
 The lost card option is provided as option – 0 on the following
 numbers: 1800 209 5577 (Toll-Free) and 1800 103 5577 (Toll-
 Free). Domestic customers calling the bank from outside of India
 can call us on 022 6798 7700.
-Axis Bank|Public
 A Police Complaint / First Information Report (FIR) must be
 lodged immediately with the nearest police station, a copy of
 which must be submitted to the Bank. In case of misuse, the
@@ -1833,6 +1840,7 @@ Insurance Cover for Cardholders
 The Insurance covers mentioned below will be applicable
 depending on the card variant type. Please go through the
 welcome booklet for applicable insurance covers.
+Axis Bank|Public
 Air Accident Cover: Air Accident is valid only if the Axis Bank
 credit card has been used at a Merchant Establishment or an
 ATM for cash withdrawal at least 90 days preceding the incident
@@ -1841,7 +1849,6 @@ Cardholder's nominee shall not be entitled to any amount under
 the Air Accident Insurance Policy unless all the dues with Axis
 Bank are settled. Axis Bank shall have the first charge / lien on
 the insurance amount for adjusting the outstanding amount.
-Axis Bank|Public
 Note: Air accident cover has been discontinued w.e.f.
 31st October 2022.
 Zero Lost Card Liability: Protection against fraudulent
@@ -1871,6 +1878,7 @@ Credit Shield: Covers outstanding up to a specific amount on
 the Card in the event of an accidental death.
 Delay in Check - in Baggage: Reimburses cost of necessary
 items for basic needs in case of baggage delay of more than 6
+Axis Bank|Public
 hours while travelling overseas. Valid only in case of flight ticket
 purchased with Axis Bank credit card. Checked in Baggage
 means the baggage handed over by the Insured Person and
@@ -1878,7 +1886,6 @@ accepted by an International Airlines / carrier outside India for
 transportation in the same mode of conveyance as the Insured
 Person travels and for which the carrier has issued a baggage
 receipt.
-Axis Bank|Public
 Loss of Check - in Baggage: Covers loss of baggage or
 damage to baggage in case of overseas travel. Valid only in
 case of flight ticket purchased with Axis Bank credit card. Valid
@@ -1907,13 +1914,13 @@ the dues. Any third party so appointed, shall adhere to the Indian
 Bank's Association (IBA) code of debt collection.
 2) Customers will be allowed a grace period of 3 days from the
 payment due date, where payments are not overdue. This
+Axis Bank|Public
 facility is provided keeping in mind the processing time of
 payments but the customer must clear his dues by the payment
 due date which is mentioned in the credit card Statement.
 3) In the event of a customer default for three or more consecutive
 months, or in settlement cases, finance charges and applicable
 taxes will be levied in addition to the billed statement dues until
-Axis Bank|Public
 the entire outstanding balance is cleared. For details of the exact
 outstanding amount, please check with Bank.
 4) The Bank shall report a credit card account as 'past due' to credit
@@ -1943,13 +1950,13 @@ settlement of dues:
 Information Bureau (India) Limited twice in a month (cycle
 date reporting and month end reporting) in the format
 prescribed by the CIBIL. This data includes the repayment
+Axis Bank|Public
 status of all Cardholders, both defaulters and current, for the
 previous month. CIBIL uploads the submitted data onto their
 server in another thirty days.
 In an event a customer opts for a compromise settlement or
 instances wherein the account has been written off, the CICs will
 be updated as settled & write off respectively.
-Axis Bank|Public
 8) Recovery of dues in case of death / permanent in capacitance of
 the Cardholder: The complete outstanding balance (including
 unbilled transactions) will become immediately due and payable
@@ -1977,6 +1984,7 @@ history by paying the necessary dues in a timely manner. With
 credit bureaus in place, responsible customers can expect faster
 and more competitive services at better terms from credit
 grantors default by customers would be available with credit
+Axis Bank|Public
 bureaus which in turn would impact your credit worthiness for
 future requirements. Axis Bank will report customer information
 to credit bureaus on a monthly basis or such other time period
@@ -1984,7 +1992,6 @@ as may be agreed between the Bank and the credit bureaus. In
 case of any billing dispute notified to the Bank, the
 disclosure/release of information, particularly about a default,
 shall be made only after the dispute is settled. The customers
-Axis Bank|Public
 are still required to pay at least the Minimum Amount Due (MAD)
 as stated in the billing statement until the resolution of the
 dispute. Failure to pay the MAD by due date will result in account
@@ -2019,13 +2026,13 @@ partner, for the purpose of enrolment, card feature fulfilment,
 marketing, promotional activities, and benefit redemption. This
 shall be applicable to co-branded Credit Cards like Axis Bank
 Miles and More World Select Credit Card, Axis Bank Miles and
+Axis Bank|Public
 More World Credit Card, Axis Bank Vistara Infinite Credit Card,
 Axis Bank Vistara Signature Credit Card, Axis Bank Vistara
 Platinum Credit Cards, Samsung Axis Bank Infinite Credit Card,
 Samsung Axis Bank Signature Credit Card, SpiceJet Axis Bank
 Voyage Black Credit Card, SpiceJet Axis Bank Voyage Credit
 Card and Axis Bank Shoppers Stop Credit Card. The co- brand
-Axis Bank|Public
 partners are Miles and More, Vistara Airlines, Samsung,
 SpiceJet and Shoppers Stop.
 Axis Bank offers credit cards with variety of features and
@@ -2060,13 +2067,13 @@ i. Cardholder hereby provides explicit consent to Axis Bank to
 share his/her Personal Data with Axis Bank’s authorized service
 providers and/or the tie-up insurance companies for the purpose
 of calling and reaching out to offer the relevant insurance cover
+Axis Bank|Public
 on Cardholder’s Axis Bank credit card and for processing
 Cardholder’s Personal Data for availing such Insurance Cover
 (“Purpose”).
 ii. Axis Bank is committed to protecting Cardholder’s privacy and
 any Personal Data will be shared only with Axis Bank’s
 authorized service providers and/or the tie-up insurance
-Axis Bank|Public
 companies in accordance with the applicable data protection
 laws and regulations. Axis Bank and its authorized service
 providers/the tie-up insurance companies shall implement
@@ -2097,13 +2104,13 @@ All disputes, differences and / or claims or questions arising out
 of these presents, or in any way touching or concerning the
 same or as to constructions, meaning or effect thereof or as to
 the right, obligations and liabilities of the parties hereunder shall
+Axis Bank|Public
 be referred to and settled by arbitration, to be held in accordance
 with the provisions of the Arbitration and Conciliation Act, 1996,
 or any statutory amendments thereof, of a sole arbitrator to be
 nominated by the Lender / Bank, and in the event of death,
 unwillingness, refusal, neglect, inability or incapability of a
 person so appointed, to act as an arbitrator, the Lender / Bank
-Axis Bank|Public
 may appoint a new arbitrator to be a sole arbitrator. The
 arbitrator shall not be required to give any reasons for the award
 and the award of the arbitrator shall be final and binding on all
@@ -2131,10 +2138,10 @@ however, not valid for making foreign currency transactions in
 Nepal and Bhutan.
 iv) 100 % payment has to be mandatorily made through Auto pay
 mode from Axis Bank NRE account only for NRI customers.
+Axis Bank|Public
 v) Cash payment will not be accepted for NRI Customers.
 P) Unauthorized Electronic Banking Transactions in Card
 account
-Axis Bank|Public
 1) The Bank will not offer facility of electronic transactions, other
 than ATM cash withdrawals, to customers who do not provide valid
 mobile numbers to the Bank.
@@ -2165,11 +2172,11 @@ point of time.
 6) For Customer Care / Customer redressed contact details, kindly
 refer our website www.axis.bank.in/support
 Q) Secured Credit Cards
+Axis Bank|Public
 1) The fixed deposit shall act as continuing security for ultimate
 balance of all monies that may be due from customer to the bank
 under secured credit cards or any other facility sanctioned by the
 Bank.
-Axis Bank|Public
 2) In case of default or credit facility or facilities not repaid on
 demand, the Bank may take all necessary steps to prematurely
 encash the fixed/term deposit or set off or uplift the securities/fixed
@@ -2196,12 +2203,12 @@ date. An Illustration of such classification is as follows:
 ➢ SMA 0 - If due date of a loan account is March 31, 2021,
 and full dues are not received on this date, the account
 shall be SMA 0 on day end of March 31, 2021.
+Axis Bank|Public
 ➢ SMA 1 - If it continues to remain overdue, then this
 account shall get tagged as SMA-1 upon completion of
 30 days of being continuously overdue i.e. April 30, 2021.
 ➢ SMA 2 - If the account continues to remain overdue, it
 shall get tagged as SMA-2 on May 30, 2021
-Axis Bank|Public
 ➢ NPA – If the account continues to remain overdue
 further, it shall get classified as NPA on June 29, 2021
 As per RBI guidelines, classification of accounts as NPA is done
@@ -2230,10 +2237,10 @@ and regional languages of the Most Important Terms and
 Conditions, the English version of the same shall prevail and shall
 be binding on the Card holder.
 Links for MITC available in regional languages:
+Axis Bank|Public
 Marathi - https://www.axis.bank.in/docs/default-source/default-
 document-library/credit-cards/mitc/most-important-terms-and-
 conditions-for-axis-bank-credit-cards-marathi.pdf
-Axis Bank|Public
 Hindi - https://www.axis.bank.in/docs/default-source/default-
 document-library/credit-cards/mitc/most-important-terms-and-
 conditions-for-axis-bank-credit-cards-hindi.pdf
@@ -2263,12 +2270,12 @@ business, contracts, anticipated savings or goodwill, loss of use or
 value of any equipment including software, whether foreseeable or
 not, suffered by the user or any person, howsoever, arising from or
 relating to any delay, interruption, suspension, resolution or error of
+Axis Bank|Public
 the Bank in receiving and processing the request and in formulating
 and returning responses or any failure, delay, interruption,
 suspension, restriction, or error in transmission of any information
 or message to and from the telecommunication equipment of the
 user and the network of any service provider and the Bank's system
-Axis Bank|Public
 or any breakdown, interruption, suspension or failure of the
 telecommunication equipment of the user, the Bank's system or the
 network of any service provider and / or any third party who

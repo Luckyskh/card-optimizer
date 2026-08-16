@@ -1,5 +1,22 @@
 Infinia Credit Card Fees & Charges Online | HDFC Bank
 Skip To Main Content
+<span class="section-title">Infinia Credit Card Fees &amp; Charges</span></h1>
+<ul>
+<li><span class="font-16"><span class="item-heading">For INFINIA Cards sourced after October 18, 2021:</span></span></li>
+<li><span class="font-16"><span class="item-heading">Joining/Renewal Membership Fee</span></span></li>
+<li><span class="font-16"><span class="item-heading"><span class="icon-right-tick icon"></span>Joining Fee: ₹12,500 plus Applicable Taxes</span></span></li>
+<li><span class="font-16"><span class="item-heading"><span class="icon-right-tick icon"></span>Renewal Fee: ₹12,500 plus Applicable Taxes</span></span></li>
+<li><span class="font-16"><span class="item-heading"><span><span class="icon-right-tick icon"></span>Fee Waiver: Spend ₹10 lakh or more in a year before the renewal date to get the renewal fee waived.</span></span></span></li>
+<li><span class="font-16"><span class="sub-sec-heading"><b>For INFINIA Cards sourced before October 18, 2021</b></span></span></li>
+<li><span class="font-16"><span class="item-heading"><span><span class="icon-right-tick icon"></span>Joining Fee: ₹10,000 plus Applicable Taxes</span></span></span></li>
+<li><span class="font-16"><span class="item-heading"><span class="icon-right-tick icon"></span>Renewal Fee: ₹10,000 plus Applicable Taxes</span></span></li>
+<li><span class="font-16"><span class="item-heading"><span class="icon-right-tick icon"></span>Fee Waiver: Spend ₹8 lakh or more in a year before the renewal date to get the renewal fee waived.</span></span></li>
+<li><span class="font-16"><span class="item-heading"><span class="icon-right-tick icon"></span><span><a href="/credit-cards/infinia-credit-card" target="_self">Click here</a>&nbsp;for detailed information on the HDFC Bank INFINIA Metal Edition Credit Card</span></span></span></li>
+<li><span class="font-16"><span class="item-heading"><span class="icon-right-tick icon"></span><span><a href="/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf" target="_blank">Click here</a>&nbsp;for detailed Fees and Charges</span></span></span></li>
+<li><span class="font-16"><span class="item-heading"><span class="icon-right-tick icon"></span><span><a href="/terms-and-conditions" target="_self">Click here</a>&nbsp;for the Card Member Agreement</span></span></span></li>
+<li><span class="font-16"><b>Disclaimer:</b><i>Terms and conditions apply. Credit Card approvals are at the sole discretion of HDFC Bank Limited. Credit Card approvals are subject to documentation and verification as per the Bank's requirement. Interest rates are subject to change. Please check with your RM or closest bank branch for current interest rates.</i></span></li>
+</ul>
+">
 Infinia Credit Card Fees & Charges
 For INFINIA Cards sourced after October 18, 2021:
 Joining/Renewal Membership Fee
@@ -14,6 +31,16 @@ Click here for detailed information on the HDFC Bank INFINIA Metal Edition Credi
 Click here for detailed Fees and Charges
 Click here for the Card Member Agreement
 Disclaimer: Terms and conditions apply. Credit Card approvals are at the sole discretion of HDFC Bank Limited. Credit Card approvals are subject to documentation and verification as per the Bank's requirement. Interest rates are subject to change. Please check with your RM or closest bank branch for current interest rates.
+<span class="sub-sec-heading">Types of Credit Card</span></p>
+<ul>
+<li><span class="item-title"><a href="/credit-cards" target="_self">Credit Card</a><span class="viewarrow-icon icon-arrow-right-bold"></span></span></li>
+<li><span class="item-title"><a href="/credit-cards/travel-credit-card" target="_self">Travel Credit Card</a><span class="viewarrow-icon icon-arrow-right-bold"></span></span></li>
+<li><span class="item-title"><a href="/credit-cards/rewards-credit-card" target="_self">Rewards Credit Card</a><span class="viewarrow-icon icon-arrow-right-bold"></span></span></li>
+<li><span class="item-title"><a href="/credit-cards/lifestyle-credit-card" target="_self">Lifestyle Credit Card</a><span class="viewarrow-icon icon-arrow-right-bold"></span></span></li>
+<li><span class="item-title"><a href="/credit-cards/premium-and-super-premium-credit-cards">Premium &amp; Super <br />
+Premium Credit Card</a><span class="viewarrow-icon icon-arrow-right-bold"></span></span></li>
+</ul>
+">
 Types of Credit Card
 Credit Card
 Travel Credit Card
@@ -21,6 +48,16 @@ Rewards Credit Card
 Lifestyle Credit Card
 Premium & Super
 Premium Credit Card
+<span class="sub-sec-heading" data-font-size="22" data-line-height="27.5008" data-letter-spacing="normal">Credit Card Services</span></p>
+<ul>
+<li data-font-size="16" data-line-height="19.2" data-letter-spacing="normal"><span class="item-title" data-font-size="16" data-line-height="19.2" data-letter-spacing="normal"><a href="/credit-cards/netbanking" target="_self" data-font-size="14" data-line-height="21" data-letter-spacing="normal">Credit Card Netbanking</a><span class="viewarrow-icon icon-arrow-right-bold" data-font-size="12" data-line-height="12" data-letter-spacing="normal"></span></span></li>
+<li data-font-size="16" data-line-height="19.2" data-letter-spacing="normal"><span class="item-title" data-font-size="16" data-line-height="19.2" data-letter-spacing="normal"><a href="/credit-cards/services/limit-enhancement" target="_self" data-font-size="14" data-line-height="21" data-letter-spacing="normal">Credit Card Limit <br>
+Enhancement</a><span class="viewarrow-icon icon-arrow-right-bold" data-font-size="12" data-line-height="12" data-letter-spacing="normal"></span></span></li>
+<li data-font-size="16" data-line-height="19.2" data-letter-spacing="normal"><span class="item-title" data-font-size="16" data-line-height="19.2" data-letter-spacing="normal"><a href="/credit-cards/services/credit-card-upgrade" target="_self" data-font-size="14" data-line-height="21" data-letter-spacing="normal">Credit Card Upgrade</a><span class="viewarrow-icon icon-arrow-right-bold" data-font-size="12" data-line-height="12" data-letter-spacing="normal"></span></span></li>
+<li data-font-size="16" data-line-height="19.2" data-letter-spacing="normal"><span class="item-title" data-font-size="16" data-line-height="19.2" data-letter-spacing="normal"><a href="/credit-cards/services/track-credit-card-status" target="_self" data-font-size="14" data-line-height="21" data-letter-spacing="normal">Track Your Credit Card</a><span class="viewarrow-icon icon-arrow-right-bold" data-font-size="12" data-line-height="12" data-letter-spacing="normal"></span></span></li>
+<li data-font-size="16" data-line-height="19.2" data-letter-spacing="normal"><span class="item-title" data-font-size="16" data-line-height="19.2" data-letter-spacing="normal"><a href="/credit-cards/services" target="_self" data-font-size="14" data-line-height="21" data-letter-spacing="normal">Other Credit Card Services</a><span class="viewarrow-icon icon-arrow-right-bold" data-font-size="12" data-line-height="12" data-letter-spacing="normal"></span></span></li>
+</ul>
+">
 Credit Card Services
 Credit Card Netbanking
 Credit Card Limit
@@ -28,12 +65,31 @@ Enhancement
 Credit Card Upgrade
 Track Your Credit Card
 Other Credit Card Services
+<span class="sub-sec-heading">Credit Card Important Links</span></p>
+<ul>
+<li><span class="item-title"><a href="https://mycards.hdfc.bank.in/?mc_id=cc-cat-pg&amp;icid=cc-cat-pg" target="_blank">MyCards</a><span class="viewarrow-icon icon-arrow-right-bold"></span></span></li>
+<li><span class="item-title"><a href="/credit-cards/services/claim-rewards" target="_self">Redeem Reward Points</a><span class="viewarrow-icon icon-arrow-right-bold"></span></span></li>
+<li><span class="item-title"><a href="/credit-cards/services/credit-cards-bill-payment" target="_self">Credit Card Bill Payment</a><span class="viewarrow-icon icon-arrow-right-bold"></span></span></li>
+<li><span class="item-title"><a href="/loan-on-credit-card" target="_self">Loan On Credit Card</a><span class="viewarrow-icon icon-arrow-right-bold"></span></span></li>
+<li><span class="item-title"><a href="/credit-cards/emi-calculator" target="_self">Credit Card EMI Calculator</a><span class="viewarrow-icon icon-arrow-right-bold"></span></span></li>
+</ul>
+">
 Credit Card Important Links
 MyCards
 Redeem Reward Points
 Credit Card Bill Payment
 Loan On Credit Card
 Credit Card EMI Calculator
+<span class="sub-sec-heading">Related Articles</span></p>
+<ul>
+<li><span class="item-title"><a href="https://www.hdfc.bank.in/blogs/credit-cards/what-are-the-benefits-of-a-credit-card" target="_self">Benefits of Credit Card<span class="viewarrow-icon icon-arrow-right-bold"></span></a></span></li>
+<li><span class="item-title"><a href="/blogs/credit-cards/debit-card-or-credit-card-which-is-better" target="_self">Difference Between<br>
+Credit Card &amp; Debit Card</a><span class="viewarrow-icon icon-arrow-right-bold"></span></span></li>
+<li><span class="item-title"><a href="https://www.hdfc.bank.in/blogs/credit-cards/what-is-airport-lounge-access-credit-card" target="_self">Airport Lounge Access Credit Card</a><span class="viewarrow-icon icon-arrow-right-bold"></span></span></li>
+<li><span class="item-title"><a href="/blogs/upi/step-by-step-guide-upi-payments-with-credit-cards" target="_self">How to make UPI Payments with Credit Card<span class="viewarrow-icon icon-arrow-right-bold"></span></a></span></li>
+<li><span class="item-title"><a href="https://www.hdfc.bank.in/blogs/credit-cards/7-tips-to-use-credit-card-wisely" target="_self">How To Use Credit Card Wisely<span class="viewarrow-icon icon-arrow-right-bold"></span></a></span></li>
+</ul>
+">
 Related Articles
 Benefits of Credit Card
 Difference Between
