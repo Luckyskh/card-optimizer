@@ -54,7 +54,8 @@ Fee for cash payment ₹175
 Late payment charges Nil if Total Payment Due is less than ₹500
 ₹500 if total payment due is between ₹501 - ₹5,000
 ₹750 if total payment due is between ₹5,001 - ₹10,000
-₹1200 if total payment due is greater than ₹10,000
+₹1200 if total payment due is between ₹10,001 - ₹50,000
+₹1300 if total payment due is greater than ₹50,000
 LPF charged on Outstanding balance (Total amount due - Payments)
 NOTE - An additional ₹100 charge will be levied if the 'Minimum Amount Due (MAD)' is not paid for two consecutive cycles and will apply until the MAD is cleared.
 Over limit charge 2.5% (Minimum ₹500) of Over limit amount
@@ -65,7 +66,7 @@ Statement Request (beyond 3 months) NIL
 Reissue of lost, stolen or
 damaged card NIL
 Foreign currency transactions 3.50% of Transaction value on International Transactions
-DCC Surcharge 1.5% surcharge on DCC transactions
+DCC Surcharge 3.5% surcharge on DCC transactions
 Rent surcharge 1% transaction fee ( uncapped)
 MCC- 6513
 Education transaction A transaction fee of 1% will be applicable on education payments made via third-party apps (not limited to) such as CRED, PayTM, Cheq, and Mobikwik.

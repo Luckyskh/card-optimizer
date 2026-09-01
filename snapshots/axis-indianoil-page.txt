@@ -6,8 +6,7 @@ Dining Delights
 Earn EDGE REWARD Points
 Accelerated reward points at any IOCL fuel outlets
 IndianOil Axis Bank Credit Card
-With your IndianOil Axis Bank Credit Card, you may unlock a world of advantages and benefits. The purpose of this card is to link you to rewards and loyalty points. It offers a plethora of value back benefits on fuel transactions, spend based waiver, discounts on movie tickets, and more.
-The Terms & Conditions of IndianOil Axis Bank Credit Card have been updated w.e.f 28th August'26. Please click here to know more.
+With your IndianOil Axis Bank Credit Card, you may unlock a world of advantages and benefits. The purpose of this card is to link you to rewards and loyalty points. It offers a plethora of value back benefits on fuel transactions, spend based waiver, discounts on movie tickets, and more. Read More The Terms & Conditions of IndianOil Axis Bank Credit Card have been updated w.e.f 28th August'26. Please click here to know more.
 Features & Benefits
 Fees & Charges
 Eligibility & Documentation
@@ -98,7 +97,8 @@ Cash withdrawal fees 2.5% (Min. ₹500) of the cash amount
 Overdue penalty or Late payment fees Nil if Total Payment Due is less than ₹500
 ₹500 if total payment due is between ₹501 - ₹5,000
 ₹750 if total payment due is between ₹5,001 - ₹10,000
-₹1200 if total payment due is greater than ₹10,000
+₹1200 if total payment due is greater than ₹10001 - ₹50000
+₹1300 if total payment due is greater than ₹50000
 An additional ₹100 charge will be levied if the 'Minimum Amount Due (MAD)' is not paid for two consecutive cycles and will apply until the MAD is cleared.
 Over limit penalty 2.5% of the over limit amount (Min ₹500)
 Cheque return or dishonor fee or auto-debit reversal 2% of the payment amount subject to Min. ₹500, No Max Cap on Fee
@@ -107,7 +107,7 @@ Foreign currency transaction fee 3.5% of the transaction value
 G.S.T As per existing government norms
 Reward Redemption fee ₹99 per transaction on the EDGE REWARDS platform
 Rent Transaction fee 1% plus taxes will be applicable on each rental transaction done on Axis Bank Credit Cards. GST will be applicable as notified by Government of India.
-Dynamic Currency Conversion markup 1.5% plus taxes will be applicable on Axis Bank Credit Cards for each International transaction performed in Indian currency at International location or transactions performed in Indian currency with merchants located in
+Dynamic Currency Conversion markup 3.5% plus taxes will be applicable on Axis Bank Credit Cards for each International transaction performed in Indian currency at International location or transactions performed in Indian currency with merchants located in
 Indian but registered in foreign nation.
 Transaction fee - 1% will be applicable on education payments made via third-party apps. However, payments and transactions made directly through education institutional websites, or their POS machines will not incur this fees.
 - Cumulative spends exceeding ₹10,000 on wallet loads, ₹50,000 on fuel, ₹25,000 on utilities, and ₹10,000 on online skill-based gaming platforms within a statement period will attract a 1% transaction fee

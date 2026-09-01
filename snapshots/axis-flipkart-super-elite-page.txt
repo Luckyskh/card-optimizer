@@ -57,14 +57,15 @@ Cash withdrawal fees 2.5% (Min. ₹500) of the cash amount
 Overdue penalty or late payment fee Nil if Total Payment Due is less than ₹500
 ₹500 if total payment due is between ₹501 - ₹5,000
 ₹750 if total payment due is between ₹5,001 - ₹10,000
-₹1200 if total payment due is greater than ₹ 10,000
+₹1200 if total payment due is between ₹10,001 - ₹50,000
+₹1300 if total payment is greater than ₹50,000
 Additional ₹100 on missing payment of Minimum Amount Due (MAD) by the due date for two consecutive cycles. This charge will continue to be applicable for every payment cycle until the MAD is cleared.
 Over limit penalty 2.5% of over the limit amount (Min. ₹500).
 Cheque return or dishonor fee or auto-debit reversal 2% of the payment amount subject to (Min. ₹500)
 Surcharge on purchase or cancellation of railway tickets As prescribed by IRCTC/Indian Railways
 Foreign currency transaction fee 3.5% of the transaction value
 Rent Transaction fee (Applicable from 5th March 2023) 1% fee per transaction will be applicable on rental transactions
-Dynamic Currency Conversion markup (Applicable from <date>) 1.5% will be applicable on International transaction performed in Indian currency at International location or transactions performed in Indian currency with merchants located in Indian but registered in foreign nation
+Dynamic Currency Conversion markup (Applicable from <date>) 3.5% will be applicable on International transaction performed in Indian currency at International location or transactions performed in Indian currency with merchants located in Indian but registered in foreign nation
 Education Transaction Fee (Applicable from 20th Dec, 2024) 1% fee per transaction will be applicable on education payments made via third party apps
 Utility Transaction Fee (Applicable from 20th Dec, 2024) 1% fee will be applicable on cumulative spends of ₹25,000 or more on utilities per statement cycle
 Wallet Load Transaction Fee (Applicable from 20th Dec, 2024) 1% fee will be applicable on cumulative spends of ₹10,000 or more on wallet loads per statement cycle

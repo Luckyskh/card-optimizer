@@ -41,11 +41,11 @@ Valid on transactions between ₹400 and ₹4,000 only.
 Service tax charged on fuel surcharge is non-refundable. No reward points are earned on fuel transactions.
 Maximum benefits of up to ₹400 per statement cycle.
 The fuel surcharge is not levied by the card issuing bank.
-Only applicable for fuel MCC 5541, 5542, 5983
+Only applicable for Fuel MCCs.
 Earn Axis EDGE REWARDS
 Earn Axis EDGE REWARD points for transactions and 500+ rewards and offers to redeem points. Earn points for these transactions:
 10 points on every ₹200 spent on the credit card domestically/internationally.
-Spends done on Insurance, rent, fuel, educational services, utilities and government MCC(merchant category codes) will not be eligible for earning EDGE REWARDS .
+Spends done on Insurance, rent, fuel, educational services, utilities and government MCC(merchant category codes), Wallet, Gold & Jewelry Gift Card, Bridge Fees, Road Fees and Tolls will not be eligible for earning EDGE REWARDS .
 EDGE REWARD points will be debited for credit card transactions which are converted to EMI. On cancellation of the EMI transaction, points shall not be credited back to the original transaction.
 For options to redeem points, check the Axis EDGE REWARDS Catalogue .
 Keep yourself, your family and your assets safe
@@ -83,7 +83,7 @@ Get up to ₹250 off, valid once a month
 Apply the code AXISPRIVILEGE to get this discount. The offer will be valid wef 20th June 2025
 Annual fee waiver
 Annual fee waiver on achieving spends of ₹5 lakhs in a card anniversary year.
-Spends threshold for annual fee waiver will exclude transactions made on Utility & Telecom, Rent, Wallet, Government services, Insurance, Gold & Jewellery, Fuel, Educational services
+Spends threshold for annual fee waiver will exclude transactions made on Utility & Telecom, Rent, Wallet, Government services, Insurance, Gold & Jewellery, Fuel, Educational services, Gift Card, Bridge Fees, Road Fees and Tolls
 For any details regarding Amex Privilege specific offers
 Click here
 Fees & Charges
@@ -103,11 +103,11 @@ Fee for Cash Payment ₹175
 Card Replacement
 Nil
 Duplicate Statement Fee Waived
-Overdue Penalty or Late Payment Fee Nil if Total Payment Due is less than ₹500
+Overdue Penalty or Late Payment Fee Nil if total payment due is less than ₹500
 ₹500 if total payment due is between ₹501 - ₹5,000
 ₹750 if total payment due is between ₹5,001 - ₹10,000
-₹1200 if total payment due is greater
-than ₹10,000
+₹1200 if total payment due is between ₹10,001 -₹50,000
+₹1300 if total payment due is greater than ₹ 50,000
 Additional ₹100 on missing payment of Minimum Amount Due (MAD) by the due date for two consecutive cycles. This charge will continue to be applicable for every payment cycle until MAD is
 cleared.
 Over Limit Penalty 2.5% of the overlimit amount (Min. ₹500)
@@ -123,14 +123,14 @@ Fuel transaction fee 1% fee on cumulative spends of ₹50,000 or more on fuel tr
 Education transaction fee 1% fee on education payments made via third party apps
 Utility transaction fee 1% fee on cumulative spends of ₹25,000 or more on utilities per statement cycle
 Online skill-based gaming transaction fee 1% fee on cumulative spends of ₹10,000 or more on online skill-based gaming platforms in a statement cycle
-Dynamic Currency Conversion markup fee** 1.5% of each international txn plus taxes
+Dynamic Currency Conversion markup fee** 3.5% of each international txn plus taxes
 Mobile Alerts for Transactions Waived
 Hotlisting Charges Waived
 Balance Enquiry Charges Waived
 Reward Redemption fee Yes
 GST, as notified by the Government of India, is applicable on all fees, interest & other charges, and is subject to change as per relevant regulations of the Government of India.
 *A rent surcharge fee of 1% will be applicable on each rental transaction done on Axis Bank Credit Cards. GST will be applicable as notified by Government of India. The Rent transactions will be identified through Merchant Category Code 6513. The revision is effective from 20-12-2024.
-**A Dynamic Currency Conversion (DCC) markup fee of 1.5% plus taxes will be applicable on Axis Bank Credit Cards for each International transaction performed in Indian currency at International location or transactions performed in Indian currency with merchants located in Indian but registered in foreign nation. DCC markup fee will not be applicable on Burgundy Private Credit Card. The revision is effective from <date>.
+**A Dynamic Currency Conversion (DCC) markup fee of 3.5% plus taxes will be applicable on Axis Bank Credit Cards for each International transaction performed in Indian currency at International location or transactions performed in Indian currency with merchants located in Indian but registered in foreign nation. DCC markup fee will not be applicable on Burgundy Private Credit Card. The revision is effective from <date>.
 Eligibility
 Documentation
 Eligibility for Axis Bank Privilege Credit Card
@@ -254,23 +254,23 @@ Planning your next money move? Spend a minute
 here
 Nov 18, 2025
 3 min read
-2k Views
+2.2k Views
 How to increase your CIBIL score?
 Know how to increase CIBIL score and improve your credit...
 Nov 17, 2025
 4 min read
-1.2k Views
+1.9k Views
 How is CIBIL score calculated?
 A complete guide to decode CIBIL score calculation.
 Nov 17, 2025
 3 min read
-984 Views
+1.1k Views
 How much time it takes to improve CIBIL score?
 Learn how long it takes to improve CIBIL score. Your credit score is a critical...
 Nov 18, 2025
 4 min read
-666 Views
-CIBIL score importance
+179 Views
+Importance of CIBIL Score: Why It Matters for Your Finances
 Find out the importance of CIBIL score in making your financial journey smoother.
 View more
 Your Axis Privilege Credit Card awaits you!

@@ -104,8 +104,8 @@ Cash withdrawal fees 2.5% (Min. ₹500) of the cash amount
 Overdue penalty or Late payment fees Nil if Total Payment Due is less than ₹500
 ₹500 if total payment due is between ₹501 - ₹5,000
 ₹750 if total payment due is between ₹5,001 - ₹10,000
-₹1200 if total payment due is greater
-than ₹10,000
+₹1,200 if total payment due is between ₹10,001 and ₹50,000
+₹1,300 if total payment due is greater than ₹50,000
 The current late payment fee structure continues to apply. An additional ₹100 charge will be levied if the 'Minimum Amount Due (MAD) is not paid for two consecutive cycles and will apply
 until the MAD is cleared
 Over limit penalty 2.5% of the over limit amount (Min ₹500)
@@ -115,7 +115,7 @@ Foreign currency transaction fee 3.5% of the transaction value
 G.S.T As per existing government norms
 Reward Redemption fee Yes
 Rent Transaction Fee 1% fee per transaction will be applicable on each rental transaction. Taxes will be applicable as notified by Government of India.
-Dynamic Currency Conversion Markup 1.5% of transaction amount + taxes (Applicable on International transactions performed in Indian currency at International location or transactions performed in Indian currency with merchants located in India but registered
+Dynamic Currency Conversion Markup 3.5% of transaction amount + taxes (Applicable on International transactions performed in Indian currency at International location or transactions performed in Indian currency with merchants located in India but registered
 in foreign nation)
 Education Payment Charges 1% fee per transaction will be applicable on education payments made via third party apps
 Wallet Load Transaction Fee 1% fee will be applicable on cumulative spends of ₹10,000 or more on wallet loads per statement cycle

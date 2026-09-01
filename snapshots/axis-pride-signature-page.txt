@@ -112,7 +112,8 @@ Overdue Penalty or Late Payment Fees
 Nil if Total Payment Due is less than ₹500
 ₹500 if total payment due is between ₹501 - ₹5,000
 ₹750 if total payment due is between ₹5,001 - ₹10,000
-₹1200 if total payment due is greater than ₹10,000
+₹1,200 if total payment due is between ₹10,001 and ₹50,000
+₹1,300 if total payment due is greater than ₹50,000.
 An additional ₹100 charge will be levied if the 'Minimum Amount Due (MAD)' is not paid for two consecutive cycles and will apply until the MAD is cleared
 Over limit penalty
 2.5% of the over limit amount (Min ₹500)
@@ -129,7 +130,7 @@ Yes
 Rent Transaction fee
 1% fee per transaction will be applicable on each rental transaction. Taxes will be applicable as notified by Government of India.
 Dynamic Currency Conversion markup
-1.5% plus taxes will be applicable on Axis Bank Credit Cards for each International transaction performed in Indian currency at International location or transactions performed in Indian currency with merchants located in Indian but registered in foreign nation. DCC markup will not be applicable on Burgundy Private Credit Card
+3.5% plus taxes will be applicable on Axis Bank Credit Cards for each International transaction performed in Indian currency at International location or transactions performed in Indian currency with merchants located in Indian but registered in foreign nation. DCC markup will not be applicable on Burgundy Private Credit Card
 Education Payment Charges
 1% fee per transaction will be applicable on education payments made via third party apps
 Wallet Load Transaction Fee

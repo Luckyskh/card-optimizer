@@ -84,7 +84,7 @@ Foreign Currency Transaction Fee 3.50% of the transaction value
 Reward Point Redemption fee yes
 GST As per existing Government norms
 Rent Transaction fee 1% of transaction amount. GST applicable as notified by Government of India
-Dynamic Currency Conversion MarkUp 1.5% Of Transaction Amount Applicable On International Transactions Performed In Indian Currency At International Location Or Transactions Performed In Indian Currency With Merchants Located In India But Registered In Foreign Nation. GST applicable as notified by Government of India
+Dynamic Currency Conversion MarkUp 3.5% Of Transaction Amount Applicable On International Transactions Performed In Indian Currency At International Location Or Transactions Performed In Indian Currency With Merchants Located In India But Registered In Foreign Nation. GST applicable as notified by Government of India
 Education Transaction Fee 1% on each education payments done through third party apps. GST applicable as notified by Government of India
 Wallet Load Transaction Fee 1% on cumulative wallet load transactions of ₹10,000 or more in a statement cycle. GST applicable as notified by Government of India
 Fuel Transaction Fee 1% on cumulative fuel transactions of ₹50,000 or more in a statement cycle. GST applicable as notified by Government of India

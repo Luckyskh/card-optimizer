@@ -216,8 +216,9 @@ Overdue Penalty or Late Payment Fee
 Nil if Total Payment Due is less than ₹500 Nil if Total Payment Due is less than ₹500
 ₹500 if total payment due is between ₹501 - ₹5,000 ₹500 if total payment due is between ₹501 - ₹5,000
 ₹750 if total payment due is between ₹5,001 - ₹10,000 ₹750 if total payment due is between ₹5,001 - ₹10,000
-₹1200 if total payment due is greater than ₹10,000 ₹1200 if total payment due is greater than ₹10,000
-Additional ₹100 on missing payment of Minimum Amount Due (MAD) by the due date for two consecutive cycles. This charge will continue to be applicable for every payment cycle until the MAD is cleared. Additional ₹100 on missing payment of Minimum Amount Due (MAD) by the due date for two consecutive cycles. This charge will continue to be applicable for every payment cycle until the MAD is cleared.
+₹1200 if total payment due is between ₹10,001 - ₹50,000 ₹1200 if total payment due is between ₹10,001 - ₹50,000
+₹1300 if total payment due is greater than ₹50,000 ₹1300 if total payment due is greater than ₹50,000
+An additional ₹100 charge will be levied if the 'Minimum Amount Due (MAD)' is not paid for two consecutive cycles and will apply until the MAD is cleared. An additional ₹100 charge will be levied if the 'Minimum Amount Due (MAD)' is not paid for two consecutive cycles and will apply until the MAD is cleared.
 Over Limit Penalty 2.5% of the overlimit amount (Min. ₹500) 2.5% of the overlimit amount (Min. ₹500)
 Chargeslip Retrieval Fee or Copy Request Fee Waived Waived
 Outstation Cheque Fee Waived Waived
@@ -243,26 +244,8 @@ Utility Transaction 1% fee will be levied on cumulative spends of ₹25,000 or m
 Online skill-based gaming 1% fee will be applicable for cumulative spends of ₹10,000 or more on online skill-based gaming platforms in a statement period
 1% fee will be applicable for cumulative spends of ₹10,000 or more on online skill-based gaming platforms in a statement period
 Dynamic Currency Conversion
-markup (Applicable from 5th
-March 2023)
-1.5% on International
-transaction performed in
-Indian currency at
-International location or
-transactions performed in
-Indian currency with
-merchants located in Indian
-but registered in foreign
-nation
-1.5% on International
-transaction performed in
-Indian currency at
-International location or
-transactions performed in
-Indian currency with
-merchants located in Indian
-but registered in foreign
-nation
+markup
+3.5% plus taxes will be applicable on Axis Bank Credit Cards for each International transaction performed in Indian currency at International location or transactions performed in Indian currency with merchants located in Indian but registered in foreign nation. 3.5% plus taxes will be applicable on Axis Bank Credit Cards for each International transaction performed in Indian currency at International location or transactions performed in Indian currency with merchants located in Indian but registered in foreign nation.
 Service Tax, as notified by the Government of India, is applicable on all fees, interest & other charges, and is subject to change as per relevant regulations of the Government of India.
 The joining fee and the annual fee are waived for HON and Senator Status members, where the status will be defined as per the status for Miles & More membership account.
 Over Limit Penalty 2.5% of the overlimit amount (Min. ₹500) 2.5% of the overlimit amount (Min. ₹500) Chargeslip Retrieval Fee or Copy Request Fee Waived Waived Outstation Cheque Fee Waived Waived Cheque return or dishonour Fee or Auto-debit Reversal 2% of the payment amount subject to Min. ₹450, Max. ₹1,515 2% of the payment amount subject to Min. ₹450, Max. ₹1,515 Surcharge on purchase or cancellation of Railway Tickets As prescribed by IRCTC / Indian Railways As prescribed by IRCTC / Indian Railways Foreign Currency Transaction Fee 3.50% of the transaction value 3.50% of the transaction value Mobile Alerts for Transactions Waived Waived Hotlisting Charges Waived Waived Balance Enquiry Charges Waived Waived Reward Redemption fee No No

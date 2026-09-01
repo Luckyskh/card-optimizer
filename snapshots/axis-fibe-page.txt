@@ -63,11 +63,12 @@ Mobile alerts for transactions Free
 Balance enquiry charges Waived
 Finance Charges (Retail purchases and Cash) 3.75% per month (55.55% per annum)
 Cash Withdrawal Fee 2.5% (Min. ₹500) of the cash amount
-Overdue penalty or Late payment fees Nil if total payment Due is up to ₹500
-₹500 if total payment due is between ₹501 - ₹5000
+Overdue penalty or Late payment fees Nil if Total Payment Due is less than ₹500
+₹500 if total payment due is between ₹501 - ₹5,000
 ₹750 if total payment due is between ₹5,001 - ₹10,000
-₹1200 if total payment due is ₹10,001 and above
-An additional charge of ₹ 100 will be applicable if the payment of Minimum Amount Due (MAD) is not made by the Payment Due Date (PDD) for two consecutive billing periods.
+₹1200 if total payment due is between ₹10,001 - ₹50,000
+₹1300 if total payment due is greater than ₹50,000
+An additional INR 100 charge will be levied if the 'Minimum Amount Due (MAD)' is not paid for two consecutive cycles and will apply until the MAD is cleared.
 Over limit penalty 2.5% of the over limit amount (Min ₹500)
 Cheque return or dishonor fee or auto-debit reversal 2% of the payment amount subject to Min. ₹ 500
 Surcharge on purchase or cancellation of railway tickets As prescribed by IRCTC/Indian Railways
@@ -78,7 +79,7 @@ Utility Transaction fee 1% fee will be applicable on cumulative spends of ₹25,
 Education Transaction fee 1% fee per transaction will be applicable on education payments made via third party apps
 Wallet Load Transaction Fee 1% fee will be applicable on cumulative spends of ₹10,000/- or more on wallet load transactions per statement cycle
 Online Skill Based Gaming Transaction Fee 1% fee will be applicable on cumulative spends of ₹10,000/- or more on Online skill based gaming platforms in a statement cycle
-Dynamic Currency Conversion markup 1.5% + taxes on international transaction performed in Indian currency at International location or transactions performed in Indian currency with merchants located in Indian but registered in foreign nation
+Dynamic Currency Conversion markup 3.5% + taxes on international transaction performed in Indian currency at International location or transactions performed in Indian currency with merchants located in Indian but registered in foreign nation
 Eligibility
 Documentation
 Eligibility for Fibe Axis Bank Credit Card

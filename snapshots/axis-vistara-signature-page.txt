@@ -6,7 +6,7 @@ Maharaja Points
 Lifestyle privileges
 Insurance benefits
 Axis Bank Vistara Signature Credit Card
-Sourcing of Axis Bank Vistara Credit Cards has been discontinued.
+The Axis Bank Vistara Credit Card will be discontinued for spends post 31 October 2026 following the merger of Vistara with Air India. To ensure uninterrupted access to exciting rewards, offers, and privileges, apply for another Axis Bank Credit Card today. [ Click here to apply.] [ Click here to view the T&C]
 The Terms & Conditions of Axis Bank Vistara Signature Credit Card will be updated w.e.f 28th August'26. Please click here to know more.
 Features & Benefits
 Fees & Charges
@@ -81,8 +81,11 @@ OverDue Penalty or Late Payment Fee
 Nil if Total Payment Due is less than ₹500 Nil if Total Payment Due is less than ₹500 Nil if Total Payment Due is less than ₹500
 ₹500 if Total Payment Due is between ₹501 - ₹5,000 ₹500 if Total Payment Due is between ₹501 - ₹5,000 ₹500 if Total Payment Due is between ₹501 - ₹5,000
 ₹750 if Total Payment Due is between ₹5,001 - ₹10,000 ₹750 if Total Payment Due is between ₹5,001 - ₹10,000 ₹750 if Total Payment Due is between ₹5,001 - ₹10,000
-₹1200 if Total Payment Due is greater than ₹10,000 ₹1200 if Total Payment Due is greater than ₹10,000 ₹1200 if Total Payment Due is greater than ₹10,000
-An additional charge of ₹100 will be applicable if the payment of Minimum Amount Due (MAD) is not made by the Payment Due Date (PDD) for two consecutive billing periods. An additional charge of ₹100 will be applicable if the payment of Minimum Amount Due (MAD) is not made by the Payment Due Date (PDD) for two consecutive billing periods. An additional charge of ₹100 will be applicable if the payment of Minimum Amount Due (MAD) is not made by the Payment Due Date (PDD) for two consecutive billing periods.
+₹1200 if total payment due is between ₹10,001 - ₹50,000 ₹1200 if total payment due is between ₹10,001 - ₹50,000 ₹1200 if total payment due is between ₹10,001 - ₹50,000
+₹1300 if total payment due is greater than ₹50,000
+An additional ₹100 charge will be levied if the 'Minimum Amount Due (MAD)' is not paid for two consecutive cycles and will apply until the MAD is cleared. ₹1300 if total payment due is greater than ₹50,000
+An additional ₹100 charge will be levied if the 'Minimum Amount Due (MAD)' is not paid for two consecutive cycles and will apply until the MAD is cleared. ₹1300 if total payment due is greater than ₹50,000
+An additional ₹100 charge will be levied if the 'Minimum Amount Due (MAD)' is not paid for two consecutive cycles and will apply until the MAD is cleared.
 Over Limit Penalty 2.5% of the over limit amount (Min. ₹500) 2.5% of the over limit amount (Min. ₹500) 2.5% of the over limit amount (Min. ₹500)
 Chargeslip Retrieval Fee or Copy Request Fee Waived Waived Waived
 Outstation Cheque Fee Waived Waived Waived
@@ -102,8 +105,8 @@ Rent Transaction Fee (Applicable from 5th March 2023)
 1% Per Transaction On Rental Transactions
 1% Per Transaction On Rental Transactions
 Wallet load transaction 1% fee will be levied on cumulative wallet load transactions of ₹10,000 or more in a statement cycle 1% fee will be levied on cumulative wallet load transactions of ₹10,000 or more in a statement cycle 1% fee will be levied on cumulative wallet load transactions of ₹10,000 or more in a statement cycle
-Dynamic Currency Conversion markup (Applicable from <date>)
-1.5% on International Transaction Performed in Indian currency at international location or transactions performed in Indian currency with merchants located in India but registered in foreign nation 1.5% on International Transaction Performed in Indian currency at international location or transactions performed in Indian currency with merchants located in India but registered in foreign nation 1.5% on International Transaction Performed in Indian currency at international location or transactions performed in Indian currency with merchants located in India but registered in foreign nation
+Dynamic Currency Conversion markup
+3.5% on International Transaction Performed in Indian currency at international location or transactions performed in Indian currency with merchants located in India but registered in foreign nation 3.5% on International Transaction Performed in Indian currency at international location or transactions performed in Indian currency with merchants located in India but registered in foreign nation 3.5% on International Transaction Performed in Indian currency at international location or transactions performed in Indian currency with merchants located in India but registered in foreign nation
 Eligibility
 Documentation
 Eligibility for Axis Bank Vistara Signature Credit Card

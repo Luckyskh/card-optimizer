@@ -13,8 +13,8 @@ Card Type*
 Select Card Type
 ICICI Bank Diamant Credit Card
 ICICI Bank Emerald Private Metal Credit Card
-Times Black ICICI Bank Credit Card
 ICICI Bank Emeralde Credit Card
+Times Black ICICI Bank Credit Card
 ICICI Bank Sapphiro Credit Card
 ICICI Bank Rubyx Credit Card
 ICICI Bank Parakram Select Credit Card
@@ -54,7 +54,7 @@ BookMyShow Offer
 Know More
 APPLY
 SAVE
-32,247 PEOPLE ARE INTERESTED
+30,042 PEOPLE ARE INTERESTED
 Best For
 Luxurious lifestyle
 Unlimited access to airport lounges
@@ -64,7 +64,9 @@ No cancellation charges on travel and hotel booking
 Emeralde Credit Card: Maximum Benefits
 Save Money
 Unlimited access
-Get access to international and domestic airport lounges for the primary Cardholder. Click here for domestic lounge list
+Get access to International airport lounges for the Primary Cardholder, Click here for lounge list
+Unlimited access
+Get access to Domestic airport lounges for the Primary Cardholder, Click here for lounge list
 Up to 4 rounds
 Get complimentary golf rounds every month basis eligible spends, Click here for list of Golf Courses
 Four times every month
@@ -138,11 +140,10 @@ Eligible Emeralde Credit Card customers can receive a ₹5000 birthday benefits 
 To know more about redemption of vouchers, click here
 For other terms and conditions,  click here .
 How to avail Complimentary International Airport lounge access?
-Enjoy unlimited complimentary access to international airport lounges with ICICI Bank Emeralde Credit Card. Complimentary benefits are applicable only for the primary Cardholder.
-For an ICICI Bank Emeralde Credit Card customer who has applied for the card on or after 15 November 2024.
+Enjoy unlimited complimentary accesses to international airport lounges with ICICI Bank Emeralde Credit Card.
 Priority Pass Membership
-Complimentary Priority Pass Membership for the primary Cardholder with ICICI Bank Emeralde Credit Card
-Access 1,400+ lounges in 145+ countries worldwide
+Complimentary Priority Pass Membership for both the primary cardholder and Plus cardholder with Times Black ICICI Bank Credit Card
+Access 1,900+ lounges in 145+ countries worldwide
 Present your Priority Pass Membership Card at the participating international lounges.
 For complete list of international airport lounges visit https://www.prioritypass.com/airport-lounges
 What are the criteria for availing domestic lounge access?
@@ -173,6 +174,7 @@ Choose your preferred golf course and select your preferred date and tee time.
 Submit your booking request and await confirmation.
 Check your Booking History to view all bookings and details.
 You may also call i-Assist, our 24X7 concierge service on 1800 26 70731 (toll free for MTNL/BSNL lines) or 022 6787 2016 (standard call charges applicable), for assistance with online booking. An authorisation amount of ₹2 shall be taken for each eligible Card.
+For step-by-step instructions on the booking process, click here
 How to redeem Credit Card points for rewards?
 You can experience seamless redemption of reward points with ICICI Bank. First, log into ICICI Bank Net Banking > Cards > Credit Cards > Redeem or the ICICI Bank's iMobile app iMobile > cards & forex > Select Credit Cards > Redeem, you can redeem your ICICI Bank reward points across multiple categories such as electronics, lifestyle, luxury, shopping and travel.
 Who should use this Card?
@@ -219,45 +221,6 @@ Apoorv Gupta
 Rating:
 stars
 The ICICI Bank Platinum Credit Card is a true gem. The lifestyle benefits, including complimentary airport lounge access and travel vouchers.
-Close Modal
-Enter Your Details
-Card Holder's Name as per Bank records*
-Select Title
-Mr.
-Ms.
-Dr.
-Mrs.
-Registered Email ID*
-Registered Mobile Number*
-Card Type*
-Select Card Type
-ICICI Bank Diamant Credit Card
-ICICI Bank Emerald Private Metal Credit Card
-Times Black ICICI Bank Credit Card
-ICICI Bank Emeralde Credit Card
-ICICI Bank Sapphiro Credit Card
-ICICI Bank Rubyx Credit Card
-ICICI Bank CTA Card
-ICICI Bank Business AMEX ASCENT Card
-ICICI Bank Business AMEX Essential Card
-ICICI Bank Gold Business Card
-ICICI Bank Business Platinum Card
-ICICI Bank Business Blue Advantage Card
-ICICI Bank Business Black Advantage Credit Card
-I, (primary card holder) nominate the following person (details provided hereunder) to whom, in the event of my death under the circumstances as covered in the T&C of the complimentary insurance policy on my ICICI Bank Credit Card, the insurance claim amount payable may be handed over.
-Note- Only one nominee details to be provided.
-Enter Nominee Detail
-Nominee Name*
-Select Title
-Mr.
-Ms.
-Dr.
-Mrs.
-Date of Birth of Nominee*
-Relationship with primary card holder*
-Name of Guardian (In case of minor)
-Submit
-Close Modal
 Apply now
 close exit intent modal
 close disclaimer modal

@@ -70,7 +70,8 @@ Cash withdrawal fees 2.5% (Min. ₹500) of the cash amount
 Overdue penalty or Late payment fees Nil if Total Payment Due is less than ₹500
 ₹500 if total payment due is between ₹501 - ₹5,000
 ₹750 if total payment due is between ₹5,001 - ₹10,000
-₹1200 if total payment due is greater than ₹10,000
+₹1200 if total payment due is between ₹10,001 - ₹50,000
+₹1300 if total payment due is greater than ₹50,000
 An additional INR 100 charge will be levied if the 'Minimum Amount Due (MAD)' is not paid for two consecutive cycles and will apply until the MAD is cleared.
 Over limit penalty 2.5% of the over limit amount (Min ₹500)
 Cheque return or dishonor fee or auto-debit reversal 2% of the payment amount subject to Min. ₹500
@@ -82,7 +83,7 @@ Utility Transaction fee 1% fee will be applicable on cumulative spends of ₹25,
 Education Transaction fee 1% fee per transaction will be applicable on education payments made via third party apps
 Wallet Load Transaction Fee 1% fee will be applicable on cumulative spends of ₹10,000/- or more on wallet load transactions per statement cycle
 Online Skill Based Gaming Transaction Fee 1% fee will be applicable on cumulative spends of ₹10,000/- or more on Online skill based gaming platforms in a statement cycle
-Dynamic Currency Conversion markup 1.5% + taxes on international transaction performed in Indian currency at International location or transactions performed in Indian currency with merchants located in Indian but registered in foreign nation
+Dynamic Currency Conversion markup 3.5% + taxes on international transaction performed in Indian currency at International location or transactions performed in Indian currency with merchants located in Indian but registered in foreign nation
 Value Chart
 Axis Bank Shoppers Stop Credit Card Value Chart on Annual Spends of Rs. 3,00,000
 Benefits of Axis Bank Shoppers Stop Credit Card Annual Spends(₹) Savings(₹)

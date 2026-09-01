@@ -8,9 +8,9 @@ Fees & Charges
 Eligibility & Documentation
 Features & Benefits
 Welcome benefit
-Voucher worth 5000 IndiGo BluChips along with one complimentary 6E Eats voucher as a Welcome gift on payment of joining fee
+Voucher worth 5000 IndiGo BluChips along with one complimentary 6E Eats voucher as a Welcome gift on payment of joining fee. Click here for T&Cs.
 Annual benefit
-Voucher worth 5000 IndiGo BluChips along with one complimentary 6E Eats voucher every year as a renewal benefit on payment of annual fee
+Voucher worth 5000 IndiGo BluChips along with one complimentary 6E Eats voucher every year as a renewal benefit on payment of annual fee Click here for T&Cs.
 Milestone Benefits
 Unlock 4 vouchers worth 5000 IndiGo BluChips on achieving spends milestone at ₹2 Lakhs, ₹5 Lakhs, ₹8 lakhs and ₹12 Lakhs spends. Click here for T&C
 Accelerated earns
@@ -39,6 +39,7 @@ Click here for T&C on domestic lounge access and click here for T&C on internati
 Accelerated Earns
 Earn 7 IndiGo BluChips on every ₹100 spent on all IndiGo channels.
 Earn 3 IndiGo BluChips on every ₹100 spent on groceries and hotel.
+Click here for T&C
 Dining Delight
 Enjoy exceptional dining experiences at top restaurants across India, with the Axis Bank Dining Delights Program.
 Click here to know more
@@ -53,7 +54,8 @@ Fee for cash payment ₹175
 Late payment charges Nil if Total Payment Due is less than ₹500
 ₹500 if total payment due is between ₹501 - ₹5,000
 ₹750 if total payment due is between ₹5,001 - ₹10,000
-₹1200 if total payment due is greater than ₹10,000
+₹1200 if total payment due is between ₹10,001 - ₹50,000
+₹1300 if total payment due is greater than ₹50,000
 LPF charged on Outstanding balance (Total amount due - Payments)
 NOTE - An additional ₹100 charge will be levied if the 'Minimum Amount Due (MAD)' is not paid for two consecutive cycles and will apply until the MAD is cleared.
 Over limit charge 2.5% (Minimum ₹500) of Over limit amount
@@ -64,7 +66,7 @@ bounce charge)
 Statement Request (beyond 3 months) NIL
 Reissue of lost, stolen or damaged card NIL
 Foreign currency transactions 2.50% of Transaction value on International Transactions
-DCC Surcharge 1.5% surcharge on DCC transactions
+DCC Surcharge 2.5% surcharge on DCC transactions
 Rent surcharge 1% transaction fee ( uncapped)
 MCC- 6513
 Education transaction A transaction fee of 1% will be applicable on education payments made via third-party apps (not limited to) such as CRED, PayTM, Cheq, and Mobikwik.

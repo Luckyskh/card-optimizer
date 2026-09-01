@@ -106,7 +106,8 @@ Finance Charges - Interest 3.75% Per Month (55.55% Per Annum)
 Late payment charges Nil if outstanding amount is less than ₹500
 ₹500 if outstanding amount is between ₹501 and ₹5,000
 ₹750 if outstanding amount is between ₹5,001 and ₹10,000
-₹1,200 if outstanding amount is greater than ₹10,001
+₹1200 if total payment due is greater than ₹10001- ₹50000
+₹ 1300 if total payment due is greater than ₹50000
 An additional INR 100 charge will be levied if the 'Minimum Amount Due (MAD)' is not paid for two consecutive cycles and will apply until the MAD is cleare
 Over limit charge 2.5% (Minimum ₹500) of Over limit amount
 (excluding fees, charges and taxes)
@@ -118,7 +119,7 @@ Rent surcharge 1% + GST per transaction will be applicable on each rental transa
 Statement Request (beyond 3 months) Nil
 Reissue of lost, stolen or damaged card Nil
 Foreign currency transactions 3.50% of Transaction value
-Dynamic Currency Conversion markup 1.5% + GST will be applicable on Axis Bank Credit Cards for each International transaction performed in Indian currency at International location or transactions performed in Indian currency with merchants located in Indian but registered in foreign nation.
+Dynamic Currency Conversion markup 3.5% + GST will be applicable on Axis Bank Credit Cards for each International transaction performed in Indian currency at International location or transactions performed in Indian currency with merchants located in Indian but registered in foreign nation.
 Transaction fee - 1% will be applicable on education payments made via third-party apps. However, payments and transactions made directly through education institutional websites, or their POS machines will not incur this fees.
 - Cumulative spends exceeding INR ₹10,000 on wallet loads, INR ₹50,000 on fuel, INR ₹25,000 on utilities, and INR ₹10,000 on online skill-based gaming platforms within a statement period will attract a 1% transaction fee
 Cash deposit at Citi branches ₹175 per deposit

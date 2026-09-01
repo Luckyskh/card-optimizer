@@ -4,7 +4,6 @@ World of cashback options
 Fuel surcharge waiver
 Airtel Axis Bank Credit Card
 Open a gateway to a world of privileges and benefits with your Airtel Axis Bank Credit Card. This card is designed to connect you to exclusive offers and other added delights. It comes with a world of cashback options and welcome benefits.
-Some of the features and Terms and conditions on Airtel Axis Bank Credit Card will be revised w.e.f. 12th Apr'26. For more details, click here .
 The Terms & Conditions of Airtel Axis Bank Credit Card will be updated w.e.f 28th August'26. Please click here to know more.
 Features & Benefits
 Fees & Charges
@@ -90,11 +89,12 @@ Balance enquiry charges
 Waived
 Finance charges (retail purchases and cash) 3.75% per month (55.55% per annum)
 Late payment fees
-Nil if total payment due is less than ₹500
+Nil if Total Payment Due is less than ₹500
 ₹500 if total payment due is between ₹501 - ₹5,000
 ₹750 if total payment due is between ₹5,001 - ₹10,000
-₹1200 if total payment due is greater than ₹10,000
-Additional ₹100 on missing payment of minimum amount due (MAD) by the due date for two consecutive cycles. This charge will continue to be applicable for every payment cycle until the MAD is cleared.
+₹1200 if total payment due is between ₹10,001 - ₹50,000
+₹1300 if total payment due is greater than ₹50,000
+An additional INR 100 charge will be levied if the 'Minimum Amount Due (MAD)' is not paid for two consecutive cycles and will apply until the MAD is cleared.
 Cash Withdrawal Fee Min. ₹500 up to 2.5% of the cash withdrawal amount
 Over limit Fees Min. ₹500 up to 2.5% of the over limit amount
 Surcharge on purchase or cancellation of Railway Tickets As prescribed by IRCTC/Indian Railways
@@ -106,7 +106,7 @@ No
 Rent Transaction fee
 1% fee per transaction will be applicable on rental transactions. GST will be applicable as notified by
 Dynamic Currency Conversion markup
-1.5% plus taxes will be applicable on each International transaction performed in Indian currency at international location or transactions performed in Indian currency with merchants located in Indian but registered in a foreign nation.
+3.5% + taxes on international transaction performed in Indian currency at International location or transactions performed in Indian currency with merchants located in Indian but registered in foreign nation
 Wallet load transaction fee
 (Applicable from 20th Dec, 2024) 1% fee will be applicable for cumulative spends of ₹10,000 or more for wallet loads per statement cycle
 Fuel Transaction fee

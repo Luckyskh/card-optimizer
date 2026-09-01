@@ -1,4 +1,12 @@
-Radware Page
-Verifying your browser before proceeding...
-Incident ID:
-1811f506-e42i-4643-a370-9d3a35f601d7
+Radware Captcha Page
+We apologize for the inconvenience...
+...but your activity and behavior on this site made us think that you are a bot.
+Note: A number of things could be going on here.
+If you are attempting to access this site using an anonymous Private/Proxy network, please disable that and try accessing site again.
+Due to previously detected malicious behavior which originated from the network you're using, please request unblock to site.
+Incident ID: 3d1968ab-e42i-4faa-a405-8094c1ca024b
+Please solve this CAPTCHA to request unblock to the website
+You reached this page when trying to access
+https://www.federalbank.co.in/documents/10180/58403423/OneCard+Credit+Card+Most+Important+Terms+and+Conditions+(MITC).pdf/26708306-296f-6e30-f41a-a05212bcbd2e?t=1630319988048 from
+13.77.158.7 on
+September 01 2026, 08:31:57 UTC

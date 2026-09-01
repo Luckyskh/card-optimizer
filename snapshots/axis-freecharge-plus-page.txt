@@ -63,9 +63,9 @@ Late Payment Fee
 Nil if Total Payment Due is less than ₹500
 ₹500 if total payment due is between ₹501 - ₹5,000
 ₹750 if total payment due is between ₹5,001 - ₹10,000
-₹1200 if total payment due is greater than ₹10,000
-An additional charge of ₹100 will be applicable if the payment of Minimum Amount Due (MAD)
-is not made by the Payment Due Date (PDD) for two consecutive billing periods.
+₹1200 if total payment due is between ₹10,001 - ₹50,000
+₹1300 if total payment due is greater than ₹50,000
+An additional INR 100 charge will be levied if the 'Minimum Amount Due (MAD)' is not paid for two consecutive cycles and will apply until the MAD is cleared.
 Over limit penalty
 2.5% of the over limit amount (Min ₹500)
 Cheque return, dishonour fee, or auto-debit reversal
@@ -87,7 +87,7 @@ Utility Transaction
 Online skill-based gaming
 1% fee will be applicable for cumulative spends of ₹10,000 or more on online skill-based gaming platforms in a statement period
 Dynamic Currency Conversion Markup
-1.5% plus taxes will be applicable for each international transaction performed in Indian currency or International location or transactions performed in Indian currency with merchants located in India but registered in foreign nation
+3.5% + taxes on international transaction performed in Indian currency at International location or transactions performed in Indian currency with merchants located in Indian but registered in foreign nation
 Eligibility
 Eligibility for Axis Bank Freecharge Plus Credit Card
 Axis Bank Freecharge Credit Card is an invite only model, wherein, if the customer is eligible, he/she shall be able to see the banner on their Freecharge Mobile App.

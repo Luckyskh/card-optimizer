@@ -52,19 +52,16 @@ FIRST Private Credit Card `50,000 `25,000 Annual Fee (2nd Year
 Onwards): `4,000
 Joining Fee `499
 Image Personalisation Fee* `499## `499## Annual Fee `499##
-###
 No joining fee, annual fee, or add-on card fees will be levied on the FIRST Digital Rupay Credit Card attached to the Gaj: Credit Card.
+###
 ** Image personalisation feature is not applicable on FIRST Private, LIC Classic & LIC Select, FIRST Power & FIRST Power+ Credit Card, FIRST Digital RuPay Credit
-Card, FIRST SWYP Credit Card,
-Club Vistara IDFC FIRST Credit Card, FIRST Select Mastercard Variant, IndiGo IDFC FIRST Credit Card, FIRST WOW! Black Credit Card, Ashva, Mayura, Gaj:,Hello
-Cashback and Quantum+ Credit Card.
+Card, FIRST SWYP Credit Card, Club Vistara IDFC FIRST Credit Card, FIRST Select Mastercard Variant, IndiGo IDFC FIRST Credit Card, FIRST WOW! Black Credit
+Card, Ashva, Mayura, Gaj:, Hello Cashback and Quantum+ Credit Card.
 #Annual Fee will be applicable on image cards created on or after 20th Feb 2025
-** Joining fee is not applicable for FD backed- IndiGo IDFC FIRST Secured Credit Card. Annual Fee of `4,999 is applicable on FD backed- IndiGo IDFC FIRST Secured
-Credit Card. The IndiGo IDFC FIRST
-Add-on Credit Card carries an applicable fee of `499 per add-on card issued.
+** Joining fee is not applicable for FD backed- IndiGo IDFC FIRST Secured Credit Card. Annual Fee of `4,999 is applicable on FD backed- IndiGo IDFC FIRST Secured Credit Card.
+The IndiGo IDFC FIRST Add-on Credit Card carries an applicable fee of `499 per add-on card issued.
 *** Spends on primary credit card and associated add-on cards and FIRST Digital Rupay Credit Card will be considered. Net spends excludes fuel transactions,
-instalments, fee, charges, GST, Loan-on-Card,
-Balance Transfer, cash withdrawals and transaction reversals.
+instalments, fee, charges, GST, Loan-on-Card, Balance Transfer, cash withdrawals and transaction reversals.
 2. Finance Charges*:
 Lorem ipsum dolor sit amet, consectetuer adipiscing
 Interest Rateelit,
@@ -189,7 +186,7 @@ Maximum amount of Fuel
 Products
 Surcharge waiver per
 statement cycle
-FIRST EA N Credit Card
+FIRST EA`N Credit Card
 FIRST Power and Power+
 Club Vistara IDFC FIRST
 Not Applicable
@@ -1027,23 +1024,27 @@ Borrower. In addition to the rights available to the Bank under the Transaction
 Document, in an event the Borrower fails to comply with the aforementioned, the Bank
 shall not renew or enhance or provide fresh credit facilities or restructure existing facilities.
 13. Termination/Revocation/Transfer of the Card Membership
-i. A Card member may terminate the Card Membership with IDFC FIRST Bank at any
-time by writing to the Bank at banker@idfcfirstbank.com, by calling the helpline number
-1800 10 888 or by logging into Net/Mobile Banking application.
-To avoid misuse, it is advised to destroy the Card by cutting it into several pieces ensuring
-that the hologram, EMV Chip and magnetic strip are destroyed permanently. The entire
-Card's outstanding dues and loans / EMI facilities linked to Credit Card (if availed) will
-immediately become due. The Card termination shall only be effective once IDFC FIRST
-Bank receives the payment of all amounts due and outstanding in respect of the said
-Card Account. No annual, joining, renewal fees or any other charges billed to the Card
-member shall be refunded.
-ii. In case IDFC FIRST Bank notices unusual and abnormal transaction patterns in the use
-of the Card, the Bank will try to establish contact with the customer on the registered
-phone number of the customer available on its records to verify whether the Card
-transaction is bonafide. Failure on the part of the Bank to establish contact with the
-customer, the Bank may restrict/terminate the use of the Card without any further notice,
-if the Bank reasonably believes it necessary in the interest of the Card member and for
-security reasons.
+i. A Card member may terminate the Card Membership with IDFC FIRST Bank at any time
+by writing to the Bank at banker@idfcfirstbank.com, by calling the helpline number
+1800 10 888 or by logging into Net/Mobile Banking application or by visiting IDFC FIRST
+Bank Website https://www.idfcfirst.bank.in/customer-care-sr/categories/cards/card-closure
+After the Card termination request, the entire Card's outstanding dues and loans / EMI facilities
+linked to Credit Card (if availed) will immediately become due. The Card termination shall
+only be effective once IDFC FIRST Bank receives the payment of all amounts due and
+outstanding in respect of the said Card Account. No annual, joining, renewal fees or any
+other charges billed to the Card member shall be refunded. To avoid misuse of your Card
+after termination, it is advised to destroy the Card by cutting it into several pieces ensuring
+that the hologram, EMV Chip and magnetic strip are destroyed permanently.
+ii. To protect the Cardholder against potential fraud or unauthorized use, the Bank may
+monitor and review Card activity to identify unusual, abnormal, or irregular patterns that
+may indicate fraud, unauthorized use, or other security concerns. Where such activity is
+identified, the Bank may decline transactions, temporarily restrict Card usage, or take
+such other measures as it deems necessary to safeguard the Cardholder and the Bank.
+Where feasible and practicable, the Bank may attempt to contact the Cardholder for con
+firmation. However, if contact cannot be established, upon review, the Bank may block,
+suspend, or limit Card usage as a precautionary measure. The Bank shall provide
+appropriate communication to the Cardholder regarding such action, in accordance with
+applicable laws and regulatory requirements.
 iii. IDFC FIRST Bank may also terminate the use of the Card at any time without prior
 notice, if it considers it necessary for business or security reasons, which may include
 but not limited to delay in payments, usage beyond the credit limit, returned cheque,
@@ -1096,6 +1097,21 @@ Account.
 viii. Alongside the above, the issuance/termination of the Employee Credit Card will be
 intranet portal. governed by the Employee Credit Card features and information
 given on the Bank intranet portal.
+ix. To ensure that the Credit Card is used in accordance with applicable regulatory
+requirements, foreign exchange guidelines, anti-money laundering guidelines, card
+network rules, internal risk policies, and the Bank’s Terms and Conditions, the Bank
+may monitor transactions and usage patterns on an ongoing basis. Based on such
+monitoring, if any transaction or usage is identified as non-compliant, suspicious,
+high-risk, or not aligned with applicable guidelines or permitted usage, the Bank or
+Networks may, at its sole discretion and without prior notice, take appropriate
+action. Such action may include declining transactions, restricting, or disabling
+certain transaction types or categories, or imposing usage controls or placing tem-
+porary blocks. Depending on the severity and risk assessment, the Bank may also
+withdraw or modify features, benefits, or privileges, and adjust, reverse, or cancel
+rewards, cashback, or similar benefits , where applicable. In certain cases, the
+Bank may suspend or terminate the Credit Card account. Specific reasons for such
+actions may not be disclosed where restricted under applicable law, regulatory
+directions, or card network rules.
 14. Loss/Theft/Misuse of Card
 i. In case the Card is lost, stolen, misplaced, mutilated, not received when due, or if
 the Cardmember suspects unauthorised use of the Card, or that the PIN or any
@@ -1206,16 +1222,15 @@ viii. For FIRST Classic, FIRST Millennia, FIRST Select, FIRST Wealth, FIRST Fami
 FIRST WOW!, Reward Points shall be valid for a period of twenty-four (24) months
 from the date of credit to the Credit Card Account. Any Reward Points not redeemed
 within the aforesaid validity period shall automatically lapse and stand forfeited. The
-existing Reward Points balance as on June 2026 Cycle shall be valid upto June 2028
-Cycle.
+existing Reward Points balance as on June 2026 Cycle shall be valid upto June 2028 Cycle.
 ix. Certain Credit Card variants may have a complimentary insurance cover on the
 Card. The policy coverage starts from the date of the Credit Card set up. For more
 information andterms & conditions, please refer to the IDFC FIRST Bank Website.
 x. Wherever applicable, Insurance cover may be availed by visiting
 https://www.idfcfirstbank.com/credit-card/insurance-nominee to update the nominee
 details for insurance cover via login through the mobile number registered with the
-Bank. Applicability of Insurance cover will be subject to updation of nominee details.
-Further, T&Cs Apply https://www.idfcfirstbank.com/credit-card/insurance-nominee
+Bank. Applicability of Insurance cover will be subject to updation of nominee
+details. Further, T&Cs Apply https://www.idfcfirstbank.com/credit-card/insurance-nominee
 xi. The Card member hereby acknowledges that the Most Important Terms and Conditions
 available in regional languages at (website) is the indicative translation of the English
 version of the Most Important Terms and Conditions

@@ -104,8 +104,8 @@ Reward Point Redemption fee No
 GST As per existing Government norms
 Rent Transaction fee (Applicable from 5th March 2023)
 1% fee per transaction will be applicable on rental transactions
-Dynamic Currency Conversion markup (Applicable from <date>)
-1.5% will be applicable on International transaction performed in Indian currency at International location or transactions performed in Indian currency with merchants located in Indian but registered in foreign nation Websites
+Dynamic Currency Conversion markup
+3.5% will be applicable on International transaction performed in Indian currency at International location or transactions performed in Indian currency with merchants located in Indian but registered in foreign nation Websites
 Education Transaction Fee (Applicable from 20th Dec, 2024)
 1% fee per transaction will be applicable on education payments made via third party apps
 Utility Transaction Fee (Applicable from 20th Dec, 2024)

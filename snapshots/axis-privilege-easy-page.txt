@@ -54,7 +54,7 @@ Get additional 10,000 EDGE reward points worth ₹2000 upon achieving spends mil
 Click here for detailed terms and conditions.
 Annual benefits
 Annual fees of ₹1,500 will be reversed on achieving spends* of ₹5 lakhs in the previous card anniversary year.
-Spends threshold for annual fee reversal will exclude rent and wallet transactions. The merchant category code of rent is 6513 and wallet is 6540. This revision is effective from 05-03-2023.
+Spends threshold for annual fee waiver will exclude transactions made on Utility & Telecom, Rent, Wallet, Government services, Insurance, Gold & Jewelry, Fuel, Education services, Bridge Fees, Road Fees & Tolls.
 Access numerous airport lounges
 Two complimentary access per calendar quarter to select domestic airport lounges with Axis Bank Privilege Easy Credit Card.
 For complete list of lounges, please click here.
@@ -108,7 +108,12 @@ Cash Withdrawal Fees 2.5% (Min. ₹500) of the Cash Amount
 Fee for Cash Payment ₹175/-
 Card Replacement (lost or stolen or re-issue) Nil
 Duplicate Statement Fee Waived
-Overdue Penalty or Late Payment Fee Nil if Total Payment Due is less than ₹500₹500 if total payment due is between ₹501 - ₹5,000₹750 if total payment due is between ₹5,001 - ₹10,000₹1200 if total payment due is greater than ₹10,000Additional INR 100 on missing payment of Minimum Amount Due (MAD) by the due date for two consecutive cycles. This charge will continue to be applicable for every payment cycle until MAD is cleared.
+Overdue Penalty or Late Payment Fee Nil if outstanding amount is less than ₹500
+₹500 if outstanding amount is between ₹501 and ₹5,000
+₹750 if outstanding amount is between ₹5,001 and ₹10,000
+₹1200 if total payment due is between ₹10001- ₹50000
+₹ 1300 if total payment due is greater than ₹50000
+Additional INR 100 on missing payment of Minimum Amount Due (MAD) by the due date for two consecutive cycles. This charge will continue to be applicable for every payment cycle until MAD is cleared.
 Over Limit Penalty 2.5% of the overlimit amount (Min. ₹500)
 Charge Slip Retrieval Fee or Copy Request Fee Waived
 Outstation Cheque Fee Waived
@@ -121,7 +126,7 @@ Hotlisting Charges Waived
 Balance Enquiry Charges Waived
 Reward Redemption fee Waived
 Rent surcharge fee 1% of the rental txn amount
-Dynamic currency conversion markup fee 1.5% of each international txn plus taxes
+Dynamic currency conversion markup fee 3.5% of each international txn plus taxes
 Education Payment Charges 1% fee per transaction will be applicable on education payments made via third party apps
 Wallet Load Transaction Fee 1% fee will be applicable on cumulative spends of ₹10,000 or more on wallet loads per statement cycle
 Fuel Transaction Fee 1% fee will be applicable on cumulative spends of ₹50,000 or more on fuel transactions per statement cycle

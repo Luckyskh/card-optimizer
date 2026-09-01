@@ -76,7 +76,8 @@ Late payment charges Nil if outstanding amount is less than ₹ 500
 ₹ 500 if Outstanding amount is between ₹ 501 and ₹ 5000
 ₹ 750 if outstanding amount is between ₹ 5001 and ₹ 10000
 ₹ 1200 if outstanding amount is greater than ₹ 10000
-Additional ₹ 100 on missing payment of Minimum Amount Due (MAD) by the due date for two consecutive cycles. This charge will continue to be applicable for every payment cycle until MAD is cleared
+Additional ₹ 100 on missing payment of Minimum Amount Due (MAD) by the due date for two consecutive cycles. This charge will continue to be applicable for every payment cycle until MAD is cleared.
+INR 1,300 if total payment due is greater than Rs.50,000 & above.
 Over limit charge 2.5% (Minimum ₹500) of Overlimit amount
 Returned Payment Charge (Cheque / ECS / ACH / SI bounce charge) 2% of the payment amount subject to Min. ₹500
 Railway ticket booking surcharge As prescribed by IRCTC / Indian Railways
@@ -87,7 +88,7 @@ Foreign currency transactions 3.50% of Transaction value on International Non DC
 Cash deposit at branches ₹175 per deposit
 Finance Charges - Interest 3.75% (55.55% annual)
 Rent Surcharge 1% will be applicable on each rental transaction done on Axis Bank Credit Cards. GST will be applicable as notified by Government of India.
-DCC Markup 1.5% plus taxes will be applicable on Axis Bank Credit Cards for each International transaction performed in Indian currency at International location or transactions performed in Indian currency with merchants located in Indian but registered in foreign nation. 1& 2
+DCC Markup 3.5% plus taxes will be applicable on Axis Bank Credit Cards for each International transaction performed in Indian currency at International location or transactions performed in Indian currency with merchants located in Indian but registered in foreign nation. 1& 2
 Wallet load transaction fee 1% fee on cumulative spends of ₹10,000 or more on wallet loads per statement cycle
 Fuel transaction fee 1% fee on cumulative spends of ₹50,000 or more on fuel transactions per statement cycle
 Education transaction fee 1% fee on education payments made via third party apps
