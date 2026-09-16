@@ -14,7 +14,7 @@ Low Forex Markup - 1.99%
 Know more
 APPLY
 SAVE
-71,958 PEOPLE ARE INTERESTED
+67,295 PEOPLE ARE INTERESTED
 BEST FOR
 Rewards on Amazon Purchases
 Non-expiring, Unlimited rewards
@@ -65,17 +65,8 @@ Proof of identity
 Proof of address
 Income Proof
 Amazon Pay ICICI Bank Credit Card FAQs
-What are the benefits of using this Credit Card?
-Following are the key benefits of using Amazon Pay ICICI Bank Credit Card:
-No joining and annual fees
-Unlimited and never-expiring reward points
-Earn 5% reward points on purchases on Amazon.in for prime members and 3% for non-prime members. Earn 2% reward points at 100+ Amazon Pay partner merchants by using this card on Amazon Pay
-1% reward points for all other payments*
-Low International Forex mark-up fee of 1.99%*
-Enjoy 3 months no-cost EMI on eligible Amazon.in transactions
-1% surcharge waiver on all fuel purchases
-Earnings in the form of Amazon Pay balance, redeemable for all Amazon and Amazon Pay purchases
-Automatic conversion of earnings into Amazon Pay balance on the completion of every billing cycle*.
+What are the benefits of using the Amazon Pay ICICI Bank Credit Card?
+Your Amazon Pay ICICI Bank Credit Card comes with no Joining Fee and no Annual Fee. You earn unlimited non-expiring reward points of up to 5% on Amazon.in for Prime members and 3% for non-Prime members, along with 1% rewards on spends outside Amazon at partner merchants. You also get a low forex mark-up of 1.99% on international spends, a 1% fuel surcharge waiver and 3 months of no-cost EMI on eligible Amazon.in transactions.
 How can I apply for an Amazon Pay ICICI Bank Credit Card?
 This is an invite-only programme. Please click here to apply for the Amazon Pay ICICI Bank Credit Card.
 Can I apply for an add-on card?
@@ -116,6 +107,14 @@ How can I use my Amazon Pay earnings?
 The Amazon Pay balance can be used for partial or full payment of all Amazon and Amazon Pay purchases.
 If I borrow an Amazon Pay ICICI Bank Credit Card from someone else and use it for my own purchases, will I earn in the form of Amazon Pay balance?
 Please note that these earnings will only be transferred to the card owner’s Amazon Account. If you have borrowed an Amazon Pay ICICI Bank Credit Card from another person and are using it for your transactions, applicable Amazon Pay balance will not be added to your Amazon Account.
+How long does it take for the Amazon Pay ICICI Bank Credit Card to be issued and delivered after approval?
+Your Amazon Pay ICICI Bank Credit Card is delivered within 7 working days from the date of approval. You will receive an SMS once your Card is dispatched. You can use your Virtual Card details for transactions until your physical Card arrives. For delays, contact Customer Care at 1800 1080.
+Where can I view my Amazon Pay ICICI Bank Credit Card details before the Physical Card arrives?
+You can view your Amazon Pay ICICI Bank Credit Card Number, CVV and expiry date through the iMobile app or Net Banking.
+How can I manage the limits and transactions of my Amazon Pay ICICI Bank Credit Card using the iMobile app?
+Log into the iMobile app and go to ‘Cards and Forex’. Select your Amazon Pay ICICI Bank Credit Card > Card Controls. You can enable or disable transaction types such as international transactions and Tap & Pay transactions. You can also set transaction limits as per your preference.
+What is the forex markup charge of my Amazon Pay ICICI Bank Credit Card?
+Your Amazon Pay ICICI Bank Credit Card comes with a low forex markup charge of 1.99% on international spends made in foreign currencies. The forex markup is applied when your transaction amount is converted from the foreign currency into Indian Rupees (INR). This charge applies each time you use your Card for purchases or payments in a foreign currency. Please refer to the ICICI Bank website for the complete schedule of charges.
 Blogs and Videos
 Explore more blogs</p>","cardText":"", "cardLinkUrl":"/personal-banking/blogs/card/credit-card", "cardLinkTarget":"_self"}' data-cta-region="Blogs-and-Videos-Widget:Blogs" data-cta-type="tab link" data-cta-landing-page-type="Non Application" data-cta-component-info="CMS">
 Blogs

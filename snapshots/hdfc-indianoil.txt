@@ -195,7 +195,7 @@ To locate your nearest IndianOil Petrol Outlet, click here
 Fuel Points Validity & Redemption Limit
 Fuel Points are valid for a period of 2 years.
 Redemption of Reward Points to CashBack and Travel categories will be capped at 50,000 points per month per customer
-Accrual of Reward Points on Grocery Spends will be capped at 1000 points per month per customer
+Accrual of Reward Points on grocery spends will be capped at 100 points per month per customer
 There will be no Reward Points accrual on Spends made on Rental and Government category payments
 Points plus Pay - A maximum of 70% can be paid using Reward Points and the other 30% to be made by payment modes (Cash/Cards/UPI etc.)
 Most Important Terms and Conditions

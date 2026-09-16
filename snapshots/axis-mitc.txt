@@ -397,14 +397,17 @@ Card
 IndiGo Axis
 Bank Premium 5,000 5,000 NIL
 Credit Card
+SCAPIA AXIS
+BANK Credit NIL NIL NIL
+Card
 ‘Anniversary Year’ refers to the period of 12 months from the date
 of issuance of the card and every 12-month period thereafter.
+Axis Bank|Public
 The bank may choose to run promotional offers from time to time,
 such offers will be governed by the promotional T&Cs
 communicated at the time of application.
 *For Select, Reserve, Magnus and Magnus for Burgundy Credit
 Card, Effective 1 Sep 2023, spends threshold for Annual Fee
-Axis Bank|Public
 reversal will exclude transactions identified through merchant
 category codes falling under the following categories: Rent, Wallet,
 Utilities, Government Institutions, EMI conversions, Cash
@@ -434,6 +437,7 @@ here is not considered as part of TRV. Demat is not considered as
 part of TRV. Investment products through/with Axis Bank are
 considered in TRV. For more details, please visit Burgundy Private
 Partner - Fees & Charges - Axis Bank.
+Axis Bank|Public
 FINANCE / INTEREST CHARGE (Effective 20th Dec 2024)
 Overdue Interest
 Interest on Cash
@@ -443,7 +447,6 @@ Credit
 Card Variant
 Monthly Annual Monthly Annual
 Rate Rate Rate Rate
-Axis Bank|Public
 1.5% 19.56% 1.5% 19.56%
 BURGUNDY PRIVATE
 per per per per
@@ -467,15 +470,12 @@ Card / MY CHOICE
 Credit Card /MY WINGS
 Credit Card / AXIS BANK
 VISTARA SIGNATURE
-Credit Card /
-AXIS BANK VISTARA
-Credit Card / PLATINUM
+Credit Card / 3.75% 55.55% 3.75% 55.55%
+AXIS BANK VISTARA per per per per
+Credit Card / PLATINUM month annum month annum
 Credit Card / TITANIUM
-3.75% 55.55% 3.75% 55.55%
 Credit Card / NEO Credit
-per per per per
 Card / AXIS BANK BUZZ
-month annum month annum
 Credit Card / VISA GOLD
 Credit Card / VISA
 SILVER Credit Card /
@@ -485,6 +485,7 @@ VISTARA INFINITE
 Credit Card / AURA
 Credit Card / LIC Credit
 Cards / REWARDS
+Axis Bank|Public
 Credit Card / KWIK Credit
 Card / AXIS BANK
 SHOPPERS STOP
@@ -492,7 +493,6 @@ Credit Card / INDIANOIL
 AXIS BANK PREMIUM
 Credit Card / AXIS BANK
 HORIZON Credit Card/
-Axis Bank|Public
 Axis Bank CASHBACK
 Credit Card
 RESERVE Credit Card /
@@ -513,10 +513,13 @@ Card / AIRTEL AXIS
 BANK Credit Card
 /SPICEJET AXIS BANK
 VOYAGE Credit Card /
+3.75% 55.55% 3.75% 55.55%
 SPICEJET AXIS BANK
-VOYAGE BLACK Credit 3.75% 55.55% 3.75% 55.55%
-Card / Samsung Axis per per per per
-Bank SIGNATURE Credit month annum month annum
+per per per per
+VOYAGE BLACK Credit
+month annum month annum
+Card / Samsung Axis
+Bank SIGNATURE Credit
 Card / Samsung Axis
 Bank INFINITE Credit
 Card / FIBE AXIS BANK
@@ -528,10 +531,12 @@ Credit Card by Axis Bank/
 Google Pay Flex Axis
 Bank Credit Card / IndiGo
 Axis Bank Credit Card /
-IndiGo Axis Bank
-Premium Credit Card / All
-other credit cards
 Axis Bank|Public
+IndiGo Axis Bank
+Premium Credit Card /
+SCAPIA AXIS BANK
+Credit Card / All other
+credit cards
 SECURED GOLD Credit
 Card / SECURED
 SILVER Credit Card /
@@ -565,12 +570,12 @@ transactions, until the total dues are fully paid. This
 includes any billed EMIs, except EMIs for Over‑the‑Limit
 (OTL) Instant Loan on Credit Card. (OTL exception will
 be applicable from 30th May 2026).
+Axis Bank|Public
 • Interest will be charged on all cash advances from the
 date of the withdrawal until the date of payment.
 • Interest is not charged on fees, charges, or applicable
 GST. However, interest will continue to apply on
 customer‑initiated spends, previously charged interest,
-Axis Bank|Public
 and EMIs (excluding EMIs for Over‑the‑Limit Instant Loan
 on Credit Card from 30th May 2026).
 • The Finance Charges as above will be applicable till the
@@ -601,16 +606,18 @@ Card, PRIMUS Credit Card
 Nil if total payment due is up to
 INR 500
 INR 500 if total payment due is
+Late Payment Fee for all other
 between INR 501 and INR 5,000
+Credit Cards
 INR 750 if total payment due is
-Late Payment Fee for all other between INR 5,001 and INR
-Credit Cards 10,000
+between INR 5,001 and INR
+10,000
+Axis Bank|Public
 INR 1,200 if total payment due is
 between INR 10,001 and INR
 50,000
 INR 1,300 if total payment due is
 greater than INR 50,000
-Axis Bank|Public
 Additional INR 100 on missing
 payment of Minimum Amount Due
 (MAD) by the due date for two
@@ -647,18 +654,17 @@ Tickets
 (Refunded for fuel transactions
 Between INR 400 to INR 4,000.
 Maximum benefits up to INR 400
-per Statement Cycle; AXIS BANK
+Fuel Transaction Surcharge per Statement Cycle; AXIS BANK
 SUPERMONEY RuPay Credit
 Card, Select Credit Card, Reserve
-Fuel Transaction Surcharge
 Credit Card, Magnus Credit Card,
 Magnus for Burgundy Credit Card,
+Axis Bank|Public
 Burgundy Private Credit Card, up
 to INR 500 for ACE Credit Card;
 Axis Bank My Zone Credit Card,
 Axis Bank My Zone Easy Credit
 Card, Axis Bank My Zone Instant
-Axis Bank|Public
 Credit Card, Axis Bank Pride
 Signature Credit Card, Fibe Axis
 Bank Credit Card, SAMSUNG
@@ -695,11 +701,11 @@ fuel transactions between INR 400
 to INR 5,000. Maximum benefits up
 to INR 400 per Statement Cycle for
 REWARDS Credit Card, Axis Bank
+Axis Bank|Public
 SHOPPERS STOP Credit Card,
 AXIS BANK HORIZON Credit Card
 1% of transaction amount
 (Refunded for fuel transactions
-Axis Bank|Public
 between INR 400 to INR 10,000.
 per Statement Cycle for PRIMUS
 Credit Card)
@@ -708,6 +714,11 @@ Credit Cardholders are eligible for
 1% of transaction amount.
 (Only at authorized IndianOil
 outlets)
+1% of transaction amount
+(Refunded for fuel transactions up
+to INR 5,000. Maximum benefits up
+to INR 500 per Statement Cycle for
+SCAPIA AXIS BANK Credit Card)
 Please note -
 • On fuel transactions, the fuel
 surcharge is not levied by
@@ -726,23 +737,26 @@ the surcharge levied.
 surcharge (if any) will not be
 waived and will need to be
 borne by the cardholder
+Axis Bank|Public
 2% of the transaction value for
 MAGNUS Credit Card and
 MAGNUS FOR BURGUNDY Credit
 Card;
-Foreign Currency 1.8% of the transaction value for
-Transaction Fee1 OLYMPUS Credit Card;
+1.8% of the transaction value for
+OLYMPUS Credit Card;
 1.5% of the transaction value for
 RESERVE Credit Card;
+Foreign Currency
 Nil for BURGUNDY PRIVATE
-Credit Card;
-Axis Bank|Public
+Transaction Fee1
+Credit Card, PRIMUS Credit Card
+and SCAPIA AXIS BANK Credit
+Card;
 2.50% of the transaction value for
 INDIGO AXIS BANK PREMIUM
-Credit Card
+Credit Card;
 3.50% of the transaction value for
 all other cards
-Waived for PRIMUS Credit Card
 3.5% plus taxes will be
 applicable on each International
 transaction performed in Indian
@@ -753,8 +767,10 @@ currency with merchants
 located in Indian but registered in a
 foreign nation.
 2.50% of the transaction value for
-Dynamic Currency INDIGO AXIS BANK PREMIUM
-Conversion markup2 Credit Card;
+INDIGO AXIS BANK PREMIUM
+Dynamic Currency
+Credit Card;
+Conversion markup2
 2% of the transaction value for
 MAGNUS Credit Card and
 MAGNUS FOR BURGUNDY Credit
@@ -764,8 +780,10 @@ OLYMPUS Credit Card;
 1.5% of the transaction value for
 RESERVE Credit Card;
 Nil for BURGUNDY PRIVATE
-Credit Card and PRIMUS Credit
-Card;
+Credit Card, PRIMUS Credit Card
+and SCAPIA AXIS BANK Credit
+Card
+Axis Bank|Public
 1% fee per transaction will be
 applicable on each rental
 transaction. Taxes will be
@@ -780,7 +798,6 @@ cumulative spends of INR 10,000
 or more on wallet loads per
 2024)
 statement cycle
-Axis Bank|Public
 1% fee will be applicable on
 Fuel Transaction Fee5
 cumulative spends of INR 50,000
@@ -807,6 +824,7 @@ Mobile Alerts for Transactions Waived
 Hot listing Charges Waived
 Balance Enquiry Charges Waived
 Replacement Fee Waived
+Axis Bank|Public
 Note: i) GST, as notified by the Government of India, is applicable
 on all fees, interest and other charges, and is subject to change as
 per relevant regulations of the Government of India.
@@ -818,7 +836,6 @@ conversion charges, exchange rate fluctuations, or other
 merchant/network adjustments applicable at the time of settlement.
 The final transaction amount will be updated in your card account
 once the transaction is settled.
-Axis Bank|Public
 iii) The Bank retains the right to alter any charges or fees from time
 to time, or to introduce any new charges or fees, as it may deem
 appropriate, with due intimation of at least one month to the
@@ -844,6 +861,7 @@ charges, which are not linked to the Bank.
 ***Over-limit Fee: The Bank may approve certain transactions
 attempted by the Cardholder which are over and above the Credit
 limit subject to internal policy, eligibility with respect to transaction,
+Axis Bank|Public
 customer profile and customer consent. If the outstanding amount
 exceeds the Credit Limit, an over limit-fee of 2.5% of the over-limit
 amount (subject to a minimum of INR 500) will be levied. Interest,
@@ -856,7 +874,6 @@ converted into Indian Rupees. The conversion will take place on
 the date the transaction is settled with Axis Bank, which may not
 be the same date on which the transaction was made. If the
 transaction is not in US Dollars, the conversion will be made
-Axis Bank|Public
 through US Dollars, by converting the charged amount into US
 Dollars and then by converting the US Dollar amount into Indian
 Rupees. Unless a specific rate is required by applicable law, the
@@ -883,6 +900,7 @@ Mark-up fee of plus taxes will be levied on the transaction amount.
 DCC Mark-up fee to be levied is as below:
 Card Type DCC Mark-up Fee
 Axis Bank Retail Credit Cards 3.5%
+Axis Bank|Public
 IndiGo Premium Credit Card 2.5%
 Magnus & Magnus for Burgundy
 2%
@@ -890,14 +908,13 @@ Credit Card
 Olympus Credit Card 1.8%
 Reserve Credit Card 1.5%
 Burgundy Private Credit Card,
-Nil
-Primus Credit Card
+Primus Credit Card, SCAPIA AXIS Nil
+BANK Credit Card
 3Rent Transaction fee: For each rent payment identified through
 MCC 6513, a rent surcharge fee of 1% per transaction will be levied
 on the transaction amount. Taxes will be applicable as notified by
 Government of India. For example - If you pay INR 20,000 on a
 third-party rent payment platform using your Axis Bank credit card,
-Axis Bank|Public
 1% of transaction amount i.e., INR 200 plus taxes will be charged
 as surcharge fee. This is applicable on each transaction.
 4Wallet Load Transaction fee: For wallet load transaction
@@ -921,6 +938,7 @@ transactions) is INR 50,000, 1% of transaction amount i.e., INR 500
 plus taxes will be charged as surcharge fee. Similarly, assuming
 your cumulative spends on fuel transactions in a particular
 statement cycle is INR 30,000, then no surcharge will be levied.
+Axis Bank|Public
 6Education Transaction fee: For each education payment
 identified through MCC 8211, 8220, 8241, 8244, 8249, 8299, made
 via third party apps like, a surcharge fee of 1% will be levied on the
@@ -934,7 +952,6 @@ institutional websites, or their POS machines will not incur this fees.
 7Utility Transaction fee: 1% fee will be applicable on cumulative
 spends of INR 25,000 or more on utilities payments per statement
 cycle. Transactions on Utilities are identified through 4814, 4899,
-Axis Bank|Public
 4900. Taxes will be applicable as notified by Government of India.
 For example - In a statement cycle, if your total spends on utilities
 bill payments using your Axis Bank credit card (cumulative of all
@@ -958,6 +975,7 @@ Interest is levied on all transactions that are carried out during the
 time the customer uses the revolving facility (has revolving credit
 and has paid less than Total Amount Due in previous month). An
 illustration for the same is provided below:
+Axis Bank|Public
 • Statement Cycle – 12th to 11th of every month
 • Statement Generation Date – 11th of every month
 • Interest Rate – 3.75% per month
@@ -968,7 +986,6 @@ a purchase of INR500 is made on 30th Mar followed by a cash
 withdrawal for INR4,000 on 2nd Apr. Statement for INR5,148.19 will
 be generated on 11th Apr with due date of 1st May with the following
 components:
-Axis Bank|Public
 Transaction Amount
 Date Explanation
 Type (INR )
@@ -999,6 +1016,7 @@ Minimum Amount Due (MAD) for this cycle will be INR 738.19.
 MAD calculation is as follows MAD= 2%*(500+4,000) +
 (500+90+49.32+8.88)= INR 738.19.
 Cycle 2: 12th Apr to 11th May
+Axis Bank|Public
 Suppose a new purchase is made for INR 2,500 on 1st May and
 MAD payment is made on 15th Apr, then the statement generated
 on 11th May with due date of 31st May will consist of following
@@ -1014,7 +1032,6 @@ previous Minimum
 Payment 738.19 Cr
 Amount Due = INR
 15th Apr 738.19
-Axis Bank|Public
 Purchases made on
 Purchase 2,500 Dr
 1st May credit card
@@ -1037,12 +1054,14 @@ days
 12th Apr
 4,000 to 15th 4 4,000*4*3.75%*12/365 19.73
 Apr
-1st May
+st
+1 May
 2,500 to 11th 11 2,500*11*3.75%*12/365 33.90
 May
 11th Apr
 49.32 to 15th 5 49.32*5*3.75%*12/365 0.30
 Apr
+Axis Bank|Public
 16th Apr
 4,410 to 11th 26 4,410*26*3.75%*12/365 141.36
 May
@@ -1058,7 +1077,6 @@ full payment of previous closing balance i.e. INR 7,152.81 is
 made on 25th May, before due date. Another purchase of INR
 5,000 is made on 31st May. Statement generated on 11th June will
 consist of following components:
-Axis Bank|Public
 Transaction Amount
 Date Explanation
 Type (INR )
@@ -1086,6 +1104,7 @@ Closing Balance 6,164.14 Dr Total Payment Due
 Interest Charged consists of following components, interest is
 charged on all previous dues and fresh transactions till date of full
 payment of previous dues:
+Axis Bank|Public
 No.
 Balance Interest
 Period of Calculation
@@ -1109,7 +1128,6 @@ May
 Interest
 139.10
 Charged
-Axis Bank|Public
 Minimum Amount Due (MAD)-
 The monthly payment should cover at least the MAD. Any unpaid
 MAD from the previous statements will also be added to the current
@@ -1128,9 +1146,10 @@ MAD computation logic
 Sr. Txn Amount Cr/ MAD Amount in
 Type
 No. Date (INR) Db Contribution MAD (INR)
-25 th
+25th
 a Purchase 5,000 Db 2% 100
 Sep
+Axis Bank|Public
 1st
 b Joining Fee 1,000 Db 100% 1,000
 Oct
@@ -1153,12 +1172,11 @@ Interest on
 g Cash 36.99 Db 100% 36.99
 Oct
 Withdrawal
-15th GST on
+15 th GST on
 h 6.66 Db 100% 6.66
 Oct Interest
 Total Due (INR) 8,813.65
 Minimum Amount Due (MAD) 1,953.65
-Axis Bank|Public
 MAD = 2%*(5,000+2,000) +
 100%*(1,000+180+500+90+36.99+6.66) = 1,953.65
 Minimum Amount Due will be INR1,953.65

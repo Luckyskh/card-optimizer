@@ -325,7 +325,7 @@ Assuming No Previous Balance carried forward from the 15th June
 2019 statement, the cardholder will get his 15th July statement showing
 Rs.12,000 of transactions along with 6 days of finance charges at the
 rate applicable on the Rs.7,000 cash withdrawal. The cardholder needs
-to make payment against the outstanding by 5th August 2019, i.e. 20
+to make payment against the outstanding by 4th August 2019, i.e. 20
 days from the Statement Date, for anything between the entire amount
 or Minimum Amount Due. Please note that any payment made against
 your credit card outstanding will first be cleared against 100% of GST,
@@ -477,7 +477,7 @@ On balance of Rs 6,730.03 (9th Nov to 8th Dec) for 30 days: (3.75*12)*
 On the balance of Rs. 6,684.00 (29th Nov to 8th Dec) for 10 days:
 (3.75*12)* (10/365) *6,684.00 /100 = Rs. 82.41
 On balance of Rs 115.30 (9th Nov to 8th Dec) for 30 days: (3.75*12)*
-(30/365) *19,497.00/100 = Rs. 4.26
+(30/365) *115.30/100 = Rs. 4.26
 Since no payment was made by the cardholder till Payment due date
 (28th Nov), the cardholder will get his 8th Dec statement showing Total
 amount due of Rs. 23,091.93 (break up is below).
@@ -561,7 +561,7 @@ Cardholder’s second statement:
 Card Statement Date - 12th of every month
 Billing Statement period - 13th May 2025 - 12th June 2025
 Assuming that cardholder makes the payment of Minimum Amount
-Due (MAD) i.e Rs.1,000 on the payment due date i.e. 2nd June 2025,
+Due (MAD) i.e Rs.1,000 on the payment due date i.e. 1st June 2025,
 the payment received will be allocated against the outstanding balance
 as per payment allocation hierarchy:
 Payment Allocation Amount in INR
@@ -630,8 +630,8 @@ The cardholder needs to make payment against the outstanding by
 between the Total Amount Due or Minimum Amount Due.
 If the cardholder does not make the payment of the Minimum Amount
 Due or more by 22nd Feb 2016, he would be charged a Late Payment
-Charge of Rs.750 (Rs.750 for greater than Rs.1,000 & up to
-Rs.10,000).
+Charge of Rs.750 (Rs.750 for outstanding amount due greater than
+Rs.1,000 & up to Rs.10,000).
 Example 2: Card Statement date – 2nd of every month.
 Transaction done between 3rd Feb’16 – 2nd Mar’16
 1. Retail Purchase of Rs.2,000 – On 8th Feb’16
@@ -644,7 +644,7 @@ March 2016, i.e. 20 days from the Statement Date, for anything
 between the Total Amount Due or the Minimum Amount Due.
 If the cardholder does not make any payment by 22nd March 2016, he
 would be charged a Late Payment Charge of Rs.750 (Rs.750 for
-greater than Rs.1,000 & up to Rs.10,000)
+outstanding amount due greater than Rs.1,000 & up to Rs.10,000)
 Example 3: Card Statement date – 2nd of every month.
 Transaction done between 3rd Sep – 2nd Oct
 (1) Retail Purchase of Rs.9,400 – On 5th Sep
@@ -677,8 +677,8 @@ outstanding by 22nd Feb, i.e. 20 days from the Statement Date, for any
 amount between the Total Amount Due or Minimum Amount Due. If the
 cardholder does not make the payment of the Minimum Amount Due or
 more on or before 22nd Feb he would be charged a Late Payment
-Charge of Rs.950 (Rs.950 for greater than Rs.10,000 & up to
-Rs.25,000).
+Charge of Rs.950 (Rs.950 for outstanding amount due greater than
+Rs.10,000 & up to Rs.25,000).
 I. Over Limit Fees
 As a service gesture, SBI Card may approve Overlimit transactions
 subject to internal policy, eligibility with respect to transaction,
@@ -1505,9 +1505,9 @@ amendments
 SBI Card Helpline
 39 02 02 02 (prefix local STD code),
 1860 180 1290/1860 500 1290
-All information in this communication is correct as on 28th July 2026 and is
-subject to change at the discretion of SBICPSL. SBI Card Most Important
-Terms and Conditions are also available at www.sbicard.com
+All information in this communication is correct as on 1st September 2026
+and is subject to change at the discretion of SBICPSL. SBI Card Most
+Important Terms and Conditions are also available at www.sbicard.com
 SBI Cards and Payment Services Limited.
 P.O. Bag No. 28, New Delhi - 110 001
 Please visit our website at : www.sbicard.com
@@ -1525,4 +1525,4 @@ Write to us at SBICPSL, Post Bag No. 28,
 GPO, New Delhi – 110001
 By Web
 Log onto sbicard.com
-Ver: FY 27, 14
+Ver: FY 27, 15

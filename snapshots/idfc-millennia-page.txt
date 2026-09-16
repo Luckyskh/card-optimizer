@@ -3,7 +3,7 @@ Customer Service
 Contact us
 Service request
 Locate a branch
-Customer Service
+Raise a complaint
 Personal
 Business
 Credit Card
@@ -213,7 +213,7 @@ Premium Metal Credit Cards
 View All
 Ashva Credit Card
 Lifestyle
-1% Forex
+Zero Forex
 ₹2,999
 Mayura Credit Card
 Lifestyle
@@ -241,11 +241,11 @@ Lifestyle
 FIRST Select
 10X Rewards
 Lifestyle
-1.99% Forex
+Zero Forex
 FIRST Wealth
 10X Rewards
 Lifestyle
-1.5% Forex
+Zero Forex
 FIRST WOW!
 FD-Backed
 Travel
@@ -381,7 +381,7 @@ Rewards
 FIRST Business
 UPI
 Rewards
-1.99 Forex
+Zero Forex
 Micro Enterprise Credit card
 UPI-ready
 Udyam registered MSMEs
@@ -411,6 +411,7 @@ View All
 NRE Savings Account
 NRO Savings Account
 Seafarers Account
+Resident to NRO Conversion
 Tools & Calculators
 NRE Savings Account Calculator
 NRO Savings Account Calculator
@@ -621,18 +622,15 @@ Exclusion:
 • If the customer is delinquent at the time of offer fulfilment, that customer will not be eligible for the offer
 • If any of the transactions are reversed/cancelled/foreclosed by the cardholder or merchant, that EMI transaction will be excluded. Similarly for any disputed transaction by the cardholder, that EMI transaction will be excluded
 Know more
+All IDFC FIRST Bank Credit Cards now come with Zero Forex Markup
+Apply Now
 Exclusive privileges with the
 FIRST Millennia Credit Card
-Lifestyle
 Travel
+Lifestyle
 Comprehensive insurance
-25% off on movie tickets
-Discounted
-Explore Now
-1% Fuel surcharge waiver
-Explore Now
-Merchant offers, all year long!
-All year round
+Zero Forex Markup
+Complimentary
 Explore Now
 Complimentary railway lounge access
 Complimentary
@@ -640,6 +638,14 @@ Explore Now
 Earn bonus reward points on flight bookings
 Explore Now
 Earn bonus reward points on hotel bookings
+Explore Now
+25% off on movie tickets
+Discounted
+Explore Now
+1% Fuel surcharge waiver
+Explore Now
+Merchant offers, all year long!
+All year round
 Explore Now
 Accident and lost card liability cover
 Explore Now
@@ -673,6 +679,11 @@ Know More
 Earn bonus reward points on hotel bookings
 Earn 20% Bonus Reward Points on your hotel booking done through 'FIRST Rewards Gallery' section on IDFC FIRST Bank Mobile App
 Know More
+Zero Forex Markup
+Enjoy Zero Forex Markup on all international spends.
+To get the maximum benefit of Zero Forex Markup, always choose to pay in the local currency of the country you are in.
+A shop, website or ATM abroad may offer to bill you in Indian Rupees instead. If you choose INR, the merchant or ATM may apply its own conversion rate and a separate charge called Dynamic Currency Conversion (DCC).
+So, when asked to choose a currency, pick dollars in New York, yen in Tokyo, dirhams in Dubai. Your card will handle the currency conversion with Zero Forex Markup.
 Experience convenience like never before
 Instant EMI conversion for all online transactions
 on the bank’s OTP page
@@ -684,7 +695,7 @@ from ATMs for up to 45 days
 Activate UPI on FIRST Millennia Credit Card at just ₹199
 Joining and Annual fee (2nd year onwards) of just ₹199 + GST
 Limited period offer: 100% cashback up to ₹200 i.e. ₹50 each on the first 4 UPI transactions
-Earn up to 3X reward points on your spends
+Earn up to 3X reward points* on your UPI spends
 Know more
 This card is perfect for you because...
 No annual fees
@@ -722,7 +733,7 @@ Step 3
 Choose Hotels or Flights and Book
 Elevate spends with Reward Points
 10X Reward Points
-on Dining, Travel, and International purchases and spends done on your birthday.
+on Dining, Travel and International purchases and spends done on your birthday.
 3X Reward Points
 on eligible spends.
 1X Reward Points
@@ -734,9 +745,6 @@ Reward program not applicable on Fuel, EMI transactions and Cash withdrawals.
 Reward redemption will attract a small convenience charge of ₹99 plus GST per redemption.
 Reward Points are valid for 24 months from the date they are credited.
 Reward Points are earned only on spends up to your credit limit per billing cycle. Additional spends beyond this will not be eligible for Reward Points.
-Till 18th June 2026:
-- Earn 10X Reward Points on incremental spends above ₹20,000 per statement cycle and spends done on your birthday
-- Rental and Property Management, Government Services, Education, Wallet Load, Utility, Insurance, FASTag Recharges and Railway Spends will not be counted towards 10X spends.
 3X Reward Points
 On eligible spends*
 *All spend categories earn 3X Reward Points; except insurance, utilities, railways, FASTag recharges, dining, travel, international purchases, fuel, EMI transactions & cash withdrawals.
@@ -811,6 +819,8 @@ Benefits
 Reward Points
 Credit Limit
 Payments
+What is the forex mark-up on the FIRST Millennia Credit Card?
+The FIRST Millennia Credit Card provides ZERO forex markup. Spend without paying extra fees while travelling abroad as well as on international purchases made from India.
 Is there a Joining/Membership/Annual fee on IDFC FIRST Bank Millennia Credit Cards?
 No, the IDFC FIRST Bank Millennia Credit Card is lifetime-free. There are no joining, membership, or annual fees, making it a cost-effective choice for cardholders seeking premium benefits without recurring charges.
 What is the interest rate (APR) on my credit card?
@@ -856,6 +866,7 @@ Host of discounts and offers on offline and online transactions with o<version>+
 Complimentary Roadside Assistance worth ₹1,399
 Up to 10X Reward Points, valid for 24 months
 25% discount on movie tickets up to ₹100 on District by Zomato mobile app, valid once per month with a minimum transaction in the previous calendar month
+Zero Forex markup on all international spends
 Will I earn reward points for every spend?
 Yes. You will earn:
 - 10X Reward Points on Dining, Travel, and International purchases and spends done on your birthday.
@@ -929,5 +940,8 @@ Customer Support
 Locate our branch
 ON A MISSION TO BUILD THE WORLD’S MOST
 CUSTOMER FRIENDLY BANK
+Introducing
+on all IDFC FIRST Bank Credit Cards
+Apply Now
 Your application is one scan away
 Scan to continue on mobile and finish your application securely.

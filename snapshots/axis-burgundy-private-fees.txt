@@ -11,14 +11,14 @@ Primary Card: Annual Fees NIL
 Joint Debit Card: Type Burgundy Private Debit Card
 Joint Card: Annual Fees NIL
 My Design Card Issuance NIL
-Chequebook Issuance Free
-DD/PO Issuance Free
+Chequebook Issuance Unlimited, Free
+DD/PO Issuance Unlimited, Free
 Account Closure Rs. 500#
 NetSecure with 1 Touch - Issuance fee Rs. 1,000
 Transaction Charges
 Features Charges Applicable
 Daily ATM Withdrawal Limit Rs. 4 lakhs
-Daily POS transaction Limit Rs. 7 lakhs
+Daily POS transaction Limit Rs. 10 lakhs
 Monthly Cash Transaction: No. of Unlimited, Free
 transactions / Limits (Metro/Urban/Semi-
 Urban/Rural)
@@ -118,10 +118,3 @@ of Rs.5 crore is met (excluding Demat)
 be levied if account is closed within 14 days of account opening or after 1 year.
 The bank reserves the right to change/modify any of the charges from time to time. All
 the service charges will attract taxes as applicable. To know more visit www.axis.bank.in
-NRI clients who opt for Email Indemnity Registration effective 23rd March 2026, will be
-debited with Stamp Duty Charge of INR 500 from their NRE / NRO account. This is a
-non-refundable charge. Please refer to https://www.axis.bank.in/listofservices for
-further details.
-Access our 24x7 NRI Phone Banking services through country-specific toll-free number.
-Visit www.axis.bank.in/pbnri for more information. For any grievances, please visit
-www.axis.bank.in/customerservice.
