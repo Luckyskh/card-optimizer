@@ -77,28 +77,26 @@ PLUS Credit 350 50000 in the Nil
 Card preceding card
 anniversary
 year)
-INR 499
 (Waived on
-spends of 499
-INR10000 (Waived on
-within 45 days spends of INR
-ACE Credit
-of Card set-up) 2,00,000 in the Nil
-Card
+(Waived on
+spends of INR
+ACE Credit spends of
+2,00,000 in the Nil
+Card INR10000
 preceding card
-INR 0 – anniversary
-Limited time year)
-offer on select
-channels
+within 45 days
+anniversary
+of Card set-up)
+year)
 SPICEJET AXIS
 BANK VOYAGE 750 750 Nil
 Credit Card
-Axis Bank|Public
 SPICEJET AXIS
 BANK VOYAGE
 2,000 2,000 Nil
 BLACK Credit
 Card
+Axis Bank|Public
 3,000 (Nil for
 Burgundy
 account
@@ -124,12 +122,12 @@ basis to clients basis to clients
 maintaining a maintaining a
 Total Total
 Relationship Relationship
-BURGUNDY
 Value (TRV)** Value (TRV)**
-PRIVATE - The Nil
+BURGUNDY
 of INR 5 crore of INR 5 crore
-One Card
+PRIVATE - The Nil
 or above in the or above in the
+One Card
 month month
 preceding the preceding the
 fee levy. If the fee levy. If the
@@ -139,14 +137,14 @@ maintained, a maintained, a
 joining and joining and
 annual fee of annual fee of
 INR 1,00,000 INR 1,00,000
-Axis Bank|Public
 will be will be
 applicable.) applicable.)
-50,000
-(Waived on
+RESERVE 50,000
+Credit Card 50,000 (Waived on Nil
 eligible
-RESERVE spends* of INR
-Credit Card 50,000 35,00,000 in Nil
+Axis Bank|Public
+spends* of INR
+35,00,000 in
 the preceding
 card
 anniversary
@@ -185,14 +183,14 @@ VISTARA
 INFINITE Credit
 Card
 AXIS BANK
-3,000 3,000 Nil
 VISTARA
-Axis Bank|Public
+3,000 3,000 Nil
 SIGNATURE
 Credit Card
 AXIS BANK
 VISTARA 1,500 1,500 Nil
 Credit Card
+Axis Bank|Public
 1,500 (Waived
 on spends of
 PRIVILEGE INR 5 lakhs in
@@ -236,11 +234,11 @@ anniversary
 year)
 MY WINGS
 Credit Card 1,200 500 Nil
-Axis Bank|Public
 250 (Fee for
 MY CHOICE an Image Card Nil
 Credit Card is an additional
 INR 150)
+Axis Bank|Public
 MY ZONE
 Credit Card 500 500 Nil
 200 (Waived
@@ -283,17 +281,16 @@ SIGNATURE Nil in the Nil
 Credit Card preceding card
 anniversary
 year)
-Axis Bank|Public
 1,000 (Waived
 on spends of
 INR 2,00,000
-in the
-preceding card
+REWARDS in the
+1000 Nil
+Credit Card preceding card
 anniversary
 year*)
-REWARDS
-1000 * Applicable for Nil
-Credit Card
+Axis Bank|Public
+* Applicable for
 customers who
 have applied
 for and been
@@ -325,7 +322,6 @@ in the
 Card
 preceding
 year)
-Axis Bank|Public
 1,000 (Waived
 IndianOil Axis on spends of
 Bank Premium 1,000 INR 30,000 in Nil
@@ -333,13 +329,14 @@ Credit Card the preceding
 year)
 3,000 (Nil^ for 3,000 (Nil^ for
 customers with customers with
-a Burgundy a Burgundy
 Axis Bank
-Savings Savings
+a Burgundy a Burgundy
 HORIZON Nil
-Account Account
+Savings Savings
 Credit Card
+Account Account
 opened on or opened on or
+Axis Bank|Public
 after 1st July after 1st July
 2026) 2026)
 1,000 (Waived
@@ -363,22 +360,26 @@ Axis Bank
 Axis Bank
 OLYMPUS 20,000 20,000 Nil
 Credit Card
+1 card
+complimentary
 5,00,000 3,00,000
-Axis Bank 1 card
 (for cards (for cards
-PRIMUS Credit complimentary
-issued after 31 issued after 31
-Card
-Jul 2024) Jul 2024)
-Axis Bank|Public
 For each
-1,80,000 1,80,000 subsequent
-(for cards (for cards add-on card
-issued until 31 issued until 31 (upto 4):
-Jul 2024) Jul 2024) 25,000 (for
+issued after 31 issued after 31
+subsequent
+Axis Bank Jul 2024) Jul 2024)
+add-on card
+PRIMUS Credit
+(upto 4):
+Card 1,80,000 1,80,000
+25,000 (for
+(for cards (for cards
 cards issued
+issued until 31 issued until 31
 after 31 Jul
+Jul 2024) Jul 2024)
 2024)
+Axis Bank|Public
 15,000 (for
 cards issued
 until 31 Jul
@@ -402,7 +403,6 @@ BANK Credit NIL NIL NIL
 Card
 ‘Anniversary Year’ refers to the period of 12 months from the date
 of issuance of the card and every 12-month period thereafter.
-Axis Bank|Public
 The bank may choose to run promotional offers from time to time,
 such offers will be governed by the promotional T&Cs
 communicated at the time of application.
@@ -410,12 +410,15 @@ communicated at the time of application.
 Card, Effective 1 Sep 2023, spends threshold for Annual Fee
 reversal will exclude transactions identified through merchant
 category codes falling under the following categories: Rent, Wallet,
+Axis Bank|Public
 Utilities, Government Institutions, EMI conversions, Cash
 withdrawals, reversals and fee and charges.
 Additionally, effective 20 Apr 2024, spends threshold for Annual
 Fee reversal will also exclude transactions identified through
 Merchant Category Codes falling under the following categories:
-Insurance, Gold and Fuel.
+Insurance, Gold and Fuel. Effective 28 Aug 2026, spends threshold
+for Annual Fee reversal shall also exclude transactions on Gift Card
+category.
 #Applicable only for Burgundy customers maintaining the requisite
 individual Burgundy relationship. For more details, visit
 http://www.axis.bank.in/magnus. By applying for Magnus Credit
@@ -437,14 +440,13 @@ here is not considered as part of TRV. Demat is not considered as
 part of TRV. Investment products through/with Axis Bank are
 considered in TRV. For more details, please visit Burgundy Private
 Partner - Fees & Charges - Axis Bank.
-Axis Bank|Public
 FINANCE / INTEREST CHARGE (Effective 20th Dec 2024)
 Overdue Interest
-Interest on Cash
+Axis Bank Interest on Cash
 on Extended
-Axis Bank Advances
+Card Variant Advances
 Credit
-Card Variant
+Axis Bank|Public
 Monthly Annual Monthly Annual
 Rate Rate Rate Rate
 1.5% 19.56% 1.5% 19.56%
@@ -470,12 +472,12 @@ Card / MY CHOICE
 Credit Card /MY WINGS
 Credit Card / AXIS BANK
 VISTARA SIGNATURE
-Credit Card / 3.75% 55.55% 3.75% 55.55%
-AXIS BANK VISTARA per per per per
-Credit Card / PLATINUM month annum month annum
-Credit Card / TITANIUM
-Credit Card / NEO Credit
-Card / AXIS BANK BUZZ
+Credit Card /
+AXIS BANK VISTARA
+Credit Card / PLATINUM
+Credit Card / TITANIUM 3.75% 55.55% 3.75% 55.55%
+Credit Card / NEO Credit per per per per
+Card / AXIS BANK BUZZ month annum month annum
 Credit Card / VISA GOLD
 Credit Card / VISA
 SILVER Credit Card /
@@ -485,13 +487,13 @@ VISTARA INFINITE
 Credit Card / AURA
 Credit Card / LIC Credit
 Cards / REWARDS
-Axis Bank|Public
 Credit Card / KWIK Credit
 Card / AXIS BANK
 SHOPPERS STOP
 Credit Card / INDIANOIL
 AXIS BANK PREMIUM
 Credit Card / AXIS BANK
+Axis Bank|Public
 HORIZON Credit Card/
 Axis Bank CASHBACK
 Credit Card
@@ -513,14 +515,11 @@ Card / AIRTEL AXIS
 BANK Credit Card
 /SPICEJET AXIS BANK
 VOYAGE Credit Card /
-3.75% 55.55% 3.75% 55.55%
 SPICEJET AXIS BANK
-per per per per
 VOYAGE BLACK Credit
-month annum month annum
-Card / Samsung Axis
-Bank SIGNATURE Credit
-Card / Samsung Axis
+Card / Samsung Axis 3.75% 55.55% 3.75% 55.55%
+Bank SIGNATURE Credit per per per per
+Card / Samsung Axis month annum month annum
 Bank INFINITE Credit
 Card / FIBE AXIS BANK
 Credit Card,
@@ -531,12 +530,12 @@ Credit Card by Axis Bank/
 Google Pay Flex Axis
 Bank Credit Card / IndiGo
 Axis Bank Credit Card /
-Axis Bank|Public
 IndiGo Axis Bank
 Premium Credit Card /
 SCAPIA AXIS BANK
 Credit Card / All other
 credit cards
+Axis Bank|Public
 SECURED GOLD Credit
 Card / SECURED
 SILVER Credit Card /
@@ -570,12 +569,12 @@ transactions, until the total dues are fully paid. This
 includes any billed EMIs, except EMIs for Over‑the‑Limit
 (OTL) Instant Loan on Credit Card. (OTL exception will
 be applicable from 30th May 2026).
-Axis Bank|Public
 • Interest will be charged on all cash advances from the
 date of the withdrawal until the date of payment.
 • Interest is not charged on fees, charges, or applicable
 GST. However, interest will continue to apply on
 customer‑initiated spends, previously charged interest,
+Axis Bank|Public
 and EMIs (excluding EMIs for Over‑the‑Limit Instant Loan
 on Credit Card from 30th May 2026).
 • The Finance Charges as above will be applicable till the
@@ -606,24 +605,20 @@ Card, PRIMUS Credit Card
 Nil if total payment due is up to
 INR 500
 INR 500 if total payment due is
-Late Payment Fee for all other
 between INR 501 and INR 5,000
-Credit Cards
 INR 750 if total payment due is
-between INR 5,001 and INR
-10,000
-Axis Bank|Public
+Late Payment Fee for all other between INR 5,001 and INR
+Credit Cards 10,000
 INR 1,200 if total payment due is
 between INR 10,001 and INR
 50,000
 INR 1,300 if total payment due is
 greater than INR 50,000
-Additional INR 100 on missing
-payment of Minimum Amount Due
+Recurring Late Payment Fee Additional INR 100 on missing
+for all other Credit Cards payment of Minimum Amount Due
+Axis Bank|Public
 (MAD) by the due date for two
-Recurring Late Payment Fee
 consecutive cycles. This charge
-for all other Credit Cards
 will continue to be applicable for
 every payment cycle until the MAD
 is cleared
@@ -634,6 +629,7 @@ Over-limit Fee*** for other minimum of INR 500
 Axis Bank Credit Cards
 Waived for BURGUNDY PRIVATE
 Credit Card, PRIMUS Credit Card
+and OLYMPUS Credit Card
 Charge slip Retrieval Fee or
 Waived
 Copy Request Fee
@@ -654,27 +650,28 @@ Tickets
 (Refunded for fuel transactions
 Between INR 400 to INR 4,000.
 Maximum benefits up to INR 400
-Fuel Transaction Surcharge per Statement Cycle; AXIS BANK
+per Statement Cycle; AXIS BANK
 SUPERMONEY RuPay Credit
-Card, Select Credit Card, Reserve
-Credit Card, Magnus Credit Card,
-Magnus for Burgundy Credit Card,
+Card, Axis Bank My Zone Credit
+Card, Select Credit Card, Axis
+Fuel Transaction Surcharge
+Bank My Zone Easy Credit Card,
+Axis Bank My Zone Instant Credit
+Card, Fibe Axis Bank Credit Card,
+Reserve Credit Card, Magnus
+Credit Card, Magnus for Burgundy
+Credit Card, Burgundy Private
+Credit Card, up to INR 500 for ACE
+Credit Card; Axis Bank Pride
 Axis Bank|Public
-Burgundy Private Credit Card, up
-to INR 500 for ACE Credit Card;
-Axis Bank My Zone Credit Card,
-Axis Bank My Zone Easy Credit
-Card, Axis Bank My Zone Instant
-Credit Card, Axis Bank Pride
-Signature Credit Card, Fibe Axis
-Bank Credit Card, SAMSUNG
+Signature Credit Card, SAMSUNG
 AXIS BANK SIGNATURE Credit
 Card and AIRTEL AXIS BANK
 Credit Card; up to INR 250 for
 PRIDE PLATINUM Credit Card
-AXIS BANK AURA CREDIT CARD
-and IKEA Family Credit Card by
-Axis Bank only.
+AXIS BANK AURA CREDIT
+CARD; up to INR 150 for AXIS
+BANK KWIK Credit Card
 Refund not applicable on MILES
 and MORE Axis Bank World Select
 Credit Card, MILES and MORE
@@ -694,16 +691,18 @@ transactions between INR 400 to
 INR 5,000. Maximum benefits up to
 INR 500 per Statement Cycle for
 Samsung Axis Bank INFINITE
-Credit Card
+Credit Card,
 OLYMPUS Credit Card); 1% of
 transaction amount (Refunded for
 fuel transactions between INR 400
 to INR 5,000. Maximum benefits up
 to INR 400 per Statement Cycle for
 REWARDS Credit Card, Axis Bank
-Axis Bank|Public
 SHOPPERS STOP Credit Card,
-AXIS BANK HORIZON Credit Card
+AXIS BANK HORIZON Credit
+Card, IKEA Family Credit Card by
+Axis Bank
+Axis Bank|Public
 1% of transaction amount
 (Refunded for fuel transactions
 between INR 400 to INR 10,000.
@@ -720,7 +719,7 @@ to INR 5,000. Maximum benefits up
 to INR 500 per Statement Cycle for
 SCAPIA AXIS BANK Credit Card)
 Please note -
-• On fuel transactions, the fuel
+•On fuel transactions, the fuel
 surcharge is not levied by
 the card issuing bank
 • On certain fuel transactions,
@@ -737,18 +736,16 @@ the surcharge levied.
 surcharge (if any) will not be
 waived and will need to be
 borne by the cardholder
-Axis Bank|Public
 2% of the transaction value for
-MAGNUS Credit Card and
-MAGNUS FOR BURGUNDY Credit
+Foreign Currency MAGNUS Credit Card and
+Transaction Fee1 MAGNUS FOR BURGUNDY Credit
 Card;
+Axis Bank|Public
 1.8% of the transaction value for
 OLYMPUS Credit Card;
 1.5% of the transaction value for
 RESERVE Credit Card;
-Foreign Currency
 Nil for BURGUNDY PRIVATE
-Transaction Fee1
 Credit Card, PRIMUS Credit Card
 and SCAPIA AXIS BANK Credit
 Card;
@@ -2135,9 +2132,9 @@ inconvenience.
 iv. Axis Bank reserves the right to modify these terms and
 conditions. Any changes will be communicated to the
 Cardholder through appropriate channels.
-Cardholder is hereby informed that while the time taken for credit
-card approval may vary, the credit card delivery TAT from the
-date of application shall be 14 days.
+For approved applications, the credit cards are generally
+delivered within 3 to 15 working days, depending on the delivery
+location and service network coverage.
 The card holder acknowledges that they have provided a mobile
 number registered in their name in the Credit Card application.
 If it is found later that the mobile number provided during the
@@ -2331,8 +2328,9 @@ provides such services as is necessary to provide the facility. Axis
 Bank may at its sole discretion, utilise the services of external
 service provider/s or agent/s and on such terms as required or
 necessary, in relation to its products.
-• Axis Bank will communicate the status of application form within
-21 working days
+• Axis Bank will communicate the status of the credit card
+application within 21 working days from the date of receipt of the
+completed application and required documents.
 • Axis Bank will never ask for card CVV, PIN, OTP or Internet
 password to offer any deals, gifts, vouchers, redemption of reward
 points, activation or cancellation of card. Kindly ignore such

@@ -118,6 +118,7 @@ View All
 Super Account
 Rocket Current Account
 Cash Management Services
+Trade Finance
 Supply Chain Finance
 Corporate Lending
 Treasury
@@ -175,6 +176,7 @@ Working Capital Loan
 Construction Equipment Loan
 Machinery Loan
 Healthcare Equipment Loan
+Tractor Loan
 Tools & Calculators
 Business Loan EMI Calculator
 GIFT City
@@ -276,7 +278,7 @@ IndiGo IDFC FIRST Dual Card
 Travel
 Lifestyle
 ₹4,999
-Zero Forex & Travel Credit Cards
+Travel Credit Cards
 FIRST WOW!
 FD-Backed
 Zero Forex

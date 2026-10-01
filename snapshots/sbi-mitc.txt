@@ -277,7 +277,7 @@ amount in pay-in slip and depositing the same at the branch counter.
 An instant payment acknowledgement receipt will be provided to the
 cardholder. This facility is available at a service fee of Rs.250 +
 applicable taxes. KVB SBI Cardholders can also pay their credit card
-dues at select branches of Karur Vysya Bank (KVB). No fee is
+dues at select branches of Karur Vysya Bank (KVB) and no fee is
 applicable for payment made at Karur Vysya Bank (KVB) branches.
 D. Charges
 i. Charges and fees, as may be applicable from time to time, are
@@ -296,7 +296,7 @@ transaction until the date of payment.
 F. Finance Charges
 Finance Charges are payable at the monthly interest rate on all
 transactions including unpaid EMI installments (excluding Encash and
-Encash Inline) from the date of transaction in the event of the
+Encash Inline) from effective date of transaction* in the event of the
 Cardholder choosing not to pay his balance in full, and on all cash
 advances taken by the Cardholder, till they are paid back.
 If the Cardholder makes partial or no payment of Total amount due
@@ -306,26 +306,27 @@ full payment of Total amount due is made before Payment due date
 then Finance charges will be levied on the closing balance till the
 payment date.
 The current rate of finance charges is upto 3.75% per month [45% per
-annum] from the transaction date and is subject to change at the
-discretion of SBI Cards and Payment Services Limited (SBICPSL).
-Finance charges, if payable, are subject to levy of applicable taxes and
-are debited to the Cardholder’s account till the outstanding on the card
-is paid in full. The minimum amount of Finance Charge levied on all
-transactions in the event of the Cardholder choosing not to pay his
-balance in full within payment due date, and on all cash advances
-taken by the Cardholder will be Rs.25 each, exclusive of applicable
-taxes.
-a. Finance charges on cash advances are applicable from the date of
+annum] from effective date of the transaction* and is subject to change
+at the discretion of SBI Cards and Payment Services Limited
+(SBICPSL). Finance charges, if payable, are subject to levy of
+applicable taxes and are debited to the Cardholder’s account till the
+outstanding on the card is paid in full. The minimum amount of Finance
+Charge levied on all transactions in the event of the Cardholder
+choosing not to pay his balance in full within payment due date, and on
+all cash advances taken by the Cardholder will be Rs.25 each,
+exclusive of applicable taxes.
+Finance charges on cash advances are applicable from the date of
 transaction until the payment is made in full.
+*as received from networks.
 Example 1: Card Statement date – 15th of every month.
-Transaction done between 16th June’19 – 15th July’19
-1. Retail Purchase of Rs.5,000 – On 20th June’19
-2. Cash Withdrawal of Rs.7,000 – On 10th July’19
+Transaction done between 16th June – 15th July
+1. Retail Purchase of Rs.5,000 – On 20th June
+2. Cash Withdrawal of Rs.7,000 – On 10th July
 Assuming No Previous Balance carried forward from the 15th June
-2019 statement, the cardholder will get his 15th July statement showing
-Rs.12,000 of transactions along with 6 days of finance charges at the
-rate applicable on the Rs.7,000 cash withdrawal. The cardholder needs
-to make payment against the outstanding by 4th August 2019, i.e. 20
+statement, the cardholder will get his 15th July statement showing total
+outstanding amount of Rs.12,000 along with 6 days of finance charges
+at the rate applicable on the Rs.7,000 cash withdrawal. The cardholder
+needs to make payment against the outstanding by 4th August, i.e. 20
 days from the Statement Date, for anything between the entire amount
 or Minimum Amount Due. Please note that any payment made against
 your credit card outstanding will first be cleared against 100% of GST,
@@ -339,13 +340,13 @@ carried forward from a previous statement and the retail balance
 outstanding on the statement date is paid in full by the payment due
 date, No Finance Charges are levied on such balances.
 Example 2: Card Statement date – 2nd of every month.
-Transaction done between 3rd Jan’19 – 2nd Feb’19
-1. Retail Purchase of Rs.10,000 – On 5th Jan’19
-2. Online Purchase of Rs.30,000 – On 15th Jan’19
-Assuming no previous balance carried forward from the 2nd Jan 2019
-statement, the cardholder will get his 2nd Feb statement showing
-Rs.40,000 transactions. The cardholder needs to make payment
-against the outstanding by 22nd Feb 2019, i.e. 20 days from the
+Transaction done between 3rd Jan – 2nd Feb
+1. Retail Purchase of Rs.10,000 – On 5th Jan
+2. Online Purchase of Rs.30,000 – On 15th Jan
+Assuming no previous balance carried forward from the 2nd Jan
+statement, the cardholder will get his 2nd Feb statement showing total
+outstanding amount of Rs.40,000. The cardholder needs to make
+payment against the outstanding by 22nd Feb, i.e. 20 days from the
 Statement Date, for anything between the entire amount or the
 Minimum Amount Due. In case the statement outstanding has no cash
 balance and has not been carried forward from a previous statement
@@ -359,22 +360,21 @@ Rs.10,000 if Minimum Amount Due is paid every month (subject to
 a minimum amount of Rs.200 every month), it will take up to 52
 months for entire outstanding amount to be paid in full.
 Example 3: Card Statement date – 2nd of every month.
-Transaction done between 3rd March ‘19 – 2nd April ‘19
-(1) Annual fee of Rs.500 – On 5th March ‘19
-(2) Applicable taxes of Rs.90 – On 5th March ‘19
-(3) Online Purchase of Rs.6,000 – On 15th March ‘19
+Transaction done between 3rd March – 2nd April
+(1) Annual fee of Rs.500 – On 5th March
+(2) Applicable taxes of Rs.90 – On 5th March
+(3) Online Purchase of Rs.6,000 – On 15th March
 Assuming no previous balance carried forward from the 2nd March
-2019 statement, the cardholder will get his 2nd April statement showing
-Rs.6,590 transactions. The cardholder needs to make payment against
-the outstanding by 22nd April 2019, i.e. 20 days from the Statement
+statement, the cardholder will get his 2nd April statement showing total
+amount due of Rs.6,590. The cardholder needs to make payment
+against the outstanding by 22nd April, i.e. 20 days from the Statement
 Date, for anything between the entire amount or Minimum Amount Due.
 Assuming the cardholder makes the payment of Minimum Amount Due
 of Rs.710 (100% of GST (Rs 90) + 100% of EMI amount (Rs.0) + 100%
 of Fee/charges (Rs.500) + 100% of Finance charges (Rs 0) + Overlimit
-amount (Rs 0) + 2% of Remaining Balance i.e. 2% of Rs. 6,000
-(Rs.120) on 22nd April 2019, rounded off to nearest decimal point.
-Finance charges would be levied at the effective rate and added to the
-total outstanding.
+amount (Rs 0) + 2% of Remaining Balance i.e. 2% of Rs. 6,000 (Rs.120)
+on 22nd April, rounded off to nearest decimal point. Finance charges
+would be levied at the effective rate and added to the total outstanding.
 Since the Minimum Amount Due has been paid, yet a balance of the
 previous month’s bill is outstanding, thus the ‘interest free credit period’
 has been suspended. Considering the effective rate of 3.75% p.m.,
@@ -387,27 +387,27 @@ Total Interest charged = Rs 360.84. Sum of outstanding purchase
 amount, Interest charges, Fees and Charges, if any, and applicable
 taxes would reflect as the Total amount due in the statement dated 2nd
 May assuming the card holder does not make any transactions
-between 3rd April ‘19 – 2nd May ‘19. If the Cardholder makes partial or
-no payment of Total amount due (TAD) before Payment due date
-(PDD); i.e. the Customer has outstanding balance from previous
-months and in the current month, full payment of Total amount due is
-made before Payment due date then Finance charges will be levied on
-retail spends, cash advance (if any) and finance charge (if any) till the
-payment date.
+between 3rd April – 2nd May. If the Cardholder makes partial or no
+payment of Total amount due (TAD) before Payment due date (PDD);
+i.e. the Customer has outstanding balance from previous months and
+in the current month, full payment of Total amount due is made before
+Payment due date then Finance charges will be levied on retail spends,
+cash advance (if any) and finance charge (if any) till the payment date.
 Example 4: Card Statement date – 2nd of every month.
-Transactions done between 3rd Dec’18 – 2nd Jan’19
-1) Retail Purchase of Rs.500 – On 15th Dec’18
-2) Online Purchase of Rs.600 – On 20th Dec’18
+Transactions done between 3rd Dec – 2nd Jan
+1) Retail Purchase of Rs.500 – On 15th Dec
+2) Online Purchase of Rs.600 – On 20th Dec
 Assuming no previous balance carried forward from the 2nd December
-2018 statement, the cardholder will get his 2nd Jan statement showing
-Rs.1,100 transactions and Total amount due of Rs.1,100. The
-cardholder needs to make payment against the outstanding by 22nd
-Jan 2019, i.e. 20 days from the Statement Date, for anything between
-the entire amount or Minimum Amount Due.
-Assuming the cardholder makes partial payment of Rs.500, on 22nd
-Jan 2019, finance charges would be levied at the effective rate and
-added to the total outstanding. Considering the effective rate of 3.75%
-p.m., finance charge calculation will be done as follows:
+statement, the cardholder will get his 2nd Jan statement showing total
+amount due of Rs.1,100. The cardholder needs to make payment
+against the outstanding by 22nd Jan, i.e. 20 days from the Statement
+Date, for anything between the entire amount and Minimum Amount
+Due.
+Assuming no transaction are made between 3rd Jan and 2nd Feb and
+the cardholder makes partial payment of Rs.500 on 22nd Jan, finance
+charges would be levied at the effective rate and added to the total
+outstanding. Considering the effective rate of 3.75% p.m., finance
+charge calculation will be done as follows:
 On the balance of Rs.500 (15th Dec to 21st Jan) for 38 days:
 (3.75*12)* (38/365) *500/100 = Rs.23.42
 On the balance of Rs.600 (20th Dec to 21st Jan) for 33 days:
@@ -415,16 +415,16 @@ On the balance of Rs.600 (20th Dec to 21st Jan) for 33 days:
 On the balance of Rs 600(22nd Jan to 2nd Feb) for 12 days
 (3.75*12) * (12/365) *600/100 = Rs.8.88
 Total Interest Charged = Rs.56.71
-Transactions done between 3rd Feb’19 – 2nd Mar’19
-1) Beginning balance of Rs.656.71 – On 3rd Feb’19
-2) Retail Purchase of Rs.1,000 – On 5th Feb’19
-3) Online Purchase of Rs.3,000 – On 15th Feb’19
+Transactions done between 3rd Feb – 2nd Mar
+1) Beginning balance of Rs.656.71 – On 3rd Feb
+2) Retail Purchase of Rs.1,000 – On 5th Feb
+3) Online Purchase of Rs.3,000 – On 15th Feb
 Assuming previous balance of Rs.656.71 carried forward from the 2nd
-Feb 2019 statement, the cardholder needs to make payment against
-the outstanding by 22nd Feb 2019, i.e. 20 days from the Statement
-Date, for anything between the entire amount or Minimum Amount
-Due. Assuming Cardholder makes complete payment by 15th Feb i.e.
-within Payment due date. Considering the effective rate of 3.75% p.m.,
+Feb statement, the cardholder needs to make payment against the
+outstanding by 22nd Feb, i.e. 20 days from the Statement Date, for
+anything between the entire amount or Minimum Amount Due.
+Assuming Cardholder makes complete payment by 15th Feb i.e. within
+Payment due date and considering the effective rate of 3.75% p.m.,
 finance charge calculation will be done as follows:
 On the Balance of Rs.656.71 (3rd Feb - 14th Feb) for 12 days:
 (3.75*12) *(12/365) * 656.71/100 = Rs.9.72
@@ -955,9 +955,9 @@ other amount wholly or partly
 overdue]
 SMA – 0 Upto 30 days from Payment
 Due Date (‘PDD’).
-SMA – 1 More than 30 days &upto 60
+SMA – 1 More than 30 days & upto 60
 days from PDD
-SMA – 2 More than 60 days &upto 90
+SMA – 2 More than 60 days & upto 90
 days from PDD
 Example regarding classification of SMA:
 If Payment Due Date (‘PDD’) of a Credit Card account is 31st March
@@ -1139,7 +1139,7 @@ may take 45-60 days to reflect in customer’s credit report.
 Terms and Conditions governing Credit Card facilities shall be
 applicable to the Supplementary /Add on Cardholder as well.
 SBICPSL submits the cardholder’s data to a Credit Information
-Company on fortnightly basis, in the prescribed format.
+Company on weekly basis, in the prescribed format.
 The total Outstanding on the Card account, together with the amount of
 any Charges effected but not yet charged to the Card Account, will
 become immediately due and payable in full to SBICPSL on
@@ -1505,7 +1505,7 @@ amendments
 SBI Card Helpline
 39 02 02 02 (prefix local STD code),
 1860 180 1290/1860 500 1290
-All information in this communication is correct as on 1st September 2026
+All information in this communication is correct as on 25th September 2026
 and is subject to change at the discretion of SBICPSL. SBI Card Most
 Important Terms and Conditions are also available at www.sbicard.com
 SBI Cards and Payment Services Limited.
@@ -1525,4 +1525,4 @@ Write to us at SBICPSL, Post Bag No. 28,
 GPO, New Delhi – 110001
 By Web
 Log onto sbicard.com
-Ver: FY 27, 15
+Ver: FY 27, 16

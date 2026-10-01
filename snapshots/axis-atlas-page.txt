@@ -323,10 +323,10 @@ No. Tier upgrade happens when ATLAS credit cardholder achieves spend milestone
 How to redeem Edge Miles?
 Cardholders can redeem EDGE Miles for booking flights, hotels & experiences by-
 Logging into Axis Bank Mobile app & clicking on "Book Now" in EDGE Miles dashboard
-Logging into https://traveledge.axisbank.co.in/
+Logging into https://traveledge.axis.bank.in/
 EDGE Miles can also be transferred into partner Miles under Axis Bank's Miles transfer program (where 1 EDGE Mile = 2 partner mile). Cardholders can convert EDGE Miles by -
 Logging into Axis Bank Mobile app & clicking on "Book Now" in EDGE Miles dashboard
-Logging into https://traveledge.axisbank.co.in/
+Logging into https://traveledge.axis.bank.in/
 Important links
 ATLAS credit card features & benefits T&C
 Credit card general T&C
@@ -336,5 +336,4 @@ Card services
 Card protection
 Card benefits
 Locate nearest branch
-Scroll To
-Top
+Scroll To Top

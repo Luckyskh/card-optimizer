@@ -29,6 +29,7 @@ ICICI Bank Gold Business Card
 ICICI Bank Business Platinum Card
 ICICI Bank Business Blue Advantage Card
 ICICI Bank Business Black Advantage Credit Card
+ICICI Bank Business Micro Credit Card
 I, (primary card holder) nominate the following person (details provided hereunder) to whom, in the event of my death under the circumstances as covered in the T&C of the complimentary insurance policy on my ICICI Bank Credit Card, the insurance claim amount payable may be handed over.
 Note- Only one nominee details to be provided.
 Enter Nominee Detail
@@ -67,13 +68,15 @@ Save Money
 Vouchers worth over ₹15,000
 Welcome Vouchers from Tata CLiQ, Tata Croma, EazyDiner, EaseMyTrip, Avis and Elivaas.
 Quarterly
-Get 2 Domestic Airport Lounge access. Click here for lounge list
+Get 2 Domestic Airport Lounge access for primary cardholders on eligible spends of ₹75,000 or more in the preceding spends quarter. For lounge list, Click here
 Annually
-Get 8 Complimentary Railway Lounge access, Click here for lounge list
-2 complimentary rounds of golf
-Play golf every month basis eligible spends, Click here for list of Golf Courses
-25% off up to ₹150
-Get discounts on movie tickets each on BookMyShow and INOX, twice a month
+Get 8 Complimentary Railway Lounge access. For lounge list, Click here
+Monthly
+Up to 2 complimentary Golf rounds/lessons per month for primary cardholders. Earn 1 round for eligible spend of ₹50,000 in the preceding calendar month. For list of Golf Courses, Click here
+Quarterly
+Get 25% off up to ₹150 on movie tickets at INOX, twice a month
+Quarterly
+Get 25% off up to ₹150 on movie tickets on BookMyShow twice a month, on eligible spends of ₹25,000 or more in the preceding spends quarter
 Up to ₹1 crore
 Get an Air Accident Insurance cover.
 Click here to update your Nominee details. Click here for T&Cs
@@ -141,9 +144,9 @@ For other Terms and Conditions,  click here
 How can Cardholders claim their joining vouchers?
 Step 1: Log in to ICICI Bank Rewards
 iMobile App:
-Open iMobile 🡪 Cards & Forex 🡪 Select Credit Card 🡪 Redeem 🡪 Joining Benefit
+Login🡪 Cards & Forex🡪 Select Credit Card🡪 Redeem 🡪 Redirected to ICICI Bank Reward site 🡪 View Benefits 🡪 Welcome benefits
 Internet Banking:
-Log in 🡪 Cards 🡪 Credit cards 🡪 Select Credit Card 🡪 Redeem 🡪 Joining Benefit
+Login🡪 Cards 🡪 Credit cards 🡪 Select Credit Card 🡪 Reward points 🡪 Redeem Now 🡪 Redirected to ICICI Bank Reward site 🡪 View Benefits 🡪 Welcome benefits
 Step 2: On the Rewards site, click the Rubyx Welcome Benefit tab to open the Benefits Page.
 Step 3: Select Your Vouchers
 Tap ADD on any voucher
@@ -153,7 +156,6 @@ Verify with OTP (Choose SMS or E-Mail)
 Tick consent and tap Generate OTP
 Enter the OTP received and tap SUBMIT and full voucher code and PIN will be shared on your register mail ID.
 View claimed vouchers in Order History → Tap voucher → Show Code (OTP required again) → View your voucher code & PIN
-For details and T&Cs, click here .
 What are the criteria for availing domestic lounge access?
 To enjoy domestic airport lounge access, you must spend ₹75,000 or more on your Rubyx Credit Card in a preceding spend quarter. This entitles you to avail the lounge access benefit in the following calendar quarter. The benefit is exclusively applicable to the primary Cardholder.
 For the customers with dual Credit Card variants(Mastercard & Amex | Visa & RuPay) , the entitlement includes 1 domestic lounge visits per quarter for each variant.
@@ -267,6 +269,7 @@ ICICI Bank Gold Business Card
 ICICI Bank Business Platinum Card
 ICICI Bank Business Blue Advantage Card
 ICICI Bank Business Black Advantage Credit Card
+ICICI Bank Business Micro Credit Card
 I, (primary card holder) nominate the following person (details provided hereunder) to whom, in the event of my death under the circumstances as covered in the T&C of the complimentary insurance policy on my ICICI Bank Credit Card, the insurance claim amount payable may be handed over.
 Note- Only one nominee details to be provided.
 Enter Nominee Detail
