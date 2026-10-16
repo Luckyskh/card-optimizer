@@ -14,7 +14,7 @@ Low Forex Markup - 1.99%
 Know more
 APPLY
 SAVE
-68,866 PEOPLE ARE INTERESTED
+84,828 PEOPLE ARE INTERESTED
 BEST FOR
 Rewards on Amazon Purchases
 Non-expiring, Unlimited rewards
@@ -39,9 +39,9 @@ Non- Prime Member
 Enjoy seamless reward points as Amazon Pay balance – with simple and effortless redemption
 APPLY NOW
 Fees & Charges
-Joining Fees
+Joining Fee
 NIL
-Annual Fees
+Annual Fee
 NIL
 ATM Withdrawal
 Pay 3.75% interest per month on the withdrawn amount
@@ -64,9 +64,11 @@ It is an Invite Only Program
 Proof of identity
 Proof of address
 Income Proof
+ICICI Bank Plus Card
+Extend benefits to your loved ones
 Amazon Pay ICICI Bank Credit Card FAQs
 What are the benefits of using the Amazon Pay ICICI Bank Credit Card?
-Your Amazon Pay ICICI Bank Credit Card comes with no Joining Fee and no Annual Fee. You earn unlimited non-expiring reward points of up to 5% on Amazon.in for Prime members and 3% for non-Prime members, along with 1% rewards on spends outside Amazon at partner merchants. You also get a low forex mark-up of 1.99% on international spends, a 1% fuel surcharge waiver and 3 months of no-cost EMI on eligible Amazon.in transactions.
+Your Amazon Pay ICICI Bank Credit Card comes with no Joining Fee and no Annual Fee. You earn unlimited non-expiring reward points of up to <5>% on Amazon.in for Prime members and <3>% for non-Prime members, along with <1>% rewards on spends outside Amazon at partner merchants. You also get a low forex mark-up of <1.99>% on international spends, a <1>% fuel surcharge waiver and <3> months of no-cost EMI on eligible Amazon.in transactions.
 How can I apply for an Amazon Pay ICICI Bank Credit Card?
 This is an invite-only programme. Please click here to apply for the Amazon Pay ICICI Bank Credit Card.
 Can I apply for an add-on card?
@@ -114,14 +116,54 @@ You can view your Amazon Pay ICICI Bank Credit Card Number, CVV and expiry date 
 How can I manage the limits and transactions of my Amazon Pay ICICI Bank Credit Card using the iMobile app?
 Log into the iMobile app and go to ‘Cards and Forex’. Select your Amazon Pay ICICI Bank Credit Card > Card Controls. You can enable or disable transaction types such as international transactions and Tap & Pay transactions. You can also set transaction limits as per your preference.
 What is the forex markup charge of my Amazon Pay ICICI Bank Credit Card?
-Your Amazon Pay ICICI Bank Credit Card comes with a low forex markup charge of 1.99% on international spends made in foreign currencies. The forex markup is applied when your transaction amount is converted from the foreign currency into Indian Rupees (INR). This charge applies each time you use your Card for purchases or payments in a foreign currency. Please refer to the ICICI Bank website for the complete schedule of charges.
+Your Amazon Pay ICICI Bank Credit Card comes with a low forex markup charge of <1.99>% on international spends made in foreign currencies. The forex markup is applied when your transaction amount is converted from the foreign currency into Indian Rupees (INR). This charge applies each time you use your Card for purchases or payments in a foreign currency. Please refer to the ICICI Bank website for the complete schedule of charges.
 Blogs and Videos
-Explore more blogs</p>","cardText":"", "cardLinkUrl":"/personal-banking/blogs/card/credit-card", "cardLinkTarget":"_self"}' data-cta-region="Blogs-and-Videos-Widget:Blogs" data-cta-type="tab link" data-cta-landing-page-type="Non Application" data-cta-component-info="CMS">
+Explore more blogs</p>","cardText":"", "cardLinkUrl":"/personal-banking/blogs/card/credit-card", "cardLinkTarget":"_self"}' data-cta-region="Blogs-and-Videos-Widget:Blogs" data-cta-type="tab link" data-cta-landing-page-type="Non Application" data-cta-component-info="CMS" aria-labelledby="Blogs">
 Blogs
-Explore more videos</p>","cardText":"<p>Intrested to learn more?</p>", "cardLinkUrl":"/personal-banking/iplay", "cardLinkTarget":"_self"}' data-cta-region="Blogs-and-Videos-Widget:Videos" data-cta-type="tab link" data-cta-landing-page-type="Non Application" data-cta-component-info="CMS">
 Videos
+Credit Card Validity: How to Check Credit Card Expiry?
+mins Read |
+READ NOW
+What is Credit Card Appraisal, its Process, Eligibility & Benefits
+mins Read |
+READ NOW
+Difference Between Debit Card And Credit Card
+mins Read |
+READ NOW
+7 Different Types of Credit Cards in India
+mins Read |
+READ NOW
+How to Create Credit Card PIN Online?
+mins Read |
+READ NOW
+Explore more blogs
+Explore more blogs
+Credit Card Validity: How to Check Credit Card Expiry?
+mins Read |
+READ NOW
+What is Credit Card Appraisal, its Process, Eligibility & Benefits
+mins Read |
+READ NOW
+Difference Between Debit Card And Credit Card
+mins Read |
+READ NOW
+7 Different Types of Credit Cards in India
+mins Read |
+READ NOW
+How to Create Credit Card PIN Online?
+mins Read |
+READ NOW
 goto previous card
 goto next card
+How do I apply for Instant Credit Card on iMobile app?
+WATCH VIDEO
+How do I apply for Instant Credit Card on Netbanking?
+WATCH VIDEO
+Credit Card Services on ICICI Internet Banking
+WATCH VIDEO
+Intrested to learn more?
+Explore more videos
+Explore more videos
 goto previous card
 goto next card
 Close
@@ -143,11 +185,65 @@ Soumy Dhawan
 Rating:
 stars
 ICICI Bank Credit Cards are surely one of the best cards out there with an unbeatable reward system. The best part, the quick services they provide.
+Apply now
 close exit intent modal
-We value your feedback!
-Thank you for using our Website. Please share your valuable feedback on your website experience.
-MAYBE LATER
-GIVE FEEDBACK
+Feedback pop 1
+One
+May be later
+CTA
+Close Modal
+Want us to call you back?
+Give us a few details for us to help you!
+Are you an NRI?*
+First Name*
+Last Name*
+Country*
+Select your Country
+close dropdown
+Select your Country
+Algeria
+Andorra
+Afghanistan
+Antigua and Barbuda
+Anguilla
+Albania
+Netherlands Antilles
+Angola
+Argentina
+Aruba
+American Samoa
+Austria
+Australia
+Azerbaijan
+{{! }}
+Confirm
+Mobile Number*
++
+{{! Top wrapper is for storybook. Don't use in the component }}
+Email*
+Product*
+Select a Product
+close dropdown
+Select Product
+NRI Home Loan
+NRI Investment Loan
+NRI Property Purchase Loan
+NRI Land Loan
+NRI Investment Home Loan
+NRI Commercial Property Loan
+Confirm
+Mobile Number*
+Email ID*
+Product Type
+Credit Card
+Confirm
+Pincode*
+I agree that by clicking on ‘Submit’, I authorize ICICI Bank and its representatives to contact me using Telephone, WhatsApp, E-mail, Short Messaging Service (SMS) with respect to products/facilities hereby applied for.
+Enter OTP
+GET OTP
+RESEND OTP in 1:00
+Submit
+Close Modal
 close disclaimer modal
 Disclaimer
 STAY ON THIS SITE

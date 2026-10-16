@@ -13,7 +13,7 @@ The MITCs are in addition to and are to be read along with the detailed Terms an
 Conditions , and are subject to changes from time to time. The most recent version
 will always be available on the Bank’s website as well as on OneCard app and website.
 Welcome to a world of convenience!
-The OneCard Mobile App�
+The OneCard Mobile App
 You can control the SBM One co-branded Credit Card entirely from the powerful
 OneCard Mobile App, some of the actions being:
 - Set your App PIN
@@ -30,14 +30,14 @@ after you authenticate yourself with your preferred authentication mechanism
 (Fingerprint/PIN). As a cardholder, you should be aware of the features and impact of
 these transactions as you would be responsible for your actions within the OneCard
 App.
-Virtual Credit Card ��
+Virtual Credit Card
 In addition to the physical SBM One co-branded Credit Card, you will receive as part
 of the on-boarding process, a virtual rendition of the SBM One co-branded Credit Card
 which will be available on the OneCard app.
 This virtual card is also a VISA/RuPay powered credit card so that you can use it for
 any online or mobile application-based transactions or purchases. The security
 parameters are set as per industry standards.
-A) FEES AND CHARGES �
+A) FEES AND CHARGES
 We believe in keeping your life simple and our charges reflect our endeavour in that
 direction.
 SBM-Confidential
@@ -184,7 +184,7 @@ Wallet upload/transfer fee:
 A 2% fee applies on total monthly fund transfers via SBM One co-branded Credit Card
 to wallets or bank accounts, once transfers exceed Rs 10,000 in a month. The fee is
 charged on the full amount.
-B) DRAWAL LIMITS �
+B) DRAWAL LIMITS
 Your Credit Limit is dynamic. You can request for an increase in your credit limit from
 the OneCard app if you’re eligible for this option. Once approved, this revised amount
 would be your new Credit Limit.
@@ -206,7 +206,7 @@ credit limit based on your transaction patterns, repayment behaviour and other i
 criteria. This will be informed to you via the OneCard app and/or via email and SMS.
 SBM-Confidential
 SBM-Confidential
-C) BILLING �
+C) BILLING
 i) Billing statements (periodicity and mode of sending)
 Your billing statement will be generated every month on the billing date shown in the
 OneCard App and can be modified once as per your convenience from the profile
@@ -263,11 +263,12 @@ outcome of the investigation. GST levied will not be reversed on any dispute on 
 and charges or interest.
 (vi) Contact particulars of card issuer
 Card Issuer Contact Details :
-Address : SBM Bank (India) Ltd. 101, Raheja Centre First Floor, Free Press Journal
-Marg, Nariman Point, Mumbai - 400021, Maharashtra, Tel No: +91 22 4302 8888
+Address : SBM Bank (India) Ltd. 19th floor, Urmi Estate, 95, Ganpatrao Kadam Marg,
+Opposite Peninsula Business Park, Lower Parel (West), Mumbai- 400013, Tel No: +91
+22 4302 8888
 SBM-Confidential
 SBM-Confidential
-https://www.sbmbank.co.in/aboutus/contact-us.php
+https://www.sbm.bank.in/contact-us
 Reach out to the Bank at
 Contact Details : [customercare@sbmbank.co.in and on 1800 1033 817 ]; or
 (vi) In case you need any help, you can:
@@ -281,13 +282,16 @@ customercare@sbmbank.co.in -
 Level 2
 Ms. Reema Dalvi - 022-4302 8888
 nodal.officer@sbmbank.co.in
-101, Raheja `First Floor, Free Press , Journal Marg,
-Nariman Point Mumbai - 400021, Maharashtra
+19th floor, Urmi Estate, 95, Ganpatrao
+Kadam Marg, Opposite Peninsula
+Business Park, Lower Parel (West),
+Mumbai- 400013.
 Level 3
 Mr. Floyd Noronha- 022 4302 8888
 principalnodalofficer@sbmbank.co.in
-101, Raheja `First Floor, Free Press , Journal Marg,
-Nariman Point Mumbai - 400021, Maharashtra
+19th floor, Urmi Estate, 95, Ganpatrao Kadam
+Marg, Opposite Peninsula Business Park, Lower
+Parel (West), Mumbai- 400013.
 If the issue remains unresolved beyond 30 days even after reaching out to the above
 channels, or if the response is unsatisfactory, you may write to the Banking
 Ombudsman for an independent review. Details of the Banking Ombudsman Scheme
@@ -344,7 +348,7 @@ SBM-Confidential
 Data shared will be PII
 5 FPL CMS , Rewards, EMI
 and transactions
-E) DEFAULT AND CIRCUMSTANCES �
+E) DEFAULT AND CIRCUMSTANCES
 i) Procedure including notice period for reporting a cardholder as defaulter
 If you do not pay at least the Minimum Amount Due even 3 days after the Payment
 Due Date, the SBM One co-branded Credit Card will be reported as delinquent by the
@@ -383,7 +387,7 @@ mentioned in the Card Statement, or in case of termination of the fixed deposit 
 your demise, the Bank shall be entitled forthwith to liquidate the entire fixed deposit
 amount including the interest accrued and set-off such amount against the outstanding
 amount payable to Bank under the Secured SBM One co-branded Credit Card.
-F) TERMINATION/REVOCATION OF CARD MEMBERSHIP �
+F) TERMINATION/REVOCATION OF CARD MEMBERSHIP
 i) Procedure for surrender of SBM One co-branded Credit Card by cardholder
 due notice –
 a) You can close your SBM One co-branded Credit Card account any time by calling
@@ -410,7 +414,7 @@ take place solely at the discretion of Bank.
 f) For avoiding misuse, it is advised to destroy the SBM One co-branded Credit Card
 ensuring that the hologram, magnetic strip and chip are destroyed permanently.
 ii) Link for surrender of SBM One co-branded Credit Card by cardholder
-https://www.sbmbank.co.in/aboutus/contact-us.php
+https://www.sbm.bank.in/contact-us
 iii) Contact details for the cardholder to initiate closure / hotlisting - email-id,
 dedicated telephone number for SMS, IVRS:
 SBM-Confidential
@@ -459,7 +463,7 @@ account shall be closed by the Bank, subject to payment of all dues by the cardh
 Also, in case your SBM One co-branded Credit Card is not activated by you for more
 than 30 days from the date of issuance, we shall seek a One Time Password (OTP)
 based consent from you to activate the SBM One co-branded Credit Card.
-G) LOSS/THEFT/MISUSE OF CARD �
+G) LOSS/THEFT/MISUSE OF CARD
 i) Procedure to be followed in case of loss/theft/misuse of card
 In case your SBM One co-branded Credit Card is lost, stolen, misplaced, or if the credit
 card PIN has been compromised, report this immediately to the Bank via
@@ -493,24 +497,24 @@ iii) Liability of cardholder in case of (i) above is in terms of RBI circular re
 DBR.No.Leg.BC.78/09.07.005/2017-18 dated July 6, 2017 on ‘Customer
 Protection – Limiting Liability of Customers in Unauthorised Electronic Banking
 Transactions’ as updated from time to time.
-A.You will be entitled for Zero Liability where the unauthorized transactions occur in
+A. You will be entitled for Zero Liability where the unauthorized transactions occur in
 the following events:
-1.Contributory Fraud/Negligence/Deficiency on our part.
-2.Third Party breach where the deficiency lies elsewhere in the system and you notify
+1. Contributory Fraud/Negligence/Deficiency on our part.
+2. Third Party breach where the deficiency lies elsewhere in the system and you notify
 us within 3 working days of receiving the communication from us regarding the
 unauthorized transaction.
 B. You shall be liable for the loss occurring due to unauthorized transactions in the
 following cases:
-1.In cases where the loss of card/phoneis due to your negligence such as where you
+1. In cases where the loss of card/phoneis due to your negligence such as where you
 have shared the payment credentials, you will bear the entire loss until you report the
 unauthorized transaction to us. Any loss occurring after the reporting of the
 unauthorized transaction shall be borne by us.
-2.In cases where the responsibility of the unauthorized electronic banking transaction
+2. In cases where the responsibility of the unauthorized electronic banking transaction
 lies neither with us nor you, but lies elsewhere in the system and when there is a delay(
 of 4-7 working days after receiving communication from us) on your part in notifying
 us of such a transaction, your per transaction liability shall be limited to the transaction
 value or the amount whichever is lower as mentioned in the table below (as per RBI)
-3.Further, if the delay in reporting by you is beyond 7 working days, the customer
+3. Further, if the delay in reporting by you is beyond 7 working days, the customer
 liability shall be determined as per the Bank’s Board approved policy.
 Maximum Liability of the customer
 Reporting time of fraudulent transactions from Customer Liability
@@ -550,7 +554,7 @@ consolidated statements for both the Existing and Floater Card.
 5. POS transactions shall be disabled on the Virtual RuPay Card.
 6. The cardholder will not be eligible for any rewards for any transactions made
 on the RuPay Virtual Card. For cardholders who had been issued RuPay Virtual
-Card before 27th November 2024, reward points will be credited till 26 th
+Card before 27th November 2024, reward points will be credited till 26th
 December, 2024 for eligible transactions.
 7. If you choose to close/cancel your RuPay virtual card, you will not be able to
 reapply for it, except if the closure is due to any fraudulent transactions.
@@ -641,7 +645,7 @@ services with MCC Codes for hospitals being 8011, 8021, 8031, 8041, 8042, 8049,
 8050, 8062, 8071, 8099 & 0742 & for educational institutions being 8211, 8220,
 8241, 8244, 8249 & 8299) - Amount limit per card is ₹5,000/day (24 hours cycle)
 for the 1st day after 1st successful transaction & including first transaction.
-I) DISCLOSURES �
+I) DISCLOSURES
 i) Bank will share credit information including but not limited to the current balance,
 loans / EMI facilities linked to the SBM One co-branded Credit Card (if applicable
 and/or availed of), balance outstanding on the SBM One co-branded Credit Card /
@@ -670,7 +674,7 @@ Conditions, and FAQ will always be available on www.getonecard.app.
 ix) The arrangement between Oneconsumer Services Private Limited and the Bank
 for issuance of the co-branded credit card may involve sharing of revenues in respect
 of such co-brand credit card, the details for which are available on the link below:
-SBM-Bank-India-Revenue-Sharing-Declaration.pdf
+https://www.sbm.bank.in/pdf/SBM-Bank-India-Revenue-Sharing-Declaration.pdf
 x) Electronic delivery of documents may occur via email, SMS, instant messaging
 platforms such as WhatsApp, attachments, or downloadable files from the Website or
 Mobile Application. The Bank will be deemed to have fulfilled its delivery obligations
@@ -681,7 +685,7 @@ Bank may, at its discretion, monitor and record all telephone and electronic
 communications between the Cardholder and the Bank or its representatives, without
 prior notice, for the protection of both parties and to resolve any potential
 misunderstandings.
-xi)The Cardholder consents to the collection, processing, storage, and use of their
+xi) The Cardholder consents to the collection, processing, storage, and use of their
 personal information by the Bank and its authorized service providers for mobile
 banking Services, credit scoring, fraud detection, and account management. This data
 processing, done using automated or manual methods, will comply with applicable
@@ -692,8 +696,8 @@ J) Grievance Redressal and Compensation Framework
 i) Grievance redressal and escalation process and Timeline for redressal of
 grievance
 a) Timeline for redressal of grievance
-For any grievance, you can reach out to the bank at [SBM Bank Grievance Redressal
-Mechanism] or as per the Bank’s escalation matrix
+For any grievance, you can reach out to the bank at [https://www.sbm.bank.in/notice-
+board/grievance-redressal-mechanism] or as per the Bank’s escalation matrix
 If the issue remains unresolved beyond 30 days even after reaching out to the above
 channels, or if the response is unsatisfactory, you may write to the Banking
 Ombudsman for an independent review. Details of the Banking Ombudsman Scheme
@@ -703,8 +707,8 @@ SBM-Confidential
 SBM-Confidential
 iii) Contact details of the SBM One co-branded Credit Card-issuer-issuer are as
 following**
-⏩ Card Issuer Contact Details : SBM Bank Customer Care Number- 1800 1033 817
-SBM Bank Customer Care Email Id- customercare@sbmbank.co.in
+⏩ Card Issuer Contact Details : SBM Bank Customer Care Number- 1800 1033 817 SBM
+Bank Customer Care Email Id- customercare@sbmbank.co.in
 Alternatively, email your query or concern sbmone@getonecard.app
 ⏩ Call us on our helpline number at 1800-209-2111
 ⏩ Write to us or visit us at:
@@ -816,7 +820,7 @@ at Bank’s discretion and will be subject to any applicable law.
 r) Bank shall report the Secured SBM One co-branded Credit Card to CICs as an
 unsecured credit card if the credit limit is greater than the fixed deposit amount, or as
 a secured credit card if the credit limit is less than or equal to the fixed deposit amount.
-L) REWARD POINTS �
+L) REWARD POINTS
 By using your SBM One co-branded Credit Card, you are automatically enrolled in the
 One co-branded Rewards Programme. When you transact with your SBM One co-
 branded Credit Card, reward points are credited to your SBM One co-branded Credit

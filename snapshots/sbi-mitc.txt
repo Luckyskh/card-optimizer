@@ -296,7 +296,7 @@ transaction until the date of payment.
 F. Finance Charges
 Finance Charges are payable at the monthly interest rate on all
 transactions including unpaid EMI installments (excluding Encash and
-Encash Inline) from effective date of transaction* in the event of the
+Encash Inline) from the date of transaction in the event of the
 Cardholder choosing not to pay his balance in full, and on all cash
 advances taken by the Cardholder, till they are paid back.
 If the Cardholder makes partial or no payment of Total amount due
@@ -306,18 +306,17 @@ full payment of Total amount due is made before Payment due date
 then Finance charges will be levied on the closing balance till the
 payment date.
 The current rate of finance charges is upto 3.75% per month [45% per
-annum] from effective date of the transaction* and is subject to change
-at the discretion of SBI Cards and Payment Services Limited
-(SBICPSL). Finance charges, if payable, are subject to levy of
-applicable taxes and are debited to the Cardholder’s account till the
-outstanding on the card is paid in full. The minimum amount of Finance
-Charge levied on all transactions in the event of the Cardholder
-choosing not to pay his balance in full within payment due date, and on
-all cash advances taken by the Cardholder will be Rs.25 each,
-exclusive of applicable taxes.
-Finance charges on cash advances are applicable from the date of
+annum] from effective date of the transaction as provided by the
+network and is subject to change at the discretion of SBI Cards and
+Payment Services Limited (SBICPSL). Finance charges, if payable, are
+subject to levy of applicable taxes and are debited to the Cardholder’s
+account till the outstanding on the card is paid in full. The minimum
+amount of Finance Charge levied on all transactions in the event of the
+Cardholder choosing not to pay his balance in full within payment due
+date, and on all cash advances taken by the Cardholder will be Rs.25
+each, exclusive of applicable taxes.
+a. Finance charges on cash advances are applicable from the date of
 transaction until the payment is made in full.
-*as received from networks.
 Example 1: Card Statement date – 15th of every month.
 Transaction done between 16th June – 15th July
 1. Retail Purchase of Rs.5,000 – On 20th June
@@ -366,9 +365,10 @@ Transaction done between 3rd March – 2nd April
 (3) Online Purchase of Rs.6,000 – On 15th March
 Assuming no previous balance carried forward from the 2nd March
 statement, the cardholder will get his 2nd April statement showing total
-amount due of Rs.6,590. The cardholder needs to make payment
-against the outstanding by 22nd April, i.e. 20 days from the Statement
-Date, for anything between the entire amount or Minimum Amount Due.
+outstanding amount of Rs.6,590. The cardholder needs to make
+payment against the outstanding by 22nd April, i.e. 20 days from the
+Statement Date, for anything between the entire amount or Minimum
+Amount Due.
 Assuming the cardholder makes the payment of Minimum Amount Due
 of Rs.710 (100% of GST (Rs 90) + 100% of EMI amount (Rs.0) + 100%
 of Fee/charges (Rs.500) + 100% of Finance charges (Rs 0) + Overlimit
@@ -1505,7 +1505,7 @@ amendments
 SBI Card Helpline
 39 02 02 02 (prefix local STD code),
 1860 180 1290/1860 500 1290
-All information in this communication is correct as on 25th September 2026
+All information in this communication is correct as on 11th September 2026
 and is subject to change at the discretion of SBICPSL. SBI Card Most
 Important Terms and Conditions are also available at www.sbicard.com
 SBI Cards and Payment Services Limited.
@@ -1525,4 +1525,4 @@ Write to us at SBICPSL, Post Bag No. 28,
 GPO, New Delhi – 110001
 By Web
 Log onto sbicard.com
-Ver: FY 27, 16
+Ver: FY 27, 15

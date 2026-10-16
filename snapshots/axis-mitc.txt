@@ -579,6 +579,8 @@ and EMIs (excluding EMIs for Over‑the‑Limit Instant Loan
 on Credit Card from 30th May 2026).
 • The Finance Charges as above will be applicable till the
 date of payment, including the date of payment.
+• For Burgundy Private - The One Card, no interest is
+levied on cash withdrawals until the payment due date.
 2) OTHER FEES and CHARGES
 2.5% (Min. INR 500) of the
 cash amount;
@@ -614,11 +616,13 @@ between INR 10,001 and INR
 50,000
 INR 1,300 if total payment due is
 greater than INR 50,000
-Recurring Late Payment Fee Additional INR 100 on missing
-for all other Credit Cards payment of Minimum Amount Due
 Axis Bank|Public
+Additional INR 100 on missing
+payment of Minimum Amount Due
 (MAD) by the due date for two
+Recurring Late Payment Fee
 consecutive cycles. This charge
+for all other Credit Cards
 will continue to be applicable for
 every payment cycle until the MAD
 is cleared
@@ -653,17 +657,17 @@ Maximum benefits up to INR 400
 per Statement Cycle; AXIS BANK
 SUPERMONEY RuPay Credit
 Card, Axis Bank My Zone Credit
-Card, Select Credit Card, Axis
 Fuel Transaction Surcharge
+Card, Select Credit Card, Axis
 Bank My Zone Easy Credit Card,
 Axis Bank My Zone Instant Credit
 Card, Fibe Axis Bank Credit Card,
 Reserve Credit Card, Magnus
 Credit Card, Magnus for Burgundy
 Credit Card, Burgundy Private
+Axis Bank|Public
 Credit Card, up to INR 500 for ACE
 Credit Card; Axis Bank Pride
-Axis Bank|Public
 Signature Credit Card, SAMSUNG
 AXIS BANK SIGNATURE Credit
 Card and AIRTEL AXIS BANK
@@ -719,7 +723,7 @@ to INR 5,000. Maximum benefits up
 to INR 500 per Statement Cycle for
 SCAPIA AXIS BANK Credit Card)
 Please note -
-•On fuel transactions, the fuel
+• On fuel transactions, the fuel
 surcharge is not levied by
 the card issuing bank
 • On certain fuel transactions,
@@ -1185,86 +1189,7 @@ outstanding or an amount substantially more than your Minimum
 Amount Due.
 Axis Bank|Public
 Terms and Conditions – EMI/Loan Foreclosure
-With effect from 10th November 2023, if a Loan facility/Loan is
-foreclosed by the Cardholder during the Loan facility/Loan tenure,
-the Cardholder shall be liable to repay Total Outstanding due
-(including the principal outstanding, foreclosure charge and the
-interest on the loan for the actual number of days till closure) from
-the last billing date till the date of closure of Loan Facility/Loan, to
-the Bank. In such a scenario, the following shall be the entries in
-the card statement for the interest charge:
-· A = Interest shall be debited for the entire remaining loan tenure
-(i.e., last billing date till the date of closure of Facility tenure)
-· B = Interest pertaining to period post loan foreclosure (i.e.,
-foreclosure date to the date of closure of Facility tenure) shall be
-credited on the card account.
-Effectively, the net interest i.e. (A-B) shall be billed to the customer
-for the number of days since last billing date to loan foreclosure
-date.
-If the Card Member is using revolving credit facility, this balance
-will now attract applicable charges including finance charges for the
-credit card. The Bank shall be entitled to demand immediate
-repayment of such outstanding amounts.
-Illustration: Assume that you have paid all previous dues in full,
-and do not have any amount outstanding in your credit card
-Account, and your monthly statement is generated on 25 th of every
-month. You have taken Balance on EMI (BoE) of INR 5,000 for the
-tenure of 6 months on 3rd May’23 with ROI 14%. 2 EMIs are
-deducted till Jul’23 and you have requested for foreclosure on 17 th
-Jul’23.
-Date Transaction Amount Explanation
-Type (INR)
-3rd Availed BOE INR 5,000 Availed BOE (Balance
-May’23 (Balance on On EMI) on credit card
-EMI)
-2nd 1st EMI INR Deducted EMI of amount
-Jun’23 Amount 867.69 DrINR 867.69 (Principal =
-INR 809.36, Interest =
-INR 58.33)
-2nd GST on INR 10.50 GST @18% on interest
-Jun’23 Interest Dr 58.33*18% = INR 10.50
-Axis Bank|Public
-2nd 2nd EMI INR Deducted EMI of amount
-Jul’23 amount 867.69 Dr INR 867.69 (Principal =
-INR 818.80, Interest =
-INR 48.89)
-2nd GST on INR 8.80 GST @18% on interest
-Jul’23 Interest Dr 48.89*18% = INR 8.80
-17th Foreclosure of INR159.08 Foreclosure request on
-Jul’23 BOE Dr 17th Jul’23. Debit of
-Interest Debit interest of remaining
-for EMIs # 3 to tenure (3rd Jul’23 to 2nd
-6 Nov’23)
-3371.84*14%*123
-Days/365 days=159.08
-(INR 3371.84 is the
-principal outstanding
-balance)
-17th GST on above INR 28.63 159.08*18% = INR 28.63
-Jul’23 interest Dr
-17th Instalment INR Reversal of interest of
-Jul’23 Interest 140.97 Cr unutilized period (17th
-Reversal Jul’23 to 2nd Nov’23)
-3371.84*14%*109
-days/365 days= INR
-140.97
-(INR 3371.84 is the
-principal outstanding
-balance)
-17th GST reversal INR 25.37 140.97*18%= INR 25.37
-Jul’23 Cr
-Effective Net INR 18.11 Interest from last billing
-Interest date till the date of
-closure of loan
-Effective Net INR 3.26 GST on above effective
-GST net interest
-Above changes shall be applicable across Instant Loan on credit
-card, Balance Conversion to EMI, Transaction Conversion to EMI
-at merchant (Merchant EMI) or post-facto (Transaction EMI) across
-all Axis Bank credit card. All other charges with regards to loan
-foreclosure shall remain as per the existing Terms and Conditions.
 Please refer to the following detailed Terms and Conditions:
-Axis Bank|Public
 • Loan on Credit Card - https://www.axis.bank.in/important-
 links/credit-card/card-services
 • Balance Conversion to EMI -
@@ -1295,9 +1220,9 @@ Date
 • Available Credit Limit: The Available Credit Limit at any time is
 the difference between the assigned Credit Limit and the
 outstanding balance on the Card at that point of time. The Add
+Axis Bank|Public
 - on Cardholder(s) will share this Credit Limit assigned to the
 primary Cardholder
-Axis Bank|Public
 • Available Cash Limit: The Available Cash Limit at any time, is
 the difference between the assigned Cash Limit and the
 outstanding cash balance on the Card at that point of time.
@@ -1332,11 +1257,11 @@ application for his/her existing card(s) if any.
 The maximum number of Axis Bank credit cards issued to a
 customer is subject to the Bank’s internal policies and
 discretion
+Axis Bank|Public
 • Credit limits across credit cards held by the customer is
 subject to extant internal policy guidelines and at the sole
 discretion of the Bank. In case a customer holds
 multiple Axis Bank credit cards, limit across all cards is
-Axis Bank|Public
 shared and same across all cards. E.g. If the credit limit for
 Customer is INR 1,00,000 and customer holds two credit
 cards of Axis Bank, individual limit on each card shall be INR
@@ -1374,9 +1299,9 @@ customer, from our affiliates or third parties such as credit
 information companies, regulators or governmental
 authorities who may have this personal data. Such review
 and enhancement (if any) is at the sole discretion of the
+Axis Bank|Public
 Bank. Such requests shall be processed within 7 working
 days.
-Axis Bank|Public
 • RBI Guidelines on usage
 As per RBI guidelines, all cards shall be enabled for use only
 at contact based points of usage within India (ATMs and
@@ -1405,11 +1330,11 @@ statement by the Payment Due Date, the grace period would be:
 is from 24th June -10th August i.e. 47 days.
 2. For a purchase dated 18th July, the interest - free grace period
 is from 18th July to 10th August i.e. 23 days.
+Axis Bank|Public
 Thus, the grace period can vary depending upon the date of
 purchase. However, if the Total Amount Due of the previous
 month is not paid by the Payment Due Date, then the Free
 Credit Period will be lost and there will not be any interest - free
-Axis Bank|Public
 period. For cash advances, interest is charged from the date of
 transaction until the date of payment.
 C) Billing and Statement
@@ -1438,13 +1363,13 @@ Minimum Amount Due (MAD) as indicated on the Statement.
 The Total Amount Due (TAD) from the Cardholder or the
 MAD should be paid by the Cardholder on or before the
 Payment Due Date which is also indicated on the Statement.
+Axis Bank|Public
 iv] Non-payment of the MAD by the Payment Due Date shall
 render you liable to risk of withdrawal or suspension
 (Whether temporarily or permanently) of the Axis Bank credit
 card. A fee will be levied for such non - payment as well. The
 Bank may, at its sole discretion, also instruct the Merchant
 Establishment not to honour the Axis Bank credit card and/or
-Axis Bank|Public
 to take custody of the Card by hot listing the Card Number
 in the Card Association System.
 v] You may pay more than the Minimum Amount Due before
@@ -1475,12 +1400,12 @@ ix] In case of any change in your communication address / e-
 mail address, you are advised to contact and update the
 same with the Bank immediately to ensure that you receive
 Statements regularly and on time.
+Axis Bank|Public
 x] Billing disputes – All contents of the Statement(s) will be
 deemed to be correct and acceptable by the Cardholder(s)
 unless within 60 days of the Issue of Statement, the
 Cardholder(s) informs the Bank of any discrepancies. If the
 aforesaid discrepancies are found to be legitimate by the
-Axis Bank|Public
 Bank, it may reverse the charge on a temporary basis until
 the completion of subsequent investigations by the Bank to
 its full and final satisfaction. If the said investigations
@@ -1509,12 +1434,12 @@ sole discretion of Axis Bank and may be discontinued by
 Axis Bank at any time, with or without prior intimation to the
 users.
 Terms of Service
+Axis Bank|Public
 These terms and conditions for Credit Card on UPI are in
 addition to the general terms and conditions of any account
 or any other facility provided by Axis Bank to its Customers
 1. This facility will be provided subject to approval of Axis
 Bank RuPay Credit Card at the request of the User
-Axis Bank|Public
 2. The customer has to use the registered mobile number
 linked with their Axis Bank RuPay Credit Card for linking with
 UPI App
@@ -1550,13 +1475,13 @@ existing terms and conditions of selected Axis Bank RuPay
 Credit Card
 14. This facility will not accept Axis Bank RuPay Credit Card
 as a default option to receive funds
+Axis Bank|Public
 15. In case of renewal of Axis Bank RuPay Credit Card, user
 has to re-register on UPI App with updated Credit Card
 details
 16. In case of device change, user has to re-register for
 Credit Card on UPI app with same SIM. Application installed
 in previous device will be de-registered.
-Axis Bank|Public
 17. For each rent payment identified through MCC 6513, a
 rent surcharge fee of 1% will be levied on the CC on UPI
 transaction amount.
@@ -1589,13 +1514,13 @@ checks on the credit card usage to identify whether there is
 excessive utilization of credit limit beyond the sanctioned
 limit in one statement cycle, unusual or excessive
 utilization at few select merchants, to make repayment of
+Axis Bank|Public
 another credit card /loans, transfer funds to savings
 account, possible collusion with merchant and/or usage
 towards non-personal/ business related requirements,
 over-use/ misuse of features/ offers/ programs towards
 accumulation of undue reward points/ cash back / other
 benefits amongst others. In such a scenario, Axis Bank
-Axis Bank|Public
 may, at its sole discretion, exercise its right to cancel the
 concerned credit card and additional/add-on cards thereof
 and withhold/cancel the Cashback/reward points earned at
@@ -1632,13 +1557,13 @@ card, if it reasonably believes that it is necessary to do so
 for proper management of credit or business risk, or if the
 Card or Card Account is being misused or likely to be
 misused.
+Axis Bank|Public
 • The Card may be suspended / withdrawn by the Bank at
 its sole discretion, without being liable in any manner
 whatsoever to you. Termination of the Card and this
 Cardmember Agreement shall result automatically in the
 termination of the privileges, benefits and facilities attached
 thereto.
-Axis Bank|Public
 • The maximum length allowed for card embossing is 19
 characters. If the embossing name exceeds this limit, the
 card will not be processed.
@@ -1671,11 +1596,11 @@ due on the customer’s credit card remains outstanding for
 more than 90 days.
 F) Method of payment with clearing Turnaround Time
 (TAT)
+Axis Bank|Public
 Actual payment done by the customer and reversal/refund
 received from the merchant are considered as payments.
 Please note that any excess credit balance in the credit card
 which is more than the net of outstanding balance and remains
-Axis Bank|Public
 unutilized till the credit card due date will be transferred to the
 account linked with the Bank.
 Payments towards the Card Account may be made in any of
@@ -1707,9 +1632,9 @@ TAT for clearance – 1 working day.
 Savings Account by giving an instruction in writing to debit the
 payment from such accounts every month on the Payment Due
 Date. In case the Payment Due Date falls on a Sunday, the
+Axis Bank|Public
 amount would be debited from such account on the next working
 day. TAT for clearance – 1 working day.
-Axis Bank|Public
 5. Click to Pay / NEFT / VMT: Pay your Axis Bank credit card dues
 from any of your other bank Savings Accounts using Click to pay
 / NEFT / VMT.
@@ -1744,10 +1669,10 @@ credit card by using the Axis Bank NRE account. Auto debit
 from such Axis Bank NRE account is mandatory for such non-
 resident credit card holders. In case of payment to be made
 from Axis Bank NRO account, a certain set of documents
+Axis Bank|Public
 including Form 15 CA/CB and a NRO bank account cheque
 are required every-time you wish to make a payment from
 NRO account. In the event of a payment made from a non-
-Axis Bank|Public
 NRE source without submitting the required documents, where
 bank is able to establish a non-NRE source or has a reason to
 believe it being from a non-NRE source, bank reserves the
@@ -1779,10 +1704,10 @@ the Card Account with or without giving any prior notice. For
 avoiding misuse, it is advised to cut the Credit Card into four
 pieces ensuring that the hologram and magnetic strip are
 destroyed permanently. The Cardholder may terminate the Card
+Axis Bank|Public
 membership at any time by writing to the customer service e-mail
 id by indicating the complete Card Number or by calling Customer
 Care (Refer Section “Contact Channels”). The termination shall
-Axis Bank|Public
 only be effective once Axis Bank receives the payment of all
 amounts due and outstanding in respect of the said Card Account.
 In the event of a Credit Card program closure or at the time of
@@ -1815,10 +1740,10 @@ In case a cardholder has negative EDGE REWARD Points/Miles
 balance, the equivalent value of such negative reward points/miles
 may be converted to statement debit as per bank’s discretion and
 is required to be paid by the cardholder along with any other dues.
+Axis Bank|Public
 Termination will be effective after payment of all amounts
 outstanding on the card account. No annual, joining or renewal
 fees shall be refunded on a pro-rata basis.
-Axis Bank|Public
 Example – Negative Reward Point balance of 1000 will be
 converted to statement debit of INR 200 i.e. 1000 Negative
 Reward Points X INR 0.20 per Reward Point. Similarly negative
@@ -1849,11 +1774,11 @@ You must notify the Bank immediately on phone if the Card is
 lost, stolen, if someone else knows your PIN or other security
 information or if it being used without your permission. (Refer
 Section “Contact Channels”).
+Axis Bank|Public
 Customers can block and replace their credit cards through
 multiple channels, including the Axis Bank support page, Axis
 Aha!, Axis Mobile app, Internet Banking, SMS, and Phone
 Banking. For more information on blocking and replacement of
-Axis Bank|Public
 credit cards, customer can visit:
 https://application.axis.bank.in/webforms/axis-support/sub-
 issues/Cards-Credit-BlockReplaceCreditCard-1.aspx
@@ -1882,10 +1807,10 @@ Establishments, under any circumstance or by any means,
 whether voluntary or otherwise. The Bank shall exercise care
 while issuing the Cardholder’s PIN except to the Cardholder.
 Insurance Cover for Cardholders
+Axis Bank|Public
 The Insurance covers mentioned below will be applicable
 depending on the card variant type. Please go through the
 welcome booklet for applicable insurance covers.
-Axis Bank|Public
 Air Accident Cover: Air Accident is valid only if the Axis Bank
 credit card has been used at a Merchant Establishment or an
 ATM for cash withdrawal at least 90 days preceding the incident
@@ -1919,11 +1844,11 @@ printed advertisement must be published within 3 days of the
 purchase and claim intimation must be within 7 days of printed
 advertisement. (Contact the Bank for items covered under this
 feature)
+Axis Bank|Public
 Credit Shield: Covers outstanding up to a specific amount on
 the Card in the event of an accidental death.
 Delay in Check - in Baggage: Reimburses cost of necessary
 items for basic needs in case of baggage delay of more than 6
-Axis Bank|Public
 hours while travelling overseas. Valid only in case of flight ticket
 purchased with Axis Bank credit card. Checked in Baggage
 means the baggage handed over by the Insured Person and
@@ -1949,6 +1874,18 @@ Cards, including coverage, eligibility, claim process, and
 required documentation, please visit Credit Card Protection
 page under the “How to Claim Insurance for Your Credit Card”
 section.
+Insurance benefits, wherever applicable on the credit card
+variant, shall be available only during the validity period of the
+respective Group Insurance Policy arranged by Axis Bank with
+its empanelled insurance partner. The benefits become effective
+from the applicable policy commencement date or card
+activation whichever is later and remain subject to the terms,
+conditions, exclusions, eligibility criteria, and validity period of
+the respective insurance policy. For complete details of the
+Axis Bank|Public
+insurance program, including coverage, eligibility, exclusions,
+claim process, required documentation, and applicable terms
+and conditions, please visit https://www.axis.bank.in/ccins
 K) Default
 1) In the event of a default i.e. if the Minimum Amount Due is not
 paid by the Payment Due Date or breach of any clause of the
@@ -1959,7 +1896,6 @@ the dues. Any third party so appointed, shall adhere to the Indian
 Bank's Association (IBA) code of debt collection.
 2) Customers will be allowed a grace period of 3 days from the
 payment due date, where payments are not overdue. This
-Axis Bank|Public
 facility is provided keeping in mind the processing time of
 payments but the customer must clear his dues by the payment
 due date which is mentioned in the credit card Statement.
@@ -1982,6 +1918,7 @@ balance on his Card.
 c. Exercise the Bank’s right to lien and set - off the amount
 outstanding against any monies / deposits / accounts
 maintained in the Cardholder name with the Bank.
+Axis Bank|Public
 6) In the case of a default, the Bank can forward the default report
 to the Credit Information Bureaus or to such other agencies as
 approved by law. The time period between the Payment Due
@@ -1995,7 +1932,6 @@ settlement of dues:
 Information Bureau (India) Limited twice in a month (cycle
 date reporting and month end reporting) in the format
 prescribed by the CIBIL. This data includes the repayment
-Axis Bank|Public
 status of all Cardholders, both defaulters and current, for the
 previous month. CIBIL uploads the submitted data onto their
 server in another thirty days.
@@ -2014,6 +1950,7 @@ balance, the card will not get updated to CICs as 'Closed'. Only
 those credit cards which are closed with Nil balance will be
 reported to CICs as 'Closed'
 L) Disclosure
+Axis Bank|Public
 The sanctioned amount for an OTL (Over-the-Limit) loan will be
 reported to the credit bureau as a separate credit facility. In case
 of non-payment of Minimum Amount Due (MAD), the overdue
@@ -2029,7 +1966,6 @@ history by paying the necessary dues in a timely manner. With
 credit bureaus in place, responsible customers can expect faster
 and more competitive services at better terms from credit
 grantors default by customers would be available with credit
-Axis Bank|Public
 bureaus which in turn would impact your credit worthiness for
 future requirements. Axis Bank will report customer information
 to credit bureaus on a monthly basis or such other time period
@@ -2056,6 +1992,7 @@ Credit Reference Agencies, Credit Information Companies or
 any other entity formed and authorised by RBI for the purpose
 of collecting, collating and disseminating credit information
 pertaining to borrowers.
+Axis Bank|Public
 If the Cardholder does not wish to receive any direct marketing
 or tele calling / telesales calls from Axis Bank / its associates /
 subsidiaries / agents, the Cardholder may opt out by registering
@@ -2071,7 +2008,6 @@ partner, for the purpose of enrolment, card feature fulfilment,
 marketing, promotional activities, and benefit redemption. This
 shall be applicable to co-branded Credit Cards like Axis Bank
 Miles and More World Select Credit Card, Axis Bank Miles and
-Axis Bank|Public
 More World Credit Card, Axis Bank Vistara Infinite Credit Card,
 Axis Bank Vistara Signature Credit Card, Axis Bank Vistara
 Platinum Credit Cards, Samsung Axis Bank Infinite Credit Card,
@@ -2097,6 +2033,7 @@ understands and agrees that such consent shall hold valid for all
 applicable Credit Cards like Axis Bank Neo Credit Card, Axis
 Bank My Zone Credit Card, Indian Oil Axis Bank Credit Card,
 Axis Bank Rewards Credit Card, Axis Bank Atlas Credit Card,
+Axis Bank|Public
 Axis Bank Select Credit Card, Axis Bank Privilege Credit Card,
 Axis Bank Infinite Reserve Credit Card, Axis Bank Magnus
 Credit Card, Axis Bank Pride Credit Cards, Axis Bank
@@ -2112,7 +2049,6 @@ i. Cardholder hereby provides explicit consent to Axis Bank to
 share his/her Personal Data with Axis Bank’s authorized service
 providers and/or the tie-up insurance companies for the purpose
 of calling and reaching out to offer the relevant insurance cover
-Axis Bank|Public
 on Cardholder’s Axis Bank credit card and for processing
 Cardholder’s Personal Data for availing such Insurance Cover
 (“Purpose”).
@@ -2137,6 +2073,7 @@ delivered within 3 to 15 working days, depending on the delivery
 location and service network coverage.
 The card holder acknowledges that they have provided a mobile
 number registered in their name in the Credit Card application.
+Axis Bank|Public
 If it is found later that the mobile number provided during the
 credit card application is not registered in the card holder’s
 name, they shall be liable and responsible for any activity /
@@ -2149,7 +2086,6 @@ All disputes, differences and / or claims or questions arising out
 of these presents, or in any way touching or concerning the
 same or as to constructions, meaning or effect thereof or as to
 the right, obligations and liabilities of the parties hereunder shall
-Axis Bank|Public
 be referred to and settled by arbitration, to be held in accordance
 with the provisions of the Arbitration and Conciliation Act, 1996,
 or any statutory amendments thereof, of a sole arbitrator to be
@@ -2171,6 +2107,7 @@ permitted.
 O) FEMA (Foreign Exchange Management Act)
 i) Usage of the Card for transacting outside India must be made
 in accordance with applicable law, including the Exchange
+Axis Bank|Public
 Control Regulations of the RBI and the Foreign Exchange
 Management Act, 1999, and in the event of any failure to do so,
 you may be liable for penal action.
@@ -2183,7 +2120,6 @@ however, not valid for making foreign currency transactions in
 Nepal and Bhutan.
 iv) 100 % payment has to be mandatorily made through Auto pay
 mode from Axis Bank NRE account only for NRI customers.
-Axis Bank|Public
 v) Cash payment will not be accepted for NRI Customers.
 P) Unauthorized Electronic Banking Transactions in Card
 account
@@ -2204,6 +2140,7 @@ Bank, in electronic or documentary form pursuant to the Terms and
 Conditions herein, shall as against you, be deemed to be
 conclusive evidence of such instructions and such other details.
 5) In case of any dispute relating to the time of reporting and/or
+Axis Bank|Public
 Transaction/s made on the account or any other matter in relation
 to the said account, the Bank shall reserve the right to ascertain the
 time and / or the authenticity of the disputed Transaction and your
@@ -2217,7 +2154,6 @@ point of time.
 6) For Customer Care / Customer redressed contact details, kindly
 refer our website www.axis.bank.in/support
 Q) Secured Credit Cards
-Axis Bank|Public
 1) The fixed deposit shall act as continuing security for ultimate
 balance of all monies that may be due from customer to the bank
 under secured credit cards or any other facility sanctioned by the
@@ -2237,6 +2173,7 @@ R) Classification as Special Mention Account (SMA) and Non-
 Performing Asset (NPA)
 On accordance with the provisions of the Regulatory Guidelines the
 lenders are required to recognize incipient stress in borrower
+Axis Bank|Public
 accounts, immediately on default, by classifying them as special
 mention accounts (SMA). The classification of borrower accounts
 as SMA as well as NPA shall be done as part of day-end process
@@ -2248,7 +2185,6 @@ date. An Illustration of such classification is as follows:
 ➢ SMA 0 - If due date of a loan account is March 31, 2021,
 and full dues are not received on this date, the account
 shall be SMA 0 on day end of March 31, 2021.
-Axis Bank|Public
 ➢ SMA 1 - If it continues to remain overdue, then this
 account shall get tagged as SMA-1 upon completion of
 30 days of being continuously overdue i.e. April 30, 2021.
@@ -2270,6 +2206,7 @@ Languages
 Please visit https://www.axis.bank.in/important-links/credit-
 card/terms-and-conditions for information on Most Important Terms
 and Conditions in regional languages, Options available are 1)
+Axis Bank|Public
 Marathi 2) Hindi 3) Bengali 4) Gujarati 5) Malayalam 6) Tamil 7)
 Telugu 8) Kannada
 The Card holder hereby agrees and acknowledges that the Most
@@ -2282,7 +2219,6 @@ and regional languages of the Most Important Terms and
 Conditions, the English version of the same shall prevail and shall
 be binding on the Card holder.
 Links for MITC available in regional languages:
-Axis Bank|Public
 Marathi - https://www.axis.bank.in/docs/default-source/default-
 document-library/credit-cards/mitc/most-important-terms-and-
 conditions-for-axis-bank-credit-cards-marathi.pdf
@@ -2301,6 +2237,7 @@ conditions-for-axis-bank-credit-cards-malayalam.pdf
 Tamil - https://www.axis.bank.in/docs/default-source/default-
 document-library/credit-cards/mitc/most-important-terms-and-
 conditions-for-axis-bank-credit-cards-tamil.pdf
+Axis Bank|Public
 Telugu - https://www.axis.bank.in/docs/default-source/default-
 document-library/credit-cards/mitc/most-important-terms-and-
 conditions-for-axis-bank-credit-cards-telugu.pdf
@@ -2315,7 +2252,6 @@ business, contracts, anticipated savings or goodwill, loss of use or
 value of any equipment including software, whether foreseeable or
 not, suffered by the user or any person, howsoever, arising from or
 relating to any delay, interruption, suspension, resolution or error of
-Axis Bank|Public
 the Bank in receiving and processing the request and in formulating
 and returning responses or any failure, delay, interruption,
 suspension, restriction, or error in transmission of any information
@@ -2336,6 +2272,7 @@ password to offer any deals, gifts, vouchers, redemption of reward
 points, activation or cancellation of card. Kindly ignore such
 requests on call/email. Confirm Axis Bank contact numbers on the
 official website before any correspondence.
+Axis Bank|Public
 • Please ensure authenticity of the website and/or portal before
 initiating any online/e-com transactions. Be aware of fake websites
 that defrauders you of your money

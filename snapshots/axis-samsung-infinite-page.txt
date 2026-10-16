@@ -175,10 +175,9 @@ Credit Limit Increase
 Instant loan on credit card
 Credit Card against Fixed Deposit
 Grab Deals
-Convert Purchases
-Into EMIs
-Credit Card
-Control Center
+Convert Purchases Into EMIs
+Credit Card Control Center
+FAQ on Clear existing status in CIC
 A credit card which is
 easy on your pocket
 View all Credit Card
