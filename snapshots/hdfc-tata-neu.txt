@@ -216,8 +216,7 @@ Register Now
 ">
 Know more about the card
 Fees & Charges
-NeuCoins Redemption
-NeuCoins Validity
+NeuCoins Validity and Redemption
 Additional Features
 Contactless Payment
 Revolving Credit
@@ -235,8 +234,37 @@ LTF conversion will be done for all eligible customers within 90 days from card 
 This offer is NOT applicable for existing customers.
 Life Time Free/First Year Free cardholders are not eligible for Welcome Benefit.
 HDFC Bank reserves the right, at any time, without prior notice and without assigning any reason whatsoever, to add/alter/modify/change or vary all of these terms and conditions or to replace, wholly or in part, this offer by another offer, whether similar to this offer or not, or to extend or withdraw it altogether.
-NeuCoins Redemption
-You can use your NeuCoins for purchases on Tata Neu /Website for Brands like:
+NeuCoins Validity and Redemption
+Tata NeuCoins Claim and Redemption Process on Tata Neu HDFC Bank Credit Card
+Effective 25-Nov-2026 , to use your Tata NeuCoins earned on Tata Neu HDFC Bank Credit Card spends, primary card holder has to claim them through the Tata Neu App.
+How to claim your Tata NeuCoins from your Tata Neu HDFC Bank Credit Card
+1. Log in to the Tata Neu App using primary card holder’s Bank-registered mobile number
+2. Go to NeuCard section
+3. Select ‘ Claim NeuCoins’ in NeuCard section . Complete the steps as prompted.
+Note: - The Closing Tata NeuCoins Balance as per your latest statement will be available for claiming within 7 working days of the statement date, please refer to the example for better understanding.
+4. Tata NeuCoins earned on your Tata Neu HDFC Bank Credit Card can be claimed within 12 months from the statement date in which it was earned . Unclaimed Tata NeuCoins will expire after this period.
+Example
+If your statement is generated on 15-Dec-26 , any additional Tata NeuCoins earned in the latest statement will be updated in the claimable Tata NeuCoins Balance latest by 22-Dec-26 .
+Tata NeuCoins earned in the statement generated on 15-Dec-26 can be claimed until 14-Dec-27 from your credit card account. If the Tata NeuCoins are not claimed by 14-Dec-27 , then the Tata NeuCoins will expire.
+How to use your Tata NeuCoins post credit to your Tata Neu Membership Account
+5. Once your claim is successful, the Tata NeuCoins will be credited to your Tata Neu Membership account . The claimed Tata NeuCoins will be valid for another 12 months from the date of credit of Tata NeuCoins in your Tata Neu Membership Account , after which they will expire as per the Tata Neu Rewards Program Terms & Conditions.
+Note: - It may take up to 7 working days to credit the Tata NeuCoins in your Tata Neu Membership Account.
+6. Tata NeuCoins available in your Tata Neu Membership Account can be redeemed across eligible Tata brands within the Tata NeuCoins validity period.
+7. For details on the redemption and validity of Tata NeuCoins after they are credited to your Tata Neu Membership Account, please click here .
+Example
+Tata NeuCoins claimed from your credit card account and credited to your Tata Neu Membership Account on 15-Dec-26 , will be valid until 31-Dec-27 in your Tata Neu Membership Account.
+For another example, if Tata NeuCoins are credited to Tata Neu Membership Account on 27-Dec-26 , they will be valid until  31-Dec-27.
+For more details kindly click here .
+Notes:
+1-Effective 25-Nov-2026 , Tata NeuCoins earned on your Tata Neu HDFC Bank Credit Card will no longer be automatically credited to your Tata Neu Membership Account.
+2- The primary Cardholder can make up to 3 successful requests per day to claim Tata NeuCoins. Each claim must have a minimum value of 100 Tata NeuCoins . The minimum claimable value per claim may be revised downward from time to time. Any revised minimum claimable value will be displayed to the customer at the time of making the claim.
+3- Tata NeuCoins earned during special promotions or as Welcome Benefit will continue to follow the terms, and the expiry communicated at the time of issuance.
+How the Tata NeuCoins earned on Tata Neu HDFC Bank Credit Card statement prior to 25-Nov-2026 will be credited to the Tata Neu Membership Account?
+As per the existing process the Tata NeuCoins earned on Tata Neu HDFC Bank Credit Card statement prior to/ before 25-Nov-2026 will be credited to the Tata Neu Membership Account within 7 working days of the statement generation and will have a validity of 12 months (including any lock period) from the end of the month in which they're credited to your Tata Neu Membership Account. Example:
+If Tata NeuCoins are credited on 05-Aug-26, they will be valid until 31-Aug-27.
+If Tata NeuCoins are credited on 31-Aug-26, they will be valid until 31-Aug-27.
+How to redeem Tata NeuCoins from Tata Neu?
+Once your Tata NeuCoins are successfully claimed and credited to your Tata Neu Membership Account, you can continue to use them for purchases on the Tata Neu App/Website at 1 Tata NeuCoin = ₹1 savings , just as you do today, across eligible Tata brands, including:
 Air India Express
 Bigbasket
 Croma, Westside.
@@ -245,24 +273,8 @@ Hotel Bookings/Purchases on IHCL
 TATA 1MG
 Qmin
 Titan and Tanishq (only via Tata Neu)
-You can use your NeuCoins by selecting Tata Pay/ NeuCoins /Loyalty Redemption as the payment method.
-NeuCoins can only be used on eligible transactions as defined by the individual brands.
-For offline redemption of NeuCoins on selected stores kindly refer FAQs
-Note:
-Your monthly statement will give breakup of NeuCoins as following:
-NeuCoins accrued and available with the Bank
-NeuCoins transferred to Tata Neu during the Statement Cycle
-On periodic basis (within 7 working days of the statement generation) the NeuCoins will be transferred to Tata Neu by the Bank.
-NeuCoins transferred to Tata Neu will be available for redemption on Tata Neu App.
-For detailed Terms and conditions Click here
-NeuCoins Validity
-Starting 01-Aug-25, NeuCoins earned on your Tata Neu HDFC Bank Credit Card will have a validity of 12 months (including lock period) from the end of the month in which they're credited to your Tata Neu Account. Example:
-If NeuCoins are credited on 05-Aug-25, they will be valid until 31-Aug-26.
-If NeuCoins are credited on 31-Aug-25, they will be valid until 31-Aug-26.
-Validity of Existing NeuCoins balance
-Non-Promotional NeuCoins: The validity of your existing balance of Non-Promotional NeuCoins (earned before 01-Aug-25) will be set as 31-Jul-26 in your Tata Neu Account, this activity will start from Jul’25 and will be completed by Aug’25 in a phased manner.
-Promotional NeuCoins/Welcome Benefit: NeuCoins earned during special promotions or as Welcome Benefit will continue to follow the expiry terms communicated at the time of issuance.
-For details on Redemption and Validity on NeuCoins, please click here
+You can use your Tata NeuCoins by selecting Tata NeuCoins /Use my Tata NeuCoins/ Loyalty Redemption on order page/payments page. Tata NeuCoins can only be used on eligible transactions as defined by the individual brands.
+For offline redemption of Tata NeuCoins on selected stores kindly click here .
 Additional Features
 Interest-free Credit Period
 Get up to 50 days of interest-free Credit from the date of purchase. (subject to submission of the charge by the Merchant)

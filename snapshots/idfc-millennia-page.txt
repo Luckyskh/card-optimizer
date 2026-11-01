@@ -81,6 +81,7 @@ Portfolio Management Service
 ASBA
 3-in-1 Demat and Trading Account
 Loan Against Investments
+Government Securities
 Insurance
 Term Insurance
 Life Insurance
@@ -116,11 +117,11 @@ Explore Business
 Account
 MSME
 View All
-Domestic
+Domestic Business
 Platinum Account - FD Auto-Sweep
 Gold Account - 50K AMB
 Silver Plus Account - 25K AMB
-Sliver Account - 10K AMB
+Silver Account - 10K AMB
 Importer & Exporter
 Zero Forex Markup Account
 World Business Account
@@ -179,11 +180,11 @@ Trade Finance & Services
 BXP - Online Trade Portal
 Loans & Finance
 View all Business Loans
-Business Loan
 Professional Loan
 Loan Against Property
 Business Loan for Women
 Working Capital Loan
+Inventory Funding
 Construction Equipment Loan
 Machinery Loan
 Healthcare Equipment Loan
@@ -212,11 +213,11 @@ Business Segments
 MSME
 Accounts for
 View All
-Domestic
+Domestic Business
 Platinum Account - FD Auto-Sweep
 Gold Account - 50K AMB
 Silver Plus Account - 25K AMB
-Sliver Account - 10K AMB
+Silver Account - 10K AMB
 Importer & Exporter
 Zero Forex Markup Account
 World Business Account
@@ -248,6 +249,11 @@ Professional Loan
 Loan Against Property
 Business Loan for Women
 Working Capital Loan
+Inventory Funding
+Construction Equipment Loan
+Machinery Loan
+Healthcare Equipment Loan
+Tractor Loan
 Agri Infra Funds Scheme
 ECLGS
 Payment & Collections
@@ -555,8 +561,8 @@ Awards & Accolades
 News Room
 IDFC FIRST Academy
 Investors
-Investors Presentation (Q1-FY27)
-Investors Presentation - Q1-FY27 (In US$)
+Investors Presentation (Q2-FY27)
+Investors Presentation - Q2-FY27 (In US$)
 Annual Report (2025-26)
 View All Annual Reports
 Financial Documents
@@ -584,6 +590,7 @@ Entrepreneurship Program
 Others Program
 IDFC FIRST Sustainability
 Clear
+Pay
 Login
 WhatsApp banking
 Say ‘Hi 👋’ on WhatsApp at 9555 555 555 & we’ll get back to you instantly

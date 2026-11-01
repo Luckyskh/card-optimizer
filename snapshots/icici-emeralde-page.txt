@@ -55,7 +55,7 @@ BookMyShow Offer
 Know More
 APPLY
 SAVE
-31,121 PEOPLE ARE INTERESTED
+29,242 PEOPLE ARE INTERESTED
 Best For
 Luxurious lifestyle
 Unlimited access to airport lounges
@@ -64,14 +64,14 @@ Golf session every month basis eligible spends
 No cancellation charges on travel and hotel booking
 Emeralde Credit Card: Maximum Benefits
 Save Money
-Unlimited access
-Get access to International airport lounges for the Primary Cardholder, Click here for lounge list
-Unlimited access
-Get access to Domestic airport lounges for the Primary Cardholder, Click here for lounge list
-Up to 4 rounds
-Get complimentary golf rounds every month basis eligible spends, Click here for list of Golf Courses
-Four times every month
-Buy one ticket and get up to ₹750 off on the second ticket through BookMyShow
+Quarterly
+Get Unlimited complimentary International airport lounge access for the Primary Cardholders. For lounge list, Click here
+Quarterly
+Get Unlimited complimentary Domestic airport lounge access for the Primary Cardholders. For lounge list, Click here
+Monthly
+Get 4 complimentary Golf rounds/lessons per month for primary cardholders. Earn 1 round for eligible spend of ₹50,000 in the preceding calendar month. For list of Golf Courses, Click here
+Monthly
+Buy One Get One on BookMyShow up to ₹750 off four times a month, on eligible spendings of ₹25,000 or more in the preceding spends quarter
 Birthday Benefit
 Shopping voucher from TATA CLiQ worth ₹5,000 (American Express Cardholders)
 Birthday Benefit
@@ -88,7 +88,7 @@ Reduced interest of 3.75% per month on ATM cash withdrawals
 Get round-the-clock concierge assistance by calling the toll-free number 18002670731
 Up to ₹3 crore
 Get an Air Accident Insurance cover.
-Click here to update your Nominee details. Click here for T&Cs
+Click here to update your Nominee details. For T&C’s Click here
 Earn and use points
 Earn Points on every ₹100 spend
 On Domestic
@@ -162,7 +162,7 @@ Please go through the below illustration to understand the spends period along w
 Spends period offer - eligibility period
 Spend ₹25,000 between Dec 26, 2025 and Mar 25, 2026 - Get movie offer benefit between Apr 01, 2026 and June 30, 2026.
 Spend ₹25,000 between Mar 26, 2026 and June 25, 2026 - Get movie offer benefit between July 01, 2026 and Sep 30, 2026.
-Customers with Credit Card on dual networks (Mastercard & Amex | Visa & RuPay) can avail one movie offer per month, per variant. Any additional bookings beyond the complimentary benefit will be charged as per the rates decided by the service provider. To book your movie ticket and for detailed terms & conditions, please  c lick he re .
+Any additional bookings beyond the complimentary benefit will be charged as per the rates decided by the service provider. To book your movie ticket and for detailed terms & conditions, please  c lick he re .
 Add-on/Plus card members need to individually spend ₹25,000 in the preceding spends quarter, to be eligible for the offer in the subsequent calendar quarter
 Is there any cashback offer on American Express Credit Card variant while booking movie tickets on BookMyShow?
 Cashback offers on the Amex variant have been revoked effective from 01 Jan 2025.
@@ -271,63 +271,6 @@ stars
 The ICICI Bank Platinum Credit Card is a true gem. The lifestyle benefits, including complimentary airport lounge access and travel vouchers.
 Apply now
 close exit intent modal
-Feedback pop 1
-One
-May be later
-CTA
-Close Modal
-Want us to call you back?
-Give us a few details for us to help you!
-Are you an NRI?*
-First Name*
-Last Name*
-Country*
-Select your Country
-close dropdown
-Select your Country
-Algeria
-Andorra
-Afghanistan
-Antigua and Barbuda
-Anguilla
-Albania
-Netherlands Antilles
-Angola
-Argentina
-Aruba
-American Samoa
-Austria
-Australia
-Azerbaijan
-{{! }}
-Confirm
-Mobile Number*
-+
-{{! Top wrapper is for storybook. Don't use in the component }}
-Email*
-Product*
-Select a Product
-close dropdown
-Select Product
-NRI Home Loan
-NRI Investment Loan
-NRI Property Purchase Loan
-NRI Land Loan
-NRI Investment Home Loan
-NRI Commercial Property Loan
-Confirm
-Mobile Number*
-Email ID*
-Product Type
-Credit Card
-Confirm
-Pincode*
-I agree that by clicking on ‘Submit’, I authorize ICICI Bank and its representatives to contact me using Telephone, WhatsApp, E-mail, Short Messaging Service (SMS) with respect to products/facilities hereby applied for.
-Enter OTP
-GET OTP
-RESEND OTP in 1:00
-Submit
-Close Modal
 close disclaimer modal
 Disclaimer
 STAY ON THIS SITE

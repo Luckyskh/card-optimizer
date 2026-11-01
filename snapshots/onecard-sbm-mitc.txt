@@ -196,8 +196,8 @@ Once you read and agree to the terms related to credit limit increase displayed 
 the OneCard app and provide your consent to increase the limit, the credit limit on
 your SBM One co-branded Credit Card will be enhanced through the systems. Your
 acceptance of the limit increase recommendation received through electronic means
-inside the OneCard app where you specifically validate the limit increase will be
-treated as a consent.
+inside the OneCard app where you specifically validate the limit increase will be treated
+as a consent.
 Bank and / or its authorised service providers will keep the digital records of such
 consent and will treat it as proof of consent in case of any dispute arising later on
 account of limit increase.
@@ -268,7 +268,7 @@ Opposite Peninsula Business Park, Lower Parel (West), Mumbai- 400013, Tel No: +9
 22 4302 8888
 SBM-Confidential
 SBM-Confidential
-https://www.sbm.bank.in/contact-us
+https://www.sbmbank.co.in/aboutus/contact-us.php
 Reach out to the Bank at
 Contact Details : [customercare@sbmbank.co.in and on 1800 1033 817 ]; or
 (vi) In case you need any help, you can:
@@ -414,7 +414,7 @@ take place solely at the discretion of Bank.
 f) For avoiding misuse, it is advised to destroy the SBM One co-branded Credit Card
 ensuring that the hologram, magnetic strip and chip are destroyed permanently.
 ii) Link for surrender of SBM One co-branded Credit Card by cardholder
-https://www.sbm.bank.in/contact-us
+https://www.sbmbank.co.in/aboutus/contact-us.php
 iii) Contact details for the cardholder to initiate closure / hotlisting - email-id,
 dedicated telephone number for SMS, IVRS:
 SBM-Confidential
@@ -439,9 +439,8 @@ Terrorism (CFT) guidelines.
 d) Involvement in any civil litigation or criminal offence / proceedings by any authority,
 court of law or professional body or association.
 e) Changes in credit policy due to prevailing conditions / unforeseen circumstances.
-You may continue to get your SBM One co-branded Credit Card statements with
-actual outstanding, even after closure of the SBM One co-branded Credit Card
-account.
+You may continue to get your SBM One co-branded Credit Card statements with actual
+outstanding, even after closure of the SBM One co-branded Credit Card account.
 iv) Procedure for closure of SBM One co-branded Credit Card account if the card
 has not been used for more than one year:
 In case your SBM One Co-branded Credit Card has not been used for more than one
@@ -554,7 +553,7 @@ consolidated statements for both the Existing and Floater Card.
 5. POS transactions shall be disabled on the Virtual RuPay Card.
 6. The cardholder will not be eligible for any rewards for any transactions made
 on the RuPay Virtual Card. For cardholders who had been issued RuPay Virtual
-Card before 27th November 2024, reward points will be credited till 26th
+Card before 27th November 2024, reward points will be credited till 26 th
 December, 2024 for eligible transactions.
 7. If you choose to close/cancel your RuPay virtual card, you will not be able to
 reapply for it, except if the closure is due to any fraudulent transactions.
@@ -601,9 +600,9 @@ no. applicable)
 23 7995 Betting, including lottery tickets, casino gaming
 chips, off-track betting and wagers at race tracks
 24 9406 Govt owned Lottery
-UPI on RuPay Credit Card · The functionality of RuPay Credit card on UPI will
-be made available to the SBM One Credit Card Users who satisfy the criteria. ·
-This provision is made at our sole discretion and the offerings may be altered/
+UPI on RuPay Credit Card · The functionality of RuPay Credit card on UPI will be
+made available to the SBM One Credit Card Users who satisfy the criteria. · This
+provision is made at our sole discretion and the offerings may be altered/
 paused/ discontinued at any time, with or without prior intimation to You.
 Terms of Service for UPI usage
 1. This facility will be provided, subject to approval of SBM One RuPay Credit
@@ -674,7 +673,7 @@ Conditions, and FAQ will always be available on www.getonecard.app.
 ix) The arrangement between Oneconsumer Services Private Limited and the Bank
 for issuance of the co-branded credit card may involve sharing of revenues in respect
 of such co-brand credit card, the details for which are available on the link below:
-https://www.sbm.bank.in/pdf/SBM-Bank-India-Revenue-Sharing-Declaration.pdf
+SBM-Bank-India-Revenue-Sharing-Declaration.pdf
 x) Electronic delivery of documents may occur via email, SMS, instant messaging
 platforms such as WhatsApp, attachments, or downloadable files from the Website or
 Mobile Application. The Bank will be deemed to have fulfilled its delivery obligations
@@ -696,8 +695,8 @@ J) Grievance Redressal and Compensation Framework
 i) Grievance redressal and escalation process and Timeline for redressal of
 grievance
 a) Timeline for redressal of grievance
-For any grievance, you can reach out to the bank at [https://www.sbm.bank.in/notice-
-board/grievance-redressal-mechanism] or as per the Bank’s escalation matrix
+For any grievance, you can reach out to the bank at [SBM Bank Grievance Redressal
+Mechanism] or as per the Bank’s escalation matrix
 If the issue remains unresolved beyond 30 days even after reaching out to the above
 channels, or if the response is unsatisfactory, you may write to the Banking
 Ombudsman for an independent review. Details of the Banking Ombudsman Scheme
@@ -707,13 +706,13 @@ SBM-Confidential
 SBM-Confidential
 iii) Contact details of the SBM One co-branded Credit Card-issuer-issuer are as
 following**
-⏩ Card Issuer Contact Details : SBM Bank Customer Care Number- 1800 1033 817 SBM
-Bank Customer Care Email Id- customercare@sbmbank.co.in
+⏩ Card Issuer Contact Details : SBM Bank Customer Care Number- 1800 1033 817
+SBM Bank Customer Care Email Id- customercare@sbmbank.co.in
 Alternatively, email your query or concern sbmone@getonecard.app
 ⏩ Call us on our helpline number at 1800-209-2111
 ⏩ Write to us or visit us at:
-SBM Bank (India) Ltd. 101, Raheja Centre First Floor, Free Press Journal Marg,
-Nariman Point, Mumbai - 400021, Maharashtra, Tel No: +91 22 4302 8888
+SBM Bank (India) Ltd. 19th floor, Urmi Estate, 95, Ganpatrao Kadam Marg, Opposite
+Peninsula Business Park, Lower Parel (West), Mumbai400013, Tel No: +91 22 4302
 If you are not satisfied with the response from regular channels, you can reach out to
 the Bank at [Nodal.officer@sbmbank.co.in]
 For any help, you can reach out to:
@@ -1060,9 +1059,8 @@ its authorised service provider may at its sole discretion sanction or decline t
 application for the SBM One co-branded Credit Card. I undertake to inform the Bank
 and/or its authorised service provider regarding any change in my application
 credentials originally submitted and to provide any further information that they may
-require to process the application and/or continued usage on the SBM One co-
-branded Credit Card. I hereby confirm that I shall abide by all applicable policies of
-the Bank.
+require to process the application and/or continued usage on the SBM One co-branded
+Credit Card. I hereby confirm that I shall abide by all applicable policies of the Bank.
 I hereby authorize and give express consent to the Bank and/or its authorised service
 provider to disclose, without notice to me, my Personally Identifiable Information (PII)
 and other Non-Personally Identifiable Information (NII) furnished by me in any

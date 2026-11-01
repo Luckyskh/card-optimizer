@@ -296,7 +296,7 @@ transaction until the date of payment.
 F. Finance Charges
 Finance Charges are payable at the monthly interest rate on all
 transactions including unpaid EMI installments (excluding Encash and
-Encash Inline) from the date of transaction in the event of the
+Encash Inline) from effective date of transaction* in the event of the
 Cardholder choosing not to pay his balance in full, and on all cash
 advances taken by the Cardholder, till they are paid back.
 If the Cardholder makes partial or no payment of Total amount due
@@ -306,17 +306,18 @@ full payment of Total amount due is made before Payment due date
 then Finance charges will be levied on the closing balance till the
 payment date.
 The current rate of finance charges is upto 3.75% per month [45% per
-annum] from effective date of the transaction as provided by the
-network and is subject to change at the discretion of SBI Cards and
-Payment Services Limited (SBICPSL). Finance charges, if payable, are
-subject to levy of applicable taxes and are debited to the Cardholder’s
-account till the outstanding on the card is paid in full. The minimum
-amount of Finance Charge levied on all transactions in the event of the
-Cardholder choosing not to pay his balance in full within payment due
-date, and on all cash advances taken by the Cardholder will be Rs.25
-each, exclusive of applicable taxes.
-a. Finance charges on cash advances are applicable from the date of
+annum] from effective date of the transaction* and is subject to change
+at the discretion of SBI Cards and Payment Services Limited
+(SBICPSL). Finance charges, if payable, are subject to levy of
+applicable taxes and are debited to the Cardholder’s account till the
+outstanding on the card is paid in full. The minimum amount of Finance
+Charge levied on all transactions in the event of the Cardholder
+choosing not to pay his balance in full within payment due date, and on
+all cash advances taken by the Cardholder will be Rs.25 each,
+exclusive of applicable taxes.
+Finance charges on cash advances are applicable from the date of
 transaction until the payment is made in full.
+*as received from networks.
 Example 1: Card Statement date – 15th of every month.
 Transaction done between 16th June – 15th July
 1. Retail Purchase of Rs.5,000 – On 20th June
@@ -365,10 +366,9 @@ Transaction done between 3rd March – 2nd April
 (3) Online Purchase of Rs.6,000 – On 15th March
 Assuming no previous balance carried forward from the 2nd March
 statement, the cardholder will get his 2nd April statement showing total
-outstanding amount of Rs.6,590. The cardholder needs to make
-payment against the outstanding by 22nd April, i.e. 20 days from the
-Statement Date, for anything between the entire amount or Minimum
-Amount Due.
+amount due of Rs.6,590. The cardholder needs to make payment
+against the outstanding by 22nd April, i.e. 20 days from the Statement
+Date, for anything between the entire amount or Minimum Amount Due.
 Assuming the cardholder makes the payment of Minimum Amount Due
 of Rs.710 (100% of GST (Rs 90) + 100% of EMI amount (Rs.0) + 100%
 of Fee/charges (Rs.500) + 100% of Finance charges (Rs 0) + Overlimit
@@ -428,7 +428,9 @@ Payment due date and considering the effective rate of 3.75% p.m.,
 finance charge calculation will be done as follows:
 On the Balance of Rs.656.71 (3rd Feb - 14th Feb) for 12 days:
 (3.75*12) *(12/365) * 656.71/100 = Rs.9.72
-Total Interest Charged = Rs.9.72
+On the Balance of Rs.1,000 (5th Feb - 14th Feb) for 10 days:
+(3.75*12) *(10/365) * 1,000/100 = Rs.12.33
+Total Interest Charged = Rs.22.04
 Sum of Outstanding purchase amount, Interest charges, Fees and
 Charges, if any, and all applicable taxes would reflect as the Total
 amount due in the statement dated 2nd March.
@@ -727,7 +729,7 @@ MCCs are defined by the network partners and are subject to change
 basis their discretion and such changes shall be implemented basis
 communication from the networks without any requirement for
 intimation/information to the customers.
-M Fee on Wallet Load Transactions
+M. Fee on Wallet Load Transactions
 With effect from 1st Nov 2025, a fee of 1% of the transaction amount
 will be applicable on every wallet load transaction exceeding Rs.1000
 using your SBI Credit Card. Wallet load transactions shall be identified
@@ -735,8 +737,40 @@ under Merchant Category Code (MCC) 6540 and 6541, on best effort
 basis. The MCCs are defined by the network partners and are subject
 to change basis their discretion and such changes shall be
 implemented basis communication from the networks without any
-requirement for intimation/information to the customers.
-N. Other Charges
+requirement for intimation/information to the customers. In cases of
+partial refund or reversal of the original wallet load amount, the fee
+charged on wallet load transaction will be reversed in proportion to the
+amount refunded or reversed.
+N. Fee on Transportation Transactions
+With effect from 1st Dec 2026, a fee of 1% of the transaction amount
+will be applicable on every transportation transaction exceeding Rs.
+30,000 using your SBI Credit Card. Transportation transactions shall
+be identified under Merchant Category Code (MCC) 4111, 4784, 4131.
+The MCCs are defined by the network partners and are subject to
+change basis their discretion and such changes shall be implemented
+basis communication from the networks without any requirement for
+intimation/information to the customers.
+O. Fee on Fuel Transactions
+With effect from 1st Dec 2026, If the total amount of all fuel transactions
+made in a billing cycle exceeds Rs.50,000, 1% fee will be charged on
+the total fuel spends. All calculations will be made based on the
+effective date of the transaction. Fuel transactions shall be identified
+under the Merchant Category Code (MCC) 5172, 5541, 5542, 5983.
+The MCCs are defined by the network partners and are subject to
+change basis their discretion and such changes shall be implemented
+basis communication from the networks without any requirement for
+intimation/information to the customers.
+Illustration:
+Card Statement date – 1st of every month.
+Transaction done between 2nd Aug – 01st Sep
+1. Fuel Transaction of Rs.25,000 – On 10th Aug
+2. Fuel Transaction of Rs.15,000 – On 19th Aug
+3. Fuel Transaction of Rs.20,000 – On 20th Aug
+Assuming no previous balance carried forward from the 1st Aug
+statement, the cardholder will get 1st Sep statement showing billed
+amount as Rs.60,000. The Fuel Fee will be calculated as Rs.1% of
+Rs.60,000 (Sum total of Fuel Spends), that is Rs.600
+P. Other Charges
 • Card Replacement Fee: Rs.100/- - Rs.250/- (Rs.1,500/- for Aurum)
 • Cheque Payment Fee: Rs.200
 • Foreign Currency Transaction Fee: 3.5% (For all cards except
@@ -749,23 +783,23 @@ transaction into INR will be determined by network (VISA/Mastercard
 etc.), as the case may be, basis the exchange rates governed by
 them on the date the transaction is settled with SBI Card, which may
 not be the same date on which the transaction was made. The
-Foreign currency transaction fee will be applied on the INR converted
-amount shared by the network. Foreign Currency Transaction fee will
-not be reversed in case of transaction refunds.
+Foreign currency transaction fee will be applied on the INR
+converted amount shared by the network. Foreign Currency
+Transaction fee will not be reversed in case of transaction refunds.
 • Dynamic Currency Conversion Fee: 3.5% (For all cards except
-AURUM, Elite, Prime NRI secured, Tata Neu Infinity SBI Credit Card,
-SBI Card Miles Elite/Miles Prime / Miles). 3% for SBI Card Miles,
-2.5% for SBI Card Miles Prime and 1.99% (For AURUM, Elite, Prime
-NRI secured, Tata Neu Infinity SBI Credit Card and SBI Card Miles
-Elite) is charged on transactions greater than or equal to Rs.1,000
-carried out in Indian Currency at an international location or at
-merchants located in India but registered overseas. Dynamic & Static
-Currency Conversion Markup Fee will not be reversed in case of
-transaction refunds.
+AURUM, Elite, Prime NRI secured, Tata Neu Infinity SBI Credit
+Card, SBI Card Miles Elite/Miles Prime / Miles). 3% for SBI Card
+Miles, 2.5% for SBI Card Miles Prime and 1.99% (For AURUM, Elite,
+Prime NRI secured, Tata Neu Infinity SBI Credit Card and SBI Card
+Miles Elite) is charged on transactions greater than or equal to
+Rs.1,000 carried out in Indian Currency at an international location
+or at merchants located in India but registered overseas. Dynamic &
+Static Currency Conversion Markup Fee will not be reversed in case
+of transaction refunds.
 • Rewards Redemption Fee: Rs.99. Applicable only on Physical
-products, Statement Credit & on Vouchers that are sent physically as
-specified in the individual product Terms & Conditions, for all cards
-except AURUM. No redemption fee will be charged to the card
+products, Statement Credit & on Vouchers that are sent physically
+as specified in the individual product Terms & Conditions, for all
+cards except AURUM. No redemption fee will be charged to the card
 account if, the card account status is found voluntarily closed on the
 fee posting date.
 • Reward Point Expiry: Reward Points accrued under the Rewards
@@ -776,37 +810,68 @@ AURUM, the Rewards Points never expire.
 • Processing Fee on all Rent Payment Transactions**: Rs.199.
 Processing Fee will not be reversed in case of transaction reversal /
 cancellation / refund.
-O. Balance Transfer:
+Q. Balance Transfer:
 Balance Transfer Offer allows the customer to transfer other Bank
 credit cards' outstanding to SBI Credit Card.
 Tenure Rate of
 Important Points
 Interest
-On all subsequent purchases,
-whether made in retail and/or
-cash and other outstanding bal-
-ances, the applicable finance
-60 days 0% charge of up to 3.75% p.m. (45%
-p.a.) for Unsecured card, 2.75%
-p.m. (33% p.a.) for Secured card
-and 2.75% p.m. (33% p.a.) for
-Balance Shaurya card shall be levied,
-Transfer and all such levying of applicable
-finance charge be made applica-
-ble from the date of purchase
-1.7% itself and shall accordingly cover
-p.m. all card holders who may have
-180 days
-(20.40% BT amount in their card account.
-p.a.) Furthermore, it is clarified that for
-and up to 50 days, interest free
-period is not valid on any retail
-purchases or otherwise for those
-cardholders who may have a BT
-amount in their account. A one-
-time Processing Fee is charged
-over and above the ROI.
-P. Payments and Combined Credit Limit
+In the event of BT amount not
+0% being paid back within the tenure
+60 days period of BT availed as per the
+BT booking plan, standard
+Balance Finance Charges will be applica-
+Transfer ble on the outstanding BT
+1.7% amount from the expiry of BT
+180 days p.m. tenure period , if the customer
+(20.40% does not pay total amount due
+p.a.) by payment due date. Non-pay-
+ment of Minimum Amount Due
+will attract Late Payment Fees
+as per Cardholder’s MITC.
+Example - BT 60 Days
+Statement Date - 5th of Every Month
+On 1st Oct'26, Cardholder avails Balance Transfer (BT) service for an
+amount of Rs.10,000 for a 60-day tenure with 0% BT Finance charges
+for 60 days & Processing Fee of 2% or Rs. 199, whichever is higher.
+Offer Expiry Date - 29 November 2026.
+Cardholder also does a retail transaction of Rs.10,000 within the same
+cycle.
+Assuming no previous balance carried forward from the 5th Sept’26
+statement,
+Total Amount Due (TAD) as per MITC = Rs.20,235
+Minimum Amount Due (MAD) as per MITC = Rs.635.
+Cardholder makes a payment of Rs.635 before the Payment Due Date.
+Since the Cardholder did not pay the Total Amount Due and BT is
+within the 60 day tenure period, Finance Charge will be levied only on
+retail transactions oustanding amount as per MITC, excluding Balance
+Transfer outstanding.
+If Cardholder does not pay Total Amount Due in the next cycle after BT
+tenure expiry, Finance Charge will be levied on oustanding amount
+including Balance Transfer outstanding as per MITC.
+Example - BT 180 Days
+Statement Date - 5th Every Month
+On 1st Oct'26, Cardholder avails Balance Transfer (BT) service for an
+amount of Rs.10,000 for a 180-day tenure with BT Finance charges of
+1.7% p.m. & Zero Processing Fee.
+Offer Expiry Date - 29 March'27.
+Cardholder does retail transactions of Rs.5,000 within the same cycle.
+In the first statement, BT Finance Charge of Rs. 28 is levied for the
+days between the BT Booking Date & the Date of 1st bill (including the
+date of BT booking).
+Assuming no previous balance carried forward from the 5th Sept’26
+statement,
+Total Amount Due (TAD) as per MITC = Rs.15,033
+Minimum Amount Due (MAD) as per MITC = Rs.433.
+Cardholder makes a payment of Rs. 800 before Payment Due Date.
+Since the Cardholder did not pay Total Amount Due and BT is within
+180-day tenure, Finance Charge will be levied on Balance Transfer
+outstanding amount at the rate of 1.7% p.m. Finance Charge on retail
+transaction outstanding amount will be levied as per MITC.
+If Cardholder does not pay Total Amount Due in the next cycle after BT
+tenure expiry, Finance Charge will be levied on oustanding amount
+including Balance Transfer outstanding as per MITC.
+R. Payments and Combined Credit Limit
 • If a customer holds multiple SBI Credit Cards, the credit limit may be
 shared across these cards at the customer level, as approved by the
 SBI Card at its sole discretion and in accordance with its internal
@@ -840,9 +905,9 @@ a) SBICPSL will send the Cardholder a monthly statement showing the
 payments credited and the transactions debited to the Cardholder’s
 Account since the last statement, provided the card has been active
 during the said period. SBICPSL will either mail a statement of
-transactions in the card account to the mailing address it has on record,
-or send a statement through email to the email id on record, on a
-pre-determined date.
+transactions in the card account to the mailing address it has on
+record, or send a statement through email to the email id on record, on
+a pre-determined date.
 b) Credit Cards offer the Cardholder a revolving credit facility. The
 Cardholder may choose to pay only the Minimum Amount Due printed
 on the statement and such payment should be sent before the
@@ -850,11 +915,11 @@ Payment Due Date, which is also printed on your statement. The
 balance outstanding can be carried forward to subsequent statements.
 The Cardholder can also choose to pay the Total Amount Due or any
 part of the amount above the Minimum Amount Due. Minimum Amount
-Due (MAD) calculation shall be 100% of GST + 100% of EMI amount +
-100% of Fees/Charges +100% of Finance Charges + Overlimit Amount
-(if any) + 2% of Remaining Balance Outstanding or Rs 200 (whichever
-if greater). Any unpaid MAD of the previous statements, if any, shall
-also be included in the Minimum Amount Due.
+Due (MAD) calculation shall be 100% of GST + 100% of EMI amount
++ 100% of Fees/Charges +100% of Finance Charges + Overlimit
+Amount (if any) + 2% of Remaining Balance Outstanding or Rs 200
+(whichever if greater). Any unpaid MAD of the previous statements, if
+any, shall also be included in the Minimum Amount Due.
 c) Payments made towards the card outstanding are acknowledged in
 subsequent statements.
 Any dispute regarding input tax credit or any other matter pertaining to
@@ -892,8 +957,8 @@ g) Billing Disputes: All contents of statements will be deemed to be
 correct and accepted by the Cardholder unless the Cardholder informs
 SBI Cards and Payment Services Limited of any discrepancies within
 the following timelines from the transaction date and these
-discrepancies are found to be true by SBI Cards and Payment Services
-Limited:
+discrepancies are found to be true by SBI Cards and Payment
+Services Limited:
 • For Domestic and International Transactions (Visa / Mastercard /
 American Express) - Within 90 days from the date of transaction
 • For International Transactions (RuPay) – Within 90 days from the
@@ -1140,16 +1205,16 @@ Terms and Conditions governing Credit Card facilities shall be
 applicable to the Supplementary /Add on Cardholder as well.
 SBICPSL submits the cardholder’s data to a Credit Information
 Company on weekly basis, in the prescribed format.
-The total Outstanding on the Card account, together with the amount of
-any Charges effected but not yet charged to the Card Account, will
+The total Outstanding on the Card account, together with the amount
+of any Charges effected but not yet charged to the Card Account, will
 become immediately due and payable in full to SBICPSL on
 bankruptcy or death of the Primary Cardholder, and the Card Account
 shall immediately stand cancelled. The Primary Cardholder’s estate
 will be responsible for settling any Outstanding on the Card Account
-and should keep SBICPSL indemnified against all costs, including legal
-fees and expenses incurred in recovering such Outstanding. Pending
-such repayments, SBICPSL will be entitled to continue to levy finance
-charges at its prevailing rates.
+and should keep SBICPSL indemnified against all costs, including
+legal fees and expenses incurred in recovering such Outstanding.
+Pending such repayments, SBICPSL will be entitled to continue to levy
+finance charges at its prevailing rates.
 5. TERMINATION/REVOCATION OF THE CARDHOLDERSHIP
 a) The Cardholder may end the Agreement at any time by writing to
 SBICPSL or calling in to the SBI Card Helpline, and by cutting the
@@ -1178,8 +1243,8 @@ considered as closed until the Cardholder has paid all such due
 amounts.
 d) If a credit card has not been used for a period of more than one year,
 the process to close the card shall be initiated after intimating the
-cardholder. If no reply is received from the cardholder within a period of
-30 days, the card account shall be closed, subject to payment of all
+cardholder. If no reply is received from the cardholder within a period
+of 30 days, the card account shall be closed, subject to payment of all
 dues by the cardholder.
 6. LOSS, THEFT, MISUSE OF CARD OR FRAUD
 a) The Cardholder must contact SBI Card Helpline as soon as possible, if
@@ -1189,8 +1254,9 @@ credit card is being used without the Cardholder’s permission. Once a
 card has been reported as lost, it must not be used under any
 circumstance, even if it is subsequently found by the Cardholder. The
 Card must be cut diagonally in half.
-In any scenario where the card has been compromised, the Cardholder
-can also block the card instantly through any of the following ways:
+In any scenario where the card has been compromised, the
+Cardholder can also block the card instantly through any of the
+following ways:
 • Call SBI Card helpline 1860 180 1290 or 39020202 (prefix local area
 code). Use self-help IVR to block your card
 • Send an SMS : Just SMS BLOCK XXXX to 5676791 from your
@@ -1262,8 +1328,8 @@ SBICPSL for proper operation of card accounts, verification and other
 administrative services.
 SBICPSL may also share Cardholder information with any parent,
 subsidiary, affiliate or associate of SBICPSL, for the purposes of
-marketing and offering various products and services of SBICPSL or its
-group companies, subsidiaries, affiliates and/or associates.
+marketing and offering various products and services of SBICPSL or
+its group companies, subsidiaries, affiliates and/or associates.
 SBI Card Most Important Terms and Conditions are also available at
 www.sbicard.com
 Important Regulatory information
@@ -1281,8 +1347,8 @@ the right to return this credit balance to you.
 - Please do not use credit cards for making remittances/payments
 towards capital account transactions such as investment in overseas
 entities or setting up of entities overseas as it is not a permissible
-method of funding under RBI’s Master Direction - Direct Investments by
-Residents in Joint Venture/ Wholly Owned Subsidiary abroad.
+method of funding under RBI’s Master Direction - Direct Investments
+by Residents in Joint Venture/ Wholly Owned Subsidiary abroad.
 - As per RBI Master Circular- Master Circular on Miscellaneous
 Remittances from India facilities for Residents, use of Credit Card is
 prohibited for purchase of prohibited items like lottery tickets, banned
@@ -1308,7 +1374,7 @@ Cardholder has to pay Total Amount Due printed on the Statement.
 • For the purposes of SimplySAVE Merchant SBI Card only, the Total
 Amount Due (TAD) will be construed to be equal to the Minimum
 Amount Due (MAD).
-8. *SCHEDULE OF CHARGES 49
+8. *SCHEDULE OF CHARGES 51
 Fees
 Annual Fee (one time) Rs.0 - Rs.9,999
 Renewal Fee (p.a.) Rs.0 - Rs.9,999
@@ -1410,28 +1476,35 @@ Transactions** / refund.
 Utility Payments Fee*** W.e.f. 1st Dec 2024, 1% of total amount of
 Utility Payments, if the total amount exceeds
 Rs.50,000 in a billing cycle.
-Fee on Education W.e.f. 1st Nov 2025, 1% of the transaction
-Payments^ amount applicable on Education Payments
-made through third-party apps^^. However,
-payments made directly to colleges or
-schools via their websites or POS machines
-will not attract any fee.
-Fee on Wallet Load^^^ W.e.f. 1st Nov 2025, 1% of the transaction
-amount. Applicable on every wallet load
-transaction exceeding Rs.1,000.
+Fee on Education 1% of the transaction amount applicable on
+Payments^ Education Payments made through
+third-party apps^^. However, payments
+made directly to colleges or schools via their
+websites or POS machines will not attract
+any fee.
+Fee on Wallet Load^^^ 1% of the transaction amount. Applicable on
+every wallet load transaction exceeding
+Rs.1,000.
+Fee on Transportation W.e.f 1st Dec 2026, 1% of the transaction
+Transactions^* amount applicable on every transportation
+transaction exceeding Rs.30,000.
+Fee on Fuel W.e.f 1st Dec 2026, if the total amount of all
+Transactions^^* fuel transactions made in a billing cycle
+exceeds Rs.50,000, 1% fee will be charged
+on the total fuel spends.
 Lounge Charges All Airport Lounge visits within India through
 International Lounge Access Programs (like
 Priority Pass program) will be charged a
 usage fee of up to USD 27 per visit +
 applicable taxes. For details, please visit
 sbicard.com
-All Airport Lounge visits outside India
-through International Lounge Access
-Programs (like Priority Pass program), after
-exhausting the complimentary visits, will be
-charged with a usage fee of up to USD 27
-per visit + applicable taxes. For details,
-please visit sbicard.com
+All Airport Lounge visits outside India through
+International Lounge Access Programs (like
+Priority Pass program), after exhausting the
+complimentary visits, will be charged with a
+usage fee of up to USD 27 per visit +
+applicable taxes. For details, please visit
+sbicard.com
 Grace period
 Grace period Grace period of 3 days is allowed from the
 payment due date on credit card accounts,
@@ -1445,11 +1518,9 @@ time of payments.
 Surcharge
 Railway Tickets As prescribed by IRCTC /
 -www.irctc.co.in Indian Railways
-Petrol & all 1% of transaction amount +
-products/services all applicable taxes.
-sold at petrol pumps Fuel surcharge is levied by the acquiring
-bank providing the terminal to the merchant.
-The transaction value on charge slip will
+Petrol & all Fuel surcharge is levied by the acquiring
+products/services bank providing the terminal to the merchant.
+sold at petrol pumps The transaction value on charge slip will
 differ from the credit card statement since the
 surcharge & GST is levied by acquiring bank
 on the transaction value.
@@ -1476,16 +1547,18 @@ in that order.
 levied Rs.199 + Applicable Taxes as processing fee. All the transactions
 identified under Merchant Category Code (MCC) 6513 will be considered
 as rent payment transactions.
-*** Utility payments shall be identified under Merchant Category Code
+***Utility payments shall be identified under Merchant Category Code
 (MCC) 4900, on best effort basis. The MCCs are defined by the network
 partners and are subject to change basis their discretion and such chang-
 es shall be implemented basis communication from the networks without
 any requirement for intimation/information to the customers.
-^ Identified under Merchant Category Code (MCC) 8211, 8220, 8241,
+^Identified under Merchant Category Code (MCC) 8211, 8220, 8241,
 8244, 8249 and 8299, on best effort basis.
 ^^Third Party Apps like (but not limited to) CRED, Cheq, MobiKwik etc.
 ^^^Identified under Merchant Category Code (MCC) 6540 and 6541, on
 best effort basis.
+^*Identified under Merchant Category Code (MCC) 4111, 4784, 4131
+^^*Identified under Merchant Category Code (MCC) 5172, 5541, 5542,
 The MCCs are defined by the network partners and are subject to change
 basis their discretion and such changes shall be implemented basis com-
 munication from the networks without any requirement for intimation/in-
@@ -1505,7 +1578,7 @@ amendments
 SBI Card Helpline
 39 02 02 02 (prefix local STD code),
 1860 180 1290/1860 500 1290
-All information in this communication is correct as on 11th September 2026
+All information in this communication is correct as on 23rd October 2026
 and is subject to change at the discretion of SBICPSL. SBI Card Most
 Important Terms and Conditions are also available at www.sbicard.com
 SBI Cards and Payment Services Limited.
@@ -1525,4 +1598,4 @@ Write to us at SBICPSL, Post Bag No. 28,
 GPO, New Delhi – 110001
 By Web
 Log onto sbicard.com
-Ver: FY 27, 15
+Ver: FY 27, 16

@@ -17,7 +17,7 @@ Click here to view the changes in HDFC Bank Regalia Gold Credit Card effective 1
 <li><a class="manualRedirect" title="Eligibility Criteria" href="#eligibility" target="_self">Eligibility Criteria<span class="viewarrow-icon icon-arrow-right-bold"></span></a></li>
 <li><a title="Documents Required to Apply" href="#documents" target="_self">Documents Required to Apply<span class="viewarrow-icon icon-arrow-right-bold"></span></a></li>
 <li><a href="#d" title="Application Process">Application Process<span class="viewarrow-icon icon-arrow-right-bold"></span></a></li>
-<li><a title="Card Management &amp; Controls" href="#e">Card Management &amp; Controls<span class="viewarrow-icon icon-arrow-right-bold"></span></a></li>
+<li><a title="Card Management &amp; Controls" href="#ccc">Card Management &amp; Controls<span class="viewarrow-icon icon-arrow-right-bold"></span></a></li>
 </ul>
 ">
 What's in store for you
@@ -173,10 +173,79 @@ Income: ITR > Rs 18 Lakhs per annum
 Experience the Golden Side of Life with
 Regalia Gold Credit Card
 Apply Now
+<span class="section-title"></span>Credit Card Management &amp; Controls</h2>
+<p><span class="sub-sec-heading">Choose from our range of servicing options</span></p>
+">
+Credit Card Management & Controls
+Choose from our range of servicing options
+Netbanking
+HDFC Bank App
+MyCards
+PayZapp
+WhatsApp Banking
+IVR
+NetBanking
+To enable card controls through NetBanking:
+Log in to HDFC Bank NetBanking using your Customer ID.
+Go to Cards > Select Card > Manage Card > Manage Domestic & International Limits .
+View your current domestic and international usage limits.
+Enable/disable Online, Contactless, and International usage.
+Click Update , enter the OTP sent to your registered mobile number, and click Continue .
+Your card controls will be updated instantly.
+Login Now
+HDFC Bank App
+To enable card controls through the HDFC Bank App:
+Log in and go to Cards .
+Select your Credit Card and tap Manage Limits .
+Enable/disable Online, Contactless, and International transactions, or update transaction limits.
+Tap Update and enter your MPIN. Your changes will be applied instantly.
+For advanced card management, visit https://mycards.hdfc.bank.in/ .
+Download App
+MyCards
+To enable card controls through MyCards:
+Visit https://mycards.hdfc.bank.in/ .
+Log in using your registered mobile number and OTP. First-time users must enter the last four digits of their card.
+Open the Card Control tab.
+Enable/disable Online, Contactless, and International transactions, or update usage limits.
+Confirm your changes. They will be applied instantly.
+MyCard
+PayZapp
+To enable card controls through PayZapp:
+Log in and go to MyCards > Go to MyCards .
+Sign in using your registered mobile number and OTP. First-time users must enter the last four digits of their Credit Card.
+Open the Card Control tab.
+Enable/disable Online, Contactless, and International transactions, or update usage limits.
+Confirm your changes. They will be applied instantly.
+Download App
+Know More
+WhatsApp Banking
+To enable card controls through WhatsApp Banking:
+Save HDFC Bank's official WhatsApp number 7070022222 .
+Send " Credit Card ".
+Select Manage My Card , then choose Domestic / International / Enhance Limits .
+Select the transaction type, set the preferred limit, and verify using the OTP sent to your registered mobile number.
+Enter the last four digits of your Credit Card.
+Your updated transaction status will be displayed.
+Chat Banking
+Know More
+IVR
+To enable or modify your HDFC Bank Credit Card controls and transaction limits, you can contact HDFC Bank's toll-free numbers:
+Toll-free numbers: 1800 1600 or 1800 2600 (available from 8 am to 8 pm)
+For overseas travel assistance: 022-61606160
+By contacting our toll-free numbers, you can enable/modify limits for Domestic, International, Online, Contactless, ATM, and POS transactions on your Debit or Credit Card.
+Know More
+HDFC Bank App
+What's more! You can do whatever banking need you have on our all-new HDFC Bank App!
+For Android
+For iOS
+Scan the QR code to Download the App
+For Android
+For iOS
+Scan for HDFC Bank ChatBanking on WhatsApp
+Register Now
 <span class="text-center"><span class="section-title">Know more about the card</span></span></h2>
 ">
 Know more about the card
-Credit Card Management & Controls
 Application Process
 Documents Required
 Application Channels
@@ -187,55 +256,6 @@ Contactless Payment
 Redemption Value
 Redemption Limit
 Most Important Terms and Conditions*
-Credit Card Management & Controls
-Netbanking
-To enable card controls for your HDFC Bank Credit Card through NetBanking, follow these steps:
-1. Log in to HDFC Bank NetBanking using your Customer ID.
-2. Go to the Cards Tab >Select the card > Click Manage card>Manage Domestic and International Limits.
-3. You will be able to view your existing daily domestic and international usage limits.
-4. Enable or disable Online, Contactless, and International usage based on your preference.
-5. Click ‘Update’, enter the OTP received on your registered mobile number, and then click ‘Continue’.
-6. Your selected card controls will be updated instantly.
-Mobile Banking
-To enable card controls for your HDFC Bank Credit Card conveniently through our HDFC Bank MobileBanking App, follow these steps:
-1. Open the HDFC Bank MobileBanking App and log in using your credentials.
-2. Go to the ‘Cards’ section from the menu.
-3. Select the HDFC Bank Credit Card for which you want to enable card controls.
-4. Click ‘Manage Limits’, then enable/disable transaction types such as Online Transactions, Contactless Payments, and International Usage, or set transaction limits according to your preference.
-5. Click ‘Update’ to confirm your changes and enter your MPIN. The updated card control settings will be applied instantly.
-For more detailed management, you can also use our MyCards platform at https://mycards.hdfc.bank.in/ which offers a seamless experience without the need for passwords or downloads.
-MyCards
-To enable card controls for your HDFC Bank Credit Card via MyCards, follow these steps:
-1. Visit the MyCards portal- https://mycards.hdfc.bank.in/ on your desktop or mobile.
-2. Log in using your registered mobile number and the OTP received.
-3. For first-time users, enter the last four digits of your card.
-4. On the card homepage, click the ‘Card Control’ tab.
-5. Enable/disable features such as Online Transactions, Contactless Transactions, International Usage, and set usage limits as per your preference.
-6. Confirm your settings, and the changes will be applied instantly.
-PayZapp
-You can conveniently enable card controls for your HDFC Bank Credit Card through PayZapp by following these steps:
-1. Open the PayZapp app and log in using your credentials.
-2. On the homepage, tap the ‘MyCards’ tab> Select ‘Go to MyCards’.
-3. Log in using your registered mobile number and the OTP sent to your mobile.
-4. If you are a first-time user, enter the last four digits of your HDFC Bank Credit Card.
-5. On the card homepage, tap the ‘Card Control’ tab.
-6. Enable or disable features such as Online Transactions, Contactless Transactions, and International Usage, or set usage limits according to your preference.
-7. Confirm your settings. The updated card control settings will be applied instantly.
-WhatsApp Banking
-To enable card controls for your HDFC Bank Credit Card using WhatsApp Banking, follow the steps given below:
-1. Add HDFC Bank’s official WhatsApp number – 7070022222 – to your contacts.
-2. Send the text "Credit Card" to this number.
-3. You will receive a reply with options. Choose the option “Manage My Card”
-4. You will receive a reply with options to select “Domestic / International/ Enhance limits”
-5. Choose the option you want to enable, such as Domestic Online Transactions, Contactless Transactions, or International Transactions.
-6. Enter the transaction limit you want to set. An OTP will be sent to your registered mobile number. Enter the OTP to confirm the change.
-7. Enter the last 4 digits of your Credit Card number.
-8. The current status of the selected transaction type will be shown as Enabled.
-IVR
-To enable or modify your HDFC Bank Credit Card controls and transaction limits, you can contact HDFC Bank's toll-free numbers:
-Toll-free numbers : 1800 1600 or 1800 2600 (available from 8 am to 8 pm)
-For overseas travel assistance : 022-61606160
-By contacting our toll-free numbers, you can enable/modify limits for Domestic, International, Online, Contactless, ATM, and POS transactions on your Debit or Credit Card.
 Application Process
 Apply Now in 3 Easy Steps:
 The Steps are:

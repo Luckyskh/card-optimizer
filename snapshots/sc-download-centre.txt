@@ -9,10 +9,10 @@ Trade Finance Standard Forms Download (1.14MB, .pdf)
 *Note: Trade Finance Standard Forms (right click and save on your desktop)
 NRI ACCOUNT OPENING FORMS
 NRI Account Opening Form Download (1.27 MB, .pdf)
-Resident Account Opening Forms
-Priority Account Opening Form Download (111 KB, .pdf)
-Premium Account Opening Form Download (111 KB, .pdf)
-Personal Account Opening Form Download (111 KB, .pdf)
+RESIDENT ACCOUNT OPENING FORMS
+Priority Account Opening Form Download (3 MB, .pdf)
+Premium Account Opening Form Download (3 MB, .pdf)
+Personal Account Opening Form Download (3 MB, .pdf)
 PRIVATE BANKING CUSTOMERS
 Service and Charges Download (111 KB, .pdf)
 ACCOUNT REGISTRATION
@@ -47,22 +47,19 @@ Common Reporting Standards – Non-individuals Download (231 KB, .pdf)
 RBI Periodic Review KYC Declaration – Individual Download (227 KB, .pdf)
 RBI Periodic Review Declaration- Non Individuals Download (27.3 KB, .pdf)
 Acceptable list of Documents for Non-Individuals Download(496 KB)
-Income Tax – Form 15G
-Under rule 29C of the Income-tax Rules, 1962 – Declaration to be made by an individual or a person claiming
-certain receipts without deduction of tax. Download (360 KB, .pdf)
-Income Tax – Form 15H
-Under Rule 29C(1A) of the Income Tax Rules, 1962 – Declaration to be made by an individual who is of the age 60 years
-or more claiming certain receipts without deduction of tax. Download (361 kB, .pdf)
+Form 97 (Income Tax form corresponding to Form 60)
+Rule 159 and 160 of the Income Tax Rules , 2026 – Form for declaration to be filed by any person (other than a company or firm) or a foreign company covered by sub-rule (2) to rule 159 , who does not have a permanent account number and who enters into any transaction specified in rule 159
+Download(53 KB)
+Form 121 (Income Tax form corresponding to Form 15G & 15H)
+Rule 211 of the Income Tax Rules , 2026 – Declaration to be made by an individual under section 393 (6) of the Income Tax Act, 2025 (irrespective of the age) for receipt of certain income without deduction of tax.
+Download (360 KB, .pdf)
 FEMA declaration Download (12 KB, .pdf)
 DTAA Declaration Download (72.2 KB, .pdf)
-Nomination registration form (Form DA1) Download (363. KB, .pdf)
-Nomination cancellation form (Form DA2) Download (346 KB,.pdf)
-Nomination change form (Form DA3) Download (437 KB, .pdf)
-Nomination Addendum Download (13KB)
+Common nomination form (Registration, Change & Cancellation) Download (13KB, .pdf)
 Transaction Copy Retrieval and Dispute Form Download (120KB, .pdf)
 OTT / DD / RTGS / NEFT / BT * Download (577KB, .pdf)
 Remittance Service Terms Download (72 KB, .pdf)
-Subsequent Deposit Request Form Download (70 KB, .pdf)
+Term Deposit Application Form Download (70 KB, .pdf)
 Static Data update / KYC form for 3-in-1 account Download (1.74 MB, .pdf)
 LOANS
 Personal Loans
